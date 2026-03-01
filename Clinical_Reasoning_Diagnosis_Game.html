@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Clinicle</title>
+<style>
+/* ── RESET & BASE ─────────────────────────────────────────────────────────── */
+*{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#f5f6fa;--surface:#fff;--border:#e5e7eb;--text:#1a1a2e;--muted:#6b7280;
+  --blue:#2563eb;--blue-lt:#eff6ff;--green:#22c55e;--yellow:#eab308;--red:#ef4444;
+  --sw:300px;
+}
+body{font-family:'Segoe UI',system-ui,sans-serif;background:var(--bg);color:var(--text);min-height:100vh;overflow-x:hidden}
+
+/* ── LOADER ───────────────────────────────────────────────────────────────── */
+#loader{position:fixed;inset:0;background:var(--bg);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:20px;z-index:999}
+#loader h2{font-size:1.5rem;font-weight:800}
+#loader h2 span{color:var(--blue)}
+.ld-msg{font-size:0.88rem;color:var(--muted);text-align:center;max-width:340px;line-height:1.6}
+.ld-err{color:#dc2626;font-size:0.85rem;text-align:center;max-width:380px;line-height:1.6}
+.upload-box{border:2px dashed #d1d5db;border-radius:12px;padding:28px 36px;text-align:center;cursor:pointer;background:var(--surface);transition:border-color .2s,background .2s}
+.upload-box:hover{border-color:var(--blue);background:var(--blue-lt)}
+.upload-box .ico{font-size:2rem;margin-bottom:8px}
+.upload-box p{font-size:0.85rem;color:var(--muted);margin-top:6px;line-height:1.5}
+.upload-box input{display:none}
+.btn-upload{margin-top:12px;display:inline-block;background:var(--blue);color:#fff;border:none;border-radius:8px;padding:10px 22px;font-size:0.9rem;font-weight:600;cursor:pointer}
+.btn-upload:hover{background:#1d4ed8}
+
+/* ── SIDEBAR ──────────────────────────────────────────────────────────────── */
+#sidebar{
+  position:fixed;top:0;left:0;height:100vh;width:var(--sw);
+  background:var(--surface);border-right:1px solid var(--border);
+  z-index:400;display:flex;flex-direction:column;
+  transform:translateX(calc(-1*var(--sw)));
+  transition:transform .28s cubic-bezier(.4,0,.2,1);
+}
+#sidebar.open{transform:translateX(0);box-shadow:4px 0 24px rgba(0,0,0,.12)}
+.sb-head{padding:14px 16px;border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between;flex-shrink:0}
+.sb-title{font-size:0.82rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em}
+.sb-close{background:none;border:none;cursor:pointer;font-size:1.1rem;color:var(--muted);padding:4px 6px;border-radius:6px;transition:background .15s}
+.sb-close:hover{background:#f0f0f0}
+.sb-body{flex:1;overflow-y:auto;padding:4px 0 24px}
+.sb-body::-webkit-scrollbar{width:4px}
+.sb-body::-webkit-scrollbar-thumb{background:#d1d5db;border-radius:4px}
+
+/* System row */
+.sys-row{display:flex;align-items:stretch;border-bottom:1px solid #f3f4f6}
+.sys-arrow{
+  background:none;border:none;border-right:1px solid #f0f0f0;
+  cursor:pointer;padding:0 11px;font-size:0.65rem;color:#94a3b8;
+  transition:background .13s,color .2s;flex-shrink:0;
+  display:flex;align-items:center;justify-content:center;
+}
+.sys-arrow:hover{background:#f8fafc;color:var(--text)}
+.sys-arrow .arr{display:inline-block;transition:transform .2s}
+.sys-arrow.open .arr{transform:rotate(90deg)}
+.sys-name-btn{
+  flex:1;background:none;border:none;cursor:pointer;text-align:left;
+  padding:10px 12px 10px 10px;display:flex;align-items:center;gap:8px;
+  font-size:0.84rem;font-weight:700;color:var(--text);transition:background .13s;
+}
+.sys-name-btn:hover{background:#f0f4ff;color:var(--blue)}
+.sys-name-btn.active{background:#eff6ff;color:var(--blue)}
+
+/* Subtags section */
+.subtags-section{display:none}
+.subtags-section.open{display:block}
+
+/* Subtag row */
+.subtag-row{display:flex;align-items:stretch;border-bottom:1px solid #f8fafc}
+.subtag-arrow{
+  background:none;border:none;border-right:1px solid #f0f0f0;
+  cursor:pointer;padding:0 11px;font-size:0.6rem;color:#d1d5db;
+  transition:background .13s,color .2s;flex-shrink:0;
+  display:flex;align-items:center;justify-content:center;
+}
+.subtag-arrow:hover{background:#f8fafc;color:var(--muted)}
+.subtag-arrow .arr{display:inline-block;transition:transform .2s}
+.subtag-arrow.open .arr{transform:rotate(90deg)}
+.subtag-name-btn{
+  flex:1;background:none;border:none;cursor:pointer;text-align:left;
+  padding:7px 12px 7px 8px;display:flex;align-items:center;gap:7px;
+  font-size:0.78rem;font-weight:600;color:var(--muted);transition:background .13s;
+}
+.subtag-name-btn:hover{background:#f8fafc;color:var(--text)}
+.subtag-name-btn.active{background:#eff6ff;color:var(--blue)}
+
+/* Count badge */
+.cnt{font-size:0.62rem;background:#f0f4ff;color:var(--blue);border-radius:20px;padding:1px 6px;font-weight:700;margin-left:auto;flex-shrink:0}
+
+/* Cases list */
+.cases-list{display:none;padding-bottom:2px}
+.cases-list.open{display:block}
+.case-btn{
+  width:100%;background:none;border:none;cursor:pointer;text-align:left;
+  padding:5px 12px 5px 38px;font-size:0.79rem;color:#374151;
+  transition:background .13s,color .13s;display:flex;align-items:center;gap:6px;min-height:28px;
+}
+.case-btn:hover{background:#f0f4ff;color:var(--blue)}
+.case-btn.active{background:#eff6ff;color:var(--blue);font-weight:600}
+.cb-num{font-size:0.67rem;font-weight:700;color:#9ca3af;min-width:28px;font-variant-numeric:tabular-nums;flex-shrink:0}
+.case-btn.active .cb-num{color:var(--blue)}
+.cb-label{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:0.79rem}
+.cb-status{font-size:0.75rem;flex-shrink:0;font-weight:700}
+.case-btn.done-win{color:#15803d}
+.case-btn.done-lose{color:#b91c1c}
+.case-btn.done-win .cb-num{color:#15803d}
+.case-btn.done-lose .cb-num{color:#b91c1c}
+
+/* ── OVERLAY ──────────────────────────────────────────────────────────────── */
+#overlay{position:fixed;inset:0;background:rgba(0,0,0,0);z-index:300;pointer-events:none;transition:background .28s}
+#overlay.active{background:rgba(0,0,0,.3);pointer-events:all}
+
+/* ── HEADER ───────────────────────────────────────────────────────────────── */
+header{background:#fff;border-bottom:1px solid var(--border);padding:11px 18px;display:flex;align-items:center;gap:10px;position:sticky;top:0;z-index:200}
+.menu-btn{background:none;border:none;cursor:pointer;padding:7px;border-radius:8px;font-size:1.05rem;color:var(--muted);flex-shrink:0;transition:background .15s}
+.menu-btn:hover{background:#f0f0f0;color:var(--text)}
+header h1{font-size:1.3rem;font-weight:800;letter-spacing:-.5px}
+header h1 span{color:var(--blue)}
+.hdr-right{display:flex;align-items:center;gap:12px;margin-left:auto}
+.mode-toggle{display:flex;background:#f0f0f0;border-radius:8px;padding:3px;gap:2px}
+.mode-btn{padding:5px 12px;border-radius:6px;border:none;font-size:0.76rem;font-weight:600;cursor:pointer;transition:all .18s;background:transparent;color:#666}
+.mode-btn.active{background:#fff;color:var(--text);box-shadow:0 1px 3px rgba(0,0,0,.12)}
+.mode-btn.challenge.active{color:#dc2626}
+.mode-lbl{font-size:0.66rem;color:#94a3b8;text-align:right;margin-top:2px}
+.dots{display:flex;gap:5px}
+.dot{width:10px;height:10px;border-radius:50%;background:#e0e0e0;transition:background .25s}
+.dot.green{background:var(--green)}.dot.yellow{background:var(--yellow)}.dot.red{background:var(--red)}
+.dot.skip{background:#94a3b8}
+.dot.active{background:var(--blue);box-shadow:0 0 0 3px #dbeafe}
+.dot.hidden-result{background:#94a3b8}
+
+/* ── CONTAINER ────────────────────────────────────────────────────────────── */
+.container{max-width:740px;margin:0 auto;padding:24px 16px}
+
+/* ── EMPTY STATE ──────────────────────────────────────────────────────────── */
+.no-case{display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:60vh;gap:10px;text-align:center;color:var(--muted)}
+.no-case .ico{font-size:3rem;margin-bottom:4px}
+.no-case h3{font-size:1.1rem;font-weight:700;color:var(--text)}
+.no-case p{font-size:0.87rem;line-height:1.6;max-width:320px}
+
+/* ── CASE HEADER BAR ──────────────────────────────────────────────────────── */
+.case-bar{display:flex;align-items:center;gap:10px;margin-bottom:14px;padding:9px 14px;background:var(--surface);border:1.5px solid var(--border);border-radius:10px}
+.case-bar .cid{font-size:0.7rem;font-weight:800;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+.case-bar .div{color:#d1d5db}
+.case-bar .next-btn{margin-left:auto;background:none;border:1.5px solid var(--border);border-radius:7px;padding:4px 11px;font-size:0.76rem;font-weight:600;cursor:pointer;color:var(--muted);transition:all .15s}
+.case-bar .next-btn:hover{border-color:var(--blue);color:var(--blue);background:var(--blue-lt)}
+
+/* ── LEGEND ───────────────────────────────────────────────────────────────── */
+.legend{display:flex;gap:14px;margin-bottom:14px;flex-wrap:wrap}
+.legend-item{display:flex;align-items:center;gap:5px;font-size:0.73rem;color:#555}
+.ld{width:9px;height:9px;border-radius:50%}
+.ld.green{background:var(--green)}.ld.yellow{background:var(--yellow)}.ld.red{background:var(--red)}.ld.skip{background:#94a3b8}
+
+/* ── PROMPT CARDS ─────────────────────────────────────────────────────────── */
+.prompts-area{display:flex;flex-direction:column;gap:10px;margin-bottom:16px}
+.prompt-card{background:var(--surface);border:1.5px solid var(--border);border-radius:10px;padding:14px 18px;animation:slideIn .3s ease}
+@keyframes slideIn{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:translateY(0)}}
+.prompt-card.green{border-left:4px solid var(--green);background:#f0fdf4}
+.prompt-card.yellow{border-left:4px solid var(--yellow);background:#fefce8}
+.prompt-card.red{border-left:4px solid var(--red);background:#fef2f2}
+.prompt-card.skip{border-left:4px solid #94a3b8;background:#f8fafc}
+.prompt-card.revealed{border-left:4px solid #cbd5e1;background:#f8fafc}
+.prompt-card.challenge-guessed{border-left:4px solid #94a3b8}
+.plabel{font-size:0.67rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;margin-bottom:5px}
+.plabel.history{color:#7c3aed}.plabel.examination{color:#0891b2}.plabel.investigation{color:#d97706}.plabel.imaging{color:#059669}
+.ptext{font-size:0.91rem;line-height:1.6;color:#222}
+.prompt-img{margin-top:10px;border-radius:8px;overflow:hidden;border:1px solid var(--border)}
+.prompt-img img{width:100%;max-height:280px;object-fit:cover;display:block}
+.prompt-img a{display:block;font-size:0.74rem;color:var(--blue);padding:6px 10px;background:#f8fafc;text-align:center}
+.gbadge{display:inline-flex;align-items:center;gap:5px;margin-top:8px;font-size:0.77rem;font-weight:600;padding:3px 10px;border-radius:20px}
+.gbadge.green{background:#dcfce7;color:#16a34a}
+.gbadge.yellow{background:#fef9c3;color:#a16207}
+.gbadge.red{background:#fee2e2;color:#dc2626}
+.gbadge.skip{background:#f1f5f9;color:#64748b}
+.gbadge.hidden{background:#f1f5f9;color:#64748b}
+
+/* ── SEARCH INPUT ─────────────────────────────────────────────────────────── */
+.guess-area{background:var(--surface);border:1.5px solid var(--border);border-radius:10px;padding:16px 18px}
+.guess-area label{display:block;font-weight:600;margin-bottom:8px;font-size:0.91rem}
+.search-wrap{position:relative}
+#diagSearch{
+  width:100%;padding:10px 14px;border:1.5px solid #d1d5db;border-radius:8px;
+  font-size:0.91rem;background:#f9fafb;color:var(--text);outline:none;
+  transition:border-color .18s,box-shadow .18s;
+}
+#diagSearch:focus{border-color:var(--blue);box-shadow:0 0 0 3px #dbeafe;background:#fff}
+#diagSearch::placeholder{color:#9ca3af}
+.search-results{
+  position:absolute;top:calc(100% + 4px);left:0;right:0;
+  background:#fff;border:1.5px solid var(--border);border-radius:8px;
+  box-shadow:0 8px 24px rgba(0,0,0,.1);z-index:100;
+  max-height:220px;overflow-y:auto;display:none;
+}
+.search-results.show{display:block}
+.sr-item{padding:9px 14px;font-size:0.87rem;cursor:pointer;color:var(--text);transition:background .1s;display:flex;align-items:center;gap:8px}
+.sr-item:hover,.sr-item.focused{background:#f0f4ff;color:var(--blue)}
+.sr-item.used{color:#9ca3af;cursor:default}
+.sr-item.used:hover,.sr-item.used.focused{background:transparent;color:#9ca3af}
+.sr-used-tag{font-size:0.67rem;background:#f1f5f9;color:#94a3b8;border-radius:10px;padding:1px 6px;margin-left:auto;flex-shrink:0}
+.sr-empty{padding:10px 14px;font-size:0.85rem;color:#9ca3af;font-style:italic}
+.guess-btn-row{display:flex;gap:8px;margin-top:11px;align-items:center;flex-wrap:wrap}
+.btn{display:inline-block;background:var(--blue);color:#fff;border:none;border-radius:8px;padding:9px 20px;font-size:0.9rem;font-weight:600;cursor:pointer;transition:background .18s}
+.btn:hover{background:#1d4ed8}
+.btn-outline{background:transparent;border:2px solid var(--blue);color:var(--blue)}
+.btn-outline:hover{background:var(--blue-lt)}
+.btn-grey{background:transparent;border:1.5px solid #d1d5db;color:var(--muted)}
+.btn-grey:hover{border-color:#94a3b8;color:var(--text);background:#f8fafc}
+.btn-sm{padding:7px 15px;font-size:0.83rem}
+.attempts-note{font-size:0.79rem;color:#94a3b8;margin-left:auto}
+
+/* ── BANNERS ──────────────────────────────────────────────────────────────── */
+.banner{border-radius:10px;padding:14px 18px;margin-bottom:16px;display:flex;align-items:center;gap:14px;animation:slideIn .35s ease}
+.banner.win{background:#dcfce7;border:1.5px solid #86efac}
+.banner.lose{background:#fee2e2;border:1.5px solid #fca5a5}
+.banner-ico{font-size:1.7rem}
+.banner-title{font-size:1rem;font-weight:700}
+.banner-sub{font-size:0.82rem;color:#555;margin-top:2px}
+.challenge-hint{font-size:0.77rem;color:#dc2626;font-weight:600;background:#fef2f2;padding:6px 12px;border-radius:6px;margin-bottom:12px;border:1px solid #fecaca}
+
+/* ── END SCREEN ───────────────────────────────────────────────────────────── */
+.summary{display:flex;flex-direction:column;gap:12px}
+.scard{background:var(--surface);border:1.5px solid var(--border);border-radius:12px;overflow:hidden}
+.scard-head{display:flex;align-items:center;gap:10px;padding:11px 16px;border-bottom:1.5px solid #f0f0f0}
+.scard-num{width:24px;height:24px;border-radius:50%;background:#f0f4ff;color:var(--blue);font-size:0.75rem;font-weight:800;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.scard-stage{font-size:0.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.07em}
+.scard-stage.history{color:#7c3aed}.scard-stage.examination{color:#0891b2}.scard-stage.investigation{color:#d97706}.scard-stage.imaging{color:#059669}
+.scard-chip{margin-left:auto;font-size:0.73rem;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap}
+.scard-chip.green{background:#dcfce7;color:#16a34a}
+.scard-chip.yellow{background:#fef9c3;color:#a16207}
+.scard-chip.red{background:#fee2e2;color:#dc2626}
+.scard-chip.skip{background:#f1f5f9;color:#64748b}
+.scard-chip.none{background:#f1f5f9;color:#94a3b8}
+.scard-body{padding:13px 16px}
+.scard-text{font-size:0.87rem;color:#444;line-height:1.5;margin-bottom:10px}
+.diff-label{font-size:0.68rem;color:#888;font-weight:700;text-transform:uppercase;letter-spacing:.06em;margin-bottom:6px}
+.diff-tags{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:8px}
+.dt{border-radius:20px;padding:3px 10px;font-size:0.77rem;font-weight:500;border:1.5px solid transparent}
+.dt.normal{background:#eff6ff;color:var(--blue)}
+.dt.final{background:#dcfce7;color:#16a34a;font-weight:700}
+.dt.ghost{background:#f3f4f6;color:#9ca3af;border-color:#e5e7eb;font-style:italic}
+.dt.final-grey{background:#f3f4f6;color:#9ca3af;border-color:#d1d5db;font-style:italic}
+.dt.hit-green{background:#dcfce7;color:#16a34a;border-color:#86efac;font-weight:700}
+.dt.hit-yellow{background:#fef9c3;color:#a16207;border-color:#fde047;font-weight:700}
+.dt.miss{background:#fee2e2;color:#dc2626;border-color:#fca5a5;font-weight:700}
+.ghost-note{font-size:0.69rem;color:#b0b7c3;margin-bottom:8px;font-style:italic;display:none}
+.has-ghost .ghost-note{display:block}
+.reasoning-box{background:#fffbeb;border:1px solid #fde68a;border-radius:8px;padding:9px 12px;font-size:0.82rem;color:#555;line-height:1.5;font-style:italic}
+.end-btns{display:flex;gap:8px;justify-content:center;margin-top:18px;padding-bottom:40px;flex-wrap:wrap}
+</style>
+</head>
+<body>
+
+<!-- LOADER -->
+<div id="loader">
+  <h2><span>Clini</span>cle</h2>
+  <div id="loaderInner"><div class="ld-msg">Loading cases…</div></div>
+</div>
+
+<!-- OVERLAY -->
+<div id="overlay" onclick="closeSidebar()"></div>
+
+<!-- SIDEBAR -->
+<div id="sidebar">
+  <div class="sb-head">
+    <span class="sb-title">📋 Case Browser</span>
+    <button class="sb-close" onclick="closeSidebar()">✕</button>
+  </div>
+  <div class="sb-body" id="sbBody"></div>
+</div>
+
+<!-- HEADER -->
+<header>
+  <button class="menu-btn" onclick="toggleSidebar()" title="Browse Cases">☰</button>
+  <h1><span>Clini</span>cle</h1>
+  <div class="hdr-right">
+    <div>
+      <div class="mode-toggle">
+        <button class="mode-btn active" id="btnGuided" onclick="setMode('guided')">🩺 Guided</button>
+        <button class="mode-btn challenge" id="btnChallenge" onclick="setMode('challenge')">🔒 Challenge</button>
+      </div>
+      <div class="mode-lbl" id="modeLbl">Feedback shown after each guess</div>
+    </div>
+    <div class="dots" id="dots"></div>
+  </div>
+</header>
+
+<div class="container" id="app"></div>
+
+<script>
+// ═══════════════════════════════════════════════════════════════════════
+// GLOBALS
+// ═══════════════════════════════════════════════════════════════════════
+let CASE_LIST = [];
+let ALL_DIAGNOSES = [];
+let FINAL_DIAG_SET = new Set();
+
+let mode = 'guided';
+let S = {};                 // { caseIdx, prompt, guesses:[{value,result}], won, over }
+let usedGuesses = new Set();
+
+let ACTIVE_POOL = null;     // null=whole list; int[] = filtered subset
+let CASE_RESULTS = {};      // caseIdx → 'win' | 'lose'
+
+// Search state
+let searchSelected = '';    // confirmed pick from dropdown
+let srFocusIdx = -1;
+
+// ═══════════════════════════════════════════════════════════════════════
+// LOADER
+// ═══════════════════════════════════════════════════════════════════════
+async function loadCases() {
+  try {
+    const r = await fetch('cases.json');
+    if (!r.ok) throw new Error();
+    initWithDB(await r.json());
+  } catch {
+    showUpload('⚠️ Could not auto-load <code>cases.json</code>. Either open via a local server (<code>python -m http.server</code>), or browse to the file manually below.');
+  }
+}
+
+function showUpload(msg) {
+  document.getElementById('loaderInner').innerHTML = `
+    <div class="ld-err">${msg}</div>
+    <label class="upload-box">
+      <div class="ico">📂</div>
+      <strong>Select cases.json</strong>
+      <p>Place <code>cases.json</code> in the same folder as this HTML file, or browse to it here.</p>
+      <input type="file" accept=".json" onchange="handleFile(event)">
+      <button class="btn-upload" type="button" onclick="this.previousElementSibling.click()">Browse for cases.json</button>
+    </label>`;
+}
+
+function handleFile(e) {
+  const f = e.target.files[0]; if (!f) return;
+  const rd = new FileReader();
+  rd.onload = ev => {
+    try { initWithDB(JSON.parse(ev.target.result)); }
+    catch { showUpload('❌ Invalid JSON. Please select the correct <code>cases.json</code>.'); }
+  };
+  rd.readAsText(f);
+}
+
+function initWithDB(db) {
+  CASE_LIST = Object.entries(db).map(([id,c]) => ({id,...c}));
+  FINAL_DIAG_SET = new Set(CASE_LIST.map(c => c.finalDiagnosis));
+  ALL_DIAGNOSES = [...FINAL_DIAG_SET].sort();
+  buildSidebar();
+  document.getElementById('loader').style.display = 'none';
+  showEmpty();
+}
+
+// ═══════════════════════════════════════════════════════════════════════
+// SIDEBAR
+// ═══════════════════════════════════════════════════════════════════════
+function buildSidebar() {
+  // Group: system → { all:[], subs:{ subtag:[] } }
+  const sysMap = {};
+  CASE_LIST.forEach((c, i) => {
+    const sys = c.systems[0] || 'General';
+    const sub = c.systems[1] || 'General';
+    if (!sysMap[sys]) sysMap[sys] = { all:[], subs:{} };
+    sysMap[sys].all.push(i);
+    if (!sysMap[sys].subs[sub]) sysMap[sys].subs[sub] = [];
+    sysMap[sys].subs[sub].push(i);
+  });
+
+  let html = '';
+  for (const [sys, data] of Object.entries(sysMap)) {
+    const ss = safeid(sys);
+    const allJson = JSON.stringify(data.all);
+    html += `
+    <div class="sys-row">
+      <button class="sys-arrow" id="sa-${ss}" onclick="toggleSysPanel('${ss}')">
+        <span class="arr">▶</span>
+      </button>
+      <button class="sys-name-btn" id="snb-${ss}"
+        onclick="pickPool(${allJson},'snb-${ss}')">
+        🧠 ${sys}
+        <span class="cnt">${data.all.length}</span>
+      </button>
+    </div>
+    <div class="subtags-section" id="sp-${ss}">`;
+
+    for (const [sub, idxs] of Object.entries(data.subs)) {
+      const ts = safeid(sys+'-'+sub);
+      const idxJson = JSON.stringify(idxs);
+      html += `
+      <div class="subtag-row">
+        <button class="subtag-arrow" id="ta-${ts}" onclick="toggleCaseList('${ts}')">
+          <span class="arr">▶</span>
+        </button>
+        <button class="subtag-name-btn" id="tnb-${ts}"
+          onclick="pickPool(${idxJson},'tnb-${ts}')">
+          ${sub}
+          <span class="cnt">${idxs.length}</span>
+        </button>
+      </div>
+      <div class="cases-list" id="cl-${ts}">`;
+      idxs.forEach(i => {
+        const num = CASE_LIST[i].id.replace('case_','').replace(/^0+/,'');
+        html += `
+        <button class="case-btn" id="cb-${i}" onclick="pickCase(${i})">
+          <span class="cb-num">#${num}</span>
+          <span class="cb-label" id="cbl-${i}">—</span>
+          <span class="cb-status" id="cbs-${i}"></span>
+        </button>`;
+      });
+      html += `</div>`;
+    }
+    html += `</div>`;
+  }
+  document.getElementById('sbBody').innerHTML = html;
+}
+
+function safeid(s){ return s.replace(/[^a-zA-Z0-9]/g,'_'); }
+
+function toggleSysPanel(ss) {
+  const sp = document.getElementById('sp-'+ss);
+  const sa = document.getElementById('sa-'+ss);
+  sp.classList.toggle('open');
+  sa.classList.toggle('open');
+}
+
+function toggleCaseList(ts) {
+  const cl = document.getElementById('cl-'+ts);
+  const ta = document.getElementById('ta-'+ts);
+  cl.classList.toggle('open');
+  ta.classList.toggle('open');
+}
+
+function clearActive() {
+  document.querySelectorAll('.sys-name-btn,.subtag-name-btn,.case-btn')
+    .forEach(b => b.classList.remove('active'));
+}
+
+// Click system or subtag name → random case from pool
+function pickPool(idxs, btnId) {
+  ACTIVE_POOL = idxs;
+  const picked = idxs[Math.floor(Math.random() * idxs.length)];
+  clearActive();
+  document.getElementById(btnId)?.classList.add('active');
+  doStartCase(picked);
+  closeSidebar();
+}
+
+// Click a specific case
+function pickCase(idx) {
+  ACTIVE_POOL = null;
+  clearActive();
+  document.getElementById('cb-'+idx)?.classList.add('active');
+  doStartCase(idx);
+  closeSidebar();
+}
+
+function doStartCase(idx) {
+  resetState(idx);
+  render();
+}
+
+// After a case completes, update its sidebar button
+function updateCaseBtn(idx) {
+  const res = CASE_RESULTS[idx];
+  const lbl = document.getElementById('cbl-'+idx);
+  const stat = document.getElementById('cbs-'+idx);
+  const btn = document.getElementById('cb-'+idx);
+  if (!lbl || !stat || !btn) return;
+  lbl.textContent = CASE_LIST[idx].finalDiagnosis;
+  btn.classList.remove('done-win','done-lose');
+  if (res === 'win') {
+    btn.classList.add('done-win');
+    stat.textContent = '✓';
+    stat.style.color = '#15803d';
+  } else if (res === 'lose') {
+    btn.classList.add('done-lose');
+    stat.textContent = '✗';
+    stat.style.color = '#b91c1c';
+  }
+}
+
+function toggleSidebar() {
+  document.getElementById('sidebar').classList.toggle('open');
+  document.getElementById('overlay').classList.toggle('active');
+}
+function closeSidebar() {
+  document.getElementById('sidebar').classList.remove('open');
+  document.getElementById('overlay').classList.remove('active');
+}
+
+// ═══════════════════════════════════════════════════════════════════════
+// STATE MANAGEMENT
+// ═══════════════════════════════════════════════════════════════════════
+function resetState(idx) {
+  S = { caseIdx:idx, prompt:0, guesses:[], won:false, over:false };
+  usedGuesses = new Set();
+  searchSelected = '';
+  srFocusIdx = -1;
+}
+
+function C() { return CASE_LIST[S.caseIdx]; }
+
+function evalGuess(val) {
+  const c = C(); const i = S.prompt;
+  if (val === c.finalDiagnosis) return 'green';
+  if (c.prompts[i].accepted.includes(val)) return 'yellow';
+  return 'red';
+}
+
+// ═══════════════════════════════════════════════════════════════════════
+// MODE
+// ═══════════════════════════════════════════════════════════════════════
+function setMode(m) {
+  mode = m;
+  document.getElementById('btnGuided').classList.toggle('active', m==='guided');
+  document.getElementById('btnChallenge').classList.toggle('active', m==='challenge');
+  document.getElementById('modeLbl').textContent = m==='guided'
+    ? 'Feedback shown after each guess'
+    : 'Feedback hidden until end of case';
+  if (S.caseIdx !== undefined) { resetState(S.caseIdx); render(); }
+}
+
+// ═══════════════════════════════════════════════════════════════════════
+// RENDER
+// ═══════════════════════════════════════════════════════════════════════
+function render() {
+  renderDots();
+  const app = document.getElementById('app');
+  app.innerHTML = S.over ? renderEnd() : renderGame();
+  if (!S.over && S.caseIdx !== undefined) bindSearch();
+}
+
+function showEmpty() {
+  renderDots();
+  document.getElementById('app').innerHTML = `
+    <div class="no-case">
+      <div class="ico">🩺</div>
+      <h3>Select a Case to Begin</h3>
+      <p>Open the <strong>☰ menu</strong> and click a system name to start a random case, or expand a subtopic to pick a specific one.</p>
+    </div>`;
+}
+
+function renderDots() {
+  const el = document.getElementById('dots'); if (!el) return;
+  if (S.caseIdx === undefined || !CASE_LIST[S.caseIdx]) { el.innerHTML=''; return; }
+  el.innerHTML = C().prompts.map((_,i) => {
+    const g = S.guesses[i]; let cls='dot';
+    if (g) cls += (mode==='challenge'&&!S.over) ? ' hidden-result' : ' '+g.result;
+    else if (i===S.prompt&&!S.over) cls+=' active';
+    return `<div class="${cls}" title="Prompt ${i+1}"></div>`;
+  }).join('');
+}
+
+function imgHTML(p) {
+  if (!p.image) return '';
+  return `<div class="prompt-img">
+    <img src="${p.image}" alt="${p.imageAlt||'Clinical image'}" onerror="this.parentElement.style.display='none'">
+    <a href="${p.image}" target="_blank">🔗 View full image</a>
+  </div>`;
+}
+
+function renderGame() {
+  if (S.caseIdx===undefined) return `<div class="no-case"><div class="ico">🩺</div><h3>Select a Case to Begin</h3></div>`;
+  const c = C();
+  const showAll = S.won;
+  const prompts = showAll ? c.prompts : c.prompts.slice(0, S.prompt+1);
+  const icons = {green:'✓',yellow:'~',red:'✗',skip:'⏭'};
+
+  const num = c.id.replace('case_','').replace(/^0+/,'');
+  const caseBar = `<div class="case-bar">
+    <span class="cid">Case ${num}</span>
+    <span class="div">·</span>
+    <span class="cid" style="color:#94a3b8">${c.systems[0]||'Neurology'}</span>
+    <button class="next-btn" onclick="nextCase()">Next →</button>
+  </div>`;
+
+  const cards = prompts.map((p,i) => {
+    const g = S.guesses[i]; let cls='prompt-card'; let badge='';
+    if (g) {
+      if (mode==='guided') {
+        cls += ' '+g.result;
+        const label = g.result==='skip' ? '⏭ Skipped' : `${icons[g.result]} ${g.value}`;
+        badge = `<div class="gbadge ${g.result}">${label}</div>`;
+      } else {
+        cls += (g.result==='skip') ? ' skip' : ' challenge-guessed';
+        badge = g.result==='skip'
+          ? `<div class="gbadge skip">⏭ Skipped</div>`
+          : `<div class="gbadge hidden">🔒 ${g.value}</div>`;
+      }
+    } else if (showAll && i>S.prompt) cls+=' revealed';
+    return `<div class="${cls}">
+      <div class="plabel ${p.type}">${p.label}</div>
+      <div class="ptext">${p.text}</div>
+      ${imgHTML(p)}${badge}
+    </div>`;
+  }).join('');
+
+  const legend = mode==='guided' ? `<div class="legend">
+    <div class="legend-item"><div class="ld green"></div>Correct diagnosis</div>
+    <div class="legend-item"><div class="ld yellow"></div>Valid differential</div>
+    <div class="legend-item"><div class="ld red"></div>Incorrect</div>
+    <div class="legend-item"><div class="ld skip"></div>Skipped</div>
+  </div>` : '';
+
+  const challengeHint = mode==='challenge'&&!S.won
+    ? `<div class="challenge-hint">🔒 Challenge Mode — feedback hidden until the case ends.</div>` : '';
+
+  const winBanner = S.won ? `<div class="banner win">
+    <div class="banner-ico">🎉</div>
+    <div>
+      <div class="banner-title">Correct! Well done!</div>
+      <div class="banner-sub">Diagnosed at prompt ${S.guesses.findIndex(g=>g.result==='green')+1} of ${c.prompts.length}.</div>
+    </div>
+  </div>` : '';
+
+  const rem = c.prompts.length - S.prompt;
+  const guessArea = !S.won ? `<div class="guess-area">
+    <label>Prompt ${S.prompt+1} of ${c.prompts.length} — What is your diagnosis?</label>
+    <div class="search-wrap">
+      <input id="diagSearch" type="text" placeholder="Type to search diagnoses…" autocomplete="off"
+        oninput="onSRInput()" onkeydown="onSRKey(event)" onfocus="showSR()">
+      <div class="search-results" id="srList"></div>
+    </div>
+    <div class="guess-btn-row">
+      <button class="btn" onclick="submitGuess()">Submit</button>
+      <button class="btn btn-grey btn-sm" onclick="skipGuess()">Skip ⏭</button>
+      <span class="attempts-note">${rem} clue${rem!==1?'s':''} remaining</span>
+    </div>
+  </div>` : '';
+
+  const winBtns = S.won ? `<div class="end-btns">
+    <button class="btn btn-outline btn-sm" onclick="goToEnd()">View Summary</button>
+    <button class="btn btn-sm" onclick="doStartCase(S.caseIdx)">Play Again</button>
+  </div>` : '';
+
+  return `${caseBar}${challengeHint}${legend}${winBanner}<div class="prompts-area">${cards}</div>${guessArea}${winBtns}`;
+}
+
+function renderEnd() {
+  const c = C();
+  const winIdx = S.guesses.findIndex(g=>g.result==='green');
+  const num = c.id.replace('case_','').replace(/^0+/,'');
+  const banner = S.won
+    ? `<div class="banner win"><div class="banner-ico">🎉</div><div>
+        <div class="banner-title">Correct! ${c.finalDiagnosis}</div>
+        <div class="banner-sub">Case ${num} · Identified at prompt ${winIdx+1}/${c.prompts.length} · SNOMED: ${c.snomedCode}</div>
+       </div></div>`
+    : `<div class="banner lose"><div class="banner-ico">📋</div><div>
+        <div class="banner-title">Diagnosis: ${c.finalDiagnosis}</div>
+        <div class="banner-sub">Case ${num} · SNOMED: ${c.snomedCode} — Review the clinical reasoning below.</div>
+       </div></div>`;
+
+  const icons = {green:'✓',yellow:'~',red:'✗',skip:'⏭'};
+  const labels = {green:'Correct',yellow:'Valid differential',red:'Incorrect',skip:'Skipped'};
+
+  const cards = c.prompts.map((p,i) => {
+    const g = S.guesses[i]; const isFinal = i===c.prompts.length-1;
+    let chip = `<span class="scard-chip none">Not reached</span>`;
+    if (g) {
+      if (g.result==='skip') chip = `<span class="scard-chip skip">⏭ Skipped</span>`;
+      else chip = `<span class="scard-chip ${g.result}">${icons[g.result]} ${g.value} — ${labels[g.result]}</span>`;
+    }
+    const hasGhost = p.accepted.some(d=>!FINAL_DIAG_SET.has(d));
+    const tags = p.accepted.map(d => {
+      const ok = FINAL_DIAG_SET.has(d);
+      let cls = isFinal ? (ok?'dt final':'dt final-grey') : (ok?'dt normal':'dt ghost');
+      if (g&&g.result!=='skip'&&g.value===d) cls = g.result==='green'?'dt hit-green':'dt hit-yellow';
+      return `<span class="${cls}">${d}${!ok?' ⁿ':''}</span>`;
+    }).join('');
+    const missTag = g&&g.result==='red' ? `<span class="dt miss">✗ ${g.value}</span>` : '';
+    return `<div class="scard">
+      <div class="scard-head">
+        <div class="scard-num">${i+1}</div>
+        <div class="scard-stage ${p.type}">${p.label}</div>
+        ${chip}
+      </div>
+      <div class="scard-body${hasGhost?' has-ghost':''}">
+        <div class="scard-text">${p.text}</div>
+        ${imgHTML(p)}
+        <div class="diff-label">Accepted differentials</div>
+        <div class="diff-tags">${tags}${missTag}</div>
+        <div class="ghost-note">ⁿ Not in current case list — shown for completeness only</div>
+        <div class="reasoning-box">💡 ${p.reasoning}</div>
+      </div>
+    </div>`;
+  }).join('');
+
+  return `${banner}<div class="summary">${cards}</div>
+  <div class="end-btns">
+    <button class="btn btn-outline btn-sm" onclick="doStartCase(S.caseIdx)">Play Again</button>
+    <button class="btn btn-sm" onclick="nextCase()">Next Case →</button>
+    <button class="btn btn-grey btn-sm" onclick="randomCase()">🎲 Random</button>
+  </div>`;
+}
+
+// ═══════════════════════════════════════════════════════════════════════
+// SEARCH AUTOCOMPLETE
+// ═══════════════════════════════════════════════════════════════════════
+function bindSearch() {
+  // Remove any stale listener first
+  document.removeEventListener('click', outsideClick, true);
+  document.addEventListener('click', outsideClick, true);
+}
+
+function outsideClick(e) {
+  const wrap = document.querySelector('.search-wrap');
+  if (!wrap || !wrap.contains(e.target)) closeSR();
+}
+
+function showSR() {
+  renderSRList(document.getElementById('diagSearch')?.value || '');
+}
+
+function onSRInput() {
+  searchSelected = '';
+  srFocusIdx = -1;
+  renderSRList(document.getElementById('diagSearch').value);
+}
+
+function renderSRList(q) {
+  const list = document.getElementById('srList'); if (!list) return;
+  const query = q.trim().toLowerCase();
+  let matches;
+  if (!query) {
+    matches = ALL_DIAGNOSES.slice(0, 40);
+  } else {
+    const sw = ALL_DIAGNOSES.filter(d => d.toLowerCase().startsWith(query));
+    const inc = ALL_DIAGNOSES.filter(d => !d.toLowerCase().startsWith(query) && d.toLowerCase().includes(query));
+    matches = [...sw, ...inc];
+  }
+  if (!matches.length) {
+    list.innerHTML = `<div class="sr-empty">No matches for "${q}"</div>`;
+  } else {
+    list.innerHTML = matches.map((d,idx) => {
+      const used = usedGuesses.has(d);
+      const hl = query ? d.replace(new RegExp(`(${escRe(query)})`, 'gi'), '<strong>$1</strong>') : d;
+      return `<div class="sr-item${used?' used':''}" data-val="${escAttr(d)}" data-i="${idx}"
+        onmousedown="pickSRItem('${escJs(d)}',${used})">${hl}${used?'<span class="sr-used-tag">✓</span>':''}</div>`;
+    }).join('');
+  }
+  list.classList.add('show');
+  srFocusIdx = -1;
+}
+
+function escRe(s){ return s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'); }
+function escAttr(s){ return s.replace(/"/g,'&quot;'); }
+function escJs(s){ return s.replace(/\\/g,'\\\\').replace(/'/g,"\\'"); }
+
+function onSRKey(e) {
+  const list = document.getElementById('srList');
+  const items = list ? [...list.querySelectorAll('.sr-item:not(.used)')] : [];
+  if (e.key==='ArrowDown') {
+    e.preventDefault();
+    srFocusIdx = Math.min(srFocusIdx+1, items.length-1);
+    updateSRFocus(items);
+  } else if (e.key==='ArrowUp') {
+    e.preventDefault();
+    srFocusIdx = Math.max(srFocusIdx-1, -1);
+    updateSRFocus(items);
+  } else if (e.key==='Enter') {
+    e.preventDefault();
+    if (srFocusIdx>=0 && items[srFocusIdx]) {
+      pickSRItem(items[srFocusIdx].dataset.val, false);
+    } else {
+      submitGuess();
+    }
+  } else if (e.key==='Escape') {
+    closeSR();
+  }
+}
+
+function updateSRFocus(items) {
+  items.forEach((it,i) => it.classList.toggle('focused', i===srFocusIdx));
+  if (items[srFocusIdx]) items[srFocusIdx].scrollIntoView({block:'nearest'});
+}
+
+function pickSRItem(val, used) {
+  if (used) return;
+  searchSelected = val;
+  const inp = document.getElementById('diagSearch');
+  if (inp) inp.value = val;
+  closeSR();
+}
+
+function closeSR() {
+  document.getElementById('srList')?.classList.remove('show');
+  srFocusIdx = -1;
+}
+
+// ═══════════════════════════════════════════════════════════════════════
+// GAME ACTIONS
+// ═══════════════════════════════════════════════════════════════════════
+function submitGuess() {
+  // Use confirmed pick, or fall back to whatever is typed (if it exactly matches a diagnosis)
+  const typed = (document.getElementById('diagSearch')?.value||'').trim();
+  const val = searchSelected || (FINAL_DIAG_SET.has(typed) ? typed : '');
+
+  if (!val) {
+    // Treat empty / unrecognised input as skip
+    skipGuess();
+    return;
+  }
+  const result = evalGuess(val);
+  S.guesses.push({value:val, result});
+  usedGuesses.add(val);
+  searchSelected = '';
+  if (result==='green') {
+    S.won = true;
+    recordResult('win');
+    render();
+    return;
+  }
+  advancePrompt();
+}
+
+function skipGuess() {
+  S.guesses.push({value:'', result:'skip'});
+  advancePrompt();
+}
+
+function advancePrompt() {
+  if (S.prompt+1 >= C().prompts.length) {
+    S.over = true;
+    recordResult('lose');
+  } else {
+    S.prompt++;
+  }
+  render();
+}
+
+function recordResult(res) {
+  CASE_RESULTS[S.caseIdx] = res;
+  updateCaseBtn(S.caseIdx);
+}
+
+function goToEnd() {
+  if (!CASE_RESULTS[S.caseIdx]) recordResult('lose');
+  S.over = true;
+  render();
+}
+
+function nextCase() {
+  const pool = ACTIVE_POOL || CASE_LIST.map((_,i)=>i);
+  const pos = pool.indexOf(S.caseIdx);
+  const next = pool[(pos+1) % pool.length];
+  clearActive();
+  document.getElementById('cb-'+next)?.classList.add('active');
+  ACTIVE_POOL = ACTIVE_POOL; // keep pool
+  doStartCase(next);
+}
+
+function randomCase() {
+  const pool = ACTIVE_POOL || CASE_LIST.map((_,i)=>i);
+  const candidates = pool.length>1 ? pool.filter(i=>i!==S.caseIdx) : pool;
+  const next = candidates[Math.floor(Math.random()*candidates.length)];
+  clearActive();
+  document.getElementById('cb-'+next)?.classList.add('active');
+  doStartCase(next);
+}
+
+// ═══════════════════════════════════════════════════════════════════════
+// BOOT
+// ═══════════════════════════════════════════════════════════════════════
+loadCases();
+</script>
+</body>
+</html>
