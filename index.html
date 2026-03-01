@@ -737,7 +737,7 @@ function renderSRList(q) {
       const used = usedGuesses.has(d);
       const hl = query ? d.replace(new RegExp(`(${escRe(query)})`, 'gi'), '<strong>$1</strong>') : d;
       return `<div class="sr-item${used?' used':''}" data-val="${escAttr(d)}" data-i="${idx}"
-        onmousedown="pickSRItem('${escJs(d)}',${used})">${hl}${used?'<span class="sr-used-tag">✓</span>':''}</div>`;
+        onmousedown="pickSRItem('${escJs(d)}',${used})"><span>${hl}</span>${used?'<span class="sr-used-tag">✓</span>':''}</div>`;
     }).join('');
   }
   list.classList.add('show');
@@ -808,6 +808,7 @@ function submitGuess() {
   searchSelected = '';
   if (result==='green') {
     S.won = true;
+    S.over = true;
     recordResult('win');
     render();
     return;
