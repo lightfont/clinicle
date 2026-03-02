@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="robots" content="noindex, nofollow">
-<title>Clinicle</title>
+<title>BigPicture</title>
 <style>
 /* ── RESET & BASE ─────────────────────────────────────────────────────────── */
 *{box-sizing:border-box;margin:0;padding:0}
@@ -91,6 +91,61 @@ body{font-family:'Segoe UI',system-ui,sans-serif;background:var(--bg);color:var(
 /* Count badge */
 .cnt{font-size:0.62rem;background:#f0f4ff;color:var(--blue);border-radius:20px;padding:1px 6px;font-weight:700;margin-left:auto;flex-shrink:0}
 
+/* ── TOPIC FILTER ─────────────────────────────────────────────────────────── */
+.filter-section{border-bottom:2px solid var(--border);background:#f8fafc}
+.filter-head{display:flex;align-items:center;justify-content:space-between;padding:10px 14px;cursor:pointer;user-select:none}
+.filter-head-title{font-size:0.78rem;font-weight:700;color:var(--text);display:flex;align-items:center;gap:6px}
+.filter-active-dot{width:7px;height:7px;border-radius:50%;background:var(--blue);display:none}
+.filter-active-dot.on{display:inline-block}
+.filter-toggle-arr{font-size:0.6rem;color:#94a3b8;transition:transform .2s}
+.filter-toggle-arr.open{transform:rotate(90deg)}
+.filter-body{display:none;padding:0 12px 12px}
+.filter-body.open{display:block}
+.filter-chips{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:10px;margin-top:8px}
+.fchip{
+  padding:4px 10px;border-radius:20px;font-size:0.73rem;font-weight:600;cursor:pointer;
+  border:1.5px solid #d1d5db;color:var(--muted);background:#fff;
+  transition:all .15s;user-select:none;
+}
+.fchip:hover{border-color:var(--blue);color:var(--blue);background:var(--blue-lt)}
+.fchip.selected{background:var(--blue);border-color:var(--blue);color:#fff}
+.filter-actions{display:flex;gap:6px;margin-top:4px}
+.filter-btn{padding:5px 12px;border-radius:7px;font-size:0.74rem;font-weight:600;cursor:pointer;border:1.5px solid var(--border);background:#fff;color:var(--muted);transition:all .15s}
+.filter-btn:hover{border-color:#94a3b8;color:var(--text)}
+.filter-btn.primary{background:var(--blue);border-color:var(--blue);color:#fff}
+.filter-btn.primary:hover{background:#1d4ed8}
+.filter-hint{font-size:0.7rem;color:#94a3b8;margin-top:6px;line-height:1.4}
+.active-filter-bar{font-size:0.71rem;background:#eff6ff;border-bottom:1px solid #bfdbfe;padding:6px 14px;color:var(--blue);font-weight:600;display:none;align-items:center;gap:6px;flex-shrink:0}
+.active-filter-bar.on{display:flex}
+.afb-clear{background:none;border:none;cursor:pointer;color:#3b82f6;font-size:0.7rem;font-weight:700;padding:1px 5px;border-radius:4px;margin-left:auto}
+.afb-clear:hover{background:#dbeafe}
+
+/* ── MULTI-SYSTEM FILTER ──────────────────────────────────────────────────── */
+.msf-section{border-bottom:2px solid var(--border);background:#f8fafc;flex-shrink:0}
+.msf-head{display:flex;align-items:center;justify-content:space-between;padding:10px 14px;cursor:pointer;user-select:none}
+.msf-head-title{font-size:0.78rem;font-weight:700;color:var(--text);display:flex;align-items:center;gap:6px}
+.msf-dot{width:7px;height:7px;border-radius:50%;background:var(--blue);display:none;flex-shrink:0}
+.msf-dot.on{display:inline-block}
+.msf-arr{font-size:0.6rem;color:#94a3b8;transition:transform .2s}
+.msf-arr.open{transform:rotate(90deg)}
+.msf-body{display:none;padding:8px 12px 12px}
+.msf-body.open{display:block}
+.msf-chips{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:10px}
+.mchip{
+  padding:4px 9px;border-radius:20px;font-size:0.72rem;font-weight:600;cursor:pointer;
+  border:1.5px solid #d1d5db;color:var(--muted);background:#fff;
+  transition:all .15s;user-select:none;display:flex;align-items:center;gap:4px;
+}
+.mchip:hover{border-color:var(--blue);color:var(--blue);background:var(--blue-lt)}
+.mchip.sel{background:var(--blue);border-color:var(--blue);color:#fff}
+.mchip.disabled{opacity:.4;cursor:default;pointer-events:none}
+.msf-actions{display:flex;gap:6px;margin-top:4px}
+.msf-btn{padding:5px 12px;border-radius:7px;font-size:0.74rem;font-weight:600;cursor:pointer;border:1.5px solid var(--border);background:#fff;color:var(--muted);transition:all .15s}
+.msf-btn:hover{border-color:#94a3b8;color:var(--text)}
+.msf-btn.primary{background:var(--blue);border-color:var(--blue);color:#fff}
+.msf-btn.primary:hover{background:#1d4ed8}
+.msf-hint{font-size:0.7rem;color:#94a3b8;margin-top:6px;line-height:1.4}
+
 /* Cases list */
 .cases-list{display:none;padding-bottom:2px}
 .cases-list.open{display:block}
@@ -169,7 +224,7 @@ header h1 span{color:var(--blue)}
 .plabel.history{color:#7c3aed}.plabel.examination{color:#0891b2}.plabel.investigation{color:#d97706}.plabel.imaging{color:#059669}
 .ptext{font-size:0.91rem;line-height:1.6;color:#222}
 .prompt-img{margin-top:10px;border-radius:8px;overflow:hidden;border:1px solid var(--border)}
-.prompt-img img{width:100%;max-height:280px;object-fit:cover;display:block}
+.prompt-img img{width:100%;max-height:none;object-fit:contain;display:block;background:#f8fafc}
 .prompt-img a{display:block;font-size:0.74rem;color:var(--blue);padding:6px 10px;background:#f8fafc;text-align:center}
 .gbadge{display:inline-flex;align-items:center;gap:5px;margin-top:8px;font-size:0.77rem;font-weight:600;padding:3px 10px;border-radius:20px}
 .gbadge.green{background:#dcfce7;color:#16a34a}
@@ -256,7 +311,7 @@ header h1 span{color:var(--blue)}
 
 <!-- LOADER -->
 <div id="loader">
-  <h2><span>Clini</span>cle</h2>
+  <h2><span>Big</span>Picture</h2>
   <div id="loaderInner"><div class="ld-msg">Loading cases…</div></div>
 </div>
 
@@ -269,13 +324,35 @@ header h1 span{color:var(--blue)}
     <span class="sb-title">📋 Case Browser</span>
     <button class="sb-close" onclick="closeSidebar()">✕</button>
   </div>
+  <div class="active-filter-bar" id="activeFilterBar">
+    <span id="activeFilterLabel">Filtered</span>
+    <button class="afb-clear" onclick="clearSystemFilter()">✕ Clear</button>
+  </div>
+  <!-- MULTI-SYSTEM FILTER -->
+  <div class="msf-section" id="msfSection">
+    <div class="msf-head" onclick="toggleMsf()">
+      <div class="msf-head-title">
+        <span class="msf-dot" id="msfDot"></span>
+        🎯 Filter by System
+      </div>
+      <span class="msf-arr" id="msfArr">▶</span>
+    </div>
+    <div class="msf-body" id="msfBody">
+      <div class="msf-chips" id="msfChips"></div>
+      <div class="msf-actions">
+        <button class="msf-btn primary" onclick="applyMsf()">Apply Filter</button>
+        <button class="msf-btn" onclick="clearMsf()">Clear</button>
+      </div>
+      <div class="msf-hint">Select one or more systems. Random will pick from matching cases only.</div>
+    </div>
+  </div>
   <div class="sb-body" id="sbBody"></div>
 </div>
 
 <!-- HEADER -->
 <header>
   <button class="menu-btn" onclick="toggleSidebar()" title="Browse Cases">☰</button>
-  <h1><span>Clini</span>cle</h1>
+  <h1><span>Big</span>Picture</h1>
   <div class="hdr-right">
     <div>
       <div class="mode-toggle">
@@ -304,6 +381,20 @@ let usedGuesses = new Set();
 
 let ACTIVE_POOL = null;     // null=whole list; int[] = filtered subset
 let CASE_RESULTS = {};      // caseIdx → 'win' | 'lose'
+
+const SYS_EMOJI = {
+  'Microbiology': '🦠',
+  'Haematology': '🩸',
+  'Cardiovascular System': '❤️',
+  'Respiratory System': '🫁',
+  'Renal System': '🫘',
+  'Gastrointestinal System and Metabolism': '🍽️',
+  'Endocrine System': '⚗️',
+  'Reproductive System': '🔬',
+  'Musculoskeletal System': '🦴',
+  'Dermatology': '🩹',
+  'Neurology': '🧠',
+};
 
 // Search state
 let searchSelected = '';    // confirmed pick from dropdown
@@ -357,6 +448,9 @@ function initWithDB(db) {
 // SIDEBAR
 // ═══════════════════════════════════════════════════════════════════════
 function buildSidebar() {
+  // Build multi-system filter chips
+  buildMsfChips();
+
   // Group: system → { all:[], subs:{ subtag:[] } }
   const sysMap = {};
   CASE_LIST.forEach((c, i) => {
@@ -379,7 +473,7 @@ function buildSidebar() {
       </button>
       <button class="sys-name-btn" id="snb-${ss}"
         onclick="pickPool(${allJson},'snb-${ss}')">
-        🧠 ${sys}
+        ${SYS_EMOJI[sys]||'📋'} ${sys}
         <span class="cnt">${data.all.length}</span>
       </button>
     </div>
@@ -417,6 +511,69 @@ function buildSidebar() {
 }
 
 function safeid(s){ return s.replace(/[^a-zA-Z0-9]/g,'_'); }
+
+// ═══════════════════════════════════════════════════════════════════════
+// MULTI-SYSTEM FILTER
+// ═══════════════════════════════════════════════════════════════════════
+const ALL_SYSTEMS = [
+  'Microbiology','Haematology','Cardiovascular System','Respiratory System',
+  'Renal System','Gastrointestinal System and Metabolism','Endocrine System',
+  'Reproductive System','Musculoskeletal System','Dermatology','Neurology'
+];
+
+let TEMP_SELECTED = new Set();  // pending chips before Apply
+let ACTIVE_SYSTEMS = new Set(); // applied filter
+
+function buildMsfChips() {
+  const c = document.getElementById('msfChips'); if (!c) return;
+  // Count cases per system from loaded data
+  const sysCount = {};
+  CASE_LIST.forEach(cas => { const s = cas.systems[0]; if (s) sysCount[s] = (sysCount[s]||0)+1; });
+  c.innerHTML = ALL_SYSTEMS.map(sys => {
+    const cnt = sysCount[sys]||0;
+    const dis = cnt===0 ? ' disabled' : '';
+    const sel = TEMP_SELECTED.has(sys) ? ' sel' : '';
+    return `<div class="mchip${sel}${dis}" onclick="toggleMchip('${escJs(sys)}')">${SYS_EMOJI[sys]||'📋'} ${sys}${cnt?` <span style="font-size:.65rem;opacity:.7">${cnt}</span>`:''}</div>`;
+  }).join('');
+}
+
+function toggleMsf() {
+  document.getElementById('msfBody').classList.toggle('open');
+  document.getElementById('msfArr').classList.toggle('open');
+}
+
+function toggleMchip(sys) {
+  if (TEMP_SELECTED.has(sys)) TEMP_SELECTED.delete(sys);
+  else TEMP_SELECTED.add(sys);
+  buildMsfChips();
+}
+
+function applyMsf() {
+  ACTIVE_SYSTEMS = new Set(TEMP_SELECTED);
+  if (ACTIVE_SYSTEMS.size === 0) { clearMsf(); return; }
+  // Build pool from selected systems
+  ACTIVE_POOL = CASE_LIST.map((_,i)=>i).filter(i => ACTIVE_SYSTEMS.has(CASE_LIST[i].systems[0]));
+  // Update UI
+  document.getElementById('msfDot').classList.add('on');
+  const activeBar = document.getElementById('activeFilterBar');
+  activeBar.classList.add('on');
+  document.getElementById('activeFilterLabel').textContent =
+    `Filtered: ${[...ACTIVE_SYSTEMS].map(s=>s.split(' ')[0]).join(', ')}`;
+  // Close panel
+  document.getElementById('msfBody').classList.remove('open');
+  document.getElementById('msfArr').classList.remove('open');
+}
+
+function clearMsf() {
+  TEMP_SELECTED.clear();
+  ACTIVE_SYSTEMS.clear();
+  ACTIVE_POOL = null;
+  buildMsfChips();
+  document.getElementById('msfDot').classList.remove('on');
+  document.getElementById('activeFilterBar').classList.remove('on');
+}
+
+function clearSystemFilter() { clearMsf(); }
 
 function toggleSysPanel(ss) {
   const sp = document.getElementById('sp-'+ss);
@@ -737,7 +894,7 @@ function renderSRList(q) {
       const used = usedGuesses.has(d);
       const hl = query ? d.replace(new RegExp(`(${escRe(query)})`, 'gi'), '<strong>$1</strong>') : d;
       return `<div class="sr-item${used?' used':''}" data-val="${escAttr(d)}" data-i="${idx}"
-        onmousedown="pickSRItem('${escJs(d)}',${used})"><span>${hl}</span>${used?'<span class="sr-used-tag">✓</span>':''}</div>`;
+        onmousedown="pickSRItem('${escJs(d)}',${used})">${hl}${used?'<span class="sr-used-tag">✓</span>':''}</div>`;
     }).join('');
   }
   list.classList.add('show');
@@ -808,7 +965,6 @@ function submitGuess() {
   searchSelected = '';
   if (result==='green') {
     S.won = true;
-    S.over = true;
     recordResult('win');
     render();
     return;
@@ -854,7 +1010,11 @@ function nextCase() {
 
 function randomCase() {
   const pool = ACTIVE_POOL || CASE_LIST.map((_,i)=>i);
-  const candidates = pool.length>1 ? pool.filter(i=>i!==S.caseIdx) : pool;
+  // Prefer cases not yet played; fall back to all if all done
+  const unplayed = pool.filter(i => !CASE_RESULTS[i] && i !== S.caseIdx);
+  const candidates = unplayed.length > 0 ? unplayed
+    : pool.filter(i => i !== S.caseIdx).length > 0 ? pool.filter(i => i !== S.caseIdx)
+    : pool;
   const next = candidates[Math.floor(Math.random()*candidates.length)];
   clearActive();
   document.getElementById('cb-'+next)?.classList.add('active');

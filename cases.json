@@ -3361,7 +3361,7 @@
       }
     ]
   },
-  
+
   "case_0041": {
     "title": "Alzheimer Disease",
     "finalDiagnosis": "Alzheimer Disease",
@@ -6843,6 +6843,1196 @@
           "Conus Medullaris Syndrome"
         ],
         "reasoning": "The conus medullaris syndrome is characterised by its mixed UMN (corticospinal tract injury within the conus \u2192 spasticity, extensor plantars, upper reflex preservation) and LMN (sacral motor neuron and root injury within the conus \u2192 flaccid bladder, bowel, and sexual dysfunction; absent ankle jerks) picture. Sphincter dysfunction \u2014 typically a neurogenic (flaccid or acontractile) bladder and reduced rectal tone \u2014 is an early and prominent feature, often disproportionate to the limb motor deficit. Recovery is variable and often incomplete \u2014 the conus contains both motor neuron cell bodies (which cannot regenerate if destroyed) and ascending/descending tracts (which can recover partially). Long-term prognosis for sphincter function is generally worse than for limb motor recovery. Management includes urological rehabilitation, bowel programme, physiotherapy, and psychological support."
+      }
+    ]
+  },
+
+  "case_0082": {
+    "title": "Acne Vulgaris",
+    "finalDiagnosis": "Acne Vulgaris",
+    "snomedCode": "11381005",
+    "systems": ["Dermatology", "Follicular"],
+    "prompts": [
+      {
+        "type": "history",
+        "label": "Presenting Complaint",
+        "text": "A 16-year-old girl presents with several months of recurring spots on her face.",
+        "image": null,
+        "accepted": [
+          "Acne Vulgaris",
+          "Folliculitis (Infective)",
+          "Perioral Dermatitis",
+          "Rosacea",
+          "Miliaria Rubra"
+        ],
+        "reasoning": "Recurring facial spots in an adolescent female establishes the category of a follicular or inflammatory skin eruption. The single discriminatory axis introduced is the facial distribution of a papular eruption. At this stage, acne vulgaris, infective folliculitis, perioral dermatitis, rosacea, and miliaria rubra are all plausible. Age and sex are consistent with hormonal acne but are not yet discriminatory enough to narrow the list."
+      },
+      {
+        "type": "history",
+        "label": "History of Presenting Complaint",
+        "text": "The lesions affect the forehead, cheeks, and chin; some are painful and red while others are small, persistent skin-coloured bumps that do not resolve. She notes the spots worsen in the week before her menstrual period.",
+        "image": null,
+        "accepted": [
+          "Acne Vulgaris",
+          "Folliculitis (Infective)",
+          "Perioral Dermatitis",
+          "Rosacea"
+        ],
+        "reasoning": "The distribution across the forehead, cheeks, and chin is consistent with acne, folliculitis, and perioral dermatitis. The description of non-resolving skin-coloured bumps alongside inflammatory red papules suggests a mixed non-inflammatory and inflammatory process. Perimenstrual worsening suggests androgen-driven sebum production but is not specific enough to confirm acne. Miliaria rubra is excluded — it favours covered, occluded areas in a heat-exposure context and does not follow a perimenstrual pattern. Rosacea remains possible but tends to present with flushing and a background of centrofacial erythema."
+      },
+      {
+        "type": "history",
+        "label": "Past Medical and Social History",
+        "text": "She is otherwise healthy and takes no medications. She started using an oil-based foundation two months ago and has been wearing a tight-fitting sports mask daily since joining a new team. No fever and no similar rashes elsewhere on the body.",
+        "image": null,
+        "accepted": [
+          "Acne Vulgaris",
+          "Folliculitis (Infective)",
+          "Perioral Dermatitis"
+        ],
+        "reasoning": "The introduction of an occlusive, oil-based cosmetic and a tight-fitting mechanical occluder (mask) are recognised exacerbating factors for acne (acne cosmetica and acne mechanica). Absence of fever and systemic symptoms makes moderate-to-severe infective folliculitis less likely, though mild folliculitis cannot yet be excluded. Perioral dermatitis often follows prolonged topical corticosteroid application, which is absent here, but can occasionally arise without this trigger. Rosacea is now less likely — the patient has no background erythema, flushing, or sun-exposure history described, and onset in adolescence is atypical for rosacea."
+      },
+      {
+        "type": "examination",
+        "label": "Physical Examination",
+        "text": "Vital signs are normal; temperature 36.7°C. Facial examination reveals multiple erythematous papules and pustules symmetrically distributed over the forehead, cheeks, and chin, with several deep, firm, tender nodules palpable along the jawline. No telangiectasia, no background erythema, and no perioral sparing. No lymphadenopathy.",
+        "image": "images\\derm_0082_p4_clinical.jpg",
+        "accepted": [
+          "Acne Vulgaris",
+          "Folliculitis (Infective)"
+        ],
+        "reasoning": "Absence of telangiectasia and background erythema effectively excludes rosacea. Absence of perioral sparing and no history of topical steroid use makes perioral dermatitis very unlikely. The deep, nodular component along the jawline suggests significant follicular involvement, which is characteristic of moderate-to-severe acne but can also be seen in deep folliculitis. The symmetrical distribution and hormonal distribution pattern (jawline) favour acne over folliculitis, but without identifying non-inflammatory lesions (comedones), folliculitis cannot be excluded on examination findings alone."
+      },
+      {
+        "type": "investigation",
+        "label": "Close Inspection and Microbiological Workup",
+        "text": "On close examination under bright light, multiple open comedones (blackheads) and closed comedones (whiteheads) are identified at follicular ostia on the forehead and nasal bridge. A swab from an expressed pustule grows only commensal skin flora; no pathogenic organism is isolated.",
+        "image": null,
+        "accepted": [
+          "Acne Vulgaris"
+        ],
+        "reasoning": "The identification of open and closed comedones — non-inflammatory lesions arising from follicular hyperkeratinisation and sebum retention — is the key discriminating finding that distinguishes acne vulgaris from folliculitis. Comedones are not a feature of folliculitis, perioral dermatitis, or rosacea. The absence of a pathogenic organism on culture excludes primary infective folliculitis as the cause, though it is consistent with Cutibacterium acnes-associated inflammation."
+      },
+      {
+        "type": "investigation",
+        "label": "Histopathological Confirmation",
+        "text": "A histological section of a comedone shows a dilated follicular infundibulum packed with compacted keratinous and lipid debris, with follicular hyperkeratosis at the ostium and sebaceous gland hyperplasia. Surrounding dermis shows a perifollicular lymphocytic infiltrate.",
+        "image": "images\\derm_0082_p6_histology.jpg",
+        "accepted": [
+          "Acne Vulgaris"
+        ],
+        "reasoning": "The histological appearances confirm the pathological basis of acne vulgaris: follicular hyperkeratinisation causing retention of keratin and sebum within the dilated infundibulum (the comedone), with sebaceous gland enlargement reflecting hormonal sebum overproduction. The perifollicular inflammatory infiltrate represents the host response to rupture of the follicular contents or Cutibacterium acnes colonisation. These findings are pathognomonic of acne vulgaris and are not consistent with any remaining differential."
+      }
+    ]
+  },
+
+  "case_0083": {
+    "title": "Malassezia Folliculitis",
+    "finalDiagnosis": "Folliculitis — Malassezia (Pityrosporum)",
+    "snomedCode": "13600006",
+    "systems": ["Dermatology", "Follicular"],
+    "prompts": [
+      {
+        "type": "history",
+        "label": "Presenting Complaint",
+        "text": "A 24-year-old man presents with an intensely itchy papular rash on his back and chest that has developed over the past two weeks.",
+        "image": null,
+        "accepted": [
+          "Folliculitis (Infective)",
+          "Acne Vulgaris",
+          "Tinea Versicolor",
+          "Miliaria Rubra",
+          "Viral Exanthem"
+        ],
+        "reasoning": "An itchy papular eruption on the trunk of a young adult establishes a broad differential across infectious, follicular, and reactive aetiologies. Folliculitis (bacterial or fungal), acne vulgaris, tinea versicolor, miliaria rubra, and viral exanthem are all plausible. The primary discriminatory axis introduced is the distribution (trunk) and quality (pruritic) of the eruption. No temporal relationship to a drug or clear trigger has been established."
+      },
+      {
+        "type": "history",
+        "label": "History of Presenting Complaint",
+        "text": "The lesions are uniformly small and intensely pruritic; there are no skin-coloured bumps that do not come to a head and no lesions on the face. He exercises heavily and sweats profusely, and the rash is worse after workouts.",
+        "image": null,
+        "accepted": [
+          "Folliculitis (Infective)",
+          "Acne Vulgaris",
+          "Miliaria Rubra",
+          "Tinea Versicolor"
+        ],
+        "reasoning": "The absence of comedones (non-inflammatory lesions) makes classic acne vulgaris less likely, though it remains possible given the truncal distribution. Intense pruritus is atypical for acne but very characteristic of fungal folliculitis and miliaria. Profuse sweating and exercise in a humid environment favour both Malassezia overgrowth and miliaria. Tinea versicolor typically causes hypo- or hyperpigmented patches rather than pruritic papules. Viral exanthem is less likely given the pruritic quality and 2-week localised course without systemic symptoms. At least four plausible diagnoses remain."
+      },
+      {
+        "type": "history",
+        "label": "Past Medical and Social History",
+        "text": "He completed a 10-day course of doxycycline for a dental abscess three weeks ago, his first course of antibiotics in several years. No prior skin conditions, no systemic illness, and no fever.",
+        "image": null,
+        "accepted": [
+          "Folliculitis (Infective) — Malassezia",
+          "Folliculitis (Infective) — Bacterial",
+          "Miliaria Rubra"
+        ],
+        "reasoning": "Recent broad-spectrum antibiotic use suppresses commensal bacterial flora, creating a competitive advantage for Malassezia yeast overgrowth in the hair follicles — a well-recognised precipitant of Malassezia folliculitis. This significantly elevates Malassezia folliculitis on the differential. Bacterial folliculitis cannot be excluded but is less likely in the absence of fever or a clear skin breach. Acne vulgaris is now less likely given the absence of comedones and facial involvement. Miliaria rubra remains possible given the sweating history but is not typically follicular-based."
+      },
+      {
+        "type": "examination",
+        "label": "Physical Examination",
+        "text": "Temperature 36.8°C, no fever. Multiple 2–3 mm follicular-based erythematous papules and small pustules are uniformly distributed over the upper back and shoulders; lesions are of identical size and intensely pruritic. No comedones are identified. No surrounding cellulitis. No lymphadenopathy.",
+        "image": "images\\derm_0083_p4_clinical.jpg",
+        "accepted": [
+          "Folliculitis (Infective) — Malassezia",
+          "Folliculitis (Infective) — Bacterial"
+        ],
+        "reasoning": "The uniform size and follicular distribution of the pustules confirm folliculitis as the diagnosis category. Absence of comedones effectively excludes acne vulgaris. The afebrile state and absence of surrounding cellulitis or lymphadenopathy makes severe bacterial folliculitis less likely but does not exclude mild forms. The combination of intense pruritus, uniform follicular pustules on the trunk, precipitated by antibiotic use and sweating, raises the probability of Malassezia folliculitis over bacterial folliculitis. Miliaria rubra is now excluded — its lesions are not follicular-based."
+      },
+      {
+        "type": "investigation",
+        "label": "Skin Scraping and Microbiological Analysis",
+        "text": "A scraping from a pustule, prepared with 10% KOH and examined under light microscopy, shows numerous oval yeast cells and short curved hyphae. Bacterial culture of pustule contents yields no pathogenic organisms.",
+        "image": "images\\derm_0083_p5_koh.jpg",
+        "accepted": [
+          "Folliculitis (Infective) — Malassezia"
+        ],
+        "reasoning": "The identification of short curved hyphae with oval yeast cells on KOH preparation is characteristic of Malassezia species (Pityrosporum). This fungal morphology — short hyphae and clustered spores — directly confirms fungal folliculitis. Absence of bacteria on culture excludes bacterial folliculitis as the primary cause. Together with the clinical context of antibiotic-induced disruption of commensal flora, this confirms Malassezia as the causative organism."
+      },
+      {
+        "type": "investigation",
+        "label": "Treatment Response and Final Diagnosis",
+        "text": "Oral itraconazole is started alongside topical selenium sulfide shampoo applied to the affected areas. At four-week review, the pustules have resolved completely and the pruritus has remitted; repeat KOH preparation is negative for fungal elements.",
+        "image": null,
+        "accepted": [
+          "Folliculitis — Malassezia (Pityrosporum)"
+        ],
+        "reasoning": "Complete resolution with antifungal therapy and a negative follow-up KOH preparation provides definitive confirmation of Malassezia folliculitis. The response to itraconazole and selenium sulfide — agents targeting Malassezia — is not consistent with bacterial folliculitis, which would require antibiotic therapy. This case illustrates the clinical importance of recognising antibiotic use as a risk factor for fungal superinfection of hair follicles."
+      }
+    ]
+  },
+
+  "case_0084": {
+    "title": "Seborrhoeic Keratosis",
+    "finalDiagnosis": "Seborrhoeic Keratosis",
+    "snomedCode": "83595007",
+    "systems": ["Dermatology", "Benign Epidermal"],
+    "prompts": [
+      {
+        "type": "history",
+        "label": "Presenting Complaint",
+        "text": "A 62-year-old woman is referred by her GP for evaluation of a pigmented lesion on her upper back that has recently changed in appearance.",
+        "image": null,
+        "accepted": [
+          "Seborrhoeic Keratosis",
+          "Melanocytic Naevus — Compound or Dysplastic",
+          "Malignant Melanoma",
+          "Pigmented Basal Cell Carcinoma",
+          "Dermatofibroma"
+        ],
+        "reasoning": "A changing pigmented lesion on the back of a 62-year-old warrants serious consideration of malignant melanoma, alongside benign differentials including seborrhoeic keratosis, compound or dysplastic melanocytic naevus, pigmented BCC, and dermatofibroma. The primary discriminatory axis introduced is change in an established pigmented lesion. No morphological detail is yet available to narrow the differential."
+      },
+      {
+        "type": "history",
+        "label": "History of Presenting Complaint",
+        "text": "She noticed the lesion about two years ago as a flat brown spot; over the past few months it has become raised and distinctly darker. It occasionally catches on clothing but is otherwise asymptomatic — no bleeding, no itch, and no pain.",
+        "image": null,
+        "accepted": [
+          "Seborrhoeic Keratosis",
+          "Melanocytic Naevus — Compound or Dysplastic",
+          "Malignant Melanoma",
+          "Pigmented Basal Cell Carcinoma"
+        ],
+        "reasoning": "Progressive darkening and elevation from a flat lesion is concerning for melanoma but is also consistent with a seborrhoeic keratosis developing its characteristic raised, warty morphology over time. Absence of bleeding reduces but does not exclude melanoma. Catching on clothing suggests the lesion has become exophytic, which is characteristic of seborrhoeic keratosis. Dermatofibroma is now less likely — it characteristically dimples inward on lateral pressure and does not typically catch on clothing. At least four differentials remain."
+      },
+      {
+        "type": "history",
+        "label": "Past Medical and Social History",
+        "text": "She has a similar smaller brown lesion on her shoulder that has been entirely stable for over a decade, and she recalls her mother having many similar patches in old age. She has fair skin, has worked outdoors throughout her career, and has no personal or family history of melanoma.",
+        "image": null,
+        "accepted": [
+          "Seborrhoeic Keratosis",
+          "Melanocytic Naevus — Compound or Dysplastic",
+          "Malignant Melanoma"
+        ],
+        "reasoning": "Multiple similar lesions, a stable second lesion, and a family history of similar patches in old age are all strongly consistent with seborrhoeic keratosis — these benign neoplasms typically increase in number and size with advancing age and tend to run in families. However, chronic UV exposure from outdoor work is a risk factor for both melanoma and BCC. Absence of personal or family history of melanoma modestly reduces melanoma probability, but it does not exclude it. Pigmented BCC is now less likely — BCC rarely presents with a second similar lesion and the family history does not fit. At least three plausible diagnoses remain."
+      },
+      {
+        "type": "examination",
+        "label": "Physical Examination",
+        "text": "Examination reveals a 1.5 cm well-defined, raised plaque with a waxy, rough surface and brown-to-dark-brown pigmentation on the upper back. The border is regular and clearly demarcated. Four smaller morphologically identical lesions are present on the trunk. No satellite nodules, no surrounding erythema, no regional lymphadenopathy.",
+        "image": "images\\derm_0084_p4_clinical.jpg",
+        "accepted": [
+          "Seborrhoeic Keratosis",
+          "Melanocytic Naevus — Dysplastic"
+        ],
+        "reasoning": "A well-defined, regular border with a waxy, rough surface and multiple morphologically similar lesions on the trunk are strongly characteristic of seborrhoeic keratosis. Irregular border and satellite nodules — features raising melanoma concern — are absent, significantly reducing the probability of melanoma. However, a large dysplastic melanocytic naevus can share some surface irregularity and dark pigmentation. Absence of lymphadenopathy is reassuring. Dermoscopy is required to differentiate seborrhoeic keratosis from a dysplastic naevus definitively."
+      },
+      {
+        "type": "imaging",
+        "label": "Dermoscopy",
+        "text": "Dermoscopy shows multiple comedo-like openings, milia-like cysts, and a cerebriform (brain-like) surface pattern. No atypical pigment network, no blue-white veil, no irregular radial streaks, and no atypical vascular structures are identified.",
+        "image": null,
+        "accepted": [
+          "Seborrhoeic Keratosis"
+        ],
+        "reasoning": "Comedo-like openings and milia-like cysts are dermoscopic hallmarks of seborrhoeic keratosis, representing keratin-filled invaginations and entrapped keratin globules respectively. The cerebriform pattern reflects the surface ridges and grooves of an acanthotic epidermal neoplasm. The complete absence of melanoma-specific dermoscopic features — atypical pigment network, blue-white veil, and irregular streaks — effectively excludes melanoma and dysplastic naevus. Biopsy remains appropriate for definitive confirmation."
+      },
+      {
+        "type": "investigation",
+        "label": "Histopathological Confirmation",
+        "text": "Shave biopsy shows a well-circumscribed exophytic epidermal proliferation with acanthosis, hyperkeratosis, and numerous horn cysts — keratin-filled invaginations from the surface epithelium. No cytological atypia and no dermal invasion are identified.",
+        "image": "images\\derm_0084_p6_histology.jpg",
+        "accepted": [
+          "Seborrhoeic Keratosis"
+        ],
+        "reasoning": "The histological triad of acanthosis, hyperkeratosis, and horn cysts is pathognomonic of seborrhoeic keratosis. The absence of cytological atypia and invasion excludes both melanoma and SCC. The well-circumscribed, exophytic nature confirms a benign epidermal neoplasm without infiltrative growth. These findings, combined with the clinical and dermoscopic features, confirm the diagnosis."
+      }
+    ]
+  },
+
+  "case_0085": {
+    "title": "Epidermoid Cyst",
+    "finalDiagnosis": "Epidermoid Cyst",
+    "snomedCode": "55937004",
+    "systems": ["Dermatology", "Benign Adnexal"],
+    "prompts": [
+      {
+        "type": "history",
+        "label": "Presenting Complaint",
+        "text": "A 34-year-old man presents with a painless subcutaneous lump on the back of his neck that he has been aware of for several months.",
+        "image": null,
+        "accepted": [
+          "Epidermoid Cyst",
+          "Lipoma",
+          "Reactive Lymphadenopathy",
+          "Neurofibroma",
+          "Pilomatrixoma"
+        ],
+        "reasoning": "A painless, slowly noticed subcutaneous cervical lump raises a broad differential including benign cysts (epidermoid, pilar), lipoma, reactive or neoplastic lymphadenopathy, neurofibroma, and pilomatrixoma. The primary discriminatory axis introduced is the anatomical location and benign-appearing chronicity. No morphological detail or associated features are yet available to narrow the differential."
+      },
+      {
+        "type": "history",
+        "label": "History of Presenting Complaint",
+        "text": "The lump has been slowly enlarging over several months; last week it became acutely red and tender and he thought it might burst, but it settled without intervention. He is otherwise entirely well with no fever.",
+        "image": null,
+        "accepted": [
+          "Epidermoid Cyst",
+          "Lipoma",
+          "Reactive Lymphadenopathy",
+          "Neurofibroma"
+        ],
+        "reasoning": "An episode of acute inflammation that resolves spontaneously is a classic behaviour of an infected or ruptured epidermoid cyst and is not typically seen with lipomas, neurofibromas, or lymphadenopathy. However, this history alone is not pathognomonic. Reactive lymphadenopathy would be expected to fluctuate with infections rather than developing gradual primary enlargement. Pilomatrixoma is now less likely — it does not typically undergo episodic inflammation with spontaneous resolution. Lipoma and neurofibroma remain plausible as painless, slowly enlarging subcutaneous nodules."
+      },
+      {
+        "type": "history",
+        "label": "Past Medical and Social History",
+        "text": "He is healthy with no significant past medical history and takes no medications. He mentions a similar smaller lump on his scalp that has been present for years and has never caused trouble. No family history of multiple skin lumps or bowel problems.",
+        "image": null,
+        "accepted": [
+          "Epidermoid Cyst",
+          "Lipoma",
+          "Neurofibroma"
+        ],
+        "reasoning": "The presence of a similar lesion on the scalp increases the likelihood of a condition producing multiple lesions — epidermoid cysts, lipomas, and neurofibromas all can be multiple. However, epidermoid cysts are the most common skin cyst and very frequently appear on the scalp and posterior neck. Absence of family history of multiple lumps or bowel problems makes Gardner syndrome (multiple epidermoid cysts + familial adenomatous polyposis) unlikely, and the absence of multiple café-au-lait macules or systemic features makes NF1 unlikely. Reactive lymphadenopathy is now effectively excluded — a longstanding asymptomatic scalp lump is not consistent with lymphadenopathy."
+      },
+      {
+        "type": "examination",
+        "label": "Physical Examination",
+        "text": "Examination reveals a 2.5 cm smooth, dome-shaped, mobile subcutaneous nodule with a small central punctum visible in the overlying skin on the posterior neck. The overlying skin appears slightly discoloured. The lesion is non-tender today. No lymphadenopathy is identified.",
+        "image": "images\\derm_0085_p4_clinical.jpg",
+        "accepted": [
+          "Epidermoid Cyst",
+          "Pilar (Trichilemmal) Cyst"
+        ],
+        "reasoning": "The central punctum — a dilated follicular ostium — is a characteristic feature of an epidermoid cyst and is not present in lipomas, neurofibromas, or lymph nodes. The smooth, mobile, dome-shaped morphology with no fixation to deeper structures confirms a benign superficial cystic lesion. Neurofibromas are soft, compressible, and typically show 'buttonhole' sign. The two most plausible remaining diagnoses are epidermoid cyst and pilar (trichilemmal) cyst; both occur on the head and neck, can become inflamed, and may appear identical clinically. Histological examination after excision is required for definitive differentiation."
+      },
+      {
+        "type": "investigation",
+        "label": "Surgical Excision Findings",
+        "text": "Under local anaesthesia, the cyst is excised intact. On gentle pressure, the cyst wall contains thick, creamy, malodorous white-grey material. The cyst wall is intact. The excised specimen is sent for histology.",
+        "image": null,
+        "accepted": [
+          "Epidermoid Cyst",
+          "Pilar (Trichilemmal) Cyst"
+        ],
+        "reasoning": "The malodorous, cheesy keratinous contents are consistent with both epidermoid and pilar cysts; both contain desquamated keratin. However, pilar cysts are predominantly found on the scalp, and their contents tend to be drier and less malodorous. The posterior neck location is more typical of an epidermoid cyst. Both diagnoses remain until histology distinguishes them based on the cyst wall lining."
+      },
+      {
+        "type": "investigation",
+        "label": "Histopathological Confirmation",
+        "text": "Histology shows a cyst wall lined by stratified squamous epithelium with a well-developed granular cell layer, containing laminated keratinous debris. No pillar-type abrupt keratinisation is seen.",
+        "image": "images\\derm_0085_p6_histology.jpg",
+        "accepted": [
+          "Epidermoid Cyst"
+        ],
+        "reasoning": "The presence of a prominent granular cell layer in the cyst wall is the key histological feature distinguishing an epidermoid cyst from a pilar (trichilemmal) cyst. Pilar cysts show abrupt keratinisation — the squamous epithelium transitions directly to dense eosinophilic keratin without a granular layer, mirroring the outer root sheath of the hair follicle. The granular layer in this specimen confirms an epidermoid cyst, which recapitulates the surface epidermis or follicular infundibulum. The findings confirm epidermoid cyst."
+      }
+    ]
+  },
+
+  "case_0086": {
+    "title": "Infantile Haemangioma",
+    "finalDiagnosis": "Infantile Haemangioma",
+    "snomedCode": "403837005",
+    "systems": ["Dermatology", "Vascular Tumour"],
+    "prompts": [
+      {
+        "type": "history",
+        "label": "Presenting Complaint",
+        "text": "A 3-month-old girl is brought in by her mother for evaluation of a rapidly growing red lesion on the left cheek that first appeared at three weeks of age.",
+        "image": null,
+        "accepted": [
+          "Infantile Haemangioma",
+          "Vascular Malformation (Capillary)",
+          "Pyogenic Granuloma",
+          "Mastocytoma",
+          "Dermal Melanocytosis"
+        ],
+        "reasoning": "A red cutaneous lesion appearing shortly after birth and growing rapidly in an infant requires differentiation among vascular tumours (infantile haemangioma, pyogenic granuloma) and vascular malformations (port-wine stain/capillary malformation). The primary discriminatory axis is the timing of onset relative to birth and the growth pattern. Mastocytoma and dermal melanocytosis are included as early possibilities given the age, though both are typically present from birth or have distinct colouration."
+      },
+      {
+        "type": "history",
+        "label": "History of Presenting Complaint",
+        "text": "The lesion was initially just a faint reddish discolouration but has grown considerably over the past six weeks, becoming raised and bright red. The mother reports it appears slightly warm and has bled briefly on two occasions when scratched.",
+        "image": null,
+        "accepted": [
+          "Infantile Haemangioma",
+          "Vascular Malformation (Capillary)",
+          "Pyogenic Granuloma"
+        ],
+        "reasoning": "Rapid postnatal growth after an initial faint patch is characteristic of infantile haemangioma's proliferative phase, which peaks between 3 and 6 months of age. A port-wine stain (capillary vascular malformation) is present from birth, does not grow rapidly above the skin, and does not bleed spontaneously — this reduces but does not eliminate capillary malformation from the differential, as the initial description was a faint patch. Pyogenic granuloma is also possible — it grows rapidly and bleeds easily. Mastocytoma is now unlikely: it has a yellow-orange hue, does not grow at this rate, and does not bleed spontaneously. Dermal melanocytosis is excluded — it is blue-grey and does not grow or bleed."
+      },
+      {
+        "type": "history",
+        "label": "Past Medical and Social History",
+        "text": "She was born at 35 weeks of gestation following an uncomplicated pregnancy. She is the first child; her birth weight was 2.1 kg. She is feeding well and reaching developmental milestones. No similar lesions elsewhere on the body. No family history of vascular anomalies.",
+        "image": null,
+        "accepted": [
+          "Infantile Haemangioma",
+          "Vascular Malformation (Capillary)",
+          "Pyogenic Granuloma"
+        ],
+        "reasoning": "Prematurity and low birth weight are established risk factors for infantile haemangioma, raising its probability further. A solitary lesion reduces the likelihood of a segmental pattern associated with PHACE syndrome, but localised infantile haemangioma remains highly plausible. Pyogenic granuloma can arise in infants but more commonly follows trauma or occurs in slightly older children; no preceding trauma is mentioned. A capillary vascular malformation (port-wine stain) is not associated with prematurity. Three plausible differentials remain."
+      },
+      {
+        "type": "examination",
+        "label": "Physical Examination",
+        "text": "A 3 cm lobulated, bright red, soft, compressible plaque with a bosselated (pebbly) surface is present on the left cheek. It is slightly elevated and warm to touch; no ulceration. No other cutaneous lesions are found on full skin survey. Oral mucosa and conjunctiva are normal.",
+        "image": "images\\derm_0086_p4_clinical.jpg",
+        "accepted": [
+          "Infantile Haemangioma",
+          "Pyogenic Granuloma"
+        ],
+        "reasoning": "The bosselated, lobulated surface with soft compressibility is characteristic of infantile haemangioma. Pyogenic granuloma typically presents as a smooth, glistening, sessile or pedunculated nodule, often with a surrounding collarette of scale, rather than a lobulated plaque. However, a large pyogenic granuloma can mimic an IH at this stage. A capillary vascular malformation (port-wine stain) does not have a raised, compressible, lobulated surface — it presents as a flat macular patch — and is now excluded. The full skin survey finding of no other lesions makes disseminated haemangiomatosis less of a concern."
+      },
+      {
+        "type": "imaging",
+        "label": "Duplex Ultrasound",
+        "text": "Duplex ultrasound of the lesion shows a well-defined, highly vascular soft tissue mass with dense arterial and venous flow on colour Doppler. No calcification or cystic components. No invasion of underlying structures.",
+        "image": null,
+        "accepted": [
+          "Infantile Haemangioma"
+        ],
+        "reasoning": "High-flow vascular signal on Doppler ultrasound is characteristic of infantile haemangioma — a vascular tumour with active angiogenesis and rapid cell proliferation. Pyogenic granuloma has lower flow and a different ultrasound appearance. Vascular malformations are typically low-flow lesions on Doppler, clearly distinguishing them from IH. The combination of clinical and Doppler features narrows the diagnosis to infantile haemangioma."
+      },
+      {
+        "type": "investigation",
+        "label": "Clinical Follow-up and Confirmation",
+        "text": "Over the following three months without active intervention, the lesion begins to lighten in colour centrally, soften in texture, and show early signs of regression. By 12 months, the lesion is visibly smaller and greying. No ulceration or compromise of function has occurred.",
+        "image": null,
+        "accepted": [
+          "Infantile Haemangioma"
+        ],
+        "reasoning": "Spontaneous involution beginning after 6–12 months and continuing over several years is the natural history unique to infantile haemangioma. Neither pyogenic granuloma nor vascular malformations undergo spontaneous involution; pyogenic granulomas persist or grow without treatment, and vascular malformations are static or slowly progressive. The characteristic clinical course — rapid proliferative phase in infancy followed by gradual involution — is pathognomonic of infantile haemangioma and confirms the diagnosis."
+      }
+    ]
+  },
+
+  "case_0087": {
+    "title": "Basal Cell Carcinoma",
+    "finalDiagnosis": "Basal Cell Carcinoma",
+    "snomedCode": "254701007",
+    "systems": ["Dermatology", "Malignant Epidermal"],
+    "prompts": [
+      {
+        "type": "history",
+        "label": "Presenting Complaint",
+        "text": "A 71-year-old man is referred with a slow-growing lesion on his nose that he has been aware of for at least two years.",
+        "image": null,
+        "accepted": [
+          "Basal Cell Carcinoma",
+          "Squamous Cell Carcinoma",
+          "Seborrhoeic Keratosis",
+          "Intradermal Melanocytic Naevus",
+          "Keratoacanthoma"
+        ],
+        "reasoning": "A slowly growing facial lesion in a 71-year-old man warrants consideration of malignant skin tumours including BCC and SCC, as well as benign conditions including seborrhoeic keratosis, intradermal naevus, and keratoacanthoma. The primary discriminatory axis is the location (nose — a high-UV, pilosebaceous-rich area) and the slow chronicity over two years. No morphological detail is yet available."
+      },
+      {
+        "type": "history",
+        "label": "History of Presenting Complaint",
+        "text": "The lesion started as a small translucent bump and has very slowly enlarged; it does not itch and does not bleed spontaneously, but he notices a central area that intermittently crusts and falls off before reforming.",
+        "image": null,
+        "accepted": [
+          "Basal Cell Carcinoma",
+          "Squamous Cell Carcinoma",
+          "Keratoacanthoma",
+          "Seborrhoeic Keratosis"
+        ],
+        "reasoning": "A translucent bump with intermittent central crusting over a two-year period without spontaneous bleeding is most consistent with a slowly growing, locally destructive lesion. BCC and SCC are both primary considerations. Keratoacanthoma typically grows rapidly over weeks to months and then involutes — its two-year course without involution now makes it less likely but not impossible. A seborrhoeic keratosis would not present as initially translucent. Intradermal naevus is now less likely given the progressively changing character and central crusting; it would typically remain stable."
+      },
+      {
+        "type": "history",
+        "label": "Past Medical and Social History",
+        "text": "He is a retired fisherman with over 40 years of outdoor sun exposure. He has fair skin, light-coloured eyes, and has not previously been evaluated for skin lesions. No history of immunosuppression, radiation, or arsenic exposure. No personal or family history of skin cancer.",
+        "image": null,
+        "accepted": [
+          "Basal Cell Carcinoma",
+          "Squamous Cell Carcinoma",
+          "Keratoacanthoma"
+        ],
+        "reasoning": "Decades of cumulative intense solar UV exposure on sun-exposed facial skin is the primary risk factor for both BCC and SCC on the nose, and also for keratoacanthoma. BCC is by far the most common skin cancer in humans and the most common malignancy on sun-exposed facial skin. Without prior actinic keratoses, immunosuppression, or other SCC-specific risk factors, BCC is relatively more probable. Keratoacanthoma's two-year non-involuting course now makes it unlikely but warrants mention. Seborrhoeic keratosis is less consistent with the initial translucent morphology."
+      },
+      {
+        "type": "examination",
+        "label": "Physical Examination",
+        "text": "Examination shows a 1.2 cm translucent, skin-coloured to slightly pinkish papule on the nasal ala, with fine surface telangiectasia and a small central erosion. The borders are smooth. No ulceration. No regional lymphadenopathy.",
+        "image": "images\\derm_0087_p4_clinical.jpg",
+        "accepted": [
+          "Basal Cell Carcinoma",
+          "Squamous Cell Carcinoma",
+          "Keratoacanthoma"
+        ],
+        "reasoning": "Translucency, fine telangiectasia, and a central erosion on the nasal skin of an elderly sun-damaged individual are features most consistent with BCC. SCC typically presents with a hyperkeratotic or indurated surface rather than a translucent appearance, and often shows a more prominent erosion or ulceration. Keratoacanthoma shows a central keratin-filled crater rather than a clean erosion. The absence of lymphadenopathy does not distinguish BCC from SCC at this early stage. Dermoscopy is required to narrow the differential further."
+      },
+      {
+        "type": "imaging",
+        "label": "Dermoscopy",
+        "text": "Dermoscopy reveals arborising telangiectasia (large, tree-like branching vessels), blue-grey ovoid nests, and the absence of any pigment network. No keratin masses, no atypical dotted vessels, and no ulceration crater.",
+        "image": null,
+        "accepted": [
+          "Basal Cell Carcinoma"
+        ],
+        "reasoning": "Arborising telangiectasia and blue-grey ovoid nests are dermoscopic hallmarks of basal cell carcinoma, reflecting the vascular stroma and pigmented basaloid tumour islands respectively. SCC shows atypical dotted or irregular hairpin vessels on dermoscopy rather than arborising vessels. Keratoacanthoma shows central keratin masses on dermoscopy. The absence of any keratin structures and the characteristic BCC vascular pattern narrow the diagnosis to BCC. Biopsy is performed for histological confirmation and surgical planning."
+      },
+      {
+        "type": "investigation",
+        "label": "Histopathological Confirmation",
+        "text": "Punch biopsy shows nests of basaloid cells with darkly staining nuclei arising from and connected to the overlying epidermis, with peripheral nuclear palisading at the tumour island edges and characteristic cleft formation between the tumour nests and surrounding mucinous stroma. Mitotic figures are present. No squamous differentiation and no keratinisation.",
+        "image": "images\\derm_0087_p6_histology.jpg",
+        "accepted": [
+          "Basal Cell Carcinoma"
+        ],
+        "reasoning": "Peripheral nuclear palisading of basaloid cells at the tumour island periphery, combined with stromal cleft formation (retraction artefact between tumour and stroma), is pathognomonic of basal cell carcinoma. The absence of squamous differentiation and keratin pearl formation distinguishes BCC from SCC. Epidermal connection of the tumour nests confirms origin from the follicular infundibulum or basal epidermis. These histological features confirm the diagnosis of BCC."
+      }
+    ]
+  },
+
+  "case_0088": {
+    "title": "Squamous Cell Carcinoma",
+    "finalDiagnosis": "Squamous Cell Carcinoma",
+    "snomedCode": "402815007",
+    "systems": ["Dermatology", "Malignant Epidermal"],
+    "prompts": [
+      {
+        "type": "history",
+        "label": "Presenting Complaint",
+        "text": "A 75-year-old woman is referred with a non-healing ulcerative lesion on her right forearm that has been growing over the past four months.",
+        "image": null,
+        "accepted": [
+          "Squamous Cell Carcinoma",
+          "Basal Cell Carcinoma",
+          "Keratoacanthoma",
+          "Malignant Melanoma (Amelanotic)",
+          "Chronic Venous Ulcer"
+        ],
+        "reasoning": "A non-healing, growing ulcerative lesion on the forearm of a 75-year-old woman raises primary concern for a malignant process. SCC, BCC, amelanotic melanoma, and keratoacanthoma are all plausible. A chronic venous ulcer is also introduced given the patient's age and limb location. The primary discriminatory axis is the ulcerative quality and progressive four-month course."
+      },
+      {
+        "type": "history",
+        "label": "History of Presenting Complaint",
+        "text": "The lesion began as a scaly, crusted plaque and subsequently ulcerated over the past six weeks; the area is intermittently tender. She applied topical moisturiser without improvement. It has never healed since ulceration.",
+        "image": null,
+        "accepted": [
+          "Squamous Cell Carcinoma",
+          "Basal Cell Carcinoma",
+          "Keratoacanthoma"
+        ],
+        "reasoning": "The sequence of scaly/crusted plaque progressing to ulceration is more consistent with SCC — which often arises from a pre-existing actinic keratosis (scaly plaque) and then ulcerates — than BCC (which presents as a translucent nodule) or chronic venous ulcer (which begins as a vascular change). Tenderness is unusual for BCC, which is typically painless. Keratoacanthoma remains possible as it can ulcerate centrally. Amelanotic melanoma typically presents without pruritus or a scaly prodrome. Chronic venous ulcer is now less likely given the absence of varicose changes and the scaly prodrome."
+      },
+      {
+        "type": "history",
+        "label": "Past Medical and Social History",
+        "text": "She had multiple actinic keratoses on both forearms treated with cryotherapy two years ago. She has been on azathioprine immunosuppression for 12 years following a kidney transplant. No prior skin malignancies. She lives in a sunny climate and has significant cumulative sun exposure.",
+        "image": null,
+        "accepted": [
+          "Squamous Cell Carcinoma",
+          "Basal Cell Carcinoma",
+          "Keratoacanthoma"
+        ],
+        "reasoning": "Chronic immunosuppression (particularly azathioprine after organ transplant) markedly increases the risk of cutaneous SCC — transplant recipients have a 65–250-fold elevated SCC risk. A prior history of actinic keratoses on the same site confirms a field of UV-damaged skin that can give rise to SCC. BCC remains on the differential as UV exposure also drives BCC, though BCC is less strongly associated with immunosuppression than SCC. Keratoacanthoma is plausible but is also more common in immunosuppressed patients and may represent a well-differentiated SCC variant in this context."
+      },
+      {
+        "type": "examination",
+        "label": "Physical Examination",
+        "text": "Examination reveals a 2.5 cm indurated, ulcerated nodule with an everted, raised edge and a hyperkeratotic crust on the dorsal right forearm. The surrounding skin shows multiple flat, rough, hyperkeratotic patches. A 1.5 cm firm, non-tender right axillary lymph node is palpable.",
+        "image": "images\\derm_0088_p4_clinical.jpg",
+        "accepted": [
+          "Squamous Cell Carcinoma",
+          "Basal Cell Carcinoma"
+        ],
+        "reasoning": "An everted (raised, irregular) edge on an ulcerated nodule is characteristic of invasive SCC, reflecting tumour growth beyond the ulcer margin. Hyperkeratosis and surrounding actinic damage (rough hyperkeratotic patches = actinic keratoses) are consistent with field cancerisation and SCC. Palpable regional lymphadenopathy is a critical finding — SCC metastasises to regional lymph nodes, whereas BCC very rarely metastasises. While the lymph node could be reactive, this raises the clinical probability of SCC significantly over BCC. Keratoacanthoma does not typically invade regional lymph nodes."
+      },
+      {
+        "type": "investigation",
+        "label": "Fine Needle Aspiration and Primary Lesion Biopsy",
+        "text": "Fine needle aspiration (FNA) of the axillary lymph node reveals metastatic squamous cell carcinoma. A punch biopsy of the primary forearm lesion is taken and sent for histological examination.",
+        "image": null,
+        "accepted": [
+          "Squamous Cell Carcinoma"
+        ],
+        "reasoning": "Metastatic SCC identified on FNA of the ipsilateral axillary lymph node confirms regional spread of a primary cutaneous malignancy from the forearm. SCC is the skin cancer most likely to metastasise via regional lymphatics. This finding definitively excludes BCC (which essentially never metastasises), keratoacanthoma, and benign diagnoses. The diagnosis is SCC, pending histological confirmation from the primary lesion biopsy."
+      },
+      {
+        "type": "investigation",
+        "label": "Histopathological Confirmation",
+        "text": "Biopsy of the primary lesion shows irregular invasive nests and strands of atypical keratinocytes extending into the mid-dermis, with abundant eosinophilic cytoplasm, intercellular bridges, dyskeratotic cells, and whorled keratin pearl formation.",
+        "image": "images\\derm_0088_p6_histology.jpg",
+        "accepted": [
+          "Squamous Cell Carcinoma"
+        ],
+        "reasoning": "The histological hallmarks of SCC are confirmed: atypical keratinocytes with abundant eosinophilic cytoplasm (squamous differentiation), intercellular bridges (desmosomes between keratinocytes), and keratin pearl formation (concentric whorls of keratinising cells). Dermal invasion confirms malignant behaviour. These features are distinct from BCC (which shows basaloid cells with palisading and no keratinisation) and confirm squamous cell carcinoma of the skin with dermal invasion."
+      }
+    ]
+  },
+
+  "case_0089": {
+    "title": "Malignant Melanoma",
+    "finalDiagnosis": "Malignant Melanoma",
+    "snomedCode": "372244006",
+    "systems": ["Dermatology", "Malignant Melanocytic"],
+    "prompts": [
+      {
+        "type": "history",
+        "label": "Presenting Complaint",
+        "text": "A 55-year-old man presents concerned about a pigmented lesion on his upper back that his partner noticed has recently changed.",
+        "image": null,
+        "accepted": [
+          "Malignant Melanoma",
+          "Dysplastic Melanocytic Naevus",
+          "Seborrhoeic Keratosis (Irritated)",
+          "Pigmented Basal Cell Carcinoma",
+          "Dermatofibroma"
+        ],
+        "reasoning": "A changing pigmented lesion on the back is the classic presentation requiring urgent evaluation for malignant melanoma. The differential at this stage is broad: melanoma, dysplastic naevus, irritated seborrhoeic keratosis, pigmented BCC, and dermatofibroma. The discriminatory axis introduced is change in a pre-existing pigmented lesion — this feature alone demands careful evaluation."
+      },
+      {
+        "type": "history",
+        "label": "History of Presenting Complaint",
+        "text": "The lesion has been present for approximately 10 years but over the past six months has developed a new dark area within it and an increasingly irregular outline. There is no bleeding, no ulceration, and no pain.",
+        "image": null,
+        "accepted": [
+          "Malignant Melanoma",
+          "Dysplastic Melanocytic Naevus",
+          "Pigmented Basal Cell Carcinoma"
+        ],
+        "reasoning": "A 10-year stable lesion undergoing recent change in colour (new dark area) and outline (increasing irregularity) over six months represents a clinically significant event requiring evaluation. This change pattern is concerning for malignant transformation within a naevus or de novo melanoma. A dysplastic naevus can also show these changes. Pigmented BCC can enlarge and develop irregular borders but typically does so over a longer period and shows translucent areas. Seborrhoeic keratosis and dermatofibroma do not typically develop internal irregular colour variation; these are now excluded. At least three differentials remain."
+      },
+      {
+        "type": "history",
+        "label": "Past Medical and Social History",
+        "text": "He has fair skin, blue eyes, and burns easily. His GP counted more than 80 melanocytic naevi at a check-up three years ago. His mother had melanoma diagnosed at age 60. He works outdoors and has had several episodes of sunburn in his lifetime.",
+        "image": null,
+        "accepted": [
+          "Malignant Melanoma",
+          "Dysplastic Melanocytic Naevus",
+          "Pigmented Basal Cell Carcinoma"
+        ],
+        "reasoning": "A phenotypically high-risk profile (fair skin, blue eyes, easy burning), more than 80 naevi, a first-degree family history of melanoma, and a history of intermittent intense sun exposure represent a substantial cumulative risk profile for malignant melanoma. Dysplastic naevus syndrome (atypical mole syndrome) with >100 atypical naevi and a family history of melanoma is a recognised risk category. Pigmented BCC is also driven by UV exposure. The family history specifically elevates melanoma risk in a patient who already has many naevi. At least three diagnoses remain plausible."
+      },
+      {
+        "type": "examination",
+        "label": "Physical Examination",
+        "text": "A 1.8 cm asymmetric pigmented lesion with a notched, irregular border and variegated colouration (tan, brown, and dark brown, with a central pale zone) is present on the upper back. No satellite lesions, no ulceration. No regional lymphadenopathy palpated.",
+        "image": "images\\derm_0089_p4_clinical.jpg",
+        "accepted": [
+          "Malignant Melanoma",
+          "Dysplastic Melanocytic Naevus"
+        ],
+        "reasoning": "Asymmetry, irregular border, and variegated colour (multiple shades including a focal pale area suggesting possible regression) are the core clinical features of concern for melanoma. However, a severely dysplastic naevus can share these features. Pigmented BCC typically shows a more uniform dark area or pearlescent border without this degree of colour variegation; it is now less likely. Absence of lymphadenopathy is reassuring but does not exclude melanoma — micrometastatic disease would not be palpable. Dermoscopy is required to discriminate between melanoma and a dysplastic naevus."
+      },
+      {
+        "type": "imaging",
+        "label": "Dermoscopy",
+        "text": "Dermoscopy shows an atypical reticular pigment network that abruptly ends at the lesion periphery, irregular brown streaks radiating from the border, white scar-like areas centrally (regression structures), and a focal blue-white veil.",
+        "image": null,
+        "accepted": [
+          "Malignant Melanoma"
+        ],
+        "reasoning": "Regression structures (white scar-like areas replacing pigment) and a blue-white veil (blue pigmentation over a white ground glass area, corresponding to melanin in the dermis overlying fibrosis) are dermoscopic features specific for melanoma. Irregular radial streaks at the periphery indicate radial growth. An atypical pigment network with abrupt peripheral ending is characteristic of melanoma rather than a dysplastic naevus (which shows a fading, irregular network). Together these features provide sufficient dermoscopic evidence to classify this as melanoma and proceed to excision biopsy."
+      },
+      {
+        "type": "investigation",
+        "label": "Histopathological Confirmation",
+        "text": "Excision biopsy shows atypical melanocytes with prominent nucleoli proliferating as single cells and nests at all levels of the epidermis (pagetoid spread), with invasion into the papillary dermis. Mitotic figures are identified in the dermal component. Breslow depth measured at 1.2 mm.",
+        "image": "images\\derm_0089_p6_histology.jpg",
+        "accepted": [
+          "Malignant Melanoma"
+        ],
+        "reasoning": "Pagetoid spread — atypical melanocytes scattered throughout all epidermal layers, not just the basal layer — is a hallmark of melanoma and is not seen in dysplastic naevi. Dermal invasion with mitotic figures confirms invasive melanoma. The Breslow depth of 1.2 mm (>1 mm, T2 category) is the most important local prognostic factor for primary cutaneous melanoma, guiding surgical margin width and sentinel lymph node biopsy planning. The histological findings confirm malignant melanoma."
+      }
+    ]
+  },
+
+  "case_0090": {
+    "title": "Maculopapular Drug Exanthem",
+    "finalDiagnosis": "Maculopapular Drug Exanthem",
+    "snomedCode": "271807003",
+    "systems": ["Dermatology", "CADR"],
+    "prompts": [
+      {
+        "type": "history",
+        "label": "Presenting Complaint",
+        "text": "A 28-year-old woman develops a widespread rash four days after starting a new course of medication.",
+        "image": null,
+        "accepted": [
+          "Maculopapular Drug Exanthem",
+          "Drug Hypersensitivity Syndrome (DHS/DRESS)",
+          "Acute Generalised Exanthematous Pustulosis (AGEP)",
+          "Urticaria",
+          "Viral Exanthem"
+        ],
+        "reasoning": "A rash temporally associated with a new drug must first be classified as a cutaneous adverse drug reaction, and the type of CADR must then be identified. At four days, the latency is consistent with a re-exposure reaction or early sensitisation. Drug exanthem, AGEP, DHS, and urticaria are all possible CADRs. Viral exanthem is included as a non-drug alternative that must not be prematurely excluded. The discriminatory axis introduced is the temporal relationship to drug initiation."
+      },
+      {
+        "type": "history",
+        "label": "History of Presenting Complaint",
+        "text": "The rash began on the trunk and has spread to the arms and legs over 48 hours; it is mildly itchy but she has no fever, no swelling of the face or lips, no mucosal symptoms, and no joint pain.",
+        "image": null,
+        "accepted": [
+          "Maculopapular Drug Exanthem",
+          "Drug Hypersensitivity Syndrome (DHS/DRESS)",
+          "Urticaria",
+          "Viral Exanthem"
+        ],
+        "reasoning": "The centrifugal spread from the trunk over 48 hours is characteristic of a morbilliform drug exanthem or a viral exanthem. Absence of fever makes DHS/DRESS and AGEP less likely — both characteristically involve fever above 38°C. Absence of facial/lip swelling reduces the likelihood of urticaria with angioedema. Absence of mucosal symptoms reduces SJS/TEN probability. Urticaria is now less likely given the 48-hour spreading morbilliform pattern (urticaria typically shifts and resolves within 24 hours per lesion). AGEP remains in differential if pustules develop. At least four diagnoses remain plausible."
+      },
+      {
+        "type": "history",
+        "label": "Past Medical and Social History",
+        "text": "She was started on amoxicillin-clavulanate four days ago for a dental infection. She has no documented prior drug allergies. She has had no fever, cough, sore throat, or any other illness preceding the rash. No recent travel.",
+        "image": null,
+        "accepted": [
+          "Maculopapular Drug Exanthem",
+          "Urticaria",
+          "Viral Exanthem"
+        ],
+        "reasoning": "Beta-lactam antibiotics (particularly amoxicillin and amoxicillin-clavulanate) are the most common cause of maculopapular drug exanthem, establishing a direct temporal and pharmacological association. Absence of a viral prodrome (fever, cough, sore throat) makes viral exanthem less likely, though not impossible — viral exanthem can occasionally present without prodromal symptoms. Urticaria from beta-lactams is IgE-mediated and typically begins within minutes to hours of exposure, not at four days; this reduces urticaria's probability but it remains in the differential as delayed urticaria is possible. DHS/DRESS is now less likely — it requires a 2–8 week latency, not four days."
+      },
+      {
+        "type": "examination",
+        "label": "Physical Examination",
+        "text": "Temperature 37.1°C, HR 82 bpm, BP 118/74 mmHg. Diffuse, symmetric erythematous macules and papules are present over the trunk, proximal arms, and thighs, sparing the face and palms. All lesions are blanchable on pressure. No pustules, no vesicles or bullae, no mucosal erosions. No lymphadenopathy, no hepatosplenomegaly.",
+        "image": "images\\derm_0090_p4_clinical.jpg",
+        "accepted": [
+          "Maculopapular Drug Exanthem",
+          "Viral Exanthem"
+        ],
+        "reasoning": "Diffuse, symmetric, blanchable erythematous macules and papules (morbilliform pattern) are the morphological hallmark of both maculopapular drug exanthem and viral exanthem — the pattern is essentially identical between the two, explaining why a detailed drug and illness history is critical. Absence of pustules excludes AGEP. Absence of bullae or mucosal erosions excludes SJS/TEN. Absence of lymphadenopathy and hepatosplenomegaly reduces DHS probability further. Urticaria is now excluded — morbilliform macules and papules are not wheals, and the lesions are not transient. Two diagnoses remain: drug exanthem and viral exanthem."
+      },
+      {
+        "type": "investigation",
+        "label": "Blood Tests",
+        "text": "Full blood count: mild eosinophilia at 0.65 × 10⁹/L (reference <0.5). No atypical lymphocytes on blood film. Liver function tests: normal. Renal function: normal.",
+        "image": null,
+        "accepted": [
+          "Maculopapular Drug Exanthem"
+        ],
+        "reasoning": "Mild eosinophilia is a feature of drug hypersensitivity reactions, supporting an immunological drug reaction over a viral exanthem. Absence of atypical lymphocytes makes EBV (a common cause of viral exanthem and also a cause of a rash with amoxicillin use) less likely, though EBV serology would confirm this. Normal liver and renal function exclude systemic organ involvement, effectively ruling out DHS/DRESS (which requires multi-organ involvement). The combination of eosinophilia, normal organ function, drug exposure at four days, and absence of viral prodrome confirms maculopapular drug exanthem."
+      },
+      {
+        "type": "investigation",
+        "label": "Clinical Course and Confirmation",
+        "text": "Amoxicillin-clavulanate is discontinued. The rash fades progressively and clears completely over seven days without specific treatment. No systemic organ involvement develops during follow-up. The temporal relationship — rash onset at day four of drug use, complete resolution within one week of cessation — confirms the diagnosis.",
+        "image": null,
+        "accepted": [
+          "Maculopapular Drug Exanthem"
+        ],
+        "reasoning": "Complete spontaneous resolution of the rash within one week of drug cessation, without specific treatment and without development of systemic organ involvement, is the definitive clinical confirmation of a maculopapular drug exanthem. Drug exanthem is self-limiting upon drug withdrawal. A viral exanthem would also resolve spontaneously, but the temporal association with drug initiation, the mild eosinophilia, and absence of any viral prodrome together confirm drug as the cause. DHS/DRESS is definitively excluded — it does not resolve within one week and requires organ involvement."
+      }
+    ]
+  },
+
+  "case_0091": {
+    "title": "Stevens-Johnson Syndrome",
+    "finalDiagnosis": "Stevens-Johnson Syndrome (SJS)",
+    "snomedCode": "73442001",
+    "systems": ["Dermatology", "CADR — SCAR"],
+    "prompts": [
+      {
+        "type": "history",
+        "label": "Presenting Complaint",
+        "text": "A 35-year-old man is admitted with a widespread painful rash that developed approximately two weeks after starting a new medication.",
+        "image": null,
+        "accepted": [
+          "Stevens-Johnson Syndrome (SJS)",
+          "Toxic Epidermal Necrolysis (TEN)",
+          "Drug Hypersensitivity Syndrome (DHS/DRESS)",
+          "Maculopapular Drug Exanthem",
+          "Erythema Multiforme Major",
+          "Pemphigus Vulgaris"
+        ],
+        "reasoning": "A painful, widespread rash appearing at two weeks after drug initiation and severe enough to require admission introduces a broad differential of serious cutaneous adverse drug reactions and blistering disorders. The two-week latency is consistent with SJS/TEN, DHS, and erythema multiforme. The axis of pain distinguishes this from simple drug exanthem, which is typically mildly pruritic rather than painful. All mucosal and epidermal blistering conditions remain in play."
+      },
+      {
+        "type": "history",
+        "label": "History of Presenting Complaint",
+        "text": "The rash began as dark, painful spots on the trunk and face; over the past two days, he has been unable to eat due to painful sores inside his mouth, and he reports burning eye discomfort. He has had a low-grade fever for the past three days.",
+        "image": null,
+        "accepted": [
+          "Stevens-Johnson Syndrome (SJS)",
+          "Toxic Epidermal Necrolysis (TEN)",
+          "Erythema Multiforme Major",
+          "Drug Hypersensitivity Syndrome (DHS/DRESS)"
+        ],
+        "reasoning": "Mucosal involvement (oral erosions causing inability to eat, conjunctival symptoms) combined with a painful skin eruption and low-grade fever following drug exposure is a pattern of serious concern. SJS/TEN and erythema multiforme major both cause mucosal erosions and skin lesions. DHS may occasionally involve the mucosa but it is not a primary feature. Maculopapular drug exanthem does not cause mucosal involvement and is now excluded. Pemphigus vulgaris remains plausible given mucosal involvement and blistering potential, though its onset would not be drug-related in a 35-year-old man with no prior history. Four diagnoses remain."
+      },
+      {
+        "type": "history",
+        "label": "Past Medical and Social History",
+        "text": "He was started on allopurinol two weeks ago for his first episode of gout; he had never taken it before. He is of Han Chinese ethnicity. No prior history of severe drug reactions. No prior skin conditions, no prior autoimmune disease.",
+        "image": null,
+        "accepted": [
+          "Stevens-Johnson Syndrome (SJS)",
+          "Toxic Epidermal Necrolysis (TEN)",
+          "Drug Hypersensitivity Syndrome (DHS/DRESS)"
+        ],
+        "reasoning": "Allopurinol is one of the most common causes of SJS/TEN worldwide, and the risk is markedly elevated in individuals of Han Chinese ethnicity who carry the HLA-B*58:01 allele. The two-week latency is consistent with the sensitisation period for SJS/TEN and DHS. DHS from allopurinol classically presents at 2–8 weeks. Erythema multiforme major is now less likely — it is more commonly triggered by herpes simplex virus infection than by drugs, particularly in the absence of recurrent herpetic episodes. Three diagnoses remain."
+      },
+      {
+        "type": "examination",
+        "label": "Physical Examination",
+        "text": "Temperature 38.5°C. Dusky, flat, targetoid lesions with a dark centre are distributed on the trunk and proximal extremities. Haemorrhagic crusting of the lips and multiple shallow erosions are present across the buccal mucosa. The skin is exquisitely tender to light touch over the trunk. No frank bullae are visible at this stage.",
+        "image": "images\\derm_0091_p4_clinical.jpg",
+        "accepted": [
+          "Stevens-Johnson Syndrome (SJS)",
+          "Toxic Epidermal Necrolysis (TEN)",
+          "Drug Hypersensitivity Syndrome (DHS/DRESS)"
+        ],
+        "reasoning": "Dusky targetoid lesions with haemorrhagic mucosal crusting and skin tenderness are the early clinical features of epidermal necrosis in the SJS/TEN spectrum. Skin tenderness to light touch suggests early epidermal-dermal separation not yet visible as bullae. DHS does not typically cause mucosal erosions or exquisite skin tenderness; it causes infiltrated oedematous plaques. DHS is now less likely. The clinical picture is most consistent with SJS/TEN. The BSA involvement and presence of epidermal detachment need to be formally assessed in the next step to distinguish SJS from TEN."
+      },
+      {
+        "type": "investigation",
+        "label": "Clinical Assessment and Specialist Review",
+        "text": "Allopurinol is immediately discontinued. Formal assessment finds areas of easily detachable epidermis on the upper trunk and forearms totalling approximately 7% of body surface area. Nikolsky sign is positive on perilesional skin. Ophthalmology confirms bilateral conjunctival erosions. No other organ involvement.",
+        "image": null,
+        "accepted": [
+          "Stevens-Johnson Syndrome (SJS)"
+        ],
+        "reasoning": "Epidermal detachment of 7% BSA places this case firmly within the SJS category (<10% BSA detachment), as opposed to TEN (>30% BSA) or SJS-TEN overlap (10–30% BSA). A positive Nikolsky sign confirms the fragility of the epidermis at the level of the dermo-epidermal junction. Bilateral conjunctival erosions indicate mucosal spread to a second mucosal site, confirming the multi-mucosal involvement typical of SJS. Drug cessation, supportive care, and specialist management are required urgently."
+      },
+      {
+        "type": "investigation",
+        "label": "Histopathological Confirmation",
+        "text": "Skin biopsy from the edge of a tender area shows full-thickness epidermal necrosis with scattered apoptotic keratinocytes throughout all epidermal layers, a sparse superficial dermal lymphocytic infiltrate, and early subepidermal cleft formation. No intraepidermal blister. No eosinophilic infiltrate.",
+        "image": "images\\derm_0091_p6_histology.jpg",
+        "accepted": [
+          "Stevens-Johnson Syndrome (SJS)"
+        ],
+        "reasoning": "Full-thickness epidermal necrosis — death of keratinocytes at all levels of the epidermis — is the histological hallmark of SJS/TEN. Scattered apoptotic keratinocytes reflect the underlying T-cell cytotoxic mechanism (CD8+ lymphocyte-mediated keratinocyte death). The sparse lymphocytic infiltrate distinguishes SJS from pemphigus (which shows acantholysis without full-thickness necrosis) and from DHS (which shows interface dermatitis without full-thickness necrosis). The absence of eosinophilia and intraepidermal blister further confirms the SJS pattern. These histological findings, combined with <10% BSA clinical assessment, confirm Stevens-Johnson Syndrome."
+      }
+    ]
+  },
+
+  "case_0092": {
+    "title": "Acute Generalised Exanthematous Pustulosis",
+    "finalDiagnosis": "Acute Generalised Exanthematous Pustulosis (AGEP)",
+    "snomedCode": "403826006",
+    "systems": ["Dermatology", "CADR — SCAR"],
+    "prompts": [
+      {
+        "type": "history",
+        "label": "Presenting Complaint",
+        "text": "A 45-year-old woman presents to the emergency department with a widespread rash and high fever that began yesterday.",
+        "image": null,
+        "accepted": [
+          "Acute Generalised Exanthematous Pustulosis (AGEP)",
+          "Stevens-Johnson Syndrome (SJS)",
+          "Drug Hypersensitivity Syndrome (DHS/DRESS)",
+          "Generalised Pustular Psoriasis",
+          "Disseminated Folliculitis"
+        ],
+        "reasoning": "An acute-onset widespread rash with high fever presenting to the ED requires rapid assessment. AGEP, SJS/TEN, and DHS are all SCARs (severe cutaneous adverse reactions), while generalised pustular psoriasis and disseminated folliculitis are non-drug-related alternatives. The acute, same-day onset distinguishes this from DHS (weeks-long course). The primary discriminatory axis is the combination of acute onset with both skin and systemic (fever) involvement."
+      },
+      {
+        "type": "history",
+        "label": "History of Presenting Complaint",
+        "text": "The rash started suddenly in the skin folds and has spread to cover most of the body over the past 24 hours; she describes it as hundreds of tiny yellowish spots on a bright red, swollen background. She is febrile at 38.8°C and feels generally unwell.",
+        "image": null,
+        "accepted": [
+          "Acute Generalised Exanthematous Pustulosis (AGEP)",
+          "Generalised Pustular Psoriasis",
+          "Drug Hypersensitivity Syndrome (DHS/DRESS)",
+          "Disseminated Folliculitis"
+        ],
+        "reasoning": "The description of hundreds of tiny yellowish spots (pustules) on erythematous, oedematous skin, starting in skin folds and rapidly spreading, is the characteristic morphological pattern of AGEP. Generalised pustular psoriasis shares this morphology. Disseminated folliculitis typically shows follicular-based pustules rather than non-follicular ones. DHS tends to present with indurated erythematous plaques rather than dense pustular eruptions. SJS presents with targetoid lesions and mucosal erosions rather than tiny pustules. Three to four diagnoses remain highly plausible."
+      },
+      {
+        "type": "history",
+        "label": "Past Medical and Social History",
+        "text": "She started amoxicillin 36 hours ago for a urinary tract infection, the rash appearing approximately 24 hours after the first dose. She had a milder similar-appearing rash several years ago, also following a penicillin prescription. She has no history of psoriasis and no family history of psoriasis or skin conditions.",
+        "image": null,
+        "accepted": [
+          "Acute Generalised Exanthematous Pustulosis (AGEP)",
+          "Generalised Pustular Psoriasis",
+          "Drug Hypersensitivity Syndrome (DHS/DRESS)"
+        ],
+        "reasoning": "A drug-free latency of only 24 hours is characteristic of AGEP on re-challenge — in a previously sensitised individual, the reaction can develop within 1–2 days. A prior similar reaction to penicillin indicates previous sensitisation, making AGEP on re-challenge very plausible. DHS/DRESS requires 2–8 weeks to develop and is now effectively excluded by the 36-hour timeline. Absence of personal and family history of psoriasis significantly reduces generalised pustular psoriasis probability, though it cannot be completely excluded in de novo cases. Three diagnoses remain."
+      },
+      {
+        "type": "examination",
+        "label": "Physical Examination",
+        "text": "Temperature 39.1°C, HR 110 bpm. Diffuse, bright-red oedematous plaques cover the trunk and limbs, studded with hundreds of 1–3 mm non-follicular pustules; the axillae, groin, and sub-mammary folds are most severely affected. No oral erosions, no blisters, no epidermal detachment.",
+        "image": "images\\derm_0092_p4_clinical.jpg",
+        "accepted": [
+          "Acute Generalised Exanthematous Pustulosis (AGEP)",
+          "Generalised Pustular Psoriasis"
+        ],
+        "reasoning": "Non-follicular pustules on oedematous erythema with predilection for intertriginous areas (axillae, groin, submammary folds) is the hallmark examination finding of AGEP. Absence of mucosal erosions and epidermal detachment excludes SJS/TEN. The high fever and acute onset favour AGEP over generalised pustular psoriasis, though the two remain indistinguishable on morphology alone. No psoriatic plaques are present elsewhere. Distinguishing AGEP from pustular psoriasis at this stage requires laboratory assessment and histology."
+      },
+      {
+        "type": "investigation",
+        "label": "Blood Tests and Pustule Analysis",
+        "text": "Full blood count: WBC 21.3 × 10⁹/L with 88% neutrophils. CRP: 74 mg/L. Pustule content: Gram stain — no organisms; culture — no growth after 48 hours. Liver function: normal. Renal function: normal.",
+        "image": null,
+        "accepted": [
+          "Acute Generalised Exanthematous Pustulosis (AGEP)"
+        ],
+        "reasoning": "Sterile pustules (no organisms on Gram stain or culture) with marked neutrophilia confirm a non-infective pustular eruption. AGEP pustules are characteristically sterile, driven by IL-8/CXCL8-mediated neutrophil recruitment. Normal liver and renal function exclude multi-organ involvement, distinguishing this from DHS/DRESS. The combination of sterile pustules, marked neutrophilia, drug trigger with a very short latency, and intertriginous predilection confirms AGEP. Generalised pustular psoriasis is now effectively excluded — it is not associated with a new drug at this latency and would typically show a psoriatic history or background."
+      },
+      {
+        "type": "investigation",
+        "label": "Histopathological Confirmation",
+        "text": "Skin biopsy shows subcorneal and intraepidermal spongiform pustules densely filled with neutrophils, with papillary dermal oedema and a mixed perivascular infiltrate. No psoriasiform epidermal hyperplasia, no acanthosis, and no dilated suprapapillary blood vessels.",
+        "image": "images\\derm_0092_p6_histology.jpg",
+        "accepted": [
+          "Acute Generalised Exanthematous Pustulosis (AGEP)"
+        ],
+        "reasoning": "Subcorneal spongiform pustules on a background of oedematous dermis without psoriasiform epidermal changes is the histological hallmark of AGEP. Psoriasiform acanthosis, regular epidermal thickening, and dilated suprapapillary capillaries would be expected in generalised pustular psoriasis and are absent here. The absence of follicular involvement distinguishes this from infective folliculitis. Together with the clinical, microbiological, and haematological findings, the histology confirms Acute Generalised Exanthematous Pustulosis triggered by amoxicillin."
+      }
+    ]
+  },
+
+  "case_0093": {
+    "title": "Drug Hypersensitivity Syndrome (DRESS)",
+    "finalDiagnosis": "Drug Hypersensitivity Syndrome (DHS/DRESS)",
+    "snomedCode": "702809001",
+    "systems": ["Dermatology", "CADR — SCAR"],
+    "prompts": [
+      {
+        "type": "history",
+        "label": "Presenting Complaint",
+        "text": "A 40-year-old man is admitted with a widespread rash that has been worsening over three weeks alongside increasing fatigue and malaise.",
+        "image": null,
+        "accepted": [
+          "Drug Hypersensitivity Syndrome (DHS/DRESS)",
+          "Maculopapular Drug Exanthem",
+          "Viral Exanthem (EBV/CMV)",
+          "Systemic Lupus Erythematosus",
+          "Stevens-Johnson Syndrome (SJS)"
+        ],
+        "reasoning": "A three-week progressive rash with constitutional symptoms (fatigue, malaise) requiring admission suggests a systemic process rather than a simple localised skin eruption. DHS/DRESS, drug exanthem (if severe), EBV/CMV, and SLE are all associated with rash and systemic involvement. SJS is introduced given the severity that required admission, though a three-week progressive course would be atypical for SJS. The discriminatory axis is systemic involvement alongside skin disease."
+      },
+      {
+        "type": "history",
+        "label": "History of Presenting Complaint",
+        "text": "Over the past week he has noticed swelling around his eyes and enlargement of the lymph nodes in his neck, in addition to the worsening rash. No mucosal sores, no blistering, and no breathlessness. His rash is not pruritic.",
+        "image": null,
+        "accepted": [
+          "Drug Hypersensitivity Syndrome (DHS/DRESS)",
+          "Viral Exanthem (EBV/CMV)",
+          "Systemic Lupus Erythematosus",
+          "Maculopapular Drug Exanthem"
+        ],
+        "reasoning": "Periorbital oedema and cervical lymphadenopathy in the context of a progressive rash and systemic illness are hallmark features of DHS/DRESS. EBV (infectious mononucleosis) also causes cervical lymphadenopathy, rash, and malaise — it must remain in the differential. SLE can produce facial oedema and lymphadenopathy alongside a rash. Absence of mucosal erosions and blistering excludes SJS. A simple maculopapular drug exanthem would not typically cause lymphadenopathy or periorbital oedema and is now less likely. At least four diagnoses remain."
+      },
+      {
+        "type": "history",
+        "label": "Past Medical and Social History",
+        "text": "He was started on carbamazepine five weeks ago for trigeminal neuralgia, his first ever course. He has no documented prior drug reactions and no history of skin disease or autoimmune conditions. He denies recent sore throat, fever prior to the rash, or close contact with anyone who was unwell.",
+        "image": null,
+        "accepted": [
+          "Drug Hypersensitivity Syndrome (DHS/DRESS)",
+          "Viral Exanthem (EBV/CMV)",
+          "Systemic Lupus Erythematosus"
+        ],
+        "reasoning": "Carbamazepine is one of the classic culprit drugs for DHS/DRESS, with a typical latency of 2–8 weeks. The five-week latency is squarely within this window. Absence of prodromal sore throat or fever before the rash makes infectious mononucleosis (EBV) less likely, though it cannot be excluded serologically yet. SLE can present with this constellation but typically has a more insidious onset and requires autoimmune serological markers. Drug exanthem from carbamazepine would typically present at 1–2 weeks without systemic involvement. Three diagnoses remain plausible."
+      },
+      {
+        "type": "examination",
+        "label": "Physical Examination",
+        "text": "Temperature 38.3°C. Generalised erythematous, oedematous, and thickened macules and papules coalescing into plaques on the trunk and proximal limbs, with striking periorbital and facial oedema. Tender cervical and axillary lymphadenopathy. No oral or genital erosions, no bullae, no epidermal detachment.",
+        "image": "images\\derm_0093_p4_clinical.jpg",
+        "accepted": [
+          "Drug Hypersensitivity Syndrome (DHS/DRESS)",
+          "Viral Exanthem (EBV/CMV)"
+        ],
+        "reasoning": "Infiltrated (thickened, oedematous) erythematous plaques with striking periorbital oedema and lymphadenopathy is the characteristic examination pattern of DHS/DRESS. Infiltration distinguishes DHS from a simple drug exanthem (which produces flat macules and papules) and from viral exanthem. EBV can produce a morbilliform rash with lymphadenopathy, and periorbital oedema can occur in severe EBV. Absence of mucosal erosions excludes SJS. SLE typically produces a photodistributed malar rash rather than infiltrated truncal plaques. Two diagnoses remain."
+      },
+      {
+        "type": "investigation",
+        "label": "Blood Tests",
+        "text": "Full blood count: eosinophilia 2.3 × 10⁹/L, atypical lymphocytes seen on blood film. ALT 312 U/L, AST 278 U/L (upper limit of normal: 40 U/L). ANA: negative. EBV IgM and IgG: negative. CMV PCR: negative.",
+        "image": null,
+        "accepted": [
+          "Drug Hypersensitivity Syndrome (DHS/DRESS)"
+        ],
+        "reasoning": "Marked eosinophilia and atypical lymphocytes are characteristic of DHS, reflecting the drug-induced immune dysregulation. Elevated transaminases confirm hepatic involvement, satisfying the multi-organ involvement required for DHS diagnosis. Negative EBV and CMV serology and PCR definitively exclude viral exanthem as the cause. Negative ANA excludes SLE. The combination of carbamazepine at five weeks' latency, eosinophilia, atypical lymphocytes, hepatitis, periorbital oedema, and lymphadenopathy confirms Drug Hypersensitivity Syndrome (DRESS)."
+      },
+      {
+        "type": "investigation",
+        "label": "Clinical Course and Confirmation",
+        "text": "Carbamazepine is immediately discontinued. The patient is started on systemic corticosteroids. The rash, periorbital oedema, and lymphadenopathy gradually improve over four weeks. Repeat liver function tests at six weeks return to normal. The diagnosis is confirmed by the RegiSCAR scoring criteria, which classifies this as a definite case of DRESS.",
+        "image": null,
+        "accepted": [
+          "Drug Hypersensitivity Syndrome (DHS/DRESS)"
+        ],
+        "reasoning": "Gradual resolution of rash, oedema, lymphadenopathy, and hepatitis following drug cessation and immunosuppression over weeks is the characteristic clinical course of DHS/DRESS. The RegiSCAR scoring system (incorporating rash, fever, lymphadenopathy, atypical lymphocytes, eosinophilia, and organ involvement) provides a validated framework for confirming the diagnosis. The 5-week latency, carbamazepine exposure, multi-organ involvement (skin, liver, lymph nodes), and resolution on drug withdrawal fulfil diagnostic criteria for DHS/DRESS."
+      }
+    ]
+  },
+
+  "case_0094": {
+    "title": "Pemphigus Vulgaris",
+    "finalDiagnosis": "Pemphigus Vulgaris",
+    "snomedCode": "26889001",
+    "systems": ["Dermatology", "Autoimmune Bullous Disease"],
+    "prompts": [
+      {
+        "type": "history",
+        "label": "Presenting Complaint",
+        "text": "A 52-year-old woman presents with painful sores in her mouth that have persisted for two months without healing.",
+        "image": null,
+        "accepted": [
+          "Pemphigus Vulgaris",
+          "Mucous Membrane Pemphigoid",
+          "Behçet's Disease",
+          "Recurrent Aphthous Stomatitis",
+          "Oral Candidiasis",
+          "SJS/TEN (Mucosal)"
+        ],
+        "reasoning": "Persistent painful oral ulceration over two months in a middle-aged woman establishes a broad differential of mucosal diseases. Pemphigus vulgaris and mucous membrane pemphigoid are autoimmune blistering diseases with a predilection for mucosa. Behçet's disease causes recurrent oral and genital ulcers. Recurrent aphthous stomatitis is common but typically self-limiting. Oral candidiasis produces white patches rather than erosions. SJS is introduced as a cause of mucosal erosions. The primary discriminatory axis is the chronic, non-healing character of the oral lesions."
+      },
+      {
+        "type": "history",
+        "label": "History of Presenting Complaint",
+        "text": "The oral sores began as painful blisters that ruptured quickly, leaving ragged, slow-healing erosions across the inside of the mouth; eating has become very difficult. Over the past two weeks she has noticed painful, fluid-filled blisters appearing on her chest and upper back.",
+        "image": null,
+        "accepted": [
+          "Pemphigus Vulgaris",
+          "Mucous Membrane Pemphigoid",
+          "Behçet's Disease",
+          "Bullous Pemphigoid"
+        ],
+        "reasoning": "The progression from oral mucosal blistering to cutaneous blistering on the trunk is highly characteristic of pemphigus vulgaris, which typically begins with mucosal disease (often oral) before skin involvement. Blisters that rupture easily (flaccid bullae) leaving ragged erosions suggest intraepidermal blistering. Bullous pemphigoid typically begins with cutaneous tense bullae rather than mucosal blisters and is now in the differential given the cutaneous extension. Mucous membrane pemphigoid predominantly affects mucosa, with skin involvement less prominent. Behçet's disease does not produce cutaneous blisters of this type. SJS typically evolves rapidly over days, not over two weeks to months."
+      },
+      {
+        "type": "history",
+        "label": "Past Medical and Social History",
+        "text": "She is on no medications and has no history of recent drug use. She has no genital sores, no eye symptoms, and no joint pain. She has no prior autoimmune diagnosis, though she has a first-degree relative with autoimmune thyroid disease. She has lost 4 kg due to difficulty eating.",
+        "image": null,
+        "accepted": [
+          "Pemphigus Vulgaris",
+          "Mucous Membrane Pemphigoid",
+          "Bullous Pemphigoid"
+        ],
+        "reasoning": "Absence of medications excludes drug-induced blistering. Absence of genital sores and eye symptoms reduces Behçet's disease probability significantly; Behçet's classically causes oral and genital ulcers, with or without ocular involvement. The family history of autoimmune disease increases the prior probability of any autoimmune blistering disorder. Three autoimmune blistering conditions remain: pemphigus vulgaris (intraepidermal, IgG against desmoglein), mucous membrane pemphigoid (subepidermal, mucosal-dominant), and bullous pemphigoid (subepidermal, cutaneous-dominant in older patients). Weight loss from dysphagia reflects disease severity."
+      },
+      {
+        "type": "examination",
+        "label": "Physical Examination",
+        "text": "Extensive shallow erosions and ragged ulcerations across the buccal mucosa, palate, and tongue. On the chest and back, multiple flaccid, thin-walled vesicles and bullae are present alongside moist erythematous erosions where bullae have already ruptured. Nikolsky sign is positive: gentle lateral pressure on normal-appearing perilesional skin produces epidermal shearing.",
+        "image": "images\\derm_0094_p4_clinical.jpg",
+        "accepted": [
+          "Pemphigus Vulgaris",
+          "Bullous Pemphigoid"
+        ],
+        "reasoning": "Flaccid bullae that rupture easily, leaving moist erosions, indicate intraepidermal blistering — the roof of an intraepidermal blister is only a thin layer of upper epidermis and therefore collapses easily. A positive Nikolsky sign (epidermal shearing with lateral pressure) confirms poor intraepidermal cohesion. Bullous pemphigoid produces tense, intact bullae with a thick roof (full epidermis) and a characteristically negative Nikolsky sign. Mucous membrane pemphigoid is now less probable given the significant cutaneous involvement alongside mucosal disease. Two diagnoses remain: pemphigus vulgaris (most likely given flaccid bullae and oral predominance) versus bullous pemphigoid (which would be atypical in this presentation)."
+      },
+      {
+        "type": "investigation",
+        "label": "Serum Autoantibody Testing",
+        "text": "Serum ELISA: anti-desmoglein 3 (Dsg3) antibodies strongly positive (index value 185, reference <20). Anti-desmoglein 1 (Dsg1) antibodies: negative. Anti-BP180 and anti-BP230 antibodies: both negative.",
+        "image": null,
+        "accepted": [
+          "Pemphigus Vulgaris"
+        ],
+        "reasoning": "Anti-Dsg3 antibodies target desmoglein 3, a desmosomal adhesion molecule predominant in mucosal epithelium, causing the mucosal-predominant pattern of pemphigus vulgaris. The strong positivity confirms the diagnosis. Negative anti-Dsg1 antibodies indicate that the cutaneous epidermis (where Dsg1 predominates) is less involved, consistent with the clinical finding of predominantly oral and relatively modest cutaneous disease. Negative anti-BP180 and anti-BP230 definitively exclude bullous pemphigoid. The combination confirms pemphigus vulgaris, mucosal-predominant subtype."
+      },
+      {
+        "type": "investigation",
+        "label": "Histopathological and Immunofluorescence Confirmation",
+        "text": "Skin biopsy shows suprabasal acantholysis — loss of cohesion between keratinocytes above the basal layer — with a row of intact basal keratinocytes remaining attached to the dermis. Direct immunofluorescence (DIF) of perilesional skin shows IgG deposition in an intercellular (net-like) pattern throughout the epidermis.",
+        "image": "images\\derm_0094_p6_histology.jpg",
+        "accepted": [
+          "Pemphigus Vulgaris"
+        ],
+        "reasoning": "Suprabasal acantholysis — the separation of keratinocytes from one another above the basal layer — is the histological hallmark of pemphigus vulgaris, directly resulting from autoantibody-mediated disruption of desmoglein 3 at desmosomes. The remaining row of basal cells attached to the basement membrane creates the characteristic 'tombstone' appearance. Intercellular IgG on DIF confirms active autoantibody deposition within the epidermis, diagnostic of pemphigus. The combination of suprabasal acantholysis, IgG intercellular DIF, and strongly positive serum anti-Dsg3 confirms Pemphigus Vulgaris."
+      }
+    ]
+  },
+
+  "case_0095": {
+    "title": "Bullous Pemphigoid",
+    "finalDiagnosis": "Bullous Pemphigoid",
+    "snomedCode": "46913001",
+    "systems": ["Dermatology", "Autoimmune Bullous Disease"],
+    "prompts": [
+      {
+        "type": "history",
+        "label": "Presenting Complaint",
+        "text": "An 82-year-old man is referred with a widespread, intensely itchy rash that has been progressively worsening over the past three weeks.",
+        "image": null,
+        "accepted": [
+          "Bullous Pemphigoid",
+          "Pemphigus Vulgaris",
+          "Drug-Induced Blistering Eruption",
+          "Scabies",
+          "Urticaria",
+          "Contact Dermatitis"
+        ],
+        "reasoning": "An intensely pruritic widespread rash in an elderly man encompasses a broad differential including autoimmune blistering disease, scabies (common cause of generalised pruritus in the elderly), urticaria, contact dermatitis, and drug reactions. The primary discriminatory axis is the generalised distribution and intense pruritus over three weeks. Bullous pemphigoid characteristically presents with intense pruritus in older adults, but the differential must be explored systematically."
+      },
+      {
+        "type": "history",
+        "label": "History of Presenting Complaint",
+        "text": "The rash began as intensely itchy, raised red wheals; over the past ten days, large fluid-filled blisters have developed over some of the urticarial areas, mainly on the arms, thighs, and abdomen. He has no mouth sores and no difficulty eating.",
+        "image": null,
+        "accepted": [
+          "Bullous Pemphigoid",
+          "Drug-Induced Blistering Eruption",
+          "Pemphigus Vulgaris",
+          "Linear IgA Bullous Dermatosis"
+        ],
+        "reasoning": "The sequence of urticarial plaques followed by large blister formation is the classical prodromal pattern of bullous pemphigoid. Large blisters developing on urticarial bases suggest subepidermal blistering, which produces tense, thick-roofed bullae. Absence of mucosal involvement significantly reduces the probability of pemphigus vulgaris, which typically begins with or prominently involves oral mucosal erosions. Scabies, urticaria, and contact dermatitis do not produce bullae and are now excluded. Linear IgA bullous dermatosis is introduced as a subepidermal blistering alternative in older patients. Drug-induced blistering remains possible. At least four diagnoses remain."
+      },
+      {
+        "type": "history",
+        "label": "Past Medical and Social History",
+        "text": "He has Parkinson's disease managed with levodopa-carbidopa for seven years, and heart failure managed with furosemide for two years. He has not started any new medications in the preceding four months. No prior history of blistering skin disease or autoimmune conditions.",
+        "image": null,
+        "accepted": [
+          "Bullous Pemphigoid",
+          "Drug-Induced Blistering Eruption",
+          "Pemphigus Vulgaris"
+        ],
+        "reasoning": "Neurological disease (particularly Parkinson's disease, dementia, and stroke) is a well-established risk factor for bullous pemphigoid — the proposed mechanism involves anti-BP180 autoantibodies that cross-react with neuronal isoforms of this antigen. Furosemide is a recognised drug trigger for bullous pemphigoid. No new medications in four months reduces the likelihood of an acute drug-induced reaction but does not eliminate it, as furosemide itself can trigger BP. These associations substantially elevate bullous pemphigoid on the differential. Pemphigus vulgaris remains possible given the age and progressive course. Linear IgA bullous dermatosis is associated with drugs (particularly vancomycin) rather than with neurological disease."
+      },
+      {
+        "type": "examination",
+        "label": "Physical Examination",
+        "text": "Temperature 36.8°C. Large, tense bullae (up to 4 cm) filled with clear fluid arising on erythematous urticarial plaques on the bilateral inner thighs, forearms, and abdomen. The bullae appear thick-walled and intact. No oral, genital, or conjunctival erosions. Nikolsky sign is negative on perilesional normal-appearing skin.",
+        "image": "images\\derm_0095_p4_clinical.jpg",
+        "accepted": [
+          "Bullous Pemphigoid",
+          "Drug-Induced Subepidermal Blistering"
+        ],
+        "reasoning": "Tense, large, thick-walled bullae on urticarial bases reflect subepidermal blister formation — the full thickness of the epidermis forms the blister roof, giving a tense, resistant blister. A negative Nikolsky sign confirms epidermal cohesion is intact (only the basement membrane zone has been disrupted). This pattern directly contrasts with pemphigus vulgaris (flaccid bullae, positive Nikolsky). Absence of mucosal involvement confirms pemphigus vulgaris is now very unlikely. Two diagnoses remain: bullous pemphigoid and drug-induced subepidermal blistering (given the furosemide history)."
+      },
+      {
+        "type": "investigation",
+        "label": "Serum Autoantibody Testing",
+        "text": "Serum ELISA: anti-BP180 antibodies strongly positive (index value 230, reference <9); anti-BP230 antibodies positive. Anti-desmoglein 3 and anti-desmoglein 1: both negative.",
+        "image": null,
+        "accepted": [
+          "Bullous Pemphigoid"
+        ],
+        "reasoning": "Anti-BP180 (anti-collagen XVII) and anti-BP230 are the defining autoantibodies of bullous pemphigoid, targeting the hemidesmosomal adhesion complex at the basement membrane zone. Their strong positivity confirms an autoimmune subepidermal blistering disease of the bullous pemphigoid type. Negative anti-Dsg3 and anti-Dsg1 definitively exclude pemphigus vulgaris. Drug-induced subepidermal blistering would not typically produce a strongly positive anti-BP180 ELISA. The autoantibody profile confirms the diagnosis of bullous pemphigoid."
+      },
+      {
+        "type": "investigation",
+        "label": "Histopathological and Immunofluorescence Confirmation",
+        "text": "Skin biopsy shows a subepidermal blister — the epidermis is separated from the dermis at the level of the basement membrane — with a blister cavity rich in eosinophils and a dermal infiltrate of eosinophils and lymphocytes. Direct immunofluorescence of perilesional skin shows linear deposition of IgG and C3 along the basement membrane zone.",
+        "image": "images\\derm_0095_p6_histology.jpg",
+        "accepted": [
+          "Bullous Pemphigoid"
+        ],
+        "reasoning": "Subepidermal blistering with eosinophil-rich infiltrate reflects damage at the level of the hemidesmosome-basement membrane complex by IgG autoantibodies activating complement and eosinophil-mediated destruction. Linear IgG and C3 deposition along the basement membrane zone on DIF is the immunopathological hallmark of bullous pemphigoid, produced by IgG binding to BP180/BP230 at the dermal-epidermal junction. This pattern differs from the intercellular IgG seen in pemphigus. The histological and DIF findings, together with strongly positive serum anti-BP180 and anti-BP230, confirm the diagnosis of Bullous Pemphigoid."
+      }
+    ]
+  },
+
+  "case_0096": {
+    "title": "Discoid Lupus Erythematosus",
+    "finalDiagnosis": "Discoid Lupus Erythematosus (DLE)",
+    "snomedCode": "201306008",
+    "systems": ["Dermatology", "Autoimmune"],
+    "prompts": [
+      {
+        "type": "history",
+        "label": "Presenting Complaint",
+        "text": "A 34-year-old woman presents with persistent scaly patches on her face and scalp that have been slowly worsening over six months.",
+        "image": null,
+        "accepted": [
+          "Discoid Lupus Erythematosus (DLE)",
+          "Psoriasis",
+          "Seborrhoeic Dermatitis",
+          "Tinea Capitis",
+          "Lichen Planopilaris",
+          "Sarcoidosis"
+        ],
+        "reasoning": "Persistent scaly patches on the face and scalp in a young woman establishes a differential across inflammatory, infective, and autoimmune conditions. DLE, psoriasis, seborrhoeic dermatitis, tinea capitis, lichen planopilaris, and sarcoidosis are all plausible. The primary discriminatory axis is the facial and scalp distribution of a chronic, scaling eruption in a young adult female."
+      },
+      {
+        "type": "history",
+        "label": "History of Presenting Complaint",
+        "text": "The patches are red with adherent, rough scale, and the areas on her scalp have progressively lost hair — she can see her scalp through the affected areas. The facial lesions become noticeably more inflamed after sun exposure.",
+        "image": null,
+        "accepted": [
+          "Discoid Lupus Erythematosus (DLE)",
+          "Lichen Planopilaris",
+          "Psoriasis",
+          "Tinea Capitis"
+        ],
+        "reasoning": "Progressive hair loss within the affected scalp patches suggests scarring alopecia — permanent destruction of hair follicles by the inflammatory process. DLE and lichen planopilaris are the primary causes of scarring alopecia. Psoriasis causes alopecia but it is non-scarring and typically reversible. Tinea capitis can cause hair loss but is more common in children and associated with scaling and broken hair shafts. Photosensitivity (worsening with sun exposure) favours DLE — ultraviolet light is a key trigger of DLE. Seborrhoeic dermatitis does not cause alopecia or photosensitivity and is now excluded. Sarcoidosis is now less likely without systemic features. Four diagnoses remain."
+      },
+      {
+        "type": "history",
+        "label": "Past Medical and Social History",
+        "text": "She has no joint pain, no mouth sores, no systemic symptoms, and no history of kidney problems. She has no family history of autoimmune disease and is not on any medications. She has normal energy levels and no fevers.",
+        "image": null,
+        "accepted": [
+          "Discoid Lupus Erythematosus (DLE)",
+          "Lichen Planopilaris",
+          "Psoriasis"
+        ],
+        "reasoning": "Absence of systemic symptoms — arthritis, oral ulcers, renal disease, fatigue, or serositis — makes systemic lupus erythematosus (SLE) with cutaneous involvement less likely and is consistent with purely cutaneous, localised DLE. DLE is most often a localised skin disease without systemic involvement, affecting primarily the head and neck. Absence of medications excludes drug-induced lichenoid reactions (which can mimic lichen planopilaris). Tinea capitis is now effectively excluded — no history consistent with fungal infection in an adult. Three diagnoses remain."
+      },
+      {
+        "type": "examination",
+        "label": "Physical Examination",
+        "text": "Well-defined, erythematous, hyperpigmented plaques with adherent scale and follicular plugging are present on both cheeks and the bridge of the nose. Within the scalp, patchy areas of permanent-appearing alopecia with follicular plugging at the lesion edges and central scarring with depigmentation are seen.",
+        "image": "images\\derm_0096_p4_clinical.jpg",
+        "accepted": [
+          "Discoid Lupus Erythematosus (DLE)",
+          "Lichen Planopilaris"
+        ],
+        "reasoning": "Follicular plugging — keratin debris plugging individual hair follicles and visible as small spicules on the surface — in the context of scarring alopecia and facial plaques is highly characteristic of DLE. Lichen planopilaris also produces scarring alopecia with follicular inflammation and shares some features. Psoriasis does not produce follicular plugging or scarring alopecia on the face and is now excluded. The combination of facial plaques with hyperpigmentation, follicular plugging, and scalp scarring alopecia narrows the differential to DLE versus lichen planopilaris. Histology is required to differentiate."
+      },
+      {
+        "type": "investigation",
+        "label": "Blood Tests",
+        "text": "ANA: positive at 1:80 titre, speckled pattern. Anti-dsDNA antibody: negative. Complement levels (C3, C4): normal. Full blood count: normal. Urinalysis: no proteinuria, no casts.",
+        "image": null,
+        "accepted": [
+          "Discoid Lupus Erythematosus (DLE)",
+          "Lichen Planopilaris"
+        ],
+        "reasoning": "A low-titre ANA is found in up to 30% of patients with DLE and does not indicate systemic lupus — it is a non-specific finding. Negative anti-dsDNA, normal complement levels, normal CBC, and normal urinalysis confirm the absence of systemic lupus erythematosus. This profile excludes SLE but does not distinguish DLE from lichen planopilaris, since lichen planopilaris is typically ANA-negative. Skin biopsy is required for definitive histological and immunofluorescence differentiation."
+      },
+      {
+        "type": "investigation",
+        "label": "Histopathological and Immunofluorescence Confirmation",
+        "text": "Skin biopsy from the active edge of a facial plaque shows hyperkeratosis with follicular plugging, basal layer vacuolar degeneration (interface dermatitis), a thickened basement membrane zone, and dense perivascular and periappendageal lymphocytic infiltrates extending into the deep dermis. Direct immunofluorescence shows granular deposits of IgG and IgM at the dermo-epidermal junction.",
+        "image": "images\\derm_0096_p6_histology.jpg",
+        "accepted": [
+          "Discoid Lupus Erythematosus (DLE)"
+        ],
+        "reasoning": "The histological triad of DLE — hyperkeratosis with follicular plugging, interface dermatitis at the basement membrane, and deep perivascular/periappendageal lymphocytic infiltrates — confirms discoid lupus erythematosus. Lichen planopilaris shows a lichenoid lymphocytic infiltrate around the upper hair follicle with a band-like pattern and typically prominent colloid bodies, but lacks follicular plugging and deep perivascular infiltrates. Direct immunofluorescence showing granular IgG and IgM at the DEJ ('lupus band') is a characteristic finding in DLE and is not seen in lichen planopilaris. These findings confirm the diagnosis of Discoid Lupus Erythematosus."
       }
     ]
   }
