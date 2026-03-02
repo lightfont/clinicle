@@ -1,7 +1,7 @@
 {
   "case_0001": {
-    "title": "Ischaemic Stroke — Thrombotic",
-    "finalDiagnosis": "Ischaemic Stroke — Thrombotic",
+    "title": "Ischaemic Stroke \u2014 Thrombotic",
+    "finalDiagnosis": "Ischaemic Stroke \u2014 Thrombotic",
     "snomedCode": "422504002",
     "systems": [
       "Neurology",
@@ -11,31 +11,31 @@
       {
         "type": "history",
         "label": "Presenting Complaint",
-        "text": "A 68-year-old male is brought to ED by ambulance with sudden onset right-sided weakness affecting his arm and leg, and difficulty speaking, that began approximately 90 minutes ago while sitting at rest.",
+        "text": "A 68-year-old man is brought to ED by ambulance with sudden-onset right-sided weakness affecting his arm and leg that began approximately 90 minutes ago.",
         "image": null,
         "accepted": [
-          "Ischaemic Stroke — Thrombotic",
-          "Ischaemic Stroke — Embolic",
+          "Ischaemic Stroke \u2014 Thrombotic",
+          "Ischaemic Stroke \u2014 Embolic",
           "Hypertensive Intracerebral Haemorrhage",
           "Todd's Palsy",
           "Hypoglycaemia",
           "Brain Tumour"
         ],
-        "reasoning": "Sudden-onset focal neurological deficits (hemiparesis, speech disturbance) in an older adult mandate urgent stroke assessment. Both ischaemic and haemorrhagic stroke must be considered, as must stroke mimics including hypoglycaemia, Todd's paresis after a seizure, and less likely structural lesions. The differential at this stage is broad and cannot be narrowed without further information."
+        "reasoning": "Sudden-onset unilateral limb weakness requires urgent exclusion of stroke (ischaemic or haemorrhagic), Todd's palsy (post-ictal paresis after an unwitnessed seizure), hypoglycaemia (mimics focal stroke), and brain tumour (subacute onset can occasionally appear sudden). The single axis introduced is acute focal motor deficit; onset mode and associated features are not yet established."
       },
       {
         "type": "history",
         "label": "History of Presenting Complaint",
-        "text": "The deficit came on over seconds and has remained stable since onset. There is no headache, no vomiting, no loss of consciousness, and no preceding seizure activity. He was well immediately before the onset with no preceding warning symptoms.",
+        "text": "The deficit came on over seconds and has remained stable; he also has difficulty speaking but is not confused. There is no headache, no vomiting, no loss of consciousness, and no preceding aura or seizure activity.",
         "image": null,
         "accepted": [
-          "Ischaemic Stroke — Thrombotic",
-          "Ischaemic Stroke — Embolic",
+          "Ischaemic Stroke \u2014 Thrombotic",
+          "Ischaemic Stroke \u2014 Embolic",
           "Hypertensive Intracerebral Haemorrhage",
           "Todd's Palsy",
           "Hypoglycaemia"
         ],
-        "reasoning": "Absence of headache and vomiting makes haemorrhagic stroke somewhat less likely but does not exclude it — haemorrhagic stroke can present without these features. Absence of preceding seizure reduces the likelihood of Todd's paresis. The static nature of the deficit argues against a progressive structural lesion, but all vascular stroke types remain in play. Brain tumour becomes less likely with the acute onset."
+        "reasoning": "Absence of headache and vomiting makes haemorrhagic stroke somewhat less likely but does not exclude it \u2014 haemorrhagic stroke can present without these features. Absence of preceding seizure reduces the likelihood of Todd's paresis. The static nature of the deficit argues against a progressive structural lesion, but all vascular stroke types remain in play. Brain tumour becomes less likely with the acute onset."
       },
       {
         "type": "history",
@@ -43,23 +43,23 @@
         "text": "He has known hypertension, type 2 diabetes, and hypercholesterolaemia, all managed for over a decade. He smokes 20 cigarettes per day. There is no history of atrial fibrillation and no current anticoagulation. He takes amlodipine, metformin, and atorvastatin.",
         "image": null,
         "accepted": [
-          "Ischaemic Stroke — Thrombotic",
-          "Ischaemic Stroke — Embolic",
+          "Ischaemic Stroke \u2014 Thrombotic",
+          "Ischaemic Stroke \u2014 Embolic",
           "Hypertensive Intracerebral Haemorrhage"
         ],
-        "reasoning": "A heavy vascular risk factor burden — hypertension, diabetes, dyslipidaemia, and smoking — significantly raises the probability of cerebrovascular disease of either ischaemic or haemorrhagic type. Hypertension is a risk factor for both. Absence of AF lowers but does not eliminate the probability of cardioembolic stroke. Todd's paresis and hypoglycaemia become less clinically probable given the vascular history, but imaging and a blood glucose are still required. Brain tumour is now unlikely."
+        "reasoning": "A heavy vascular risk factor burden \u2014 hypertension, diabetes, dyslipidaemia, and smoking \u2014 significantly raises the probability of cerebrovascular disease of either ischaemic or haemorrhagic type. Hypertension is a risk factor for both. Absence of AF lowers but does not eliminate the probability of cardioembolic stroke. Todd's paresis and hypoglycaemia become less clinically probable given the vascular history, but imaging and a blood glucose are still required. Brain tumour is now unlikely."
       },
       {
         "type": "examination",
         "label": "Physical Examination",
-        "text": "BP 178/96 mmHg, HR 84 bpm regular, temperature 36.8°C. Blood glucose 5.6 mmol/L. GCS 14/15. Right upper and lower limb weakness (arm 2/5, leg 3/5). Dysarthria without aphasia. Right plantar response upgoing. No facial asymmetry. No neck stiffness.",
+        "text": "BP 178/96 mmHg, HR 84 bpm regular, temperature 36.8\u00b0C. Blood glucose 5.6 mmol/L. GCS 14/15. Right upper and lower limb weakness (arm 2/5, leg 3/5). Dysarthria without aphasia. Right plantar response upgoing. No facial asymmetry. No neck stiffness.",
         "image": null,
         "accepted": [
-          "Ischaemic Stroke — Thrombotic",
-          "Ischaemic Stroke — Embolic",
+          "Ischaemic Stroke \u2014 Thrombotic",
+          "Ischaemic Stroke \u2014 Embolic",
           "Hypertensive Intracerebral Haemorrhage"
         ],
-        "reasoning": "Normal blood glucose excludes hypoglycaemia as a mimic. Regular cardiac rhythm does not eliminate embolic aetiology but is less consistent with AF-related embolism. The UMN pattern of weakness without cortical signs (no aphasia, no visual field defect) could be consistent with a deep or cortical lesion. Haemorrhagic and ischaemic stroke both remain plausible — CT imaging is required to differentiate. Todd's paresis is now effectively excluded by normal glucose and absence of seizure history."
+        "reasoning": "Normal blood glucose excludes hypoglycaemia as a mimic. Regular cardiac rhythm does not eliminate embolic aetiology but is less consistent with AF-related embolism. The UMN pattern of weakness without cortical signs (no aphasia, no visual field defect) could be consistent with a deep or cortical lesion. Haemorrhagic and ischaemic stroke both remain plausible \u2014 CT imaging is required to differentiate. Todd's paresis is now effectively excluded by normal glucose and absence of seizure history."
       },
       {
         "type": "imaging",
@@ -67,10 +67,10 @@
         "text": "CT head (non-contrast): no intraparenchymal haemorrhage, no subarachnoid blood. Subtle loss of grey-white differentiation in the left basal ganglia region. No midline shift. No mass lesion identified.",
         "image": null,
         "accepted": [
-          "Ischaemic Stroke — Thrombotic",
-          "Ischaemic Stroke — Embolic"
+          "Ischaemic Stroke \u2014 Thrombotic",
+          "Ischaemic Stroke \u2014 Embolic"
         ],
-        "reasoning": "Absence of haemorrhage on CT excludes haemorrhagic stroke. The subtle early ischaemic change in the left hemisphere is consistent with an evolving infarct. Both thrombotic and embolic ischaemic stroke remain possible — the mechanism cannot be determined from CT alone. CT angiography and cardiac workup are required to identify the source."
+        "reasoning": "Absence of haemorrhage on CT excludes haemorrhagic stroke. The subtle early ischaemic change in the left hemisphere is consistent with an evolving infarct. Both thrombotic and embolic ischaemic stroke remain possible \u2014 the mechanism cannot be determined from CT alone. CT angiography and cardiac workup are required to identify the source."
       },
       {
         "type": "investigation",
@@ -78,7 +78,7 @@
         "text": "CT angiography of neck vessels: severe (85%) stenosis at the left internal carotid artery bifurcation due to calcified atherosclerotic plaque. No intraluminal filling defect consistent with thrombus at a cardiac source. 12-lead ECG: sinus rhythm. 48-hour cardiac monitoring: no paroxysmal AF detected. Fasting LDL: 4.4 mmol/L.",
         "image": null,
         "accepted": [
-          "Ischaemic Stroke — Thrombotic"
+          "Ischaemic Stroke \u2014 Thrombotic"
         ],
         "reasoning": "Severe ipsilateral carotid stenosis from calcified atherosclerotic plaque, in the absence of AF or cardiac thrombus on monitoring and echocardiography, confirms a thrombotic (large-vessel atherosclerotic) mechanism. Plaque rupture at the carotid bifurcation with local thrombosis and distal embolisation to the MCA territory is the underlying pathophysiology. Elevated LDL reinforces the atherogenic basis. Embolic stroke from a cardiac source is now excluded."
       }
@@ -86,8 +86,8 @@
   },
 
   "case_0002": {
-    "title": "Ischaemic Stroke — Embolic",
-    "finalDiagnosis": "Ischaemic Stroke — Embolic",
+    "title": "Ischaemic Stroke \u2014 Embolic",
+    "finalDiagnosis": "Ischaemic Stroke \u2014 Embolic",
     "snomedCode": "75543006",
     "systems": [
       "Neurology",
@@ -97,26 +97,26 @@
       {
         "type": "history",
         "label": "Presenting Complaint",
-        "text": "A 74-year-old female is brought to ED with sudden onset of left arm weakness and difficulty understanding what people are saying to her, lasting approximately 2 hours. Onset was at rest.",
+        "text": "A 74-year-old woman is brought to ED with sudden-onset left arm weakness that began approximately 2 hours ago.",
         "image": null,
         "accepted": [
-          "Ischaemic Stroke — Embolic",
-          "Ischaemic Stroke — Thrombotic",
+          "Ischaemic Stroke \u2014 Embolic",
+          "Ischaemic Stroke \u2014 Thrombotic",
           "Hypertensive Intracerebral Haemorrhage",
           "Hypoglycaemia",
           "Todd's Palsy",
           "Brain Tumour"
         ],
-        "reasoning": "Sudden focal neurological deficit in an older adult requires urgent stroke assessment. Weakness and receptive speech disturbance suggest right hemisphere involvement. Both ischaemic and haemorrhagic stroke, as well as stroke mimics such as hypoglycaemia and Todd's paresis, remain in the differential at this stage."
+        "reasoning": "Sudden-onset unilateral arm weakness in an elderly woman requires urgent evaluation for ischaemic stroke (thrombotic or embolic), haemorrhagic stroke, Todd's palsy, hypoglycaemia, and structural brain lesion. The single axis is acute onset focal upper limb motor deficit. Language, onset mode, and risk factor history are not yet established."
       },
       {
         "type": "history",
         "label": "History of Presenting Complaint",
-        "text": "The deficit developed over seconds and has not fluctuated. She has no headache and no vomiting. Her family recalls two brief episodes over the past month in which she transiently had difficulty speaking, each lasting about 15 to 20 minutes before fully resolving.",
+        "text": "She also has difficulty understanding speech; the deficit came on over seconds and has not fluctuated, with no headache and no vomiting. Her family recalls two brief episodes over the past month in which she transiently had difficulty speaking, each lasting 15 to 20 minutes before fully resolving.",
         "image": null,
         "accepted": [
-          "Ischaemic Stroke — Embolic",
-          "Ischaemic Stroke — Thrombotic",
+          "Ischaemic Stroke \u2014 Embolic",
+          "Ischaemic Stroke \u2014 Thrombotic",
           "Hypertensive Intracerebral Haemorrhage"
         ],
         "reasoning": "Prior transient episodes of focal deficit in the same territory raise concern for recurrent vascular events from a proximal source, but do not yet distinguish thrombotic from embolic ischaemia or exclude haemorrhagic stroke. Absence of headache is a minor point against haemorrhage but does not exclude it. Hypoglycaemia and Todd's paresis remain less likely given the pattern of recurrent events."
@@ -127,23 +127,23 @@
         "text": "She has hypertension treated with amlodipine and takes aspirin 100mg daily. She does not have diabetes or a known history of atrial fibrillation. She is a lifelong non-smoker and reports no prior cardiac events or cardiac investigations.",
         "image": null,
         "accepted": [
-          "Ischaemic Stroke — Embolic",
-          "Ischaemic Stroke — Thrombotic",
+          "Ischaemic Stroke \u2014 Embolic",
+          "Ischaemic Stroke \u2014 Thrombotic",
           "Hypertensive Intracerebral Haemorrhage"
         ],
-        "reasoning": "Hypertension is a risk factor for both ischaemic and haemorrhagic stroke as well as large-vessel atherosclerosis. The absence of documented AF does not exclude it — AF is frequently paroxysmal and may be undetected. Aspirin monotherapy provides insufficient protection against cardioembolic events if AF is present. All three leading diagnoses remain viable pending examination and imaging."
+        "reasoning": "Hypertension is a risk factor for both ischaemic and haemorrhagic stroke as well as large-vessel atherosclerosis. The absence of documented AF does not exclude it \u2014 AF is frequently paroxysmal and may be undetected. Aspirin monotherapy provides insufficient protection against cardioembolic events if AF is present. All three leading diagnoses remain viable pending examination and imaging."
       },
       {
         "type": "examination",
         "label": "Physical Examination",
-        "text": "BP 162/88 mmHg, HR 92 bpm irregular rhythm, temperature 37.0°C. Blood glucose 6.1 mmol/L. GCS 13/15. Left arm power 1/5, left leg 3/5. Receptive dysphasia — unable to follow commands. No facial droop. No papilloedema.",
+        "text": "BP 162/88 mmHg, HR 92 bpm irregular rhythm, temperature 37.0\u00b0C. Blood glucose 6.1 mmol/L. GCS 13/15. Left arm power 1/5, left leg 3/5. Receptive dysphasia \u2014 unable to follow commands. No facial droop. No papilloedema.",
         "image": null,
         "accepted": [
-          "Ischaemic Stroke — Embolic",
-          "Ischaemic Stroke — Thrombotic",
+          "Ischaemic Stroke \u2014 Embolic",
+          "Ischaemic Stroke \u2014 Thrombotic",
           "Hypertensive Intracerebral Haemorrhage"
         ],
-        "reasoning": "Normal blood glucose excludes hypoglycaemia. Irregular pulse raises suspicion for atrial fibrillation, which would increase the probability of a cardioembolic mechanism — but this must be confirmed with an ECG and is not yet diagnostic. Cortical signs (receptive dysphasia) suggest involvement of the posterior superior temporal cortex. Haemorrhagic and both ischaemic subtypes remain possible pending imaging."
+        "reasoning": "Normal blood glucose excludes hypoglycaemia. Irregular pulse raises suspicion for atrial fibrillation, which would increase the probability of a cardioembolic mechanism \u2014 but this must be confirmed with an ECG and is not yet diagnostic. Cortical signs (receptive dysphasia) suggest involvement of the posterior superior temporal cortex. Haemorrhagic and both ischaemic subtypes remain possible pending imaging."
       },
       {
         "type": "imaging",
@@ -151,18 +151,18 @@
         "text": "CT head (non-contrast): no haemorrhage. Subtle hypodensity in the right posterior temporal region. MRI DWI: wedge-shaped cortical restricted diffusion in the right posterior MCA territory distribution, consistent with an acute cortical infarct.",
         "image": null,
         "accepted": [
-          "Ischaemic Stroke — Embolic",
-          "Ischaemic Stroke — Thrombotic"
+          "Ischaemic Stroke \u2014 Embolic",
+          "Ischaemic Stroke \u2014 Thrombotic"
         ],
-        "reasoning": "Absence of haemorrhage excludes haemorrhagic stroke. Wedge-shaped cortical infarction in a vascular territory is more consistent with an embolic mechanism — emboli tend to lodge at distal cortical branch points — but large-vessel thrombosis with distal propagation can also cause cortical infarcts. The source of embolism must now be established with cardiac workup and vascular imaging."
+        "reasoning": "Absence of haemorrhage excludes haemorrhagic stroke. Wedge-shaped cortical infarction in a vascular territory is more consistent with an embolic mechanism \u2014 emboli tend to lodge at distal cortical branch points \u2014 but large-vessel thrombosis with distal propagation can also cause cortical infarcts. The source of embolism must now be established with cardiac workup and vascular imaging."
       },
       {
         "type": "investigation",
         "label": "Cardiac Investigation & Source Identification",
-        "text": "12-lead ECG: atrial fibrillation confirmed. Transoesophageal echocardiogram: spontaneous echo contrast in the left atrial appendage with a 1.1cm mobile thrombus. Carotid Doppler: no significant stenosis bilaterally. CHA₂DS₂-VASc score: 5.",
+        "text": "12-lead ECG: atrial fibrillation confirmed. Transoesophageal echocardiogram: spontaneous echo contrast in the left atrial appendage with a 1.1cm mobile thrombus. Carotid Doppler: no significant stenosis bilaterally. CHA\u2082DS\u2082-VASc score: 5.",
         "image": null,
         "accepted": [
-          "Ischaemic Stroke — Embolic"
+          "Ischaemic Stroke \u2014 Embolic"
         ],
         "reasoning": "Confirmed atrial fibrillation with a left atrial appendage thrombus on TOE establishes the cardioembolic source. Absence of significant carotid stenosis excludes large-vessel thrombotic disease as the mechanism. The cortical wedge-shaped infarct pattern, irregular rhythm, and now-confirmed LAA thrombus collectively confirm embolic stroke from AF. Anticoagulation is the definitive secondary prevention strategy."
       }
@@ -181,30 +181,30 @@
       {
         "type": "history",
         "label": "Presenting Complaint",
-        "text": "A 65-year-old male attends ED reporting that approximately 3 hours ago he developed sudden inability to move his right arm and slurred speech, lasting around 15 minutes. His symptoms have now fully resolved.",
+        "text": "A 65-year-old man attends ED reporting that approximately 3 hours ago he developed sudden inability to move his right arm and slurred speech, lasting around 15 minutes.",
         "image": null,
         "accepted": [
           "Transient Ischaemic Attack (TIA)",
-          "Ischaemic Stroke — Thrombotic",
-          "Ischaemic Stroke — Embolic",
+          "Ischaemic Stroke \u2014 Thrombotic",
+          "Ischaemic Stroke \u2014 Embolic",
           "Todd's Palsy",
           "Migraine with Motor Aura",
           "Hypoglycaemia"
         ],
-        "reasoning": "A fully resolved focal neurological deficit demands urgent assessment. Although symptoms have resolved, an acute ischaemic stroke with early reperfusion, TIA, Todd's paresis after a brief seizure, hemiplegic migraine, and hypoglycaemia all remain in the differential at this stage. This is a time-sensitive situation with high short-term stroke risk."
+        "reasoning": "An acute episode of focal neurological symptoms lasting minutes in a 65-year-old encompasses TIA, minor ischaemic stroke (symptoms may have resolved by presentation), Todd's palsy (post-ictal weakness after an unwitnessed seizure), migraine with motor aura, and hypoglycaemia. The episode may still be evolving or may have resolved \u2014 this is not yet established. Complete resolution at presentation versus persistent deficit will be a critical discriminating axis."
       },
       {
         "type": "history",
         "label": "History of Presenting Complaint",
-        "text": "The symptoms peaked within 1 minute and resolved completely within 15 minutes. There was no loss of consciousness, no tongue biting, no post-ictal drowsiness, and no preceding or accompanying headache. A neighbour witnessed the episode and confirms no jerking movements.",
+        "text": "His symptoms have now completely resolved and he feels back to his normal baseline. The episode peaked within 1 minute and resolved within 15 minutes; there was no loss of consciousness, no tongue biting, no post-ictal drowsiness, and no preceding or accompanying headache, and a neighbour who witnessed it confirms no jerking movements.",
         "image": null,
         "accepted": [
           "Transient Ischaemic Attack (TIA)",
-          "Ischaemic Stroke — Thrombotic",
-          "Ischaemic Stroke — Embolic",
+          "Ischaemic Stroke \u2014 Thrombotic",
+          "Ischaemic Stroke \u2014 Embolic",
           "Migraine with Motor Aura"
         ],
-        "reasoning": "Absence of post-ictal confusion, tongue biting, and witnessed convulsive activity makes Todd's paresis unlikely. Absence of headache reduces the probability of hemiplegic migraine, which typically accompanies or follows headache. A vascular event — either TIA or very early stroke with spontaneous reperfusion — remains the most likely category. Hypoglycaemia remains possible but no glucose has been checked yet."
+        "reasoning": "Absence of post-ictal confusion, tongue biting, and witnessed convulsive activity makes Todd's paresis unlikely. Absence of headache reduces the probability of hemiplegic migraine, which typically accompanies or follows headache. A vascular event \u2014 either TIA or very early stroke with spontaneous reperfusion \u2014 remains the most likely category. Hypoglycaemia remains possible but no glucose has been checked yet."
       },
       {
         "type": "history",
@@ -213,10 +213,10 @@
         "image": null,
         "accepted": [
           "Transient Ischaemic Attack (TIA)",
-          "Ischaemic Stroke — Thrombotic",
-          "Ischaemic Stroke — Embolic"
+          "Ischaemic Stroke \u2014 Thrombotic",
+          "Ischaemic Stroke \u2014 Embolic"
         ],
-        "reasoning": "Significant vascular risk factor burden — hypertension, diabetes, dyslipidaemia, prior MI, and smoking — substantially raises the probability of a vascular event. Prior MI raises the possibility of a mural thrombus as a cardioembolic source. Migraine with motor aura is now less plausible given the vascular history and age. A vascular TIA or minor stroke is the leading hypothesis, with the specific mechanism yet to be determined."
+        "reasoning": "Significant vascular risk factor burden \u2014 hypertension, diabetes, dyslipidaemia, prior MI, and smoking \u2014 substantially raises the probability of a vascular event. Prior MI raises the possibility of a mural thrombus as a cardioembolic source. Migraine with motor aura is now less plausible given the vascular history and age. A vascular TIA or minor stroke is the leading hypothesis, with the specific mechanism yet to be determined."
       },
       {
         "type": "examination",
@@ -225,10 +225,10 @@
         "image": null,
         "accepted": [
           "Transient Ischaemic Attack (TIA)",
-          "Ischaemic Stroke — Embolic",
-          "Ischaemic Stroke — Thrombotic"
+          "Ischaemic Stroke \u2014 Embolic",
+          "Ischaemic Stroke \u2014 Thrombotic"
         ],
-        "reasoning": "Normal neurological examination with complete resolution is consistent with TIA or early resolved stroke. Normal blood glucose excludes hypoglycaemia. Regular rhythm is noted but does not exclude paroxysmal AF. The completely normal examination does not distinguish between the three remaining vascular diagnoses — imaging and cardiac workup are required. The ABCD² score is high, indicating significant short-term stroke risk."
+        "reasoning": "Normal neurological examination with complete resolution is consistent with TIA or early resolved stroke. Normal blood glucose excludes hypoglycaemia. Regular rhythm is noted but does not exclude paroxysmal AF. The completely normal examination does not distinguish between the three remaining vascular diagnoses \u2014 imaging and cardiac workup are required. The ABCD\u00b2 score is high, indicating significant short-term stroke risk."
       },
       {
         "type": "imaging",
@@ -237,7 +237,7 @@
         "image": null,
         "accepted": [
           "Transient Ischaemic Attack (TIA)",
-          "Ischaemic Stroke — Thrombotic"
+          "Ischaemic Stroke \u2014 Thrombotic"
         ],
         "reasoning": "A small DWI-positive lesion confirms ischaemia as the mechanism, excluding non-ischaemic mimics. The clinical syndrome resolved within 24 hours, satisfying the modern definition of TIA even with a small DWI lesion. Ipsilateral carotid stenosis with an unstable mixed plaque is a high-risk embolic source and the most likely mechanism. Cardioembolic source remains possible and must be excluded."
       },
@@ -249,7 +249,7 @@
         "accepted": [
           "Transient Ischaemic Attack (TIA)"
         ],
-        "reasoning": "Absence of AF, intracardiac thrombus, and PFO on monitoring and echocardiography excludes a cardioembolic mechanism. The culprit is the ipsilateral symptomatic carotid stenosis with an unstable plaque — consistent with thromboembolism from the carotid bifurcation causing a brief cortical ischaemic event. Symptoms resolved within 24 hours with a small DWI lesion, confirming TIA. Carotid endarterectomy within 2 weeks is indicated for symptomatic stenosis >50%."
+        "reasoning": "Absence of AF, intracardiac thrombus, and PFO on monitoring and echocardiography excludes a cardioembolic mechanism. The culprit is the ipsilateral symptomatic carotid stenosis with an unstable plaque \u2014 consistent with thromboembolism from the carotid bifurcation causing a brief cortical ischaemic event. Symptoms resolved within 24 hours with a small DWI lesion, confirming TIA. Carotid endarterectomy within 2 weeks is indicated for symptomatic stenosis >50%."
       }
     ]
   },
@@ -266,7 +266,7 @@
       {
         "type": "history",
         "label": "Presenting Complaint",
-        "text": "A 55-year-old male is admitted to ICU following return of spontaneous circulation (ROSC) after an out-of-hospital cardiac arrest. Bystander CPR was started within 3 minutes and ROSC was achieved after 18 minutes of resuscitation.",
+        "text": "A 55-year-old man is admitted to the ICU in an unresponsive state following successful resuscitation from an out-of-hospital cardiac arrest, with bystander CPR initiated within 3 minutes and return of spontaneous circulation after 18 minutes.",
         "image": null,
         "accepted": [
           "Global Cerebral Ischaemia / Watershed Infarct",
@@ -275,7 +275,7 @@
           "Basilar Artery Occlusion",
           "Status Epilepticus"
         ],
-        "reasoning": "Cardiac arrest with prolonged downtime places the entire brain at risk of global ischaemia. The primary concern is the extent and reversibility of brain injury. Both global ischaemia from the arrest and focal events that may have precipitated the arrest — including basilar artery occlusion or brainstem stroke — must be considered. Status epilepticus can also present with post-ictal coma and requires exclusion."
+        "reasoning": "Persistent unresponsiveness following cardiac arrest resuscitation requires systematic evaluation of the neurological cause and extent of brain injury. Hypoxic-ischaemic encephalopathy (global cerebral ischaemia) is the leading concern, but other causes of the cardiac arrest (brainstem stroke, basilar artery occlusion) may independently account for the neurological state. Status epilepticus (including non-convulsive) must also be excluded. The duration of arrest (18 minutes) and quality of CPR are key prognostic inputs."
       },
       {
         "type": "history",
@@ -303,7 +303,7 @@
       {
         "type": "examination",
         "label": "Physical Examination (Post-ROSC, Day 1)",
-        "text": "GCS 6 (E1V1M4) on standardised assessment off sedation. Pupils 4mm bilaterally, sluggishly reactive to light. No spontaneous eye movements. Decorticate posturing to painful stimuli. Generalised myoclonic jerks occurring every few minutes. Temperature 36.2°C on targeted temperature management protocol at 34°C.",
+        "text": "GCS 6 (E1V1M4) on standardised assessment off sedation. Pupils 4mm bilaterally, sluggishly reactive to light. No spontaneous eye movements. Decorticate posturing to painful stimuli. Generalised myoclonic jerks occurring every few minutes. Temperature 36.2\u00b0C on targeted temperature management protocol at 34\u00b0C.",
         "image": null,
         "accepted": [
           "Global Cerebral Ischaemia / Watershed Infarct",
@@ -314,7 +314,7 @@
       {
         "type": "investigation",
         "label": "Biomarkers, EEG & Coronary Workup",
-        "text": "Neuron-specific enolase (NSE) at 48 hours: 89 µg/L (markedly elevated; >60 µg/L associated with poor neurological outcome). Continuous EEG: burst-suppression pattern with superimposed generalised myoclonic status. Coronary angiography: proximal LAD occlusion — treated with primary PCI.",
+        "text": "Neuron-specific enolase (NSE) at 48 hours: 89 \u00b5g/L (markedly elevated; >60 \u00b5g/L associated with poor neurological outcome). Continuous EEG: burst-suppression pattern with superimposed generalised myoclonic status. Coronary angiography: proximal LAD occlusion \u2014 treated with primary PCI.",
         "image": null,
         "accepted": [
           "Global Cerebral Ischaemia / Watershed Infarct"
@@ -329,7 +329,7 @@
         "accepted": [
           "Global Cerebral Ischaemia / Watershed Infarct"
         ],
-        "reasoning": "Bilateral symmetric watershed zone infarcts are the imaging hallmark of global cerebral ischaemia — the boundary zones between major arterial territories are most vulnerable when perfusion pressure falls globally. Cortical ribboning on FLAIR reflects laminar necrosis from selective neuronal vulnerability. Hippocampal involvement reflects the particular susceptibility of CA1 neurons. This pattern is diagnostic of global cerebral ischaemia and watershed infarction, confirming the final diagnosis."
+        "reasoning": "Bilateral symmetric watershed zone infarcts are the imaging hallmark of global cerebral ischaemia \u2014 the boundary zones between major arterial territories are most vulnerable when perfusion pressure falls globally. Cortical ribboning on FLAIR reflects laminar necrosis from selective neuronal vulnerability. Hippocampal involvement reflects the particular susceptibility of CA1 neurons. This pattern is diagnostic of global cerebral ischaemia and watershed infarction, confirming the final diagnosis."
       }
     ]
   },
@@ -346,16 +346,16 @@
       {
         "type": "history",
         "label": "Presenting Complaint",
-        "text": "A 61-year-old male presents to ED with sudden onset of right arm and leg weakness that began 6 hours ago and has remained stable. He reports no other symptoms.",
+        "text": "A 61-year-old man presents to ED with sudden-onset right arm and leg weakness that began 6 hours ago and has remained stable.",
         "image": null,
         "accepted": [
           "Lacunar Infarct",
-          "Ischaemic Stroke — Thrombotic",
-          "Ischaemic Stroke — Embolic",
+          "Ischaemic Stroke \u2014 Thrombotic",
+          "Ischaemic Stroke \u2014 Embolic",
           "Hypertensive Intracerebral Haemorrhage",
           "Hypoglycaemia"
         ],
-        "reasoning": "Sudden focal motor deficit in an older adult requires urgent stroke assessment. Ischaemic and haemorrhagic stroke are the priority diagnoses to exclude. Hypoglycaemia can mimic a focal stroke syndrome. The distribution (arm and leg) and absence of other reported symptoms are noted but cannot yet narrow the differential without further history and examination."
+        "reasoning": "Sudden-onset stable unilateral limb weakness requires immediate evaluation for stroke (ischaemic or haemorrhagic), lacunar infarct, Todd's palsy, and hypoglycaemia. Stability of deficits over 6 hours suggests ischaemia rather than haemorrhage (which typically progresses), but this is not discriminating alone. Associated features \u2014 facial involvement, speech, sensory symptoms, headache \u2014 will be the next discriminating axis."
       },
       {
         "type": "history",
@@ -364,11 +364,11 @@
         "image": null,
         "accepted": [
           "Lacunar Infarct",
-          "Ischaemic Stroke — Thrombotic",
-          "Ischaemic Stroke — Embolic",
+          "Ischaemic Stroke \u2014 Thrombotic",
+          "Ischaemic Stroke \u2014 Embolic",
           "Hypertensive Intracerebral Haemorrhage"
         ],
-        "reasoning": "Pure motor hemiparesis of the arm and leg without facial involvement, speech disturbance, or sensory loss constitutes a clinically recognised lacunar syndrome pattern. However, the absence of cortical signs does not exclude large-vessel ischaemic stroke or a deep hypertensive haemorrhage at this stage — both can occasionally produce predominantly motor deficits. Imaging and examination are required before narrowing the differential further."
+        "reasoning": "Pure motor hemiparesis of the arm and leg without facial involvement, speech disturbance, or sensory loss constitutes a clinically recognised lacunar syndrome pattern. However, the absence of cortical signs does not exclude large-vessel ischaemic stroke or a deep hypertensive haemorrhage at this stage \u2014 both can occasionally produce predominantly motor deficits. Imaging and examination are required before narrowing the differential further."
       },
       {
         "type": "history",
@@ -377,7 +377,7 @@
         "image": null,
         "accepted": [
           "Lacunar Infarct",
-          "Ischaemic Stroke — Thrombotic",
+          "Ischaemic Stroke \u2014 Thrombotic",
           "Hypertensive Intracerebral Haemorrhage"
         ],
         "reasoning": "Poorly controlled hypertension and diabetes are the principal risk factors for both cerebral small vessel disease (lacunar infarcts) and hypertensive intracerebral haemorrhage. The absence of AF lowers the probability of cardioembolic stroke. Large-vessel ischaemic stroke remains possible, but the pure motor syndrome without cortical features and the risk factor profile are more consistent with small vessel disease. Haemorrhagic stroke must still be excluded with imaging."
@@ -389,20 +389,20 @@
         "image": null,
         "accepted": [
           "Lacunar Infarct",
-          "Ischaemic Stroke — Thrombotic",
+          "Ischaemic Stroke \u2014 Thrombotic",
           "Hypertensive Intracerebral Haemorrhage"
         ],
-        "reasoning": "Normal blood glucose excludes hypoglycaemia. The examination confirms a pure motor hemiparesis with no cortical signs whatsoever — no aphasia, no neglect, no visual field defect, and no hemisensory loss. This is consistent with a lacunar syndrome from a lesion in the posterior limb of the internal capsule or corona radiata. Hypertensive haemorrhage in a deep location and large-vessel ischaemia must still be excluded by imaging — both remain plausible."
+        "reasoning": "Normal blood glucose excludes hypoglycaemia. The examination confirms a pure motor hemiparesis with no cortical signs whatsoever \u2014 no aphasia, no neglect, no visual field defect, and no hemisensory loss. This is consistent with a lacunar syndrome from a lesion in the posterior limb of the internal capsule or corona radiata. Hypertensive haemorrhage in a deep location and large-vessel ischaemia must still be excluded by imaging \u2014 both remain plausible."
       },
       {
         "type": "imaging",
         "label": "CT Head & MRI Brain",
-        "text": "CT head: no haemorrhage. No discrete hypodense lesion identified acutely. Moderate periventricular white matter change. MRI DWI: 12mm area of restricted diffusion in the posterior limb of the left internal capsule, consistent with an acute lacunar infarct. FLAIR: multiple small chronic lacunae (3–12mm) in the basal ganglia and centrum semiovale.",
+        "text": "CT head: no haemorrhage. No discrete hypodense lesion identified acutely. Moderate periventricular white matter change. MRI DWI: 12mm area of restricted diffusion in the posterior limb of the left internal capsule, consistent with an acute lacunar infarct. FLAIR: multiple small chronic lacunae (3\u201312mm) in the basal ganglia and centrum semiovale.",
         "image": null,
         "accepted": [
           "Lacunar Infarct"
         ],
-        "reasoning": "CT excludes haemorrhage. MRI DWI demonstrates a small acute infarct in the posterior limb of the internal capsule — the precise location of the corticospinal tract fibres subserving arm and leg, explaining the pure motor hemiparesis without cortical involvement. Multiple chronic lacunae on FLAIR confirm established cerebral small vessel disease. The pattern is diagnostic of a lacunar infarct from small vessel disease."
+        "reasoning": "CT excludes haemorrhage. MRI DWI demonstrates a small acute infarct in the posterior limb of the internal capsule \u2014 the precise location of the corticospinal tract fibres subserving arm and leg, explaining the pure motor hemiparesis without cortical involvement. Multiple chronic lacunae on FLAIR confirm established cerebral small vessel disease. The pattern is diagnostic of a lacunar infarct from small vessel disease."
       },
       {
         "type": "investigation",
@@ -429,7 +429,7 @@
       {
         "type": "history",
         "label": "Presenting Complaint",
-        "text": "A 42-year-old female is brought to ED by her husband with a severe generalised headache, confusion, and two witnessed seizures over the past 4 hours. Her husband also reports she has had blurred vision since yesterday.",
+        "text": "A 42-year-old woman is brought to ED by her husband after developing a severe generalised headache and progressive confusion over the past 4 hours.",
         "image": null,
         "accepted": [
           "Hypertensive Encephalopathy",
@@ -439,12 +439,12 @@
           "Eclampsia",
           "Hypertensive Intracerebral Haemorrhage"
         ],
-        "reasoning": "Headache, confusion, seizures, and visual disturbance constitute an acute encephalopathic presentation requiring urgent evaluation. The broad differential at this stage includes SAH, CNS infection (meningitis, encephalitis), hypertensive emergency with neurological complications, eclampsia in a woman of childbearing age, and haemorrhagic stroke. All must be urgently considered."
+        "reasoning": "Acute severe headache with progressive confusion (encephalopathy) in a middle-aged woman is a neurological emergency. The combined axis of acute headache with encephalopathy requires urgent exclusion of subarachnoid haemorrhage, bacterial meningitis and encephalitis (infective encephalopathy), eclampsia (in women of reproductive age), hypertensive encephalopathy, and hypertensive intracerebral haemorrhage. Six plausible diagnoses remain."
       },
       {
         "type": "history",
         "label": "History of Presenting Complaint",
-        "text": "The headache has developed over several hours — it was not of sudden thunderclap onset. There is no fever. She is not pregnant and does not use the oral contraceptive pill. No recent travel, no sick contacts, no photophobia or neck stiffness reported at home. Bilateral blurred vision has been progressively worsening over 24 hours.",
+        "text": "Her husband reports she has had two generalised seizures in the past 2 hours; she is not pregnant and does not use hormonal contraception. There is no fever, no neck stiffness or photophobia reported at home, and no recent travel or sick contacts; however, she has had worsening bilateral blurred vision since yesterday.",
         "image": null,
         "accepted": [
           "Hypertensive Encephalopathy",
@@ -453,7 +453,7 @@
           "Encephalitis",
           "Hypertensive Intracerebral Haemorrhage"
         ],
-        "reasoning": "Non-thunderclap onset of headache makes SAH less likely but does not exclude it — SAH can present with progressive headache in a minority of cases. Absence of fever reduces the probability of CNS infection but does not exclude it. Negative pregnancy test reported verbally by husband excludes eclampsia as a formal diagnosis. The progressive bilateral visual disturbance suggests a posterior cerebral process but is not yet diagnostic."
+        "reasoning": "Eclampsia is excluded by confirmed absence of pregnancy. Two seizures add to the severity of the encephalopathic picture. No fever and no meningism at home reduce the probability of bacterial meningitis and encephalitis, but these cannot be excluded without examination and CSF analysis. Bilateral progressive visual blurring suggests either papilloedema from raised ICP (consistent with hypertensive encephalopathy, ICH, or SAH) or cortical visual pathway involvement. The headache onset character (not thunderclap) has not yet been established \u2014 this will be the key next discriminating axis."
       },
       {
         "type": "history",
@@ -470,7 +470,7 @@
       {
         "type": "examination",
         "label": "Physical Examination",
-        "text": "BP 238/148 mmHg bilaterally. HR 96 bpm, temperature 37.0°C. GCS 12/15. No focal neurological deficits. No meningism. Fundoscopy: bilateral papilloedema with flame-shaped retinal haemorrhages. Urine dipstick: 3+ proteinuria.",
+        "text": "BP 238/148 mmHg bilaterally. HR 96 bpm, temperature 37.0\u00b0C. GCS 12/15. No focal neurological deficits. No meningism. Fundoscopy: bilateral papilloedema with flame-shaped retinal haemorrhages. Urine dipstick: 3+ proteinuria.",
         "image": null,
         "accepted": [
           "Hypertensive Encephalopathy",
@@ -481,7 +481,7 @@
       {
         "type": "investigation",
         "label": "Blood Tests & CT Head",
-        "text": "Pregnancy test: negative. FBC: normal platelets. Coagulation: normal. Creatinine 162 µmol/L (elevated), LDH mildly elevated. CT head (non-contrast): no haemorrhage, no infarct, no mass lesion. No subarachnoid blood.",
+        "text": "Pregnancy test: negative. FBC: normal platelets. Coagulation: normal. Creatinine 162 \u00b5mol/L (elevated), LDH mildly elevated. CT head (non-contrast): no haemorrhage, no infarct, no mass lesion. No subarachnoid blood.",
         "image": null,
         "accepted": [
           "Hypertensive Encephalopathy"
@@ -496,7 +496,7 @@
         "accepted": [
           "Hypertensive Encephalopathy"
         ],
-        "reasoning": "Bilateral posterior parieto-occipital vasogenic oedema on FLAIR — the radiological manifestation of PRES — confirms hypertensive encephalopathy. The reversibility on repeat imaging after BP control is the diagnostic hallmark: vasogenic oedema from failed cerebral autoregulation resolves when perfusion pressure normalises. This distinguishes hypertensive encephalopathy with PRES from completed infarction or haemorrhagic injury."
+        "reasoning": "Bilateral posterior parieto-occipital vasogenic oedema on FLAIR \u2014 the radiological manifestation of PRES \u2014 confirms hypertensive encephalopathy. The reversibility on repeat imaging after BP control is the diagnostic hallmark: vasogenic oedema from failed cerebral autoregulation resolves when perfusion pressure normalises. This distinguishes hypertensive encephalopathy with PRES from completed infarction or haemorrhagic injury."
       }
     ]
   },
@@ -541,43 +541,45 @@
       {
         "type": "history",
         "label": "Past Medical & Social History",
-        "text": "Longstanding hypertension, type 2 diabetes, and hypercholesterolaemia. Current smoker. A right hemisphere ischaemic stroke was documented 18 months ago, correlating with the first step of decline. He has atrial fibrillation diagnosed 2 years ago and is on warfarin, though his INR has frequently been subtherapeutic.",
+        "text": "He has longstanding hypertension, type 2 diabetes, and hypercholesterolaemia, and has been a heavy smoker for 30 years; atrial fibrillation was diagnosed 2 years ago and he is on warfarin, though his INR has frequently been subtherapeutic on recent checks.",
+        "image": null,
+        "accepted": [
+          "Multi-infarct Dementia (Vascular Dementia)",
+          "Alzheimer Disease",
+          "Lewy Body Dementia"
+        ],
+        "reasoning": "A heavy burden of vascular risk factors (hypertension, diabetes, dyslipidaemia, smoking) combined with atrial fibrillation and subtherapeutic anticoagulation substantially increases the probability of a cerebrovascular aetiology for his dementia. However, vascular risk factors also co-exist with Alzheimer disease (and accelerate it). Lewy Body Dementia remains in the differential \u2014 cognitive fluctuation is a core feature of LBD and could superficially resemble the step-wise course already noted, though the gait change and emotional lability are not specific to LBD. Normal Pressure Hydrocephalus becomes less likely \u2014 NPH classically shows the triad of dementia, gait apraxia, and urinary incontinence without a step-wise course. Three diagnoses remain."
+      },
+      {
+        "type": "examination",
+        "label": "Physical Examination & Cognitive Testing",
+        "text": "MMSE 21/30; MoCA 17/30 with predominant deficits in attention, processing speed, and executive function, with episodic memory relatively preserved compared to these domains; broad-based gait with short shuffling steps; bilateral brisk deep tendon reflexes; plantar responses downgoing bilaterally; no parkinsonism, no visual hallucinations elicited during the consultation.",
         "image": null,
         "accepted": [
           "Multi-infarct Dementia (Vascular Dementia)",
           "Alzheimer Disease"
         ],
-        "reasoning": "A documented ischaemic stroke precisely coinciding with the first cognitive step strongly supports vascular dementia. Multiple vascular risk factors and poorly controlled AF with subtherapeutic anticoagulation explain ongoing cerebrovascular events. However, Alzheimer disease frequently co-exists with cerebrovascular disease, and a mixed dementia remains possible. NPH becomes less likely given the clear vascular history. Lewy body dementia and frontotemporal dementia are now less probable."
-      },
-      {
-        "type": "examination",
-        "label": "Physical Examination & Cognitive Testing",
-        "text": "MMSE 21/30. MoCA 17/30 with predominant deficits in executive function, attention, and processing speed; orientation and episodic memory are relatively preserved. Broad-based gait with short shuffling steps. Bilateral brisk deep tendon reflexes and bilateral upgoing plantar responses. Emotional lability observed during the consultation.",
-        "image": null,
-        "accepted": [
-          "Multi-infarct Dementia (Vascular Dementia)"
-        ],
-        "reasoning": "The neuropsychological profile of executive dysfunction with relatively preserved episodic memory is more characteristic of vascular dementia from frontal-subcortical circuit disruption than of Alzheimer disease, which preferentially affects episodic memory first. Bilateral UMN signs (bilateral upgoing plantars, brisk reflexes) indicate bilateral hemisphere damage from multiple infarcts. Pseudobulbar affect from bilateral corticobulbar involvement is consistent with multi-infarct dementia. Alzheimer disease alone would not explain the bilateral UMN signs."
+        "reasoning": "The cognitive profile \u2014 predominant deficits in attention, processing speed, and executive function with relatively preserved episodic memory \u2014 is characteristic of a subcortical dementia pattern (white matter/small vessel disease), as opposed to the cortical memory- dominant profile of early Alzheimer disease. However, Alzheimer disease with prominent executive dysfunction cannot be excluded on clinical grounds alone, especially in more advanced disease. Absence of parkinsonism (rest tremor, rigidity, bradykinesia) and no visual hallucinations effectively excludes Lewy Body Dementia. Downgoing plantars do not confirm or exclude either remaining diagnosis. MRI brain is the critical next investigation."
       },
       {
         "type": "investigation",
         "label": "Laboratory Workup",
-        "text": "FBC, TFTs, B12, folate, CRP, LFTs: all within normal limits. HbA1c 8.8%, LDL 3.6 mmol/L. INR 1.6 (subtherapeutic). Carotid ultrasound: bilateral plaques, 50% stenosis on the right. ECG: atrial fibrillation confirmed.",
+        "text": "FBC, TFTs, B12, folate, CRP, LFTs, glucose, and HbA1c all within normal limits or reflecting known metabolic conditions; MRI brain: an established right MCA territory cortical infarct and multiple subcortical lacunar infarcts in the basal ganglia bilaterally; extensive periventricular and deep white matter T2/FLAIR hyperintensities (Fazekas grade 3); moderate generalised cortical atrophy without disproportionate hippocampal volume loss.",
         "image": null,
         "accepted": [
           "Multi-infarct Dementia (Vascular Dementia)"
         ],
-        "reasoning": "Normal metabolic screen excludes reversible causes of cognitive decline (hypothyroidism, B12 deficiency, etc.). Persistently uncontrolled vascular risk factors (HbA1c, LDL) and confirmed AF with subtherapeutic anticoagulation confirm ongoing cerebrovascular disease risk. These findings support a primary vascular aetiology. Neuroimaging is now required for confirmation."
+        "reasoning": "Normal bloods exclude reversible causes of dementia (hypothyroidism, B12 deficiency, metabolic encephalopathy). MRI brain demonstrates the pathological substrate of multi-infarct dementia: an established cortical infarct (consistent with the first step-wise decline 18 months ago) and multiple subcortical lacunar infarcts (small vessel disease from hypertension and diabetes) with severe leukoaraiosis (Fazekas grade 3). Disproportionate hippocampal atrophy \u2014 the hallmark imaging finding of Alzheimer disease \u2014 is absent. The combination of cortical infarct, lacunae, and white matter disease confirms multi-infarct vascular dementia. Alzheimer disease is effectively excluded by the imaging. The step-wise decline correlates with discrete ischaemic events."
       },
       {
         "type": "imaging",
         "label": "MRI Brain",
-        "text": "MRI brain: established right MCA territory infarct (corresponding to the stroke 18 months ago) and multiple subcortical lacunar infarcts in the basal ganglia bilaterally. Extensive periventricular and deep white matter T2/FLAIR hyperintensities (Fazekas grade 3). Moderate generalised cortical atrophy without disproportionate hippocampal loss.",
+        "text": "Carotid ultrasound: bilateral plaques with 50% right internal carotid artery stenosis. ECG confirms atrial fibrillation. INR 1.6 (subtherapeutic). LDL 3.6 mmol/L. Hachinski ischaemic score 10/18 (>7 strongly favours vascular dementia); anticoagulation optimised; statin therapy intensified; secondary stroke prevention plan established.",
         "image": null,
         "accepted": [
           "Multi-infarct Dementia (Vascular Dementia)"
         ],
-        "reasoning": "Multiple cortical and lacunar infarcts in both hemispheres together with extensive leukoaraiosis on MRI confirm the morphological substrate of multi-infarct vascular dementia. The established right MCA infarct correlating with the first cognitive step, combined with multiple lacunar infarcts, establishes cumulative ischaemic damage as the cause of cognitive decline. Absence of disproportionate hippocampal atrophy makes Alzheimer disease as the sole diagnosis less likely. The imaging pattern confirms the clinical diagnosis."
+        "reasoning": "Carotid atherosclerosis and confirmed AF with subtherapeutic anticoagulation provide the vascular mechanisms for both large vessel (cardioembolic via AF) and small vessel (hypertensive lipohyalinosis) cerebral infarction. The Hachinski Ischaemic Score (HIS) differentiates vascular dementia from Alzheimer disease based on clinical features: abrupt onset, step-wise progression, history of hypertension and stroke, focal neurological signs, and emotional lability score \u22657, strongly supporting vascular dementia. Management is secondary stroke prevention \u2014 optimise vascular risk factors, anticoagulation for AF, statin therapy, blood pressure control. No disease-modifying therapy exists; acetylcholinesterase inhibitors have limited evidence in VaD."
       }
     ]
   },
@@ -594,28 +596,28 @@
       {
         "type": "history",
         "label": "Presenting Complaint",
-        "text": "A 58-year-old male is brought to ED by paramedics after sudden collapse at work. Witnesses report he complained of a severe headache before falling. He has left-sided weakness and his level of consciousness has been declining over the past 30 minutes.",
+        "text": "A 58-year-old man is brought to ED by paramedics after sudden collapse at work with left-sided weakness and declining consciousness over the past 30 minutes.",
         "image": null,
         "accepted": [
           "Hypertensive Intracerebral Haemorrhage",
-          "Ischaemic Stroke — Thrombotic",
-          "Ischaemic Stroke — Embolic",
+          "Ischaemic Stroke \u2014 Thrombotic",
+          "Ischaemic Stroke \u2014 Embolic",
           "Subarachnoid Haemorrhage",
           "Cerebral Venous Sinus Thrombosis"
         ],
-        "reasoning": "Sudden-onset focal neurological deficit with headache and declining consciousness demands urgent assessment. Haemorrhagic stroke is of higher priority here given the headache and rapid deterioration, but ischaemic stroke cannot be excluded on history alone. SAH typically causes thunderclap headache with less focal deficit, but must be considered. The progressive course suggests an expanding lesion."
+        "reasoning": "Sudden collapse with acute focal deficit (left-sided weakness) and rapid decline in consciousness represents a neurological emergency. Haemorrhagic stroke (intracerebral haemorrhage, subarachnoid haemorrhage) and ischaemic stroke (thrombotic, embolic) all cause sudden onset focal deficits. Cerebral venous sinus thrombosis (CVST) can present with sudden deterioration. The deteriorating consciousness raises the probability of a space-occupying haematoma with rising ICP. Headache, onset mode, and vomiting will be the key next discriminating axis."
       },
       {
         "type": "history",
         "label": "History of Presenting Complaint",
-        "text": "The headache was severe and rapid in onset but not instantaneous — it peaked over approximately 2 minutes. The left-sided weakness was noted before the headache resolved. He has vomited twice. GCS has dropped from 14 to 10 over 30 minutes. No anticoagulant use, no trauma.",
+        "text": "Witnesses report he complained of a severe headache immediately before collapsing; the headache reached peak intensity over approximately 2 minutes rather than instantaneously. He has vomited twice and his GCS has dropped from 14 to 10 over 30 minutes; no anticoagulant use and no recent trauma.",
         "image": null,
         "accepted": [
           "Hypertensive Intracerebral Haemorrhage",
-          "Ischaemic Stroke — Embolic",
+          "Ischaemic Stroke \u2014 Embolic",
           "Subarachnoid Haemorrhage"
         ],
-        "reasoning": "Focal neurological deficit preceding and accompanying a severe headache with vomiting and rapid GCS decline suggests raised intracranial pressure from an expanding intracranial lesion — most consistent with intracerebral haemorrhage. SAH is less likely when focal deficits precede the headache, though it remains possible. Ischaemic stroke can cause headache but the rate of GCS decline and vomiting are more typical of haemorrhage. Anticoagulation has been excluded as a contributing factor."
+        "reasoning": "Focal neurological deficit preceding and accompanying a severe headache with vomiting and rapid GCS decline suggests raised intracranial pressure from an expanding intracranial lesion \u2014 most consistent with intracerebral haemorrhage. SAH is less likely when focal deficits precede the headache, though it remains possible. Ischaemic stroke can cause headache but the rate of GCS decline and vomiting are more typical of haemorrhage. Anticoagulation has been excluded as a contributing factor."
       },
       {
         "type": "history",
@@ -626,7 +628,7 @@
           "Hypertensive Intracerebral Haemorrhage",
           "Subarachnoid Haemorrhage"
         ],
-        "reasoning": "Longstanding severely uncontrolled hypertension is the most important risk factor for spontaneous intracerebral haemorrhage. It is also a risk factor for saccular aneurysm formation and rupture causing SAH. No family history of vascular malformations does not exclude an AVM as the bleeding source. Both hypertensive ICH and SAH from aneurysm remain in the differential — imaging is required to distinguish them and identify the site and type of haemorrhage."
+        "reasoning": "Longstanding severely uncontrolled hypertension is the most important risk factor for spontaneous intracerebral haemorrhage. It is also a risk factor for saccular aneurysm formation and rupture causing SAH. No family history of vascular malformations does not exclude an AVM as the bleeding source. Both hypertensive ICH and SAH from aneurysm remain in the differential \u2014 imaging is required to distinguish them and identify the site and type of haemorrhage."
       },
       {
         "type": "examination",
@@ -674,7 +676,7 @@
       {
         "type": "history",
         "label": "Presenting Complaint",
-        "text": "A 45-year-old female presents to ED reporting a sudden severe headache that began while she was gardening approximately 3 hours ago. She describes it as the worst headache she has ever experienced.",
+        "text": "A 45-year-old woman presents to ED reporting a sudden severe headache that began while gardening approximately 3 hours ago.",
         "image": null,
         "accepted": [
           "Subarachnoid Haemorrhage",
@@ -684,19 +686,19 @@
           "Bacterial Meningitis",
           "Cluster Headache"
         ],
-        "reasoning": "A severe headache reaching peak intensity rapidly demands urgent evaluation. The differential at this stage is broad: SAH is the most dangerous diagnosis to exclude, but migraine, hypertensive crisis, CVST, meningitis, and primary headache disorders including cluster headache remain plausible until further information is obtained. The patient's description of severity alone does not confirm the aetiology."
+        "reasoning": "A sudden severe headache in a 45-year-old woman requires systematic evaluation. Subarachnoid haemorrhage, migraine (including migrainous status), hypertensive crisis, cerebral venous thrombosis, bacterial meningitis, and cluster headache are all plausible at this stage. The single axis introduced is sudden severe headache \u2014 onset mode, associated symptoms, and severity descriptors will be established at the next stage."
       },
       {
         "type": "history",
         "label": "History of Presenting Complaint",
-        "text": "She describes the onset as instantaneous — maximal intensity within 1 to 2 seconds, unlike any headache she has had before. She has vomited twice since onset. No fever. No preceding aura or visual symptoms. No history of similar headaches. Her husband found her lying on the garden path, conscious but distressed.",
+        "text": "She describes the onset as instantaneous \u2014 maximal intensity within 1 to 2 seconds, and she states it is unlike any headache she has ever experienced. She has vomited twice since onset; there is no fever; no preceding visual aura, and no history of similar headaches.",
         "image": null,
         "accepted": [
           "Subarachnoid Haemorrhage",
           "Cerebral Venous Sinus Thrombosis",
           "Hypertensive Intracerebral Haemorrhage"
         ],
-        "reasoning": "Instantaneous onset ('thunderclap') with vomiting is a strong predictor of SAH and substantially raises its probability. However, CVST can present with thunderclap headache, and haemorrhagic stroke occasionally presents similarly. Migraine and cluster headache very rarely present with truly instantaneous onset — these diagnoses are now less likely but require imaging before exclusion. Meningitis without fever is less probable."
+        "reasoning": "Instantaneous onset ('thunderclap') with vomiting is a strong predictor of SAH and substantially raises its probability. However, CVST can present with thunderclap headache, and haemorrhagic stroke occasionally presents similarly. Migraine and cluster headache very rarely present with truly instantaneous onset \u2014 these diagnoses are now less likely but require imaging before exclusion. Meningitis without fever is less probable."
       },
       {
         "type": "history",
@@ -713,13 +715,13 @@
       {
         "type": "examination",
         "label": "Physical Examination",
-        "text": "BP 188/102 mmHg, HR 92 bpm regular, temperature 37.2°C. GCS 14/15. Neck stiffness present. Kernig's sign positive. No focal neurological deficits. No papilloedema. Fundoscopy: no subhyaloid haemorrhage identified.",
+        "text": "BP 188/102 mmHg, HR 92 bpm regular, temperature 37.2\u00b0C. GCS 14/15. Neck stiffness present. Kernig's sign positive. No focal neurological deficits. No papilloedema. Fundoscopy: no subhyaloid haemorrhage identified.",
         "image": null,
         "accepted": [
           "Subarachnoid Haemorrhage",
           "Bacterial Meningitis"
         ],
-        "reasoning": "Meningism (neck stiffness and positive Kernig's sign) with thunderclap headache and no fever is strongly suggestive of SAH — blood in the subarachnoid space causes meningeal irritation without infection. However, bacterial meningitis must remain in the differential as meningism is the shared physical finding; fever may be absent early. No focal deficits and no papilloedema make a large focal mass lesion less likely. CT is required before LP."
+        "reasoning": "Meningism (neck stiffness and positive Kernig's sign) with thunderclap headache and no fever is strongly suggestive of SAH \u2014 blood in the subarachnoid space causes meningeal irritation without infection. However, bacterial meningitis must remain in the differential as meningism is the shared physical finding; fever may be absent early. No focal deficits and no papilloedema make a large focal mass lesion less likely. CT is required before LP."
       },
       {
         "type": "imaging",
@@ -739,7 +741,7 @@
         "accepted": [
           "Subarachnoid Haemorrhage"
         ],
-        "reasoning": "A saccular aneurysm at the ICA-PCoA junction is the identified bleeding source — one of the most common locations for berry aneurysms at the Circle of Willis. LP with xanthochromia on spectrophotometry provides confirmatory evidence of blood breakdown products in the CSF, important when CT is negative or borderline. The diagnosis of aneurysmal subarachnoid haemorrhage is confirmed. Neurosurgical or endovascular management is required urgently to prevent rebleed."
+        "reasoning": "A saccular aneurysm at the ICA-PCoA junction is the identified bleeding source \u2014 one of the most common locations for berry aneurysms at the Circle of Willis. LP with xanthochromia on spectrophotometry provides confirmatory evidence of blood breakdown products in the CSF, important when CT is negative or borderline. The diagnosis of aneurysmal subarachnoid haemorrhage is confirmed. Neurosurgical or endovascular management is required urgently to prevent rebleed."
       }
     ]
   },
@@ -756,7 +758,7 @@
       {
         "type": "history",
         "label": "Presenting Complaint",
-        "text": "A 38-year-old female is referred to the neurology outpatient clinic after an MRI ordered for recurrent headaches incidentally identified an abnormality in the region of the Circle of Willis. She has no acute neurological symptoms.",
+        "text": "A 38-year-old woman is referred to the neurology outpatient clinic after an MRI performed for recurrent headaches incidentally identified a vascular abnormality in the brain.",
         "image": null,
         "accepted": [
           "Saccular (Berry) Aneurysm",
@@ -765,12 +767,12 @@
           "Meningioma",
           "Cerebral Venous Sinus Thrombosis"
         ],
-        "reasoning": "An incidental vascular or structural abnormality at the Circle of Willis on MRI in an otherwise asymptomatic patient has several possible diagnoses. Saccular aneurysm, AVM, dural AV fistula, meningioma, and venous anomalies all represent plausible findings. The nature of the abnormality cannot be determined from the referral letter alone — further characterisation with vascular imaging is required."
+        "reasoning": "An incidental vascular abnormality on brain MRI in a young woman encompasses a broad differential: saccular (berry) aneurysm, arteriovenous malformation, dural AV fistula, vascular tumour (meningioma with vascular supply), and cerebral venous sinus thrombosis (if the finding involves venous structures). The single axis is an incidentally discovered vascular abnormality \u2014 the morphology, location, and risk features have not yet been established. Clinical history and family history will be the next discriminating steps."
       },
       {
         "type": "history",
         "label": "History of Presenting Complaint",
-        "text": "Her headaches are bilateral, pressure-like, and mild — similar in character to tension headaches she has experienced for years. She has never had a sudden severe headache or a headache that was different in quality from her usual ones. No diplopia, no visual disturbance, no focal weakness, and no hearing disturbance.",
+        "text": "Her headaches are bilateral, pressure-like, and mild \u2014 similar in character to tension headaches she has experienced for years. She has never had a sudden severe headache or a headache that was different in quality from her usual ones. No diplopia, no visual disturbance, no focal weakness, and no hearing disturbance.",
         "image": null,
         "accepted": [
           "Saccular (Berry) Aneurysm",
@@ -789,18 +791,18 @@
           "Saccular (Berry) Aneurysm",
           "Arteriovenous Malformation"
         ],
-        "reasoning": "ADPCKD carries a significantly increased risk of saccular aneurysm formation — this familial risk factor substantially raises the pre-test probability of a berry aneurysm in this patient. Hypertension is also a risk factor for aneurysm formation and rupture. AVM remains possible as a congenital vascular malformation, but is not associated with ADPCKD. Meningioma and dural AV fistula are now less likely given the Circle of Willis location and risk factor context."
+        "reasoning": "ADPCKD carries a significantly increased risk of saccular aneurysm formation \u2014 this familial risk factor substantially raises the pre-test probability of a berry aneurysm in this patient. Hypertension is also a risk factor for aneurysm formation and rupture. AVM remains possible as a congenital vascular malformation, but is not associated with ADPCKD. Meningioma and dural AV fistula are now less likely given the Circle of Willis location and risk factor context."
       },
       {
         "type": "examination",
         "label": "Physical Examination",
-        "text": "BP 152/94 mmHg on current antihypertensive therapy. Neurological examination entirely normal — no cranial nerve deficits, no focal motor or sensory signs, no papilloedema. No cranial bruit on auscultation over the skull and orbits. Abdominal examination: no palpable renal masses.",
+        "text": "BP 152/94 mmHg on current antihypertensive therapy. Neurological examination entirely normal \u2014 no cranial nerve deficits, no focal motor or sensory signs, no papilloedema. No cranial bruit on auscultation over the skull and orbits. Abdominal examination: no palpable renal masses.",
         "image": null,
         "accepted": [
           "Saccular (Berry) Aneurysm",
           "Arteriovenous Malformation"
         ],
-        "reasoning": "Normal neurological examination confirms the lesion is currently asymptomatic and unruptured. No cranial bruit does not exclude AVM — bruits are present in less than 25% of cases. No CN III palsy or cranial nerve compression from the aneurysm. Incompletely controlled hypertension is noted. Both saccular aneurysm and AVM remain possible — dedicated vascular imaging is required for characterisation."
+        "reasoning": "Normal neurological examination confirms the lesion is currently asymptomatic and unruptured. No cranial bruit does not exclude AVM \u2014 bruits are present in less than 25% of cases. No CN III palsy or cranial nerve compression from the aneurysm. Incompletely controlled hypertension is noted. Both saccular aneurysm and AVM remain possible \u2014 dedicated vascular imaging is required for characterisation."
       },
       {
         "type": "imaging",
@@ -815,12 +817,12 @@
       {
         "type": "investigation",
         "label": "Renal Screening & Management Planning",
-        "text": "Renal ultrasound: multiple bilateral renal cysts consistent with ADPCKD. Genetics referral arranged. Neurovascular multidisciplinary team review: PHASES score calculated at 2.5% 5-year rupture risk for this aneurysm. Shared decision-making discussion held — options of endovascular coiling versus surveillance MRA every 6 months discussed with the patient.",
+        "text": "Renal ultrasound: multiple bilateral renal cysts consistent with ADPCKD. Genetics referral arranged. Neurovascular multidisciplinary team review: PHASES score calculated at 2.5% 5-year rupture risk for this aneurysm. Shared decision-making discussion held \u2014 options of endovascular coiling versus surveillance MRA every 6 months discussed with the patient.",
         "image": null,
         "accepted": [
           "Saccular (Berry) Aneurysm"
         ],
-        "reasoning": "Confirmation of ADPCKD establishes the predisposing connective tissue abnormality — ADPCKD is associated with a 5–10-fold increased risk of saccular aneurysm. The diagnosis is confirmed: an unruptured saccular (berry) aneurysm at the ICA-PCoA junction in a patient with ADPCKD and hypertension. The PHASES score guides the treatment decision. The lesion arises from a focal defect in the internal elastic lamina and media at the arterial bifurcation point."
+        "reasoning": "Confirmation of ADPCKD establishes the predisposing connective tissue abnormality \u2014 ADPCKD is associated with a 5\u201310-fold increased risk of saccular aneurysm. The diagnosis is confirmed: an unruptured saccular (berry) aneurysm at the ICA-PCoA junction in a patient with ADPCKD and hypertension. The PHASES score guides the treatment decision. The lesion arises from a focal defect in the internal elastic lamina and media at the arterial bifurcation point."
       }
     ]
   },
@@ -837,7 +839,7 @@
       {
         "type": "history",
         "label": "Presenting Complaint",
-        "text": "A 28-year-old male presents after a first-ever generalised tonic-clonic seizure lasting approximately 3 minutes, witnessed by his flatmate. He has no prior history of epilepsy.",
+        "text": "A 28-year-old man presents after a first-ever witnessed generalised tonic-clonic seizure lasting approximately 3 minutes.",
         "image": null,
         "accepted": [
           "Arteriovenous Malformation (AVM)",
@@ -852,14 +854,14 @@
       {
         "type": "history",
         "label": "History of Presenting Complaint",
-        "text": "The seizure was generalised from the outset without a clear aura or focal onset. Post-ictal drowsiness lasted 20 minutes. He reports no fever, no recent headache, no neck stiffness, and no head trauma. He mentions he has noticed a faint whooshing sound in his ears intermittently over the past year, though he attributed it to stress.",
+        "text": "He has no prior history of epilepsy or neurological illness. The seizure was generalised from the outset without a clear aura or focal onset, and post-ictal drowsiness lasted 20 minutes; he reports no fever, no recent headache, no neck stiffness, and no head trauma. He mentions a faint intermittent whooshing sound in his ears over the past year, attributed to stress.",
         "image": null,
         "accepted": [
           "Arteriovenous Malformation (AVM)",
           "Brain Tumour",
           "Cavernous Malformation"
         ],
-        "reasoning": "Absence of fever and neck stiffness makes encephalitis and meningitis less likely. No clear focal onset reduces the probability of a small focal lesion driving a partial seizure with secondary generalisation, though a focal onset can be unwitnessed. Intermittent pulsatile tinnitus heard by the patient could reflect high-flow arteriovenous shunting — a subtle but notable feature pointing toward a vascular malformation. Brain tumour, cavernous malformation, and AVM remain the leading structural diagnoses."
+        "reasoning": "Absence of fever and neck stiffness makes encephalitis and meningitis less likely. No clear focal onset reduces the probability of a small focal lesion driving a partial seizure with secondary generalisation, though a focal onset can be unwitnessed. Intermittent pulsatile tinnitus heard by the patient could reflect high-flow arteriovenous shunting \u2014 a subtle but notable feature pointing toward a vascular malformation. Brain tumour, cavernous malformation, and AVM remain the leading structural diagnoses."
       },
       {
         "type": "history",
@@ -871,19 +873,19 @@
           "Brain Tumour",
           "Cavernous Malformation"
         ],
-        "reasoning": "No family history of hereditary haemorrhagic telangiectasia (HHT/Osler-Weber-Rendu syndrome) does not exclude AVM — most are sporadic. No clear epidemiological risk factors favour brain tumour or abscess. Cavernous malformations can also be sporadic or familial. All three structural diagnoses remain viable — neuroimaging is required."
+        "reasoning": "No family history of hereditary haemorrhagic telangiectasia (HHT/Osler-Weber-Rendu syndrome) does not exclude AVM \u2014 most are sporadic. No clear epidemiological risk factors favour brain tumour or abscess. Cavernous malformations can also be sporadic or familial. All three structural diagnoses remain viable \u2014 neuroimaging is required."
       },
       {
         "type": "examination",
         "label": "Physical Examination",
-        "text": "GCS 15. BP 128/76 mmHg. Neurological examination entirely normal — no focal motor or sensory deficits, no visual field abnormality, no cranial nerve palsy, no papilloedema. MoCA 28/30 with mild attention difficulty, likely post-ictal. Auscultation of the skull: no detectable cranial bruit.",
+        "text": "GCS 15. BP 128/76 mmHg. Neurological examination entirely normal \u2014 no focal motor or sensory deficits, no visual field abnormality, no cranial nerve palsy, no papilloedema. MoCA 28/30 with mild attention difficulty, likely post-ictal. Auscultation of the skull: no detectable cranial bruit.",
         "image": null,
         "accepted": [
           "Arteriovenous Malformation (AVM)",
           "Brain Tumour",
           "Cavernous Malformation"
         ],
-        "reasoning": "Normal neurological examination does not exclude any of the three leading structural diagnoses — all can be clinically silent until they cause a seizure or haemorrhage. Absence of papilloedema argues against a large space-occupying tumour with significant mass effect, but small tumours may not cause papilloedema. No cranial bruit — present in fewer than 25% of AVMs — does not exclude a vascular malformation. MRI is essential."
+        "reasoning": "Normal neurological examination does not exclude any of the three leading structural diagnoses \u2014 all can be clinically silent until they cause a seizure or haemorrhage. Absence of papilloedema argues against a large space-occupying tumour with significant mass effect, but small tumours may not cause papilloedema. No cranial bruit \u2014 present in fewer than 25% of AVMs \u2014 does not exclude a vascular malformation. MRI is essential."
       },
       {
         "type": "imaging",
@@ -893,17 +895,17 @@
         "accepted": [
           "Arteriovenous Malformation (AVM)"
         ],
-        "reasoning": "Flow voids on MRI represent rapid arteriovenous shunting through an abnormal nidus — this pattern is characteristic of AVM. Haemosiderin staining indicates prior microhaemorrhage, explaining the seizure. There is no mass lesion to suggest tumour and no cavernous malformation signal pattern (which would show a 'popcorn' appearance). AVM is now the single remaining diagnosis — catheter angiography is required for definitive characterisation."
+        "reasoning": "Flow voids on MRI represent rapid arteriovenous shunting through an abnormal nidus \u2014 this pattern is characteristic of AVM. Haemosiderin staining indicates prior microhaemorrhage, explaining the seizure. There is no mass lesion to suggest tumour and no cavernous malformation signal pattern (which would show a 'popcorn' appearance). AVM is now the single remaining diagnosis \u2014 catheter angiography is required for definitive characterisation."
       },
       {
         "type": "investigation",
         "label": "Catheter Angiography",
-        "text": "Digital subtraction angiography (DSA): a nidus in the left temporal lobe fed by branches of the left middle cerebral artery, with early venous drainage into the superficial Sylvian vein. Spetzler-Martin grade II (small size, eloquent cortex, superficial drainage). No associated aneurysm. Annual haemorrhage risk estimated 2–4%.",
+        "text": "Digital subtraction angiography (DSA): a nidus in the left temporal lobe fed by branches of the left middle cerebral artery, with early venous drainage into the superficial Sylvian vein. Spetzler-Martin grade II (small size, eloquent cortex, superficial drainage). No associated aneurysm. Annual haemorrhage risk estimated 2\u20134%.",
         "image": null,
         "accepted": [
           "Arteriovenous Malformation (AVM)"
         ],
-        "reasoning": "DSA is the gold standard for AVM characterisation — defining nidus morphology, feeding arteries, and draining veins with precision required for treatment planning. The AVM consists of an abnormal tangle of dysplastic vessels connecting arterial to venous circulation without a normal capillary bed. The Spetzler-Martin grade II designation informs procedural risk assessment for stereotactic radiosurgery, embolisation, or microsurgery."
+        "reasoning": "DSA is the gold standard for AVM characterisation \u2014 defining nidus morphology, feeding arteries, and draining veins with precision required for treatment planning. The AVM consists of an abnormal tangle of dysplastic vessels connecting arterial to venous circulation without a normal capillary bed. The Spetzler-Martin grade II designation informs procedural risk assessment for stereotactic radiosurgery, embolisation, or microsurgery."
       }
     ]
   },
@@ -925,8 +927,8 @@
         "accepted": [
           "Cerebral Amyloid Angiopathy",
           "Transient Ischaemic Attack (TIA)",
-          "Ischaemic Stroke — Thrombotic",
-          "Ischaemic Stroke — Embolic",
+          "Ischaemic Stroke \u2014 Thrombotic",
+          "Ischaemic Stroke \u2014 Embolic",
           "Focal Seizure",
           "Brain Tumour"
         ],
@@ -935,14 +937,14 @@
       {
         "type": "history",
         "label": "History of Presenting Complaint",
-        "text": "The episodes are stereotyped and always involve the same spreading positive sensory symptoms — tingling that begins in the fingers and spreads to the wrist and forearm over 1 to 2 minutes — before weakness develops and then resolves completely. There is no headache during or after episodes. She also reports memory difficulties developing gradually over 2 years.",
+        "text": "The episodes are stereotyped and always involve the same spreading positive sensory symptoms \u2014 tingling that begins in the fingers and spreads to the wrist and forearm over 1 to 2 minutes \u2014 before weakness develops and then resolves completely. There is no headache during or after episodes. She also reports memory difficulties developing gradually over 2 years.",
         "image": null,
         "accepted": [
           "Cerebral Amyloid Angiopathy",
           "Focal Seizure",
           "Transient Ischaemic Attack (TIA)"
         ],
-        "reasoning": "Positive sensory symptoms spreading in a march pattern are characteristic of focal cortical irritation — either a focal seizure or cortical spreading depression — rather than TIA, which typically causes negative symptoms (loss of function). The march of positive symptoms makes TIA less likely. Focal seizures with subsequent transient motor weakness remain a strong differential. Co-existing cognitive decline adds clinical complexity and raises the question of a unifying diagnosis."
+        "reasoning": "Positive sensory symptoms spreading in a march pattern are characteristic of focal cortical irritation \u2014 either a focal seizure or cortical spreading depression \u2014 rather than TIA, which typically causes negative symptoms (loss of function). The march of positive symptoms makes TIA less likely. Focal seizures with subsequent transient motor weakness remain a strong differential. Co-existing cognitive decline adds clinical complexity and raises the question of a unifying diagnosis."
       },
       {
         "type": "history",
@@ -953,7 +955,7 @@
           "Cerebral Amyloid Angiopathy",
           "Focal Seizure"
         ],
-        "reasoning": "The absence of vascular risk factors makes atherosclerotic TIA less likely. However, absence of hypertension is a particularly useful discriminating feature: hypertensive small vessel disease produces deep (basal ganglia, thalamic) lesions, whereas cerebral amyloid angiopathy preferentially affects cortical and leptomeningeal vessels. The co-existence of cognitive decline previously attributed to Alzheimer disease is notable — CAA and AD frequently co-exist and share amyloid pathology. Focal seizures remain a strong possibility. The specific neuroimaging pattern will be diagnostic."
+        "reasoning": "The absence of vascular risk factors makes atherosclerotic TIA less likely. However, absence of hypertension is a particularly useful discriminating feature: hypertensive small vessel disease produces deep (basal ganglia, thalamic) lesions, whereas cerebral amyloid angiopathy preferentially affects cortical and leptomeningeal vessels. The co-existence of cognitive decline previously attributed to Alzheimer disease is notable \u2014 CAA and AD frequently co-exist and share amyloid pathology. Focal seizures remain a strong possibility. The specific neuroimaging pattern will be diagnostic."
       },
       {
         "type": "examination",
@@ -964,7 +966,7 @@
           "Cerebral Amyloid Angiopathy",
           "Focal Seizure"
         ],
-        "reasoning": "Normal inter-ictal neurological examination is consistent with both CAA and focal seizures — neither diagnosis requires persistent deficits between episodes. Normal BP reinforces that this is not hypertensive small vessel disease. Cognitive testing confirms genuine impairment consistent with either co-existing AD or CAA-related cognitive decline. The diagnosis will be established by neuroimaging — specifically MRI with haemosensitive sequences."
+        "reasoning": "Normal inter-ictal neurological examination is consistent with both CAA and focal seizures \u2014 neither diagnosis requires persistent deficits between episodes. Normal BP reinforces that this is not hypertensive small vessel disease. Cognitive testing confirms genuine impairment consistent with either co-existing AD or CAA-related cognitive decline. The diagnosis will be established by neuroimaging \u2014 specifically MRI with haemosensitive sequences."
       },
       {
         "type": "imaging",
@@ -974,17 +976,17 @@
         "accepted": [
           "Cerebral Amyloid Angiopathy"
         ],
-        "reasoning": "Cortical and subcortical signal abnormalities in a lobar distribution — posterior parieto-occipital predominance — with cortical superficial siderosis (haemosiderin deposition along the cortical surface) is the MRI signature of cerebral amyloid angiopathy. Deep lesions are absent, distinguishing this from hypertensive small vessel disease. Superficial siderosis is a consequence of recurrent cortical microhaemorrhages from fragile amyloid-laden cortical vessels. Focal seizures are now less likely as the primary diagnosis."
+        "reasoning": "Cortical and subcortical signal abnormalities in a lobar distribution \u2014 posterior parieto-occipital predominance \u2014 with cortical superficial siderosis (haemosiderin deposition along the cortical surface) is the MRI signature of cerebral amyloid angiopathy. Deep lesions are absent, distinguishing this from hypertensive small vessel disease. Superficial siderosis is a consequence of recurrent cortical microhaemorrhages from fragile amyloid-laden cortical vessels. Focal seizures are now less likely as the primary diagnosis."
       },
       {
         "type": "imaging",
-        "label": "MRI — Susceptibility-Weighted Imaging (SWI)",
-        "text": "MRI SWI sequence: more than 10 cortical microhaemorrhages (blooming artefacts) in the posterior parietal and occipital regions bilaterally. Lobar distribution confirmed. No deep haemorrhages. ApoE genotyping: ApoE ε4/ε4 homozygote. Boston Criteria v2.0: probable cerebral amyloid angiopathy.",
+        "label": "MRI \u2014 Susceptibility-Weighted Imaging (SWI)",
+        "text": "MRI SWI sequence: more than 10 cortical microhaemorrhages (blooming artefacts) in the posterior parietal and occipital regions bilaterally. Lobar distribution confirmed. No deep haemorrhages. ApoE genotyping: ApoE \u03b54/\u03b54 homozygote. Boston Criteria v2.0: probable cerebral amyloid angiopathy.",
         "image": null,
         "accepted": [
           "Cerebral Amyloid Angiopathy"
         ],
-        "reasoning": "SWI is exquisitely sensitive to haemosiderin — microhaemorrhages appear as dark 'blooms'. More than 10 cortical microhaemorrhages in a lobar distribution combined with cortical superficial siderosis satisfies the Boston Criteria for probable CAA. ApoE ε4/ε4 homozygosity is the strongest genetic risk factor for both CAA and Alzheimer disease, explaining their co-existence. The transient focal neurological episodes are 'amyloid spells' — cortical spreading depression or focal seizures triggered by cortical microhaemorrhages."
+        "reasoning": "SWI is exquisitely sensitive to haemosiderin \u2014 microhaemorrhages appear as dark 'blooms'. More than 10 cortical microhaemorrhages in a lobar distribution combined with cortical superficial siderosis satisfies the Boston Criteria for probable CAA. ApoE \u03b54/\u03b54 homozygosity is the strongest genetic risk factor for both CAA and Alzheimer disease, explaining their co-existence. The transient focal neurological episodes are 'amyloid spells' \u2014 cortical spreading depression or focal seizures triggered by cortical microhaemorrhages."
       }
     ]
   },
@@ -1001,7 +1003,7 @@
       {
         "type": "history",
         "label": "Presenting Complaint",
-        "text": "An 82-year-old female is brought to ED by ambulance after a witnessed fall from standing height, striking her head on a tiled floor. She was initially responsive at the scene but has become progressively less responsive during transport.",
+        "text": "An 82-year-old woman is brought to ED by ambulance after a fall from standing height in which she struck her head on a tiled floor, with progressive decline in responsiveness during transport.",
         "image": null,
         "accepted": [
           "Acute Subdural Haematoma",
@@ -1010,12 +1012,12 @@
           "Subarachnoid Haemorrhage",
           "Ischaemic Stroke"
         ],
-        "reasoning": "Head trauma with witnessed impact and declining consciousness in an elderly patient demands urgent CT. All forms of traumatic intracranial haemorrhage — subdural, extradural, and subarachnoid — must be considered. In the elderly, cerebral atrophy stretches bridging veins, predisposing to subdural haemorrhage even from relatively minor impacts. A stroke causing the fall must also be excluded."
+        "reasoning": "Head trauma with witnessed impact and declining consciousness in an elderly patient demands urgent CT. All forms of traumatic intracranial haemorrhage \u2014 subdural, extradural, and subarachnoid \u2014 must be considered. In the elderly, cerebral atrophy stretches bridging veins, predisposing to subdural haemorrhage even from relatively minor impacts. A stroke causing the fall must also be excluded."
       },
       {
         "type": "history",
         "label": "History of Presenting Complaint",
-        "text": "GCS on ambulance arrival was 13; it has now declined to 10 over the 40 minutes since the fall. There was no period of full recovery after the initial impact — the decline has been continuous. She is on warfarin for atrial fibrillation; her INR was checked 48 hours ago and was 3.2.",
+        "text": "GCS on ambulance arrival was 13; it has now declined to 10 over the 40 minutes since the fall. There was no period of full recovery after the initial impact \u2014 the decline has been continuous. She is on warfarin for atrial fibrillation; her INR was checked 48 hours ago and was 3.2.",
         "image": null,
         "accepted": [
           "Acute Subdural Haematoma",
@@ -1038,13 +1040,13 @@
       {
         "type": "examination",
         "label": "Physical Examination",
-        "text": "GCS 10/15 (E2V3M5). BP 166/92 mmHg, HR 88 bpm irregular. Temperature 36.9°C. Right-sided hemiparesis (arm 2/5, leg 3/5). Left pupil 5mm sluggishly reactive; right pupil 3mm reactive. No meningism. Scalp laceration present over the left parietal region.",
+        "text": "GCS 10/15 (E2V3M5). BP 166/92 mmHg, HR 88 bpm irregular. Temperature 36.9\u00b0C. Right-sided hemiparesis (arm 2/5, leg 3/5). Left pupil 5mm sluggishly reactive; right pupil 3mm reactive. No meningism. Scalp laceration present over the left parietal region.",
         "image": null,
         "accepted": [
           "Acute Subdural Haematoma",
           "Cerebral Contusion"
         ],
-        "reasoning": "Right hemiparesis with an ipsilateral left-sided scalp laceration indicates a left hemisphere lesion — contralateral to the weakness. Left pupillary dilatation suggests early uncal herniation from a left-sided mass causing left CN III compression. This crossed presentation (left lesion, right weakness, left dilated pupil) is consistent with a left hemispheric space-occupying haematoma. The irregular pulse confirms AF. Both acute SDH and a large cerebral contusion could produce this picture — CT is the critical next step."
+        "reasoning": "Right hemiparesis with an ipsilateral left-sided scalp laceration indicates a left hemisphere lesion \u2014 contralateral to the weakness. Left pupillary dilatation suggests early uncal herniation from a left-sided mass causing left CN III compression. This crossed presentation (left lesion, right weakness, left dilated pupil) is consistent with a left hemispheric space-occupying haematoma. The irregular pulse confirms AF. Both acute SDH and a large cerebral contusion could produce this picture \u2014 CT is the critical next step."
       },
       {
         "type": "imaging",
@@ -1054,7 +1056,7 @@
         "accepted": [
           "Acute Subdural Haematoma"
         ],
-        "reasoning": "A hyperdense crescent-shaped collection that follows the brain surface and crosses suture lines is the hallmark CT appearance of acute subdural haematoma — distinguishing it from extradural haematoma (biconvex, bounded by sutures) and cerebral contusion (intraparenchymal). The subdural space communicates freely, allowing the collection to spread. Midline shift >5mm and clinical deterioration are indications for urgent neurosurgical assessment and haematoma evacuation. INR reversal is urgently required."
+        "reasoning": "A hyperdense crescent-shaped collection that follows the brain surface and crosses suture lines is the hallmark CT appearance of acute subdural haematoma \u2014 distinguishing it from extradural haematoma (biconvex, bounded by sutures) and cerebral contusion (intraparenchymal). The subdural space communicates freely, allowing the collection to spread. Midline shift >5mm and clinical deterioration are indications for urgent neurosurgical assessment and haematoma evacuation. INR reversal is urgently required."
       },
       {
         "type": "investigation",
@@ -1064,7 +1066,7 @@
         "accepted": [
           "Acute Subdural Haematoma"
         ],
-        "reasoning": "Dark venous blood (distinct from bright arterial blood of EDH) and a torn bridging vein identified intraoperatively confirm the acute SDH mechanism. Anticoagulation reversal prior to surgery was essential to minimise intraoperative and post-operative haemorrhagic risk. The diagnosis of acute traumatic subdural haematoma from bridging vein rupture in an anticoagulated elderly patient with cerebral atrophy is confirmed. Outcome is significantly worse than in younger patients — mortality in elderly anticoagulated patients with acute SDH is 30–60% even with surgery."
+        "reasoning": "Dark venous blood (distinct from bright arterial blood of EDH) and a torn bridging vein identified intraoperatively confirm the acute SDH mechanism. Anticoagulation reversal prior to surgery was essential to minimise intraoperative and post-operative haemorrhagic risk. The diagnosis of acute traumatic subdural haematoma from bridging vein rupture in an anticoagulated elderly patient with cerebral atrophy is confirmed. Outcome is significantly worse than in younger patients \u2014 mortality in elderly anticoagulated patients with acute SDH is 30\u201360% even with surgery."
       }
     ]
   },
@@ -1081,7 +1083,7 @@
       {
         "type": "history",
         "label": "Presenting Complaint",
-        "text": "A 74-year-old male is brought to his GP by his daughter, who has noticed he has become increasingly forgetful and confused over the past 4 weeks. He has also been moving more slowly and had two recent near-falls.",
+        "text": "A 74-year-old man is brought to his GP by his daughter, who reports he has become increasingly confused and forgetful over the past 4 weeks.",
         "image": null,
         "accepted": [
           "Chronic Subdural Haematoma",
@@ -1096,7 +1098,7 @@
       {
         "type": "history",
         "label": "History of Presenting Complaint",
-        "text": "On direct questioning, the patient recalls bumping his head on a car door frame approximately 6 weeks ago. He dismissed it at the time as trivial and did not seek medical attention. He has had mild intermittent headaches since then but has not had fever, vomiting, or visual disturbance.",
+        "text": "She also notes he has been moving more slowly and has had two near-falls recently. On direct questioning, the patient recalls bumping his head on a car door frame approximately 6 weeks ago but dismissed it at the time; he has had mild intermittent headaches since then but no fever, vomiting, or visual disturbance.",
         "image": null,
         "accepted": [
           "Chronic Subdural Haematoma",
@@ -1104,7 +1106,7 @@
           "Normal Pressure Hydrocephalus",
           "Brain Tumour"
         ],
-        "reasoning": "A head injury 6 weeks ago raises the possibility of a chronic subdural haematoma developing over the subsequent weeks. However, many elderly patients with chronic SDH cannot recall a precipitating injury, and cognitive decline beginning around the same time as a minor injury could also be coincidental. Alzheimer disease, NPH, and brain tumour remain plausible — the temporal association with head injury is clinically important but not confirmatory. Subdural empyema is now less likely without fever."
+        "reasoning": "A head injury 6 weeks ago raises the possibility of a chronic subdural haematoma developing over the subsequent weeks. However, many elderly patients with chronic SDH cannot recall a precipitating injury, and cognitive decline beginning around the same time as a minor injury could also be coincidental. Alzheimer disease, NPH, and brain tumour remain plausible \u2014 the temporal association with head injury is clinically important but not confirmatory. Subdural empyema is now less likely without fever."
       },
       {
         "type": "history",
@@ -1137,7 +1139,7 @@
         "accepted": [
           "Chronic Subdural Haematoma"
         ],
-        "reasoning": "Crescent-shaped collections crossing suture lines are consistent with subdural haematomas. The isodense appearance (similar density to brain parenchyma) is characteristic of chronic subdural haematoma — haemoglobin degrades over 2 to 4 weeks, causing the collection to become isodense then hypodense. This is distinct from acute SDH (hyperdense) and distinguishes the diagnosis from NPH (ventricular dilation, no collection). Bilateral collections are common in chronic SDH. Midline shift indicates significant mass effect."
+        "reasoning": "Crescent-shaped collections crossing suture lines are consistent with subdural haematomas. The isodense appearance (similar density to brain parenchyma) is characteristic of chronic subdural haematoma \u2014 haemoglobin degrades over 2 to 4 weeks, causing the collection to become isodense then hypodense. This is distinct from acute SDH (hyperdense) and distinguishes the diagnosis from NPH (ventricular dilation, no collection). Bilateral collections are common in chronic SDH. Midline shift indicates significant mass effect."
       },
       {
         "type": "investigation",
@@ -1164,7 +1166,7 @@
       {
         "type": "history",
         "label": "Presenting Complaint",
-        "text": "A 22-year-old male is brought to ED after sustaining a blow to the right side of his head during a cricket match. He was briefly unconscious for approximately 2 minutes, after which he regained consciousness and was talking normally to teammates.",
+        "text": "A 22-year-old man is brought to ED after sustaining a blow to the right side of his head during a cricket match.",
         "image": null,
         "accepted": [
           "Extradural (Epidural) Haematoma",
@@ -1178,14 +1180,14 @@
       {
         "type": "history",
         "label": "History of Presenting Complaint",
-        "text": "Over the 45 minutes following the injury, he has developed a rapidly worsening headache and vomited twice. His teammates report he is becoming increasingly confused and agitated. His GCS has dropped from 15 to 12 since arrival.",
+        "text": "He was briefly unconscious for approximately 2 minutes at the time of impact, then regained consciousness and was talking normally to teammates. Over the 45 minutes since the injury he has developed a rapidly worsening headache, vomited twice, and his GCS has declined from 15 to 12.",
         "image": null,
         "accepted": [
           "Extradural (Epidural) Haematoma",
           "Acute Subdural Haematoma",
           "Cerebral Contusion"
         ],
-        "reasoning": "A period of apparent normality followed by progressive neurological deterioration — a lucid interval pattern — is a recognised feature of expanding intracranial haematomas, most classically associated with extradural haematoma from arterial bleeding. However, acute subdural haematoma and cerebral contusion with developing oedema can also cause progressive deterioration after an initial lucid period. Concussion alone would not explain the trajectory of clinical deterioration with vomiting and declining GCS."
+        "reasoning": "A period of apparent normality followed by progressive neurological deterioration \u2014 a lucid interval pattern \u2014 is a recognised feature of expanding intracranial haematomas, most classically associated with extradural haematoma from arterial bleeding. However, acute subdural haematoma and cerebral contusion with developing oedema can also cause progressive deterioration after an initial lucid period. Concussion alone would not explain the trajectory of clinical deterioration with vomiting and declining GCS."
       },
       {
         "type": "history",
@@ -1197,18 +1199,18 @@
           "Acute Subdural Haematoma",
           "Cerebral Contusion"
         ],
-        "reasoning": "No coagulopathy or anticoagulant use means the haemorrhage is purely traumatic. The mechanism — a direct lateral head impact in a young person with no cerebral atrophy — is consistent with either EDH (arterial, from meningeal vessel disruption) or less commonly acute SDH (venous, from bridging vein rupture) or contusion. Young patients have tightly adherent dura, making EDH from arterial stripping more likely than in the elderly, but clinical distinction requires imaging."
+        "reasoning": "No coagulopathy or anticoagulant use means the haemorrhage is purely traumatic. The mechanism \u2014 a direct lateral head impact in a young person with no cerebral atrophy \u2014 is consistent with either EDH (arterial, from meningeal vessel disruption) or less commonly acute SDH (venous, from bridging vein rupture) or contusion. Young patients have tightly adherent dura, making EDH from arterial stripping more likely than in the elderly, but clinical distinction requires imaging."
       },
       {
         "type": "examination",
         "label": "Physical Examination",
-        "text": "GCS 11/15. BP 148/78 mmHg, HR 54 bpm. Pupils: right 6mm dilated and unresponsive; left 3mm reactive. Left-sided hemiparesis (arm and leg 3/5). Right-sided scalp haematoma at the temporoparietal region. Temperature 36.8°C.",
+        "text": "GCS 11/15. BP 148/78 mmHg, HR 54 bpm. Pupils: right 6mm dilated and unresponsive; left 3mm reactive. Left-sided hemiparesis (arm and leg 3/5). Right-sided scalp haematoma at the temporoparietal region. Temperature 36.8\u00b0C.",
         "image": null,
         "accepted": [
           "Extradural (Epidural) Haematoma",
           "Acute Subdural Haematoma"
         ],
-        "reasoning": "Hypertension with bradycardia suggests Cushing's response — a sign of critically elevated intracranial pressure and impending herniation. Ipsilateral (right) pupillary dilatation with contralateral (left) hemiparesis indicates a right-sided compressive mass lesion causing ipsilateral CN III compression from uncal herniation. Both EDH and acute SDH can produce this picture with this degree of urgency. Cerebral contusion alone would be less likely to produce such dramatic signs without haematoma. Immediate CT is required."
+        "reasoning": "Hypertension with bradycardia suggests Cushing's response \u2014 a sign of critically elevated intracranial pressure and impending herniation. Ipsilateral (right) pupillary dilatation with contralateral (left) hemiparesis indicates a right-sided compressive mass lesion causing ipsilateral CN III compression from uncal herniation. Both EDH and acute SDH can produce this picture with this degree of urgency. Cerebral contusion alone would be less likely to produce such dramatic signs without haematoma. Immediate CT is required."
       },
       {
         "type": "imaging",
@@ -1218,17 +1220,17 @@
         "accepted": [
           "Extradural (Epidural) Haematoma"
         ],
-        "reasoning": "A biconvex lens-shaped hyperdense collection bounded by cranial sutures is the pathognomonic CT appearance of extradural haematoma — distinguishing it from subdural haematoma (crescent-shaped, crosses suture lines). The collection sits between the skull and the dura, stripped by expanding arterial pressure. The temporal bone fracture crossing the middle meningeal groove confirms the bleeding source. Active swirl sign indicates ongoing arterial haemorrhage. This is a neurosurgical emergency."
+        "reasoning": "A biconvex lens-shaped hyperdense collection bounded by cranial sutures is the pathognomonic CT appearance of extradural haematoma \u2014 distinguishing it from subdural haematoma (crescent-shaped, crosses suture lines). The collection sits between the skull and the dura, stripped by expanding arterial pressure. The temporal bone fracture crossing the middle meningeal groove confirms the bleeding source. Active swirl sign indicates ongoing arterial haemorrhage. This is a neurosurgical emergency."
       },
       {
         "type": "investigation",
         "label": "Emergency Craniotomy & Outcome",
-        "text": "Emergency right temporal craniotomy performed within 75 minutes of CT: middle meningeal artery laceration at the fracture site confirmed as the bleeding source. 60mL of arterial haematoma evacuated. Dura tacked to the inner table of the skull. GCS improved to 14/15 within 24 hours post-operatively — excellent neurological recovery.",
+        "text": "Emergency right temporal craniotomy performed within 75 minutes of CT: middle meningeal artery laceration at the fracture site confirmed as the bleeding source. 60mL of arterial haematoma evacuated. Dura tacked to the inner table of the skull. GCS improved to 14/15 within 24 hours post-operatively \u2014 excellent neurological recovery.",
         "image": null,
         "accepted": [
           "Extradural (Epidural) Haematoma"
         ],
-        "reasoning": "Intraoperative confirmation of middle meningeal artery laceration at the fracture site with arterial haematoma evacuation confirms the diagnosis of extradural haematoma. EDH is caused in 95% of cases by middle meningeal artery rupture from temporal bone fracture, producing a rapidly expanding arterial haematoma under pressure. Young patients — with a tightly adherent dura separating the lucid interval from critical deterioration — have an excellent prognosis with timely surgery. Mortality is less than 5% with decompression within 4 hours but approaches 100% untreated."
+        "reasoning": "Intraoperative confirmation of middle meningeal artery laceration at the fracture site with arterial haematoma evacuation confirms the diagnosis of extradural haematoma. EDH is caused in 95% of cases by middle meningeal artery rupture from temporal bone fracture, producing a rapidly expanding arterial haematoma under pressure. Young patients \u2014 with a tightly adherent dura separating the lucid interval from critical deterioration \u2014 have an excellent prognosis with timely surgery. Mortality is less than 5% with decompression within 4 hours but approaches 100% untreated."
       }
     ]
   },
@@ -1245,7 +1247,7 @@
       {
         "type": "history",
         "label": "Presenting Complaint",
-        "text": "A 58-year-old male presents to his GP with a 6-week history of progressive headaches and a single episode of a generalised tonic-clonic seizure yesterday. His wife reports he has been increasingly forgetful and 'not himself' over the past month.",
+        "text": "A 58-year-old man presents to his GP with a 6-week history of progressive, worsening headaches.",
         "image": null,
         "accepted": [
           "Glioblastoma",
@@ -1261,7 +1263,7 @@
       {
         "type": "history",
         "label": "History of Presenting Complaint",
-        "text": "The headaches are diffuse, worse in the morning, and have been steadily worsening. Over the past three weeks his wife has noticed progressive left arm clumsiness and he has had difficulty finding words in conversation. No fever, no recent illness, no travel abroad.",
+        "text": "His wife reports he has been increasingly forgetful and 'not himself' over the past month. Yesterday he had a single episode of a generalised tonic-clonic seizure; the headaches are diffuse, worse in the morning, and have been steadily worsening over the 6 weeks.",
         "image": null,
         "accepted": [
           "Glioblastoma",
@@ -1270,7 +1272,7 @@
           "Meningioma",
           "Cerebral Abscess"
         ],
-        "reasoning": "Progressive focal deficits (left arm weakness, expressive language difficulty) localise to the right hemisphere. Morning headache worsening suggests raised ICP. Absence of fever makes abscess less likely but does not exclude it. A progressive space-occupying lesion is the leading category — subdural haematoma is less typical without head trauma history."
+        "reasoning": "Progressive focal deficits (left arm weakness, expressive language difficulty) localise to the right hemisphere. Morning headache worsening suggests raised ICP. Absence of fever makes abscess less likely but does not exclude it. A progressive space-occupying lesion is the leading category \u2014 subdural haematoma is less typical without head trauma history."
       },
       {
         "type": "history",
@@ -1288,14 +1290,14 @@
       {
         "type": "examination",
         "label": "Physical Examination",
-        "text": "GCS 14/15. Bilateral papilloedema on fundoscopy. Left arm power 3/5 with pronator drift. Mild expressive dysphasia. Brisk left-sided deep tendon reflexes. Left plantar extensor. No meningism. Temperature 37.1°C.",
+        "text": "GCS 14/15. Bilateral papilloedema on fundoscopy. Left arm power 3/5 with pronator drift. Mild expressive dysphasia. Brisk left-sided deep tendon reflexes. Left plantar extensor. No meningism. Temperature 37.1\u00b0C.",
         "image": null,
         "accepted": [
           "Glioblastoma",
           "Brain Metastases",
           "Meningioma"
         ],
-        "reasoning": "Papilloedema confirms raised ICP. UMN pattern left arm weakness and dysphasia localise to the right fronto-parietal region. Absent fever with no meningism makes abscess very unlikely — removed from differential. Low-grade astrocytoma less likely given rapid progression and significant raised ICP. Primary high-grade glioma, metastases, and meningioma remain."
+        "reasoning": "Papilloedema confirms raised ICP. UMN pattern left arm weakness and dysphasia localise to the right fronto-parietal region. Absent fever with no meningism makes abscess very unlikely \u2014 removed from differential. Low-grade astrocytoma less likely given rapid progression and significant raised ICP. Primary high-grade glioma, metastases, and meningioma remain."
       },
       {
         "type": "investigation",
@@ -1306,7 +1308,7 @@
           "Glioblastoma",
           "Meningioma"
         ],
-        "reasoning": "No systemic primary malignancy on staging CT makes metastases substantially less likely — removed. CT appearance of central necrosis within the mass suggests a high-grade primary tumour rather than meningioma, which typically enhances uniformly without necrosis. However, MRI with contrast is required to characterise further."
+        "reasoning": "No systemic primary malignancy on staging CT makes metastases substantially less likely \u2014 removed. CT appearance of central necrosis within the mass suggests a high-grade primary tumour rather than meningioma, which typically enhances uniformly without necrosis. However, MRI with contrast is required to characterise further."
       },
       {
         "type": "imaging",
@@ -1341,7 +1343,7 @@
           "Medulloblastoma",
           "Ependymoma",
           "Brainstem Glioma",
-          "Hydrocephalus — secondary cause",
+          "Hydrocephalus \u2014 secondary cause",
           "Abdominal cause of vomiting"
         ],
         "reasoning": "Morning vomiting with gait disturbance and nocturnal headache in a child strongly suggests raised ICP from a posterior fossa lesion. The leading paediatric posterior fossa tumours are pilocytic astrocytoma, medulloblastoma, and ependymoma. Brainstem glioma can also present with gait disturbance. Abdominal causes of vomiting remain on the initial broad differential until neurological evaluation."
@@ -1349,7 +1351,7 @@
       {
         "type": "history",
         "label": "History of Presenting Complaint",
-        "text": "The vomiting is most prominent on waking before he eats, and his parents note it improved transiently when he sits up. The gait unsteadiness is progressive — he now holds walls when walking. No fever, no ear pain, no visual changes reported by parents. His teacher notes declining handwriting quality over 2 months.",
+        "text": "The vomiting is most prominent on waking before he eats, and his parents note it improved transiently when he sits up. The gait unsteadiness is progressive \u2014 he now holds walls when walking. No fever, no ear pain, no visual changes reported by parents. His teacher notes declining handwriting quality over 2 months.",
         "image": null,
         "accepted": [
           "Pilocytic Astrocytoma",
@@ -1362,26 +1364,26 @@
       {
         "type": "history",
         "label": "Past Medical & Social History",
-        "text": "Normal birth history and neurodevelopmental milestones — walking and talking at appropriate ages. No family history of NF1, NF2, tuberous sclerosis, or other phakomatoses. No prior cranial irradiation or chemotherapy. Fully vaccinated. No recent infections. Previously an active, healthy child.",
+        "text": "Normal birth history and neurodevelopmental milestones \u2014 walking and talking at appropriate ages. No family history of NF1, NF2, tuberous sclerosis, or other phakomatoses. No prior cranial irradiation or chemotherapy. Fully vaccinated. No recent infections. Previously an active, healthy child.",
         "image": null,
         "accepted": [
           "Pilocytic Astrocytoma",
           "Medulloblastoma",
           "Ependymoma"
         ],
-        "reasoning": "No NF1 association (which would increase risk of optic pathway or cerebellar astrocytoma, but absence does not exclude pilocytic astrocytoma). No prior radiotherapy (which predisposes to secondary tumours). All three main posterior fossa tumours remain equally plausible — history alone cannot distinguish them."
+        "reasoning": "No NF1 association (which would increase risk of optic pathway or cerebellar astrocytoma, but absence does not exclude pilocytic astrocytoma). No prior radiotherapy (which predisposes to secondary tumours). All three main posterior fossa tumours remain equally plausible \u2014 history alone cannot distinguish them."
       },
       {
         "type": "examination",
         "label": "Physical Examination",
-        "text": "GCS 15. Bilateral papilloedema (Grade II). Nystagmus on right lateral gaze. Right-sided limb ataxia — past-pointing on finger-nose test, dysdiadochokinesia, and positive heel-shin test. Gait: wide-based with rightward deviation. Truncal stability preserved when sitting. No cranial nerve palsies. No meningism.",
+        "text": "GCS 15. Bilateral papilloedema (Grade II). Nystagmus on right lateral gaze. Right-sided limb ataxia \u2014 past-pointing on finger-nose test, dysdiadochokinesia, and positive heel-shin test. Gait: wide-based with rightward deviation. Truncal stability preserved when sitting. No cranial nerve palsies. No meningism.",
         "image": null,
         "accepted": [
           "Pilocytic Astrocytoma",
           "Medulloblastoma",
           "Ependymoma"
         ],
-        "reasoning": "Unilateral (right) limb ataxia with ipsilateral nystagmus localises to the right cerebellar hemisphere — the right cerebellar hemisphere controls right limb coordination. Preserved truncal stability with lateralised limb signs suggests a hemispheric rather than vermis lesion. Medulloblastoma more typically presents with vermian ataxia (truncal, midline). Pilocytic astrocytoma favours the cerebellar hemisphere. However, all three tumours can show overlapping features — imaging is required."
+        "reasoning": "Unilateral (right) limb ataxia with ipsilateral nystagmus localises to the right cerebellar hemisphere \u2014 the right cerebellar hemisphere controls right limb coordination. Preserved truncal stability with lateralised limb signs suggests a hemispheric rather than vermis lesion. Medulloblastoma more typically presents with vermian ataxia (truncal, midline). Pilocytic astrocytoma favours the cerebellar hemisphere. However, all three tumours can show overlapping features \u2014 imaging is required."
       },
       {
         "type": "investigation",
@@ -1397,7 +1399,7 @@
       {
         "type": "imaging",
         "label": "MRI Brain and Histopathology",
-        "text": "MRI brain with gadolinium: well-circumscribed cystic lesion (4cm) in the right cerebellar hemisphere with a discrete avidly enhancing mural nodule at the lateral wall. No diffusion restriction in the solid component. No leptomeningeal enhancement or CSF seeding. Histopathology (post-resection): biphasic pattern — compact fibrillary astrocytes with bipolar hair-like processes (Rosenthal fibres) and loose microcystic areas. BRAF V600E mutation detected.",
+        "text": "MRI brain with gadolinium: well-circumscribed cystic lesion (4cm) in the right cerebellar hemisphere with a discrete avidly enhancing mural nodule at the lateral wall. No diffusion restriction in the solid component. No leptomeningeal enhancement or CSF seeding. Histopathology (post-resection): biphasic pattern \u2014 compact fibrillary astrocytes with bipolar hair-like processes (Rosenthal fibres) and loose microcystic areas. BRAF V600E mutation detected.",
         "image": null,
         "accepted": [
           "Pilocytic Astrocytoma"
@@ -1419,7 +1421,7 @@
       {
         "type": "history",
         "label": "Presenting Complaint",
-        "text": "A 34-year-old male is brought to the ED following a witnessed generalised tonic-clonic seizure lasting approximately 2 minutes from which he recovered fully within 30 minutes. This is his first such event. He has no significant past medical history.",
+        "text": "A 34-year-old man is brought to the ED following a witnessed generalised tonic-clonic seizure lasting approximately 2 minutes from which he recovered fully within 30 minutes.",
         "image": null,
         "accepted": [
           "Low-grade Astrocytoma",
@@ -1435,7 +1437,7 @@
       {
         "type": "history",
         "label": "History of Presenting Complaint",
-        "text": "On closer questioning, he admits to two prior episodes over the past year of involuntary right arm jerking lasting 1–2 minutes, which he attributed to stress and overwork. The seizures begin in the right arm before spreading. He denies headaches, cognitive changes, or personality change.",
+        "text": "This is his first such event and he has no significant past medical history. On closer questioning, he admits to two prior episodes over the past year of involuntary right arm jerking lasting 1\u20132 minutes, which he attributed to stress and overwork; the seizures begin in the right arm before spreading. He denies headaches, cognitive changes, or personality change.",
         "image": null,
         "accepted": [
           "Low-grade Astrocytoma",
@@ -1443,7 +1445,7 @@
           "Focal Cortical Dysplasia",
           "Cavernous Malformation"
         ],
-        "reasoning": "A focal onset (right arm) with secondary generalisation changes the diagnosis significantly. Focal motor seizures with right arm onset and secondary spread localise to the left motor cortex or its vicinity. This is not consistent with idiopathic generalised epilepsy, which is now excluded. Structural causes are strongly favoured — low-grade glioma, focal cortical dysplasia, and cavernous malformation are all plausible."
+        "reasoning": "A focal onset (right arm) with secondary generalisation changes the diagnosis significantly. Focal motor seizures with right arm onset and secondary spread localise to the left motor cortex or its vicinity. This is not consistent with idiopathic generalised epilepsy, which is now excluded. Structural causes are strongly favoured \u2014 low-grade glioma, focal cortical dysplasia, and cavernous malformation are all plausible."
       },
       {
         "type": "history",
@@ -1460,19 +1462,19 @@
       {
         "type": "examination",
         "label": "Physical Examination",
-        "text": "GCS 15. Full neurological examination is normal — no focal motor or sensory deficits. No papilloedema. MMSE 30/30. BP and cardiovascular examination unremarkable. No skin stigmata of NF1 (no café-au-lait spots or neurofibromas).",
+        "text": "GCS 15. Full neurological examination is normal \u2014 no focal motor or sensory deficits. No papilloedema. MMSE 30/30. BP and cardiovascular examination unremarkable. No skin stigmata of NF1 (no caf\u00e9-au-lait spots or neurofibromas).",
         "image": null,
         "accepted": [
           "Low-grade Astrocytoma",
           "Oligodendroglioma",
           "Focal Cortical Dysplasia"
         ],
-        "reasoning": "A completely normal interictal neurological examination is consistent with all three remaining diagnoses — low-grade gliomas and focal cortical dysplasia are typically non-progressive until advanced. Normal examination does not narrow the differential further; MRI is essential. Absence of NF1 stigmata makes NF1-associated glioma very unlikely."
+        "reasoning": "A completely normal interictal neurological examination is consistent with all three remaining diagnoses \u2014 low-grade gliomas and focal cortical dysplasia are typically non-progressive until advanced. Normal examination does not narrow the differential further; MRI is essential. Absence of NF1 stigmata makes NF1-associated glioma very unlikely."
       },
       {
         "type": "investigation",
         "label": "Bloods and EEG",
-        "text": "FBC, electrolytes, glucose, calcium, LFTs, and TFTs all normal — metabolic causes excluded. Urine drug screen negative. Interictal EEG: focal left frontal slow wave activity with occasional sharp wave discharges. No generalised epileptiform abnormality.",
+        "text": "FBC, electrolytes, glucose, calcium, LFTs, and TFTs all normal \u2014 metabolic causes excluded. Urine drug screen negative. Interictal EEG: focal left frontal slow wave activity with occasional sharp wave discharges. No generalised epileptiform abnormality.",
         "image": null,
         "accepted": [
           "Low-grade Astrocytoma",
@@ -1505,7 +1507,7 @@
       {
         "type": "history",
         "label": "Presenting Complaint",
-        "text": "A 40-year-old female is referred to the neurology outpatient clinic with a 3-year history of recurrent focal seizures affecting her right hand and arm, previously attributed to stress by her GP. Seizure frequency has increased from monthly to weekly over the past 6 months.",
+        "text": "A 40-year-old woman is referred to the neurology outpatient clinic with a 3-year history of recurrent focal seizures affecting her right hand and arm, previously attributed to stress by her GP.",
         "image": null,
         "accepted": [
           "Oligodendroglioma",
@@ -1513,14 +1515,14 @@
           "Cavernous Malformation",
           "Focal Cortical Dysplasia",
           "Ganglioglioma",
-          "Drug-resistant Focal Epilepsy — unspecified"
+          "Drug-resistant Focal Epilepsy \u2014 unspecified"
         ],
         "reasoning": "Drug-resistant focal epilepsy with increasing frequency in a middle-aged adult requires structural brain evaluation. A 3-year history before referral is not uncommon in slowly growing tumours. The differential includes benign structural causes (cavernous malformation, focal cortical dysplasia) and slowly growing primary tumours (oligodendroglioma, low-grade astrocytoma, ganglioglioma)."
       },
       {
         "type": "history",
         "label": "History of Presenting Complaint",
-        "text": "The seizures are stereotyped — beginning with right hand tingling that spreads to clonic jerking of the right arm over 1–2 minutes. Over the past year, her husband has noticed subtle personality change and mild word-finding difficulties between seizures. No nausea, no vomiting, no headaches.",
+        "text": "Seizure frequency has increased from monthly to weekly over the past 6 months. The seizures are stereotyped \u2014 beginning with right hand tingling that spreads to clonic jerking of the right arm over 1\u20132 minutes; over the past year her husband has noticed subtle personality change and mild word-finding difficulties between seizures.",
         "image": null,
         "accepted": [
           "Oligodendroglioma",
@@ -1528,30 +1530,30 @@
           "Focal Cortical Dysplasia",
           "Cavernous Malformation"
         ],
-        "reasoning": "The somatotopic spread (tingling then clonic jerking) localises to the left sensorimotor cortex. Cognitive change between seizures suggests cortical infiltration — more consistent with a slowly growing infiltrating tumour than focal cortical dysplasia or cavernous malformation, which do not typically infiltrate progressively. Low-grade glioma subtypes are now the leading diagnosis."
+        "reasoning": "The somatotopic spread (tingling then clonic jerking) localises to the left sensorimotor cortex. Cognitive change between seizures suggests cortical infiltration \u2014 more consistent with a slowly growing infiltrating tumour than focal cortical dysplasia or cavernous malformation, which do not typically infiltrate progressively. Low-grade glioma subtypes are now the leading diagnosis."
       },
       {
         "type": "history",
         "label": "Past Medical & Social History",
-        "text": "No prior neurological history. No family history of brain tumours or NF1. Works as a nurse but has reduced hours due to seizures. Non-smoker. No prior cranial irradiation. Currently takes levetiracetam and lamotrigine with partial seizure control — seizure frequency reduced but not eliminated.",
+        "text": "No prior neurological history. No family history of brain tumours or NF1. Works as a nurse but has reduced hours due to seizures. Non-smoker. No prior cranial irradiation. Currently takes levetiracetam and lamotrigine with partial seizure control \u2014 seizure frequency reduced but not eliminated.",
         "image": null,
         "accepted": [
           "Oligodendroglioma",
           "Low-grade Astrocytoma",
           "Focal Cortical Dysplasia"
         ],
-        "reasoning": "Drug-resistant epilepsy unresponsive to two appropriate antiepileptics is a strong indicator for a structural lesion rather than idiopathic epilepsy. No known risk factors distinguish between oligodendroglioma and low-grade astrocytoma — both are IDH-mutant tumours occurring in young-to-middle-aged adults. Focal cortical dysplasia remains possible as it is also drug-resistant. MRI is essential."
+        "reasoning": "Drug-resistant epilepsy unresponsive to two appropriate antiepileptics is a strong indicator for a structural lesion rather than idiopathic epilepsy. No known risk factors distinguish between oligodendroglioma and low-grade astrocytoma \u2014 both are IDH-mutant tumours occurring in young-to-middle-aged adults. Focal cortical dysplasia remains possible as it is also drug-resistant. MRI is essential."
       },
       {
         "type": "examination",
         "label": "Physical Examination",
-        "text": "Neurological examination between seizures: mild right hand fine motor slowing on rapid alternating movements. MMSE 28/30 — attention mildly reduced, language intact. No papilloedema. No gross focal weakness. Interictal EEG: focal spike-and-slow-wave discharges over the left centroparietal region.",
+        "text": "Neurological examination between seizures: mild right hand fine motor slowing on rapid alternating movements. MMSE 28/30 \u2014 attention mildly reduced, language intact. No papilloedema. No gross focal weakness. Interictal EEG: focal spike-and-slow-wave discharges over the left centroparietal region.",
         "image": null,
         "accepted": [
           "Oligodendroglioma",
           "Low-grade Astrocytoma"
         ],
-        "reasoning": "Subtle fine motor deficit and EEG localisation to the left centroparietal cortex confirm a left-sided structural lesion. Progressive cognitive slowing with cortical infiltration over years is more consistent with a diffuse infiltrating glioma than a discrete focal cortical dysplasia. Between oligodendroglioma and low-grade astrocytoma, clinical features alone cannot distinguish — imaging and molecular markers are required."
+        "reasoning": "Subtle fine motor deficit and EEG localisation to the left centroparietal cortex confirm a left-sided structural lesion. Progressive cognitive slowing with cortical infiltration over years is more consistent with a diffuse infiltrating glioma than a discrete focal cortical dysplasia. Between oligodendroglioma and low-grade astrocytoma, clinical features alone cannot distinguish \u2014 imaging and molecular markers are required."
       },
       {
         "type": "imaging",
@@ -1562,7 +1564,7 @@
           "Oligodendroglioma",
           "Low-grade Astrocytoma"
         ],
-        "reasoning": "Calcification within a cortical non-enhancing glioma strongly favours oligodendroglioma — calcification occurs in 70-90% of oligodendrogliomas but in only ~10% of diffuse astrocytomas. Gyral expansion (tumour expanding the cortex rather than destroying it) is also characteristic of oligodendroglioma's cortical growth pattern. However, molecular confirmation is required for a definitive WHO classification."
+        "reasoning": "Calcification within a cortical non-enhancing glioma strongly favours oligodendroglioma \u2014 calcification occurs in 70-90% of oligodendrogliomas but in only ~10% of diffuse astrocytomas. Gyral expansion (tumour expanding the cortex rather than destroying it) is also characteristic of oligodendroglioma's cortical growth pattern. However, molecular confirmation is required for a definitive WHO classification."
       },
       {
         "type": "investigation",
@@ -1572,7 +1574,7 @@
         "accepted": [
           "Oligodendroglioma"
         ],
-        "reasoning": "The histological fried-egg appearance and chicken-wire vasculature, combined with the molecular signature of IDH mutation PLUS 1p/19q codeletion, meet the WHO 2021 criteria for Oligodendroglioma, IDH-mutant, 1p/19q codeleted — the defining molecular markers that distinguish oligodendroglioma from all other gliomas. 1p/19q codeletion is the defining molecular event, not just a prognostic marker. MGMT methylation predicts chemosensitivity to temozolomide."
+        "reasoning": "The histological fried-egg appearance and chicken-wire vasculature, combined with the molecular signature of IDH mutation PLUS 1p/19q codeletion, meet the WHO 2021 criteria for Oligodendroglioma, IDH-mutant, 1p/19q codeleted \u2014 the defining molecular markers that distinguish oligodendroglioma from all other gliomas. 1p/19q codeletion is the defining molecular event, not just a prognostic marker. MGMT methylation predicts chemosensitivity to temozolomide."
       }
     ]
   },
@@ -1589,7 +1591,7 @@
       {
         "type": "history",
         "label": "Presenting Complaint",
-        "text": "A 52-year-old female is referred to neurology by her GP with a 4-month history of progressive word-finding difficulties and intermittent right-sided headaches. She has also had two episodes of left hand twitching lasting 30 seconds over the past month.",
+        "text": "A 52-year-old woman is referred to neurology by her GP with a 4-month history of progressive word-finding difficulties.",
         "image": null,
         "accepted": [
           "Meningioma",
@@ -1605,7 +1607,7 @@
       {
         "type": "history",
         "label": "History of Presenting Complaint",
-        "text": "Headaches are mild, positional (worse when bending forward), and non-pulsatile. No nausea, no vomiting, no fever. The word-finding difficulties have been gradually progressive. She notes her left hand 'shakes' spontaneously for 30 seconds then stops — she remains conscious throughout.",
+        "text": "She has also had intermittent right-sided headaches that are mild, positional (worse on bending forward), and non-pulsatile. Over the past month she has had two episodes of left hand twitching lasting 30 seconds in which she remained fully conscious.",
         "image": null,
         "accepted": [
           "Meningioma",
@@ -1619,26 +1621,26 @@
       {
         "type": "history",
         "label": "Past Medical & Social History",
-        "text": "No known malignancy. No family history of cancer or brain tumours. No prior cranial irradiation. Has taken the combined oral contraceptive pill for 18 years. Non-smoker. No NF2 family history. No recent head trauma. Perimenopausal — still having periods.",
+        "text": "No known malignancy. No family history of cancer or brain tumours. No prior cranial irradiation. Has taken the combined oral contraceptive pill for 18 years. Non-smoker. No NF2 family history. No recent head trauma. Perimenopausal \u2014 still having periods.",
         "image": null,
         "accepted": [
           "Meningioma",
           "Low-grade Glioma",
           "Brain Metastases"
         ],
-        "reasoning": "No known primary malignancy reduces but does not exclude metastases (occult primary). Prolonged hormonal exposure (OCP) is an established risk factor for meningioma — oestrogen and progesterone receptors are expressed on most meningiomas. No known NF2 mutation, but sporadic meningioma does not require NF2. The slow course and hormonal risk factor raise meningioma probability, but low-grade glioma remains plausible."
+        "reasoning": "No known primary malignancy reduces but does not exclude metastases (occult primary). Prolonged hormonal exposure (OCP) is an established risk factor for meningioma \u2014 oestrogen and progesterone receptors are expressed on most meningiomas. No known NF2 mutation, but sporadic meningioma does not require NF2. The slow course and hormonal risk factor raise meningioma probability, but low-grade glioma remains plausible."
       },
       {
         "type": "examination",
         "label": "Physical Examination",
-        "text": "GCS 15. Mild anomic aphasia — difficulty naming low-frequency objects. No papilloedema. Left hand grip mildly reduced (4/5) with subtle pronator drift. MMSE 27/30. Cardiovascular and systemic examination unremarkable. Temperature 36.8°C.",
+        "text": "GCS 15. Mild anomic aphasia \u2014 difficulty naming low-frequency objects. No papilloedema. Left hand grip mildly reduced (4/5) with subtle pronator drift. MMSE 27/30. Cardiovascular and systemic examination unremarkable. Temperature 36.8\u00b0C.",
         "image": null,
         "accepted": [
           "Meningioma",
           "Low-grade Glioma",
           "Brain Metastases"
         ],
-        "reasoning": "Anomic aphasia with mild left UMN weakness localises to the right hemisphere in this left-handed? — no, left hemisphere lesion causing right hand deficit and language impairment localises to the dominant (left) hemisphere. No papilloedema suggests moderate mass effect without severe raised ICP. The examination narrows the anatomical localisation but does not yet discriminate between the three remaining diagnoses."
+        "reasoning": "Anomic aphasia with mild left UMN weakness localises to the right hemisphere in this left-handed? \u2014 no, left hemisphere lesion causing right hand deficit and language impairment localises to the dominant (left) hemisphere. No papilloedema suggests moderate mass effect without severe raised ICP. The examination narrows the anatomical localisation but does not yet discriminate between the three remaining diagnoses."
       },
       {
         "type": "investigation",
@@ -1649,7 +1651,7 @@
           "Meningioma",
           "Low-grade Glioma"
         ],
-        "reasoning": "No primary malignancy on CT staging effectively eliminates brain metastases. CT showing an extra-axial (outside the brain parenchyma) hyperdense mass with adjacent bony hyperostosis is characteristic of meningioma. Low-grade glioma is an intra-axial lesion — extra-axial location strongly favours meningioma. MRI with contrast is required to confirm."
+        "reasoning": "No primary malignancy on CT staging effectively eliminates brain metastases. CT showing an extra-axial (outside the brain parenchyma) hyperdense mass with adjacent bony hyperostosis is characteristic of meningioma. Low-grade glioma is an intra-axial lesion \u2014 extra-axial location strongly favours meningioma. MRI with contrast is required to confirm."
       },
       {
         "type": "imaging",
@@ -1677,14 +1679,14 @@
       {
         "type": "history",
         "label": "Presenting Complaint",
-        "text": "A 7-year-old girl is brought to the ED with 5 weeks of progressive early-morning vomiting, headaches, and increasing irritability. Her parents report she has become unsteady and has fallen twice in the past 2 weeks.",
+        "text": "A 7-year-old girl is brought to the ED with 5 weeks of progressive early-morning vomiting and headaches that are worsening in frequency and severity.",
         "image": null,
         "accepted": [
           "Ependymoma",
           "Medulloblastoma",
           "Pilocytic Astrocytoma",
           "Brainstem Glioma",
-          "Hydrocephalus — various causes",
+          "Hydrocephalus \u2014 various causes",
           "Gastrointestinal cause"
         ],
         "reasoning": "Morning vomiting with new-onset gait instability and headaches in a child is a classic presentation of raised ICP from a posterior fossa tumour. The four main paediatric posterior fossa tumours must be considered: ependymoma, medulloblastoma, pilocytic astrocytoma, and brainstem glioma. Gastrointestinal causes of vomiting must be excluded initially."
@@ -1692,7 +1694,7 @@
       {
         "type": "history",
         "label": "History of Presenting Complaint",
-        "text": "The vomiting is worse in the morning before rising and also occurs after position changes. The headaches are holocephalic and have intensified over 5 weeks. She has developed a hoarse voice and difficulty swallowing over the past 2 weeks. No fever, no ear pain.",
+        "text": "Her parents also report she has become increasingly irritable and unsteady, having fallen twice in the past 2 weeks. The vomiting is worst in the morning before rising and also occurs with position changes; the headaches are holocephalic.",
         "image": null,
         "accepted": [
           "Ependymoma",
@@ -1700,7 +1702,7 @@
           "Pilocytic Astrocytoma",
           "Brainstem Glioma"
         ],
-        "reasoning": "Lower cranial nerve symptoms (hoarse voice, difficulty swallowing — CN IX/X/XII involvement) are a critically important localising feature pointing to the floor of the 4th ventricle or brainstem. Ependymoma classically arises from the floor of the 4th ventricle and extends through the foramina of Luschka and Magendie, compressing lower cranial nerve nuclei. Gastrointestinal causes are now excluded."
+        "reasoning": "Lower cranial nerve symptoms (hoarse voice, difficulty swallowing \u2014 CN IX/X/XII involvement) are a critically important localising feature pointing to the floor of the 4th ventricle or brainstem. Ependymoma classically arises from the floor of the 4th ventricle and extends through the foramina of Luschka and Magendie, compressing lower cranial nerve nuclei. Gastrointestinal causes are now excluded."
       },
       {
         "type": "history",
@@ -1712,12 +1714,12 @@
           "Medulloblastoma",
           "Pilocytic Astrocytoma"
         ],
-        "reasoning": "No NF2 family history (NF2 increases risk of spinal ependymoma in adults). No prior radiotherapy. All three tumour types can occur without known predisposition. Brainstem glioma is less characteristic without cranial nerve deficits from intrinsic brainstem origin at onset — the lower cranial nerve involvement in this case suggests extrinsic compression from the 4th ventricle floor rather than intrinsic brainstem tumour."
+        "reasoning": "No NF2 family history (NF2 increases risk of spinal ependymoma in adults). No prior radiotherapy. All three tumour types can occur without known predisposition. Brainstem glioma is less characteristic without cranial nerve deficits from intrinsic brainstem origin at onset \u2014 the lower cranial nerve involvement in this case suggests extrinsic compression from the 4th ventricle floor rather than intrinsic brainstem tumour."
       },
       {
         "type": "examination",
         "label": "Physical Examination",
-        "text": "GCS 15. Bilateral papilloedema (Grade II-III). Dysarthria and reduced gag reflex bilaterally. Bilateral CN VI palsy (false localising sign from raised ICP). Truncal ataxia — unsteady sitting without support. Limb coordination intact. No lateralising signs. Neck stiffness absent.",
+        "text": "GCS 15. Bilateral papilloedema (Grade II-III). Dysarthria and reduced gag reflex bilaterally. Bilateral CN VI palsy (false localising sign from raised ICP). Truncal ataxia \u2014 unsteady sitting without support. Limb coordination intact. No lateralising signs. Neck stiffness absent.",
         "image": null,
         "accepted": [
           "Ependymoma",
@@ -1728,13 +1730,13 @@
       {
         "type": "investigation",
         "label": "Bloods and CSF Staging",
-        "text": "FBC, CRP, metabolic panel normal. MRI spine: no drop metastases in the spinal canal. CSF obtained post-imaging: no malignant cells on cytology, lymphocyte count mildly elevated (12 cells/µL), protein mildly elevated. No organisms on culture.",
+        "text": "FBC, CRP, metabolic panel normal. MRI spine: no drop metastases in the spinal canal. CSF obtained post-imaging: no malignant cells on cytology, lymphocyte count mildly elevated (12 cells/\u00b5L), protein mildly elevated. No organisms on culture.",
         "image": null,
         "accepted": [
           "Ependymoma",
           "Medulloblastoma"
         ],
-        "reasoning": "Absence of CSF seeding does not distinguish ependymoma from medulloblastoma at this stage — both can or cannot have spinal dissemination. Normal inflammatory markers and CSF make infectious meningitis unlikely. Spinal MRI staging is necessary pre-operatively in both tumours. The differential now hinges on MRI characterisation of the 4th ventricular mass."
+        "reasoning": "Absence of CSF seeding does not distinguish ependymoma from medulloblastoma at this stage \u2014 both can or cannot have spinal dissemination. Normal inflammatory markers and CSF make infectious meningitis unlikely. Spinal MRI staging is necessary pre-operatively in both tumours. The differential now hinges on MRI characterisation of the 4th ventricular mass."
       },
       {
         "type": "imaging",
@@ -1762,14 +1764,14 @@
       {
         "type": "history",
         "label": "Presenting Complaint",
-        "text": "A 6-year-old male is brought to the paediatric ED with 4 weeks of daily morning vomiting, worsening headaches, and an increasingly unsteady gait. His parents report he has had three falls in the past 10 days.",
+        "text": "A 6-year-old boy is brought to the paediatric ED with a 4-week history of daily morning vomiting and worsening headaches.",
         "image": null,
         "accepted": [
           "Medulloblastoma",
           "Pilocytic Astrocytoma",
           "Ependymoma",
           "Brainstem Glioma",
-          "Hydrocephalus — various causes",
+          "Hydrocephalus \u2014 various causes",
           "Gastrointestinal cause of vomiting"
         ],
         "reasoning": "Morning vomiting with progressive cerebellar ataxia in a young child is the archetypal presentation of a posterior fossa tumour causing obstructive hydrocephalus. All four major paediatric posterior fossa tumours (medulloblastoma, pilocytic astrocytoma, ependymoma, brainstem glioma) must be considered alongside other causes of hydrocephalus. Gastrointestinal causes of vomiting should be initially excluded."
@@ -1777,7 +1779,7 @@
       {
         "type": "history",
         "label": "History of Presenting Complaint",
-        "text": "The vomiting occurs on waking and improves once he is upright and moving. Headache is worst in the morning and on coughing. The gait instability predominantly affects balance — he veers toward the midline when walking. No focal limb incoordination reported by parents. No lower cranial nerve symptoms.",
+        "text": "He has also developed an increasingly unsteady gait and has had three falls in the past 10 days. The vomiting occurs on waking and improves once he is upright; the headache is worst in the morning and on coughing.",
         "image": null,
         "accepted": [
           "Medulloblastoma",
@@ -1789,14 +1791,14 @@
       {
         "type": "history",
         "label": "Past Medical & Social History",
-        "text": "Normal birth history and developmental milestones. No family history of NF1, NF2, tuberous sclerosis, or Gorlin syndrome (basal cell naevus syndrome — associated with desmoplastic medulloblastoma). Father has colonic polyposis but no brain tumour history. Fully vaccinated. No prior cranial irradiation.",
+        "text": "Normal birth history and developmental milestones. No family history of NF1, NF2, tuberous sclerosis, or Gorlin syndrome (basal cell naevus syndrome \u2014 associated with desmoplastic medulloblastoma). Father has colonic polyposis but no brain tumour history. Fully vaccinated. No prior cranial irradiation.",
         "image": null,
         "accepted": [
           "Medulloblastoma",
           "Pilocytic Astrocytoma",
           "Ependymoma"
         ],
-        "reasoning": "Father's colonic polyposis suggests possible Turcot syndrome (APC mutation — associated with medulloblastoma variant) but is not confirmatory. Gorlin syndrome is specifically associated with desmoplastic/nodular medulloblastoma in infants. All three tumours can occur without defined genetic predisposition. Family history raises medulloblastoma probability but does not eliminate others."
+        "reasoning": "Father's colonic polyposis suggests possible Turcot syndrome (APC mutation \u2014 associated with medulloblastoma variant) but is not confirmatory. Gorlin syndrome is specifically associated with desmoplastic/nodular medulloblastoma in infants. All three tumours can occur without defined genetic predisposition. Family history raises medulloblastoma probability but does not eliminate others."
       },
       {
         "type": "examination",
@@ -1807,18 +1809,18 @@
           "Medulloblastoma",
           "Ependymoma"
         ],
-        "reasoning": "Marked truncal ataxia with preserved limb coordination (negative finger-nose, negative heel-shin) localises to the midline vermis — the vermis controls axial/truncal coordination, whereas the hemispheres control ipsilateral limb coordination. This pattern is more consistent with a vermian midline tumour. Bilateral CN VI palsies are false localising signs of severe raised ICP. Pilocytic astrocytoma now less likely (predominantly hemispheric). Ependymoma remains — but absence of lower CN palsies is less typical."
+        "reasoning": "Marked truncal ataxia with preserved limb coordination (negative finger-nose, negative heel-shin) localises to the midline vermis \u2014 the vermis controls axial/truncal coordination, whereas the hemispheres control ipsilateral limb coordination. This pattern is more consistent with a vermian midline tumour. Bilateral CN VI palsies are false localising signs of severe raised ICP. Pilocytic astrocytoma now less likely (predominantly hemispheric). Ependymoma remains \u2014 but absence of lower CN palsies is less typical."
       },
       {
         "type": "investigation",
         "label": "Bloods and MRI Spine",
-        "text": "FBC, metabolic panel, CRP: normal. MRI full spine: no leptomeningeal enhancement or drop metastases. CSF cytology (obtained post-imaging): no malignant cells. Opening pressure elevated at 26 cmH₂O.",
+        "text": "FBC, metabolic panel, CRP: normal. MRI full spine: no leptomeningeal enhancement or drop metastases. CSF cytology (obtained post-imaging): no malignant cells. Opening pressure elevated at 26 cmH\u2082O.",
         "image": null,
         "accepted": [
           "Medulloblastoma",
           "Ependymoma"
         ],
-        "reasoning": "Elevated opening pressure confirms hydrocephalus/raised ICP. Absence of spinal seeding at presentation does not exclude medulloblastoma — M0 stage (no metastases) is the most common presentation. CSF staging is essential pre-operatively in both medulloblastoma and ependymoma. MRI brain characterisation is now the critical next step."
+        "reasoning": "Elevated opening pressure confirms hydrocephalus/raised ICP. Absence of spinal seeding at presentation does not exclude medulloblastoma \u2014 M0 stage (no metastases) is the most common presentation. CSF staging is essential pre-operatively in both medulloblastoma and ependymoma. MRI brain characterisation is now the critical next step."
       },
       {
         "type": "imaging",
@@ -1828,7 +1830,7 @@
         "accepted": [
           "Medulloblastoma"
         ],
-        "reasoning": "Restricted diffusion (high cellularity) in a midline vermian mass filling the 4th ventricle from above — without floor involvement or foraminal extrusion — is the classic imaging profile of medulloblastoma. Ependymoma grows from the floor and characteristically extrudes through the foramina; it does not typically restrict diffusion. Homer-Wright rosettes are characteristic of medulloblastoma (not ependymoma, which has perivascular pseudorosettes). WNT-activated is the most favourable molecular subgroup."
+        "reasoning": "Restricted diffusion (high cellularity) in a midline vermian mass filling the 4th ventricle from above \u2014 without floor involvement or foraminal extrusion \u2014 is the classic imaging profile of medulloblastoma. Ependymoma grows from the floor and characteristically extrudes through the foramina; it does not typically restrict diffusion. Homer-Wright rosettes are characteristic of medulloblastoma (not ependymoma, which has perivascular pseudorosettes). WNT-activated is the most favourable molecular subgroup."
       }
     ]
   },
@@ -1846,30 +1848,30 @@
       {
         "type": "history",
         "label": "Presenting Complaint",
-        "text": "A 35-year-old female presents to the ophthalmology clinic with a 5-month history of gradually progressive difficulty seeing objects to the sides when driving. She has bumped into door frames several times. She also reports intermittent frontal headaches.",
+        "text": "A 35-year-old woman presents to the ophthalmology clinic with a 5-month history of gradually progressive difficulty seeing objects to the sides.",
         "image": null,
         "accepted": [
           "Pituitary Adenoma",
           "Craniopharyngioma",
-          "Meningioma — suprasellar",
+          "Meningioma \u2014 suprasellar",
           "Optic Chiasm Glioma",
-          "Aneurysm — internal carotid",
-          "Sarcoidosis — optic chiasm"
+          "Aneurysm \u2014 internal carotid",
+          "Sarcoidosis \u2014 optic chiasm"
         ],
         "reasoning": "Progressive visual field loss with frontal headache in a young adult suggests compression of the optic chiasm in the suprasellar region. The differential includes all suprasellar and parasellar masses: pituitary adenoma, craniopharyngioma, suprasellar meningioma, optic chiasm glioma, ICA aneurysm, and inflammatory causes such as sarcoidosis. Bitemporal visual field loss (if confirmed) would reflect chiasmal compression."
       },
       {
         "type": "history",
         "label": "History of Presenting Complaint",
-        "text": "She mentions she has not had a menstrual period for 9 months and initially attributed it to stress. She has also noticed her bra size has changed and she has had unexpected milk discharge from both breasts, despite not being pregnant. Libido markedly reduced over the past 6 months.",
+        "text": "She has been bumping into door frames and misjudging the edges of objects, and reports intermittent frontal headaches. She mentions she has not had a menstrual period for 9 months, initially attributed to stress, and has noticed unexpected milk discharge from both breasts despite not being pregnant, with markedly reduced libido over the past 6 months.",
         "image": null,
         "accepted": [
           "Pituitary Adenoma",
           "Craniopharyngioma",
-          "Meningioma — suprasellar",
+          "Meningioma \u2014 suprasellar",
           "Drug-induced Hyperprolactinaemia"
         ],
-        "reasoning": "Amenorrhoea, galactorrhoea, and reduced libido indicate hyperprolactinaemia — elevated prolactin suppresses GnRH → LH/FSH → hypogonadism. Prolactin-secreting pituitary adenoma (prolactinoma) is the commonest cause in a young woman. However, any large suprasellar mass can cause 'stalk effect' (compressing the dopaminergic stalk, releasing prolactin from tonic inhibition). Drug causes (antipsychotics, antiemetics) must also be considered."
+        "reasoning": "Amenorrhoea, galactorrhoea, and reduced libido indicate hyperprolactinaemia \u2014 elevated prolactin suppresses GnRH \u2192 LH/FSH \u2192 hypogonadism. Prolactin-secreting pituitary adenoma (prolactinoma) is the commonest cause in a young woman. However, any large suprasellar mass can cause 'stalk effect' (compressing the dopaminergic stalk, releasing prolactin from tonic inhibition). Drug causes (antipsychotics, antiemetics) must also be considered."
       },
       {
         "type": "history",
@@ -1879,21 +1881,21 @@
         "accepted": [
           "Pituitary Adenoma",
           "Craniopharyngioma",
-          "Meningioma — suprasellar"
+          "Meningioma \u2014 suprasellar"
         ],
-        "reasoning": "Drug-induced hyperprolactinaemia is effectively excluded — no relevant medications. Hypothyroidism excluded (TRH stimulates both TSH and prolactin — hypothyroidism can rarely cause hyperprolactinaemia). No MEN1 history. Pregnancy excluded. The combination of chiasmal compression with prolactin-mediated hypogonadism now strongly points to a sellar/suprasellar mass. All three remaining diagnoses can cause stalk compression."
+        "reasoning": "Drug-induced hyperprolactinaemia is effectively excluded \u2014 no relevant medications. Hypothyroidism excluded (TRH stimulates both TSH and prolactin \u2014 hypothyroidism can rarely cause hyperprolactinaemia). No MEN1 history. Pregnancy excluded. The combination of chiasmal compression with prolactin-mediated hypogonadism now strongly points to a sellar/suprasellar mass. All three remaining diagnoses can cause stalk compression."
       },
       {
         "type": "examination",
         "label": "Physical Examination",
-        "text": "Visual field testing (confrontation and Humphrey perimetry): bitemporal hemianopia — denser superiorly. Galactorrhoea confirmed bilaterally on expression. No acromegalic features. No cushingoid features. No ophthalmoplegia. Skin and systemic examination unremarkable. Blood pressure normal.",
+        "text": "Visual field testing (confrontation and Humphrey perimetry): bitemporal hemianopia \u2014 denser superiorly. Galactorrhoea confirmed bilaterally on expression. No acromegalic features. No cushingoid features. No ophthalmoplegia. Skin and systemic examination unremarkable. Blood pressure normal.",
         "image": null,
         "accepted": [
           "Pituitary Adenoma",
           "Craniopharyngioma",
-          "Meningioma — suprasellar"
+          "Meningioma \u2014 suprasellar"
         ],
-        "reasoning": "Bitemporal hemianopia confirms optic chiasm compression — the decussating nasal fibres (representing temporal visual fields) are compressed from below by a suprasellar mass. All three remaining diagnoses can produce this finding. No cushingoid or acromegalic features suggests the adenoma is not ACTH- or GH-secreting. The superior density of the hemianopia (denser superiorly) is consistent with compression from below (as from a pituitary adenoma extending superiorly)."
+        "reasoning": "Bitemporal hemianopia confirms optic chiasm compression \u2014 the decussating nasal fibres (representing temporal visual fields) are compressed from below by a suprasellar mass. All three remaining diagnoses can produce this finding. No cushingoid or acromegalic features suggests the adenoma is not ACTH- or GH-secreting. The superior density of the hemianopia (denser superiorly) is consistent with compression from below (as from a pituitary adenoma extending superiorly)."
       },
       {
         "type": "investigation",
@@ -1909,12 +1911,12 @@
       {
         "type": "imaging",
         "label": "MRI Pituitary and Diagnosis",
-        "text": "MRI pituitary (dedicated sella protocol with gadolinium, thin coronal cuts): 2.8cm macroadenoma arising from the sella with suprasellar extension, compressing the optic chiasm. Tumour is isointense to normal pituitary on T1, enhances less avidly than normal pituitary, no calcification, no cyst. Normal pituitary tissue compressed inferiorly. No cavernous sinus invasion. Diagnosis confirmed: macroprolactinoma. Cabergoline initiated — prolactin normalised at 3 months with 60% tumour shrinkage.",
+        "text": "MRI pituitary (dedicated sella protocol with gadolinium, thin coronal cuts): 2.8cm macroadenoma arising from the sella with suprasellar extension, compressing the optic chiasm. Tumour is isointense to normal pituitary on T1, enhances less avidly than normal pituitary, no calcification, no cyst. Normal pituitary tissue compressed inferiorly. No cavernous sinus invasion. Diagnosis confirmed: macroprolactinoma. Cabergoline initiated \u2014 prolactin normalised at 3 months with 60% tumour shrinkage.",
         "image": null,
         "accepted": [
           "Pituitary Adenoma"
         ],
-        "reasoning": "MRI sella confirms a homogeneous sellar macroadenoma with suprasellar extension and chiasmal compression — no calcification (excludes craniopharyngioma, which typically calcifies) and no extra-axial dural-based appearance (excludes meningioma). Response to dopamine agonist (cabergoline) confirms functional prolactin secretion and is diagnostic of prolactinoma — craniopharyngioma and meningioma do not respond to dopamine agonists."
+        "reasoning": "MRI sella confirms a homogeneous sellar macroadenoma with suprasellar extension and chiasmal compression \u2014 no calcification (excludes craniopharyngioma, which typically calcifies) and no extra-axial dural-based appearance (excludes meningioma). Response to dopamine agonist (cabergoline) confirms functional prolactin secretion and is diagnostic of prolactinoma \u2014 craniopharyngioma and meningioma do not respond to dopamine agonists."
       }
     ]
   },
@@ -1941,7 +1943,7 @@
           "Optic Pathway Glioma",
           "Hypothalamic Glioma",
           "Idiopathic Short Stature",
-          "Growth Hormone Deficiency — isolated",
+          "Growth Hormone Deficiency \u2014 isolated",
           "Constitutional Delay"
         ],
         "reasoning": "Progressive headaches with growth failure and cognitive decline in a child requires evaluation for a suprasellar mass affecting the hypothalamic-pituitary axis. Craniopharyngioma, optic pathway glioma, and hypothalamic glioma are the leading structural causes. Isolated growth hormone deficiency and constitutional delay are endocrine diagnoses of exclusion. Pituitary adenoma is rare in children but possible."
@@ -1949,7 +1951,7 @@
       {
         "type": "history",
         "label": "History of Presenting Complaint",
-        "text": "He has difficulty seeing the sides of the blackboard at school and has moved to the front row. He is significantly thirstier than his peers, drinks 4–5 litres of water daily, and passes large volumes of dilute urine frequently, including nocturia. He fatigues easily and his teachers note his memory and concentration have declined.",
+        "text": "He has difficulty seeing the sides of the blackboard at school and has moved to the front row. He is significantly thirstier than his peers, drinks 4\u20135 litres of water daily, and passes large volumes of dilute urine frequently, including nocturia. He fatigues easily and his teachers note his memory and concentration have declined.",
         "image": null,
         "accepted": [
           "Craniopharyngioma",
@@ -1957,19 +1959,19 @@
           "Hypothalamic Glioma",
           "Pituitary Adenoma"
         ],
-        "reasoning": "Polydipsia and polyuria with nocturia indicate diabetes insipidus (DI) — deficiency of ADH (vasopressin) from hypothalamic or posterior pituitary involvement. DI combined with visual field restriction (peripheral vision loss) and growth failure in a child is a classic triad of craniopharyngioma. Optic pathway glioma can cause visual loss but rarely DI or growth failure early. All four remain plausible — DI raises craniopharyngioma probability substantially."
+        "reasoning": "Polydipsia and polyuria with nocturia indicate diabetes insipidus (DI) \u2014 deficiency of ADH (vasopressin) from hypothalamic or posterior pituitary involvement. DI combined with visual field restriction (peripheral vision loss) and growth failure in a child is a classic triad of craniopharyngioma. Optic pathway glioma can cause visual loss but rarely DI or growth failure early. All four remain plausible \u2014 DI raises craniopharyngioma probability substantially."
       },
       {
         "type": "history",
         "label": "Past Medical & Social History",
-        "text": "Normal birth and early development until age 8 — crawled, walked, and spoke at appropriate milestones. Growth velocity declined from age 8. Previously seen by GP for short stature — no investigation undertaken. No family history of growth disorders, pituitary disease, or MEN1. Not on any medications. No prior cranial irradiation.",
+        "text": "Normal birth and early development until age 8 \u2014 crawled, walked, and spoke at appropriate milestones. Growth velocity declined from age 8. Previously seen by GP for short stature \u2014 no investigation undertaken. No family history of growth disorders, pituitary disease, or MEN1. Not on any medications. No prior cranial irradiation.",
         "image": null,
         "accepted": [
           "Craniopharyngioma",
           "Optic Pathway Glioma",
           "Hypothalamic Glioma"
         ],
-        "reasoning": "Normal development until age 8 with subsequent growth deceleration suggests an acquired (not congenital) process developing from mid-childhood — consistent with craniopharyngioma's typical childhood presentation (peak age 5-14 years). No MEN1 family history makes pituitary adenoma less likely. Optic pathway and hypothalamic gliomas can occur without identified genetic predisposition. Isolated constitutional delay does not cause DI or visual loss."
+        "reasoning": "Normal development until age 8 with subsequent growth deceleration suggests an acquired (not congenital) process developing from mid-childhood \u2014 consistent with craniopharyngioma's typical childhood presentation (peak age 5-14 years). No MEN1 family history makes pituitary adenoma less likely. Optic pathway and hypothalamic gliomas can occur without identified genetic predisposition. Isolated constitutional delay does not cause DI or visual loss."
       },
       {
         "type": "examination",
@@ -1980,32 +1982,32 @@
           "Craniopharyngioma",
           "Optic Pathway Glioma"
         ],
-        "reasoning": "Optic atrophy (pale discs) indicates chronic optic nerve/chiasm compression — distinguishing from papilloedema (which would indicate acute raised ICP). Bitemporal hemianopia with optic atrophy confirms chiasmal compression of long duration. Height-weight dissociation (short stature with normal or increased weight) is characteristic of hypothalamic-pituitary dysfunction with GH deficiency plus hypothalamic obesity. Hypothalamic glioma now less likely (typically intrinsic to hypothalamus without prominent chiasmal compression pattern)."
+        "reasoning": "Optic atrophy (pale discs) indicates chronic optic nerve/chiasm compression \u2014 distinguishing from papilloedema (which would indicate acute raised ICP). Bitemporal hemianopia with optic atrophy confirms chiasmal compression of long duration. Height-weight dissociation (short stature with normal or increased weight) is characteristic of hypothalamic-pituitary dysfunction with GH deficiency plus hypothalamic obesity. Hypothalamic glioma now less likely (typically intrinsic to hypothalamus without prominent chiasmal compression pattern)."
       },
       {
         "type": "investigation",
         "label": "Endocrine and Fluid Investigations",
-        "text": "Morning serum cortisol: low (185 nmol/L). GH stimulation test: GH <3 ng/mL (severe GH deficiency). LH, FSH: prepubertal (appropriate for age but unresponsive to GnRH stimulation). TSH: low-normal, free T4: low (secondary hypothyroidism). Urine osmolality: 85 mOsm/kg (dilute); serum osmolality: 302 mOsm/kg (mildly elevated) — consistent with cranial DI. Serum prolactin: mildly elevated (stalk effect).",
+        "text": "Morning serum cortisol: low (185 nmol/L). GH stimulation test: GH <3 ng/mL (severe GH deficiency). LH, FSH: prepubertal (appropriate for age but unresponsive to GnRH stimulation). TSH: low-normal, free T4: low (secondary hypothyroidism). Urine osmolality: 85 mOsm/kg (dilute); serum osmolality: 302 mOsm/kg (mildly elevated) \u2014 consistent with cranial DI. Serum prolactin: mildly elevated (stalk effect).",
         "image": null,
         "accepted": [
           "Craniopharyngioma",
           "Optic Pathway Glioma"
         ],
-        "reasoning": "Panhypopituitarism (GH deficiency, secondary hypothyroidism, secondary hypocortisolism) combined with cranial diabetes insipidus (low urine osmolality despite high serum osmolality) confirms hypothalamic-pituitary axis disruption at multiple levels. DI specifically implicates the posterior pituitary/hypothalamic stalk. This combination of anterior AND posterior pituitary failure is most characteristic of craniopharyngioma — optic pathway glioma rarely causes such complete pituitary axis failure."
+        "reasoning": "Panhypopituitarism (GH deficiency, secondary hypothyroidism, secondary hypocortisolism) combined with cranial diabetes insipidus (low urine osmolality despite high serum osmolality) confirms hypothalamic-pituitary axis disruption at multiple levels. DI specifically implicates the posterior pituitary/hypothalamic stalk. This combination of anterior AND posterior pituitary failure is most characteristic of craniopharyngioma \u2014 optic pathway glioma rarely causes such complete pituitary axis failure."
       },
       {
         "type": "imaging",
         "label": "MRI Brain and CT Head",
-        "text": "CT skull: suprasellar calcification in an eggshell pattern. MRI with gadolinium: lobulated suprasellar-sellar mass with mixed solid and cystic components, heterogeneous enhancement of the solid component, and T1 hyperintense cyst (containing cholesterol-rich fluid). Mass compresses the optic chiasm and hypothalamus. Intraoperative: dark 'machine-oil' viscous cyst fluid. Histopathology: adamantinomatous craniopharyngioma — wet keratin nodules, cholesterol clefts, and calcification.",
+        "text": "CT skull: suprasellar calcification in an eggshell pattern. MRI with gadolinium: lobulated suprasellar-sellar mass with mixed solid and cystic components, heterogeneous enhancement of the solid component, and T1 hyperintense cyst (containing cholesterol-rich fluid). Mass compresses the optic chiasm and hypothalamus. Intraoperative: dark 'machine-oil' viscous cyst fluid. Histopathology: adamantinomatous craniopharyngioma \u2014 wet keratin nodules, cholesterol clefts, and calcification.",
         "image": null,
         "accepted": [
           "Craniopharyngioma"
         ],
-        "reasoning": "Suprasellar calcification on CT combined with the MRI appearance of a mixed cystic-solid suprasellar mass with T1-hyperintense cyst content (cholesterol-rich fluid — which appears bright on T1 MRI) are pathognomonic of adamantinomatous craniopharyngioma. Optic pathway glioma is solid, non-calcified, and rarely cystic. The 'machine-oil' cyst fluid at surgery and wet keratin nodules on histopathology confirm adamantinomatous type — the childhood variant of craniopharyngioma (vs papillary type in adults)."
+        "reasoning": "Suprasellar calcification on CT combined with the MRI appearance of a mixed cystic-solid suprasellar mass with T1-hyperintense cyst content (cholesterol-rich fluid \u2014 which appears bright on T1 MRI) are pathognomonic of adamantinomatous craniopharyngioma. Optic pathway glioma is solid, non-calcified, and rarely cystic. The 'machine-oil' cyst fluid at surgery and wet keratin nodules on histopathology confirm adamantinomatous type \u2014 the childhood variant of craniopharyngioma (vs papillary type in adults)."
       }
     ]
   },
-
+  
   "case_0025": {
     "title": "Primary CNS Lymphoma",
     "finalDiagnosis": "Primary CNS Lymphoma",
@@ -2018,7 +2020,7 @@
       {
         "type": "history",
         "label": "Presenting Complaint",
-        "text": "A 58-year-old male, known to be HIV-positive (CD4 count 180 cells/µL, not currently on antiretroviral therapy), presents with a 3-week history of progressive confusion, right arm weakness, and personality change noted by his partner.",
+        "text": "A 58-year-old male, known to be HIV-positive (CD4 count 180 cells/\u00b5L, not currently on antiretroviral therapy), presents with a 3-week history of progressive confusion, right arm weakness, and personality change noted by his partner.",
         "image": null,
         "accepted": [
           "Primary CNS Lymphoma",
@@ -2041,12 +2043,12 @@
           "Progressive Multifocal Leukoencephalopathy",
           "Brain Metastases"
         ],
-        "reasoning": "Absence of fever and no cat/meat exposure reduces (but does not eliminate) toxoplasma probability — toxoplasma reactivation can occur without identifiable exposure history. No headache or photophobia makes cryptococcal meningitis less likely. Absence of fever is less consistent with cryptococcal infection. PML and PCNSL both cause subacute progressive deficits without fever. Weight loss raises concern for systemic lymphoma or occult malignancy."
+        "reasoning": "Absence of fever and no cat/meat exposure reduces (but does not eliminate) toxoplasma probability \u2014 toxoplasma reactivation can occur without identifiable exposure history. No headache or photophobia makes cryptococcal meningitis less likely. Absence of fever is less consistent with cryptococcal infection. PML and PCNSL both cause subacute progressive deficits without fever. Weight loss raises concern for systemic lymphoma or occult malignancy."
       },
       {
         "type": "history",
         "label": "Past Medical & Social History",
-        "text": "HIV diagnosed 6 years ago. Poor antiretroviral adherence — CD4 nadir 80 cells/µL. No prior AIDS-defining illness. No prior malignancy or chemotherapy. No prior CNS infection or cryptococcal disease. Heterosexual. Non-smoker. No travel to TB-endemic countries recently. No immunosuppressive medications other than HIV itself.",
+        "text": "HIV diagnosed 6 years ago. Poor antiretroviral adherence \u2014 CD4 nadir 80 cells/\u00b5L. No prior AIDS-defining illness. No prior malignancy or chemotherapy. No prior CNS infection or cryptococcal disease. Heterosexual. Non-smoker. No travel to TB-endemic countries recently. No immunosuppressive medications other than HIV itself.",
         "image": null,
         "accepted": [
           "Primary CNS Lymphoma",
@@ -2058,19 +2060,19 @@
       {
         "type": "examination",
         "label": "Physical Examination",
-        "text": "GCS 13. Right hemiparesis (arm 3/5, leg 4/5). Mild expressive aphasia. No meningism. No fever (temperature 37.0°C). No fundoscopic abnormality. No lymphadenopathy. No hepatosplenomegaly. No skin lesions. Toxoplasma IgG serology: positive.",
+        "text": "GCS 13. Right hemiparesis (arm 3/5, leg 4/5). Mild expressive aphasia. No meningism. No fever (temperature 37.0\u00b0C). No fundoscopic abnormality. No lymphadenopathy. No hepatosplenomegaly. No skin lesions. Toxoplasma IgG serology: positive.",
         "image": null,
         "accepted": [
           "Primary CNS Lymphoma",
           "Cerebral Toxoplasmosis",
           "Progressive Multifocal Leukoencephalopathy"
         ],
-        "reasoning": "Right UMN pattern weakness with aphasia localises to the left hemisphere. Positive Toxoplasma IgG confirms prior exposure — reactivation is possible. However, IgG positivity alone does not confirm active toxoplasma encephalitis (>90% of HIV patients with CD4 <200 are Toxoplasma IgG positive). Afebrile state with aphasia and hemiparesis is consistent with focal mass lesions from both PCNSL and toxoplasma. PML can cause aphasia and hemiparesis but is typically afebrile and progressive without mass effect."
+        "reasoning": "Right UMN pattern weakness with aphasia localises to the left hemisphere. Positive Toxoplasma IgG confirms prior exposure \u2014 reactivation is possible. However, IgG positivity alone does not confirm active toxoplasma encephalitis (>90% of HIV patients with CD4 <200 are Toxoplasma IgG positive). Afebrile state with aphasia and hemiparesis is consistent with focal mass lesions from both PCNSL and toxoplasma. PML can cause aphasia and hemiparesis but is typically afebrile and progressive without mass effect."
       },
       {
         "type": "investigation",
         "label": "CSF Analysis and Serology",
-        "text": "CT head (pre-LP): single left periventricular lesion with surrounding oedema — safe for LP. CSF: protein mildly elevated (0.9 g/L), lymphocytes 18/µL, glucose normal. CSF Toxoplasma PCR: negative. CSF Cryptococcus antigen: negative. CSF JC virus PCR: negative. CSF cytology: atypical lymphoid cells suspicious for malignancy. Serum LDH: elevated (420 U/L).",
+        "text": "CT head (pre-LP): single left periventricular lesion with surrounding oedema \u2014 safe for LP. CSF: protein mildly elevated (0.9 g/L), lymphocytes 18/\u00b5L, glucose normal. CSF Toxoplasma PCR: negative. CSF Cryptococcus antigen: negative. CSF JC virus PCR: negative. CSF cytology: atypical lymphoid cells suspicious for malignancy. Serum LDH: elevated (420 U/L).",
         "image": null,
         "accepted": [
           "Primary CNS Lymphoma",
@@ -2081,12 +2083,12 @@
       {
         "type": "imaging",
         "label": "MRI Brain and Biopsy",
-        "text": "MRI brain with gadolinium: single left periventricular ring-enhancing lesion (3.5cm) with central hypointensity, homogeneous enhancement, restricted diffusion (high cellularity), and contact with the ependymal surface. After failed empirical toxoplasma treatment (no clinical or radiological improvement at 2 weeks), stereotactic biopsy performed: diffuse large B-cell lymphoma (DLBCL) — large B-cells with prominent nucleoli, CD20 positive, MYC and BCL2 co-expression. EBV EBER positive (EBV-driven lymphomagenesis).",
+        "text": "MRI brain with gadolinium: single left periventricular ring-enhancing lesion (3.5cm) with central hypointensity, homogeneous enhancement, restricted diffusion (high cellularity), and contact with the ependymal surface. After failed empirical toxoplasma treatment (no clinical or radiological improvement at 2 weeks), stereotactic biopsy performed: diffuse large B-cell lymphoma (DLBCL) \u2014 large B-cells with prominent nucleoli, CD20 positive, MYC and BCL2 co-expression. EBV EBER positive (EBV-driven lymphomagenesis).",
         "image": null,
         "accepted": [
           "Primary CNS Lymphoma"
         ],
-        "reasoning": "Periventricular location with ependymal contact, homogeneous ring enhancement, and restricted diffusion are characteristic of PCNSL — especially in immunosuppressed patients. Toxoplasma lesions are typically multiple (ring-enhancing abscesses), peripheral (not periventricular), and do not restrict diffusion. Failure to respond to anti-toxoplasma treatment is a diagnostic criterion supporting PCNSL. DLBCL is the histological type in >90% of PCNSL. EBV association is specific to AIDS-related PCNSL (vs EBV-negative in immunocompetent patients)."
+        "reasoning": "Periventricular location with ependymal contact, homogeneous ring enhancement, and restricted diffusion are characteristic of PCNSL \u2014 especially in immunosuppressed patients. Toxoplasma lesions are typically multiple (ring-enhancing abscesses), peripheral (not periventricular), and do not restrict diffusion. Failure to respond to anti-toxoplasma treatment is a diagnostic criterion supporting PCNSL. DLBCL is the histological type in >90% of PCNSL. EBV association is specific to AIDS-related PCNSL (vs EBV-negative in immunocompetent patients)."
       }
     ]
   },
