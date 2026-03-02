@@ -8035,5 +8035,1827 @@
         "reasoning": "The histological triad of DLE — hyperkeratosis with follicular plugging, interface dermatitis at the basement membrane, and deep perivascular/periappendageal lymphocytic infiltrates — confirms discoid lupus erythematosus. Lichen planopilaris shows a lichenoid lymphocytic infiltrate around the upper hair follicle with a band-like pattern and typically prominent colloid bodies, but lacks follicular plugging and deep perivascular infiltrates. Direct immunofluorescence showing granular IgG and IgM at the DEJ ('lupus band') is a characteristic finding in DLE and is not seen in lichen planopilaris. These findings confirm the diagnosis of Discoid Lupus Erythematosus."
       }
     ]
+  },
+
+  "case_0097": {
+    "title": "Viral Wart (Verruca Vulgaris)",
+    "finalDiagnosis": "Viral Wart (Verruca Vulgaris)",
+    "snomedCode": "31447005",
+    "systems": [
+      "Dermatology",
+      "Benign Epidermal"
+    ],
+    "prompts": [
+      {
+        "type": "history",
+        "label": "Presenting Complaint",
+        "text": "A 14-year-old boy presents with a rough, hard growth on the sole of his right foot that has been present for four months.",
+        "image": null,
+        "accepted": [
+          "Viral Wart (Verruca Vulgaris)",
+          "Plantar Corn (Heloma Durum)",
+          "Callus",
+          "Molluscum Contagiosum",
+          "Foreign Body Granuloma"
+        ],
+        "reasoning": "A rough, hard focal growth on the plantar surface of the foot in an adolescent raises a differential across acquired hyperkeratotic lesions and infections. Verruca vulgaris, plantar corn, callus, molluscum contagiosum, and foreign body granuloma are all plausible. The discriminatory axis is the plantar foot location and the four-month chronicity in a young person. No morphological detail is yet available."
+      },
+      {
+        "type": "history",
+        "label": "History of Presenting Complaint",
+        "text": "The growth is painful when he walks on it, particularly with direct pressure; the pain is described as being like walking on a small stone. He uses the school swimming pool regularly and showers barefoot in communal changing rooms.",
+        "image": null,
+        "accepted": [
+          "Viral Wart (Verruca Vulgaris)",
+          "Plantar Corn (Heloma Durum)",
+          "Callus"
+        ],
+        "reasoning": "Pain on direct pressure from a plantar lesion is consistent with both a wart and a plantar corn. Communal barefoot exposure in swimming pool areas is a well-recognised route of HPV transmission, raising the probability of verruca vulgaris. Molluscum contagiosum is now less likely \u2014 it produces soft, umbilicated papules and is not typically painful on weight-bearing pressure. Foreign body granuloma would require a history of penetrating injury and does not typically worsen gradually over four months. Three diagnoses remain."
+      },
+      {
+        "type": "history",
+        "label": "Past Medical and Social History",
+        "text": "He is otherwise healthy with no skin conditions. A classmate recently told him they also have a similar growth on their foot. He plays football and his feet are frequently wet inside sports boots for extended periods.",
+        "image": null,
+        "accepted": [
+          "Viral Wart (Verruca Vulgaris)",
+          "Plantar Corn (Heloma Durum)",
+          "Callus"
+        ],
+        "reasoning": "A classmate with a similar lesion suggests a contagious aetiology, favouring viral wart over a corn or callus \u2014 which are mechanical lesions not transmitted between individuals. Prolonged moisture inside sports boots creates maceration of the stratum corneum, facilitating HPV entry. However, a plantar corn and callus are still possible as football boots create repetitive mechanical pressure. Physical examination is required to distinguish between these three. Three diagnoses remain."
+      },
+      {
+        "type": "examination",
+        "label": "Physical Examination",
+        "text": "A 1.2 cm firm, hyperkeratotic papule with a rough, irregular surface is present on the plantar surface of the right heel. Careful examination with a scalpel reveals the normal parallel ridges of the skin surface (dermatoglyphics) are interrupted and disrupted by the lesion rather than flowing over it. The lesion is tender on direct vertical compression but not on lateral pinch.",
+        "image": "derm_0097_p4_clinical.jpg",
+        "accepted": [
+          "Viral Wart (Verruca Vulgaris)",
+          "Plantar Corn (Heloma Durum)"
+        ],
+        "reasoning": "Interruption of dermatoglyphics \u2014 where the lesion disrupts and breaks the continuity of the normal skin ridge pattern \u2014 is a key feature distinguishing a wart from a corn. A corn forms within the epidermis and the ridge pattern flows over or around it; a wart grows through the epidermis, displacing the ridges. However, interrupted dermatoglyphics alone are not fully specific, as an atypical corn can occasionally disrupt skin markings. Tenderness on direct vertical compression is seen in both conditions. A second discriminating feature is required. Callus is now excluded \u2014 calluses produce diffuse thickening without discrete borders and do not disrupt dermatoglyphics."
+      },
+      {
+        "type": "imaging",
+        "label": "Dermoscopy",
+        "text": "Dermoscopy reveals multiple red-brown dotted vessels arranged in a clustered pattern within white papillae, corresponding to thrombosed dermal capillary loops visible as pinpoint haemorrhages. No parallel ridge pattern or central translucent keratin core is identified.",
+        "image": null,
+        "accepted": [
+          "Viral Wart (Verruca Vulgaris)"
+        ],
+        "reasoning": "The dermoscopic appearance of clustered dotted (red-brown) vessels within white papillae represents thrombosed dermal capillaries within the papillomatous projections of a viral wart \u2014 a finding not present in corns. A plantar corn shows a central translucent keratin core (the nucleus) on dermoscopy, surrounded by a ring of thicker keratinised skin, without dotted vessels. The presence of thrombosed capillary loops is specific to viral wart and definitively distinguishes it from corn. The diagnosis is confirmed without requiring biopsy."
+      },
+      {
+        "type": "investigation",
+        "label": "Histopathological Confirmation (Biopsy if Atypical)",
+        "text": "In this typical case, clinical and dermoscopic features alone confirm the diagnosis; histology when performed shows hyperkeratosis, parakeratosis, acanthosis, and large vacuolated keratinocytes with a perinuclear halo and wrinkled nuclei (koilocytes) in the upper spinous and granular layers.",
+        "image": "derm_0097_p6_histology.jpg",
+        "accepted": [
+          "Viral Wart (Verruca Vulgaris)"
+        ],
+        "reasoning": "Koilocytes \u2014 vacuolated keratinocytes with perinuclear halos and dark, wrinkled nuclei \u2014 are the histological hallmark of HPV infection and confirm viral wart. They represent productive HPV infection of keratinocytes, where viral replication causes cytoplasmic clearing and nuclear abnormalities. The papillomatous architecture with parakeratosis and hypergranulosis above the koilocytic zone is the complete histological picture of verruca vulgaris. These findings are pathognomonic for HPV-induced epidermal infection."
+      }
+    ]
+  },
+
+  "case_0098": {
+    "title": "Melanocytic Naevus (Acquired) \u2014 Intradermal",
+    "finalDiagnosis": "Melanocytic Naevus (Acquired) \u2014 Intradermal",
+    "snomedCode": "400096001",
+    "systems": [
+      "Dermatology",
+      "Melanocytic"
+    ],
+    "prompts": [
+      {
+        "type": "history",
+        "label": "Presenting Complaint",
+        "text": "A 29-year-old woman requests evaluation of a raised skin-coloured lesion on her upper cheek that has been present since her teenage years.",
+        "image": null,
+        "accepted": [
+          "Melanocytic Naevus (Acquired) \u2014 Intradermal",
+          "Dermatofibroma",
+          "Epidermoid Cyst",
+          "Sebaceous Hyperplasia",
+          "Basal Cell Carcinoma"
+        ],
+        "reasoning": "A raised, skin-coloured facial lesion present since adolescence raises a differential of benign and malignant entities. Intradermal melanocytic naevus, dermatofibroma, epidermoid cyst, sebaceous hyperplasia, and BCC all present as flesh-coloured raised lesions. The primary discriminatory axis is the skin-coloured quality and the long-standing stable character. No morphological detail is yet available."
+      },
+      {
+        "type": "history",
+        "label": "History of Presenting Complaint",
+        "text": "The lesion has been entirely stable for at least eight years and has never bled, ulcerated, or changed in colour; she is seeking evaluation purely for cosmetic reassurance. She recalls it first appearing as a flat brown macule when she was fifteen.",
+        "image": null,
+        "accepted": [
+          "Melanocytic Naevus (Acquired) \u2014 Intradermal",
+          "Dermatofibroma",
+          "Epidermoid Cyst",
+          "Sebaceous Hyperplasia"
+        ],
+        "reasoning": "Eight years of stability with no change in colour, bleeding, or ulceration significantly reduces the probability of a malignant process. BCC is now much less likely in a 29-year-old without UV risk factors and a stable lesion. The history of initial presentation as a flat brown macule in adolescence that has since become raised is consistent with the natural evolution of an acquired melanocytic naevus \u2014 beginning as a junctional naevus and transitioning to a compound or intradermal naevus over time. Dermatofibroma, epidermoid cyst, and sebaceous hyperplasia remain plausible as stable, raised, skin-coloured facial lesions. Four diagnoses remain."
+      },
+      {
+        "type": "history",
+        "label": "Past Medical and Social History",
+        "text": "She has no personal or family history of melanoma. She has no history of blistering sunburns and no prior skin biopsies. She reports that her father has a similar lesion on his face in the same location.",
+        "image": null,
+        "accepted": [
+          "Melanocytic Naevus (Acquired) \u2014 Intradermal",
+          "Dermatofibroma",
+          "Sebaceous Hyperplasia"
+        ],
+        "reasoning": "A similar lesion in a parent at the same anatomical site suggests a heritable tendency, which is most consistent with an inherited predisposition to developing melanocytic naevi \u2014 a recognised pattern. Epidermoid cysts are not typically familial unless associated with Gardner syndrome, which is not relevant in this context; epidermoid cysts are also now less likely given the facial location and skin-coloured papule morphology (epidermoid cysts tend to be dome-shaped with a punctum). Absence of melanoma family history is reassuring. Three diagnoses remain."
+      },
+      {
+        "type": "examination",
+        "label": "Physical Examination",
+        "text": "A 0.8 cm dome-shaped, soft, smooth-surfaced, skin-coloured to pale-pink papule with a uniform surface is present on the right upper cheek. No pigmentation, no telangiectasia, no surface ulceration. On palpation it is soft and compressible, with no firmness or fixation to underlying skin. A few coarse hairs are visible growing from its surface.",
+        "image": "derm_0098_p4_clinical.jpg",
+        "accepted": [
+          "Melanocytic Naevus (Acquired) \u2014 Intradermal",
+          "Dermatofibroma"
+        ],
+        "reasoning": "The soft, smooth, dome-shaped papule with coarse hairs growing from its surface is characteristic of an intradermal melanocytic naevus \u2014 the purely dermal naevus cell population lifts the overlying skin into a dome and commonly contains entrapped hair follicles. Dermatofibroma typically presents on the limbs (not the face), is firmer, and characteristically dimples inward on lateral compression (dimple sign). The absence of telangiectasia makes BCC unlikely. Sebaceous hyperplasia characteristically shows a central dell (depression) and is associated with sebaceous openings. Two diagnoses remain."
+      },
+      {
+        "type": "investigation",
+        "label": "Dermoscopy",
+        "text": "Dermoscopy shows a regular, symmetric, centrally homogeneous tan-brown pigmentation with a light peripheral rim and normal surrounding skin. No atypical pigment network, no blue-white veil, no regression structures, and no irregular streaks or atypical vascular structures are identified.",
+        "image": null,
+        "accepted": [
+          "Melanocytic Naevus (Acquired) \u2014 Intradermal"
+        ],
+        "reasoning": "The dermoscopic pattern of a homogeneous, symmetric, centrally distributed pigmentation without any melanoma-specific features \u2014 no atypical network, blue-white veil, regression, or atypical vessels \u2014 is consistent with a benign intradermal melanocytic naevus. Dermatofibroma shows a central white scarring area with a peripheral delicate network on dermoscopy, which is absent here. The benign dermoscopic architecture confirms an intradermal melanocytic naevus and excludes the need for excision from a safety standpoint. Cosmetic excision remains an option if desired."
+      },
+      {
+        "type": "investigation",
+        "label": "Histopathological Confirmation (Excision for Cosmesis)",
+        "text": "Shave excision for cosmetic removal shows nests and cords of bland, uniform naevus cells confined entirely to the dermis, without junctional activity and without cytological atypia, mitoses, or pagetoid spread. Entrapped hair follicles are noted within the lesion.",
+        "image": "derm_0098_p6_histology.jpg",
+        "accepted": [
+          "Melanocytic Naevus (Acquired) \u2014 Intradermal"
+        ],
+        "reasoning": "The exclusive dermal location of bland naevus cells without junctional activity confirms an intradermal melanocytic naevus \u2014 the final stage of the naevus maturation sequence, in which naevus cells have migrated fully into the dermis. Absence of pagetoid spread (melanocytes migrating upward through the epidermis), cytological atypia, or mitoses excludes melanoma. The presence of entrapped hair follicles corroborates the clinical finding of hairs growing from the lesion surface. These histological findings confirm the diagnosis of acquired intradermal melanocytic naevus."
+      }
+    ]
+  },
+  "case_0099": {
+    "title": "Neurofibroma",
+    "finalDiagnosis": "Neurofibroma",
+    "snomedCode": "31440006",
+    "systems": [
+      "Dermatology",
+      "Neural Tumour"
+    ],
+    "prompts": [
+      {
+        "type": "history",
+        "label": "Presenting Complaint",
+        "text": "A 38-year-old man presents with a soft, painless lump under the skin of his upper back that he first noticed six months ago.",
+        "image": null,
+        "accepted": [
+          "Neurofibroma",
+          "Lipoma",
+          "Epidermoid Cyst",
+          "Reactive Lymphadenopathy",
+          "Dermatofibroma"
+        ],
+        "reasoning": "A soft, painless subcutaneous lump on the upper back introduces a broad differential of benign subcutaneous lesions. Neurofibroma, lipoma, epidermoid cyst, reactive lymphadenopathy, and dermatofibroma are all plausible. The primary discriminatory axis is the soft consistency and the six-month gradual discovery."
+      },
+      {
+        "type": "history",
+        "label": "History of Presenting Complaint",
+        "text": "The lump has grown very slowly and causes mild intermittent tingling that radiates outward when he presses on it; he has noticed two or three similar but smaller soft lumps elsewhere on his trunk that he had not previously paid attention to.",
+        "image": null,
+        "accepted": [
+          "Neurofibroma",
+          "Lipoma",
+          "Epidermoid Cyst"
+        ],
+        "reasoning": "Radiating tingling on compression of the lump suggests the lesion has a neural component \u2014 direct pressure on a peripheral nerve or nerve sheath tumour produces a Tinel-like paresthetic response. This feature is not seen with lipomas or epidermoid cysts and effectively rules out reactive lymphadenopathy. The presence of multiple similar lumps on the trunk increases the probability of a condition producing multiple cutaneous neural tumours, most notably neurofibroma. Lipoma can be multiple but does not produce radiating paraesthesia on compression. Three diagnoses remain."
+      },
+      {
+        "type": "history",
+        "label": "Past Medical and Social History",
+        "text": "He has no significant past medical history and takes no medications. He was told at a childhood health screening that he had several light brown patches on his skin, but no follow-up was arranged. No family history of skin tumours or neurological conditions that he is aware of.",
+        "image": null,
+        "accepted": [
+          "Neurofibroma",
+          "Lipoma",
+          "Epidermoid Cyst"
+        ],
+        "reasoning": "The historical mention of light brown skin patches in childhood is a significant detail. Multiple caf\u00e9-au-lait macules in childhood combined with the development of multiple soft nerve sheath tumours in adulthood is the clinical pattern of neurofibromatosis type 1 \u2014 a condition in which neurofibromas are the characteristic skin tumour. However, solitary neurofibromas also occur sporadically in individuals without NF1. Lipoma and epidermoid cyst remain on the differential as they do not produce paresthesia, but the childhood pigmented patch history raises suspicion for a neural origin. Examination is required."
+      },
+      {
+        "type": "examination",
+        "label": "Physical Examination",
+        "text": "A 2 cm soft, non-tender subcutaneous nodule is present on the upper back. When the examiner applies lateral pressure to the lesion, it invaginates inward through a defect in the dermis \u2014 the 'buttonhole' sign is positive. Six additional similar soft nodules of varying sizes are identified on the trunk and proximal arms. No caf\u00e9-au-lait patches are identified on full skin survey.",
+        "image": "derm_0099_p4_clinical.jpg",
+        "accepted": [
+          "Neurofibroma",
+          "Lipoma"
+        ],
+        "reasoning": "The buttonhole sign \u2014 invagination of the lesion inward with lateral pressure through a dermal defect \u2014 is a characteristic physical sign of cutaneous neurofibroma, reflecting the loose consistency and dermal attachment of the tumour. Lipomas are typically firmer, more lobulated, and do not invaginate through the dermis. Epidermoid cysts have firm keratin-filled contents and a fixed cyst wall; they do not invaginate. The multiplicity of lesions with soft, invaginable consistency narrows the diagnosis to neurofibroma. Absence of caf\u00e9-au-lait macules on full skin survey means NF1 cannot be confirmed on examination alone at this stage."
+      },
+      {
+        "type": "investigation",
+        "label": "Excision Biopsy of the Primary Lesion",
+        "text": "Excision biopsy is performed. Macroscopically, the specimen is a soft, grey-white, unencapsulated lesion. Histology shows a proliferation of spindle cells with wavy nuclei in a pale, collagenous and myxoid stroma, accompanied by numerous mast cells.",
+        "image": "derm_0099_p6_histology.jpg",
+        "accepted": [
+          "Neurofibroma"
+        ],
+        "reasoning": "The histological triad of spindle cells with wavy (buckled) nuclei, myxoid and collagenous stroma, and numerous mast cells is the hallmark of neurofibroma. The spindle cells represent a mixture of Schwann cells, endoneurial fibroblasts, and perineurial cells in varying proportions. The myxoid stroma distinguishes neurofibroma from schwannoma (which shows compact Antoni A areas and Verocay bodies). The unencapsulated nature distinguishes it from schwannoma (which is encapsulated). Mast cells are a characteristic and diagnostically useful component of neurofibromas. The diagnosis is confirmed as neurofibroma."
+      },
+      {
+        "type": "investigation",
+        "label": "Genetic Counselling Referral and Final Assessment",
+        "text": "Given the multiple neurofibromas, the patient is referred for genetic counselling. Wood's lamp examination reveals three axillary freckling spots previously missed; a careful re-examination by a dermatologist identifies six caf\u00e9-au-lait macules >1.5 cm in diameter across the torso. Genetic testing confirms a pathogenic variant in the NF1 gene.",
+        "image": null,
+        "accepted": [
+          "Neurofibroma"
+        ],
+        "reasoning": "This prompt is an important clinical lesson: solitary and multiple neurofibromas confirmed on histology prompt systematic evaluation for NF1, which requires six or more caf\u00e9-au-lait macules >1.5 cm as a diagnostic criterion. The case is kept as neurofibroma (single lesion diagnosis) rather than being relabelled NF1, because the clinical presentation was of a single lump \u2014 the systemic diagnosis of NF1 is explored further in case 0100. The histological features of the excised lesion confirm neurofibroma regardless of the underlying genetic diagnosis."
+      }
+    ]
+  },
+  "case_0100": {
+    "title": "Neurofibromatosis Type 1 (NF1)",
+    "finalDiagnosis": "Neurofibromatosis Type 1 (NF1)",
+    "snomedCode": "19133006",
+    "systems": [
+      "Dermatology",
+      "Neurocutaneous"
+    ],
+    "prompts": [
+      {
+        "type": "history",
+        "label": "Presenting Complaint",
+        "text": "A 7-year-old boy is referred by his school doctor following the incidental finding of multiple light brown patches on his skin during a routine health check.",
+        "image": null,
+        "accepted": [
+          "Neurofibromatosis Type 1 (NF1)",
+          "McCune-Albright Syndrome",
+          "Constitutional Caf\u00e9-au-lait Macules (Isolated)",
+          "Legius Syndrome",
+          "Tuberous Sclerosis Complex"
+        ],
+        "reasoning": "Multiple caf\u00e9-au-lait macules in a child require systematic evaluation to determine whether they represent an isolated finding or a manifestation of a multisystem neurocutaneous syndrome. NF1, McCune-Albright syndrome, Legius syndrome, constitutional isolated caf\u00e9-au-lait spots, and tuberous sclerosis are all plausible. The primary discriminatory axis is multiple pigmented skin patches in a child. No count, size, or distribution is yet established."
+      },
+      {
+        "type": "history",
+        "label": "History of Presenting Complaint",
+        "text": "His mother reports the patches have been present since infancy and have increased in number over the years; she also recalls noticing some small freckle-like spots in his armpits in the last year. He has no seizures, no learning difficulties, and no bone pain.",
+        "image": null,
+        "accepted": [
+          "Neurofibromatosis Type 1 (NF1)",
+          "Constitutional Caf\u00e9-au-lait Macules (Isolated)",
+          "Legius Syndrome"
+        ],
+        "reasoning": "Caf\u00e9-au-lait macules present from infancy and increasing in number, combined with the appearance of axillary freckling, is highly characteristic of NF1 \u2014 axillary and inguinal freckling (Crowe's sign) is a specific diagnostic criterion. Axillary freckling is not a feature of McCune-Albright syndrome (which involves large segmental macules with irregular 'coast of Maine' borders and endocrine abnormalities) or tuberous sclerosis (which causes hypopigmented patches, not caf\u00e9-au-lait). Constitutional isolated caf\u00e9-au-lait macules and Legius syndrome (SPRED1 mutation causing caf\u00e9-au-lait macules and axillary freckling) remain plausible. Three diagnoses remain."
+      },
+      {
+        "type": "history",
+        "label": "Past Medical and Social History",
+        "text": "His father has several small soft lumps under the skin of his arms and back that have never been formally investigated. The boy has no learning difficulties at school and no prior diagnosis. Developmental milestones have been normal.",
+        "image": null,
+        "accepted": [
+          "Neurofibromatosis Type 1 (NF1)",
+          "Legius Syndrome"
+        ],
+        "reasoning": "A father with multiple soft subcutaneous lumps \u2014 likely cutaneous neurofibromas \u2014 raises the strong possibility of autosomal dominant NF1 segregating through the family. NF1 is autosomal dominant with high penetrance; 50% of cases are familial. Legius syndrome is also autosomal dominant and can cause caf\u00e9-au-lait macules and axillary freckling, but does not cause neurofibromas. The father's soft subcutaneous lumps are not consistent with Legius syndrome. Isolated constitutional caf\u00e9-au-lait macules are now excluded \u2014 the familial pattern of lumps points toward a specific neurocutaneous syndrome. Two diagnoses remain."
+      },
+      {
+        "type": "examination",
+        "label": "Physical Examination",
+        "text": "Eight caf\u00e9-au-lait macules, all greater than 1.5 cm in diameter, are distributed across the trunk. Axillary freckling is confirmed bilaterally. No cutaneous neurofibromas are yet palpable. No plexiform lesions, no focal neurology, no scoliosis. Slit-lamp examination is pending.",
+        "image": "derm_0100_p4_clinical.jpg",
+        "accepted": [
+          "Neurofibromatosis Type 1 (NF1)",
+          "Legius Syndrome"
+        ],
+        "reasoning": "Six or more caf\u00e9-au-lait macules greater than 1.5 cm in a prepubertal child is a major NIH diagnostic criterion for NF1. Bilateral axillary freckling (Crowe's sign) is a second NF1 diagnostic criterion. Having two criteria meets the NIH threshold for NF1 diagnosis. However, Legius syndrome (SPRED1 pathogenic variant) can also produce six or more caf\u00e9-au-lait macules and axillary freckling \u2014 it shares these two criteria with NF1 but does not produce neurofibromas or Lisch nodules. Without ophthalmological assessment or molecular testing, Legius syndrome cannot be excluded on clinical grounds alone at this stage. Two diagnoses remain."
+      },
+      {
+        "type": "investigation",
+        "label": "Slit-Lamp Ophthalmological Examination",
+        "text": "Slit-lamp examination by ophthalmology identifies three small, raised, pigmented iris nodules bilaterally \u2014 consistent with melanocytic iris hamartomas.",
+        "image": null,
+        "accepted": [
+          "Neurofibromatosis Type 1 (NF1)"
+        ],
+        "reasoning": "Melanocytic iris hamartomas (Lisch nodules) are pathognomonic of NF1 \u2014 they are not found in Legius syndrome, tuberous sclerosis, constitutional caf\u00e9-au-lait macules, or any other condition in the differential. Their identification in a child who already meets two NF1 criteria (\u22656 caf\u00e9-au-lait macules and axillary freckling) provides a third diagnostic criterion, satisfying the NIH diagnostic requirements for NF1. Legius syndrome is definitively excluded by the presence of Lisch nodules."
+      },
+      {
+        "type": "investigation",
+        "label": "Genetic Testing Confirmation",
+        "text": "Germline sequencing identifies a pathogenic heterozygous loss-of-function variant in the NF1 gene encoding neurofibromin, confirming the diagnosis. The family is referred for genetic counselling and enrolled in a multidisciplinary NF1 surveillance programme.",
+        "image": null,
+        "accepted": [
+          "Neurofibromatosis Type 1 (NF1)"
+        ],
+        "reasoning": "Identification of a pathogenic NF1 variant confirms the molecular basis of the diagnosis. Neurofibromin is a RAS-GTPase activating protein that normally suppresses RAS signalling; loss-of-function mutations lead to unregulated RAS activity, driving tumour formation (neurofibromas, gliomas) and developmental abnormalities. The combination of \u22656 caf\u00e9-au-lait macules, axillary freckling, Lisch nodules, a first-degree relative with NF1, and a pathogenic NF1 variant confirms Neurofibromatosis Type 1 by both clinical and molecular criteria."
+      }
+    ]
+  },
+  "case_0101": {
+    "title": "Actinic Keratosis (Solar Keratosis)",
+    "finalDiagnosis": "Actinic Keratosis (Solar Keratosis)",
+    "snomedCode": "201101001",
+    "systems": [
+      "Dermatology",
+      "Pre-malignant"
+    ],
+    "prompts": [
+      {
+        "type": "history",
+        "label": "Presenting Complaint",
+        "text": "A 69-year-old man is referred for assessment of several rough, scaly patches on his scalp and forearms that have developed over the past two years.",
+        "image": null,
+        "accepted": [
+          "Actinic Keratosis (Solar Keratosis)",
+          "Squamous Cell Carcinoma (in situ / Bowen's Disease)",
+          "Seborrhoeic Keratosis",
+          "Psoriasis",
+          "Chronic Eczema (Lichenified)"
+        ],
+        "reasoning": "Multiple scaly patches on the scalp and forearms of an elderly man over two years introduces a broad differential of keratotic and scaly dermatoses. Actinic keratosis, SCC in situ (Bowen's disease), seborrhoeic keratosis, psoriasis, and lichenified eczema are all plausible. The primary discriminatory axis is the location on chronically sun-exposed surfaces in an elderly patient with a two-year progressive course."
+      },
+      {
+        "type": "history",
+        "label": "History of Presenting Complaint",
+        "text": "The patches are intermittently tender to touch and occasionally bleed minimally when he scratches them; they do not itch consistently. He has tried moisturising creams without improvement.",
+        "image": null,
+        "accepted": [
+          "Actinic Keratosis (Solar Keratosis)",
+          "Squamous Cell Carcinoma (in situ / Bowen's Disease)",
+          "Seborrhoeic Keratosis",
+          "Psoriasis"
+        ],
+        "reasoning": "Tenderness on palpation and occasional bleeding on minimal trauma suggest an abnormal, friable epithelium rather than a simple benign keratosis or dry skin condition. Chronic eczema is now less likely \u2014 lichenified eczema is pruritic and responds partially to emollients. Seborrhoeic keratosis is typically asymptomatic and not tender. Psoriasis is pruritic with a distinctive scale and would improve with emollient use. Actinic keratosis and SCC in situ are both tender keratotic lesions on sun-damaged skin, and both can bleed minimally. Four diagnoses remain."
+      },
+      {
+        "type": "history",
+        "label": "Past Medical and Social History",
+        "text": "He is a retired outdoor construction worker with over 40 years of cumulative sun exposure. He has fair skin, burns easily, and has never used sunscreen regularly. He was treated for a squamous cell carcinoma on his right forearm two years ago. No immunosuppression.",
+        "image": null,
+        "accepted": [
+          "Actinic Keratosis (Solar Keratosis)",
+          "Squamous Cell Carcinoma (in situ / Bowen's Disease)"
+        ],
+        "reasoning": "Decades of cumulative occupational UV exposure and a personal history of prior invasive SCC confirm extensive field cancerisation \u2014 the concept of widespread UV-induced genetic damage across a chronically exposed field, giving rise to multiple simultaneous pre-malignant and malignant lesions. This history strongly elevates actinic keratosis and SCC in situ on the differential. Seborrhoeic keratosis and psoriasis are not associated with cumulative UV exposure or a history of SCC and are now excluded. Two diagnoses remain: actinic keratosis (pre-invasive) and SCC in situ (intraepidermal malignancy)."
+      },
+      {
+        "type": "examination",
+        "label": "Physical Examination",
+        "text": "Multiple erythematous macules and thin plaques with adherent rough, sandpaper-textured scale are present on the vertex scalp, forehead, and dorsal forearms. The lesions are more easily felt than seen \u2014 rubbing the fingertips across the skin surface detects the roughness before the eye. Individual lesions are 0.5\u20131.5 cm, with indistinct borders. No indurated or ulcerated nodule is palpable. No lymphadenopathy.",
+        "image": "derm_0101_p4_clinical.jpg",
+        "accepted": [
+          "Actinic Keratosis (Solar Keratosis)",
+          "Squamous Cell Carcinoma (in situ / Bowen's Disease)"
+        ],
+        "reasoning": "The 'felt before seen' quality of the sandpaper-textured rough scale on sun-damaged skin is a classic clinical description of actinic keratosis. Thin, flat lesions without induration or ulceration favour actinic keratosis over invasive SCC. However, SCC in situ (Bowen's disease) can present as flat, well-demarcated erythematous plaques with a scaly surface that are clinically very similar to actinic keratosis. The absence of an indurated nodule excludes invasive SCC. Biopsy of the thickest or most atypical lesion is required to differentiate AK from SCC in situ."
+      },
+      {
+        "type": "investigation",
+        "label": "Skin Biopsy (Thickest Lesion)",
+        "text": "Punch biopsy of the thickest lesion shows dysplastic keratinocytes confined to the lower layers of the epidermis, with preservation of the epidermal architecture in the upper layers. Parakeratosis is present and alternates with areas of orthokeratosis. The basement membrane is intact. No full-thickness dysplasia and no dermal invasion.",
+        "image": "derm_0101_p6_histology.jpg",
+        "accepted": [
+          "Actinic Keratosis (Solar Keratosis)"
+        ],
+        "reasoning": "Dysplasia confined to the lower epidermis (basal and parabasal layers) with an intact basement membrane and no full-thickness involvement confirms actinic keratosis. SCC in situ (Bowen's disease) shows full-thickness dysplasia \u2014 atypical keratinocytes at all epidermal levels with preserved basement membrane. The partial-thickness dysplasia with alternating parakeratosis is the histological definition of AK. The intact basement membrane excludes invasive SCC. These histological features confirm actinic keratosis as the diagnosis."
+      },
+      {
+        "type": "investigation",
+        "label": "Field Treatment and Confirmation",
+        "text": "The patient undergoes field treatment of both forearms and the scalp with topical 5-fluorouracil (5-FU) cream for four weeks, producing a marked inflammatory response followed by crusting and clearance of the visible lesions. Surveillance is arranged at six-monthly intervals given the high-risk field with prior invasive SCC.",
+        "image": null,
+        "accepted": [
+          "Actinic Keratosis (Solar Keratosis)"
+        ],
+        "reasoning": "Response to field-directed therapy with 5-FU, which selectively destroys rapidly proliferating dysplastic keratinocytes, confirms the pre-malignant nature of the lesions. Field treatment addresses both visible AKs and subclinical dysplastic cells in UV-damaged skin. SCC in situ and invasive SCC would not reliably resolve with topical 5-FU alone and require excision or definitive local therapy. The treatment response, combined with the histological findings of partial-thickness dysplasia, confirms the diagnosis of actinic keratosis."
+      }
+    ]
+  },
+  "case_0102": {
+    "title": "Drug-induced Urticaria",
+    "finalDiagnosis": "Drug-induced Urticaria",
+    "snomedCode": "402387002",
+    "systems": [
+      "Dermatology",
+      "CADR"
+    ],
+    "prompts": [
+      {
+        "type": "history",
+        "label": "Presenting Complaint",
+        "text": "A 31-year-old woman presents with an intensely itchy skin reaction that developed suddenly while at work.",
+        "image": null,
+        "accepted": [
+          "Drug-induced Urticaria",
+          "Food Allergy \u2014 Urticaria",
+          "Physical Urticaria",
+          "Contact Urticaria",
+          "Viral Exanthem"
+        ],
+        "reasoning": "Sudden onset of an intensely itchy skin reaction establishes the category of an acute urticarial or exanthematous eruption. Drug-induced urticaria, food-allergy urticaria, physical urticaria, contact urticaria, and viral exanthem are all plausible. The primary discriminatory axis is the sudden onset and intense pruritus. No morphological detail, trigger, or context has been established."
+      },
+      {
+        "type": "history",
+        "label": "History of Presenting Complaint",
+        "text": "The reaction began approximately 30 minutes after taking a tablet she was given; the rash consists of multiple raised, intensely itchy welts appearing across her trunk and arms, with each individual lesion disappearing and reappearing in a different location over the course of an hour.",
+        "image": null,
+        "accepted": [
+          "Drug-induced Urticaria",
+          "Food Allergy \u2014 Urticaria",
+          "Contact Urticaria"
+        ],
+        "reasoning": "The migratory, transient quality of individual wheals \u2014 appearing, resolving within an hour, and reappearing elsewhere \u2014 is the defining behaviour of urticaria. This pattern excludes viral exanthem and physical urticaria (which would require a physical stimulus and resolve when the stimulus is removed). Contact urticaria typically remains localised to the site of contact. The onset 30 minutes after ingesting a tablet is a critical temporal link to a drug trigger, though food ingestion must also be considered as the source of the allergen. Three diagnoses remain."
+      },
+      {
+        "type": "history",
+        "label": "Past Medical and Social History",
+        "text": "She was given ibuprofen by her colleague for a headache; this was only the second time she had ever taken it. She ate her usual packed lunch before the headache but ate nothing unusual or new. She has no prior history of urticaria or allergies.",
+        "image": null,
+        "accepted": [
+          "Drug-induced Urticaria",
+          "Food Allergy \u2014 Urticaria"
+        ],
+        "reasoning": "Ibuprofen (an NSAID) is one of the most common causes of drug-induced urticaria. NSAIDs can cause urticaria through IgE-mediated mechanisms on repeat exposure or through non-immunological COX-1 inhibition increasing leukotriene production. This is her second ever exposure to ibuprofen, which is consistent with a sensitisation followed by elicitation reaction. No new food was consumed, making food allergy less likely, though a previously tolerated food in a new combination could theoretically trigger urticaria. Two diagnoses remain and require clarification of prior exposure history."
+      },
+      {
+        "type": "examination",
+        "label": "Physical Examination",
+        "text": "Multiple erythematous, raised, irregular wheals of varying sizes are distributed over the trunk and proximal arms; during the examination, one wheal resolves completely while two new ones appear at separate locations. The lesions are blanchable. No lip swelling, no tongue swelling, no stridor, and no hypotension.",
+        "image": "derm_0102_p4_clinical.jpg",
+        "accepted": [
+          "Drug-induced Urticaria",
+          "Food Allergy \u2014 Urticaria"
+        ],
+        "reasoning": "Direct observation of a wheal resolving and new wheals forming during examination confirms the diagnosis category of urticaria \u2014 the transient, migratory pattern is pathognomonic. Blanchability confirms vascular rather than haemorrhagic lesions. Absence of lip/tongue swelling, stridor, and haemodynamic compromise confirms urticaria without anaphylaxis. Both drug-induced and food allergy urticaria can produce this identical clinical picture; the morphology alone cannot distinguish the trigger. Both ibuprofen (the ingested drug) and a food component from her lunch remain as possible allergens. The trigger requires further elucidation."
+      },
+      {
+        "type": "investigation",
+        "label": "Allergy History Review and Serum Tryptase",
+        "text": "Detailed review confirms she ate her usual packed lunch with no new ingredients and has eaten the same lunch without issue for months. Serum tryptase drawn one hour after onset: 8.2 \u03bcg/L (normal); C4 level normal, excluding complement-mediated disease.",
+        "image": null,
+        "accepted": [
+          "Drug-induced Urticaria"
+        ],
+        "reasoning": "The absence of any new food in her usual lunch, which she has tolerated repeatedly without reaction, effectively excludes a food allergen as the trigger. Ibuprofen remains the only new exposure \u2014 taken 30 minutes before symptom onset. Normal tryptase is consistent with localised mast cell degranulation from a drug pseudo-allergic reaction rather than widespread systemic mast cell activation. Normal C4 excludes complement-mediated urticaria. The combination of ibuprofen as the sole new exposure, no food trigger, and a typical IgE- or pseudo-allergic urticarial response confirms drug-induced urticaria."
+      },
+      {
+        "type": "investigation",
+        "label": "Resolution and Confirmation",
+        "text": "Ibuprofen is ceased and she is treated with a single oral cetirizine dose; the wheals resolve completely within three hours. Formal allergy testing at six weeks confirms a positive intradermal skin test to ibuprofen. All NSAIDs are documented as contraindicated.",
+        "image": null,
+        "accepted": [
+          "Drug-induced Urticaria"
+        ],
+        "reasoning": "Complete resolution within hours of drug cessation and antihistamine administration confirms an IgE-mediated or pseudo-allergic mast cell response to ibuprofen. The positive intradermal skin test at six weeks confirms sensitisation to ibuprofen in this patient. Drug-induced urticaria is confirmed as the final diagnosis. The cross-reactivity profile of NSAIDs means all NSAIDs are contraindicated in this patient, and she should be counselled to use paracetamol as an alternative analgesic."
+      }
+    ]
+  },
+  "case_0103": {
+    "title": "Drug-induced Angioedema (ACE Inhibitor-Induced)",
+    "finalDiagnosis": "Drug-induced Angioedema (ACE Inhibitor-Induced)",
+    "snomedCode": "41291007",
+    "systems": [
+      "Dermatology",
+      "CADR"
+    ],
+    "prompts": [
+      {
+        "type": "history",
+        "label": "Presenting Complaint",
+        "text": "A 63-year-old man presents to the emergency department with sudden swelling of his lips and tongue that began 45 minutes ago.",
+        "image": null,
+        "accepted": [
+          "Drug-induced Angioedema (ACE Inhibitor-Induced)",
+          "Allergic Angioedema (IgE-mediated)",
+          "Hereditary Angioedema",
+          "Anaphylaxis",
+          "Dental or Perioral Abscess"
+        ],
+        "reasoning": "Acute-onset lip and tongue swelling is a medical emergency requiring rapid categorisation. ACEi-induced angioedema, IgE-mediated allergic angioedema, hereditary angioedema, anaphylaxis, and perioral infection are all plausible. The primary discriminatory axis is the acute onset and anatomical location of deep soft tissue swelling. Airway assessment is the immediate clinical priority."
+      },
+      {
+        "type": "history",
+        "label": "History of Presenting Complaint",
+        "text": "The swelling involves the lower lip and the anterior tongue and is painless; he has no urticaria, no rash, and no abdominal pain. He reports similar episodes on two occasions in the past year, both of which resolved spontaneously within 24 to 48 hours without treatment.",
+        "image": null,
+        "accepted": [
+          "Drug-induced Angioedema (ACE Inhibitor-Induced)",
+          "Allergic Angioedema (IgE-mediated)",
+          "Hereditary Angioedema"
+        ],
+        "reasoning": "Recurrent angioedema episodes over the past year that resolve spontaneously without treatment within 48 hours is more consistent with ACEi-induced or hereditary angioedema than with anaphylaxis (which does not recur predictably without re-exposure) or infection (which would produce pain and fever). The absence of urticaria is a critical discriminator \u2014 allergic IgE-mediated reactions almost always produce urticaria alongside angioedema, whereas ACEi-induced and hereditary angioedema are typically non-urticarial (bradykinin-mediated). Perioral abscess is excluded \u2014 there is no pain and the involvement is mucosal rather than a discrete collection. Three diagnoses remain."
+      },
+      {
+        "type": "history",
+        "label": "Past Medical and Social History",
+        "text": "He has hypertension managed with ramipril for the past 14 months. He has no prior history of urticaria or allergic conditions. No family history of recurrent unexplained angioedema. He has not eaten any unusual food today and has taken no new medications.",
+        "image": null,
+        "accepted": [
+          "Drug-induced Angioedema (ACE Inhibitor-Induced)",
+          "Hereditary Angioedema"
+        ],
+        "reasoning": "Ramipril is an ACE inhibitor, and ACEi-induced angioedema can develop at any point during therapy \u2014 including months to years after initiation. The onset 14 months after starting ramipril is characteristic; ACEi-induced angioedema is notoriously unpredictable in timing and can occur long after drug initiation. Absence of family history significantly reduces hereditary angioedema (HAE) probability \u2014 HAE is autosomal dominant and almost always has a positive family history. No new food or drug exposure excludes a new IgE-mediated trigger. Two diagnoses remain."
+      },
+      {
+        "type": "examination",
+        "label": "Physical Examination",
+        "text": "Non-pitting oedema of the lower lip and anterior tongue, with no urticarial wheals anywhere on the body surface. No stridor. No skin erythema. No lymphadenopathy. Oropharynx: uvula mildly oedematous but airway is patent. Vital signs: HR 84 bpm, BP 148/92 mmHg, SpO2 99% on room air.",
+        "image": null,
+        "accepted": [
+          "Drug-induced Angioedema (ACE Inhibitor-Induced)",
+          "Hereditary Angioedema"
+        ],
+        "reasoning": "Non-pitting, non-urticarial angioedema of the mucosa confirms deep dermal and submucosal oedema. The complete absence of urticaria is the key clinical finding distinguishing bradykinin-mediated angioedema (ACEi-induced or HAE) from IgE-mediated allergic angioedema. Anaphylaxis requires at least two organ systems to be involved \u2014 skin plus respiratory/cardiovascular \u2014 and is excluded by the absence of urticaria and haemodynamic stability. The clinical presentation is consistent with both ACEi-induced and HAE at this stage."
+      },
+      {
+        "type": "investigation",
+        "label": "Complement Studies",
+        "text": "C4 level: normal. C1-esterase inhibitor (C1-INH) functional assay: normal. C1-INH antigen level: normal. Serum tryptase: normal at 4.1 \u03bcg/L.",
+        "image": null,
+        "accepted": [
+          "Drug-induced Angioedema (ACE Inhibitor-Induced)"
+        ],
+        "reasoning": "Normal C4, normal C1-INH function, and normal C1-INH antigen definitively exclude hereditary angioedema types I and II. HAE type I is characterised by low C1-INH antigen; HAE type II by low C1-INH function with normal antigen; both show low C4. Normal tryptase excludes mast cell-mediated (IgE) angioedema. With all alternative diagnoses excluded, the only remaining diagnosis is ACEi-induced angioedema \u2014 a bradykinin-mediated reaction caused by ramipril-induced inhibition of the enzyme responsible for bradykinin degradation."
+      },
+      {
+        "type": "investigation",
+        "label": "Drug Cessation and Clinical Confirmation",
+        "text": "Ramipril is immediately discontinued and the patient is treated with icatibant (a bradykinin B2 receptor antagonist). The lip and tongue swelling resolves completely within six hours. Antihypertensive therapy is changed to amlodipine. No further episodes of angioedema occur over 12 months of follow-up.",
+        "image": null,
+        "accepted": [
+          "Drug-induced Angioedema (ACE Inhibitor-Induced)"
+        ],
+        "reasoning": "Rapid resolution with a bradykinin receptor antagonist (icatibant) confirms that excess bradykinin is the mediator \u2014 consistent with ACEi-induced angioedema. ACE inhibitors prevent bradykinin degradation by blocking angiotensin-converting enzyme (kininase II), causing bradykinin accumulation and increased vascular permeability. Response to icatibant, combined with no recurrence after drug withdrawal and substitution with a calcium channel blocker, provides definitive confirmation of ACE inhibitor-induced bradykinin-mediated angioedema."
+      }
+    ]
+  },
+  "case_0104": {
+    "title": "Toxic Epidermal Necrolysis (TEN)",
+    "finalDiagnosis": "Toxic Epidermal Necrolysis (TEN)",
+    "snomedCode": "36742006",
+    "systems": [
+      "Dermatology",
+      "CADR \u2014 SCAR"
+    ],
+    "prompts": [
+      {
+        "type": "history",
+        "label": "Presenting Complaint",
+        "text": "A 58-year-old woman is admitted to the intensive care unit with a rapidly progressing, severely painful skin reaction that developed over the past three days.",
+        "image": null,
+        "accepted": [
+          "Toxic Epidermal Necrolysis (TEN)",
+          "Stevens-Johnson Syndrome (SJS)",
+          "Staphylococcal Scalded Skin Syndrome (SSSS)",
+          "Pemphigus Vulgaris (Severe)",
+          "Generalised Bullous Fixed Drug Eruption"
+        ],
+        "reasoning": "A rapidly progressing, severely painful, widespread skin reaction requiring ICU admission represents one of the most serious cutaneous emergencies. TEN, SJS, SSSS, severe pemphigus vulgaris, and generalised bullous fixed drug eruption are all plausible. The primary discriminatory axis is the acuity, severity, and ICU-level requirement of the presentation."
+      },
+      {
+        "type": "history",
+        "label": "History of Presenting Complaint",
+        "text": "Over three days, she developed widespread dark blistering of the skin, with large sheets of skin beginning to detach, alongside severely painful erosions of the mouth and eyes; she can no longer eat or open her eyes fully.",
+        "image": null,
+        "accepted": [
+          "Toxic Epidermal Necrolysis (TEN)",
+          "Stevens-Johnson Syndrome (SJS)",
+          "Pemphigus Vulgaris (Severe)",
+          "Staphylococcal Scalded Skin Syndrome (SSSS)"
+        ],
+        "reasoning": "Large-sheet epidermal detachment alongside multi-mucosal involvement (oral, ocular) places this firmly on the SJS/TEN spectrum. SSSS can produce widespread superficial skin peeling but typically spares the mucosae \u2014 the presence of severe mucosal erosions makes SSSS much less likely. Severe pemphigus vulgaris can produce widespread erosions and mucosal involvement but does not produce the rapid large-sheet detachment in a three-day course. The three-day progression and multi-mucosal involvement focuses the differential on SJS/TEN, with the extent of skin detachment being the critical discriminating axis not yet established."
+      },
+      {
+        "type": "history",
+        "label": "Past Medical and Social History",
+        "text": "She was started on allopurinol three weeks ago for hyperuricaemia, having never taken it before. She is of Han Chinese ethnicity. She has had no prior adverse drug reactions and no pre-existing skin conditions.",
+        "image": null,
+        "accepted": [
+          "Toxic Epidermal Necrolysis (TEN)",
+          "Stevens-Johnson Syndrome (SJS)"
+        ],
+        "reasoning": "Allopurinol is one of the most common triggers of SJS/TEN globally, with the HLA-B*58:01 allele strongly associated with allopurinol-induced SJS/TEN in Han Chinese populations. The three-week latency is within the typical sensitisation window for SJS/TEN. SSSS is effectively excluded \u2014 it is caused by S. aureus exotoxin in young children or immunocompromised adults and has no drug trigger. Pemphigus is excluded \u2014 it is not drug-triggered in this latency pattern and does not cause large-sheet detachment in three days. The differential is now SJS versus TEN, requiring formal assessment of the percentage body surface area of epidermal detachment."
+      },
+      {
+        "type": "examination",
+        "label": "Physical Examination",
+        "text": "Temperature 38.9\u00b0C, HR 118 bpm, BP 104/66 mmHg. Large sheets of necrotic, detaching epidermis are present across the trunk, arms, and thighs. Nikolsky sign is positive on all tested perilesional skin. Haemorrhagic crusting of the lips, extensive oral mucosal erosions, bilateral conjunctival erosions, and genital mucosal erosions are confirmed. Formal body surface area assessment is ongoing.",
+        "image": "derm_0104_p4_clinical.jpg",
+        "accepted": [
+          "Toxic Epidermal Necrolysis (TEN)",
+          "Stevens-Johnson Syndrome (SJS)"
+        ],
+        "reasoning": "Widespread epidermal detachment with a positive Nikolsky sign and multi-mucosal involvement (oral, ocular, genital) confirms a case on the SJS/TEN spectrum. Haemodynamic instability and the extensive skin involvement with sheets of detaching epidermis raise strong concern for TEN rather than SJS, but formal body surface area quantification is required to determine which. SJS is defined as less than 10% BSA detachment and TEN as greater than 30% \u2014 this distinction carries major prognostic and management implications. SSSS is excluded by the presence of mucosal involvement. Pemphigus is excluded by the acute three-day progression. SJS and TEN remain as the two diagnoses pending BSA assessment."
+      },
+      {
+        "type": "investigation",
+        "label": "Formal BSA Assessment and Urgent Biopsy",
+        "text": "Formal body surface area mapping by the burns team estimates greater than 35% of body surface area involved with detached or readily detachable epidermis. Urgent frozen section biopsy shows full-thickness epidermal necrosis with widespread keratinocyte apoptosis at all epidermal levels and early subepidermal cleft formation.",
+        "image": "derm_0104_p6_histology.jpg",
+        "accepted": [
+          "Toxic Epidermal Necrolysis (TEN)"
+        ],
+        "reasoning": "Epidermal detachment exceeding 30% BSA is the defining criterion separating TEN from SJS (<10%) and SJS-TEN overlap (10\u201330%). A formal BSA assessment of greater than 35% places this definitively in the TEN category. Frozen section confirms full-thickness epidermal necrosis \u2014 the histological hallmark of the SJS/TEN spectrum \u2014 confirming that the epidermal loss is due to apoptotic keratinocyte destruction rather than an alternative blistering mechanism. SJS is now excluded by BSA quantification."
+      },
+      {
+        "type": "investigation",
+        "label": "SCORTEN Assessment and Pharmacogenomic Testing",
+        "text": "SCORTEN severity score calculated at 4 out of 7, indicating an estimated mortality of approximately 58%. HLA-B*58:01 genotyping returns positive, confirming pharmacogenomic susceptibility to allopurinol-induced TEN. Allopurinol is permanently contraindicated and all first-degree relatives are recommended for HLA screening before any allopurinol prescription.",
+        "image": null,
+        "accepted": [
+          "Toxic Epidermal Necrolysis (TEN)"
+        ],
+        "reasoning": "SCORTEN is the validated prognostic tool for TEN, integrating clinical and laboratory parameters to estimate mortality. HLA-B*58:01 positivity provides the pharmacogenomic confirmation of allopurinol susceptibility \u2014 this allele confers a dramatically elevated risk of allopurinol-induced SJS/TEN in Han Chinese patients. The combination of greater than 30% BSA epidermal detachment, multi-mucosal involvement, allopurinol at three weeks' latency, full-thickness epidermal necrosis on frozen section, and HLA-B*58:01 positivity confirms Toxic Epidermal Necrolysis."
+      }
+    ]
+  },
+  "case_0105": {
+    "title": "Pemphigus Foliaceus",
+    "finalDiagnosis": "Pemphigus Foliaceus",
+    "snomedCode": "59303006",
+    "systems": [
+      "Dermatology",
+      "Autoimmune Bullous Disease"
+    ],
+    "prompts": [
+      {
+        "type": "history",
+        "label": "Presenting Complaint",
+        "text": "A 47-year-old woman presents with persistent crusted erosions on her upper chest and back that have been spreading slowly over four months.",
+        "image": null,
+        "accepted": [
+          "Pemphigus Foliaceus",
+          "Pemphigus Vulgaris",
+          "Impetigo (Bullous)",
+          "Seborrhoeic Dermatitis",
+          "SJS/TEN (Early)"
+        ],
+        "reasoning": "Slowly spreading crusted erosions on the upper trunk over four months introduces a differential across autoimmune blistering diseases, superficial infections, and inflammatory skin conditions. Pemphigus foliaceus, pemphigus vulgaris, bullous impetigo, seborrhoeic dermatitis, and early SJS/TEN are plausible. The discriminatory axis is the chronic, spreading, crusted nature of the lesions."
+      },
+      {
+        "type": "history",
+        "label": "History of Presenting Complaint",
+        "text": "The lesions began as small blisters that ruptured almost immediately, leaving moist, crusted erosions; no intact blisters have persisted. She has no mouth sores, no difficulty eating, and no eye discomfort.",
+        "image": null,
+        "accepted": [
+          "Pemphigus Foliaceus",
+          "Pemphigus Vulgaris",
+          "Impetigo (Bullous)",
+          "Seborrhoeic Dermatitis"
+        ],
+        "reasoning": "Blisters that rupture immediately upon formation, leaving behind erosions, suggest extremely thin, fragile blisters \u2014 consistent with a very superficial (intraepidermal) blister whose roof is only a thin layer of the upper epidermis. This morphology favours pemphigus foliaceus over pemphigus vulgaris; PV produces slightly more durable blisters due to the suprabasal (slightly deeper) split. The critical discriminating feature is the absence of mucosal involvement \u2014 pemphigus vulgaris almost always begins with or involves oral mucosa. Absence of mouth sores significantly reduces PV probability. SJS would evolve rapidly over days with systemic features, not over four months. Three diagnoses remain."
+      },
+      {
+        "type": "history",
+        "label": "Past Medical and Social History",
+        "text": "She has no history of prior skin disease, no medications, and no recent infections. She has no family history of skin conditions or autoimmune disease. She reports worsening of the lesions after spending prolonged time outdoors in direct sunlight last summer.",
+        "image": null,
+        "accepted": [
+          "Pemphigus Foliaceus",
+          "Impetigo (Bullous)",
+          "Seborrhoeic Dermatitis"
+        ],
+        "reasoning": "Worsening with sun exposure is a recognised feature of pemphigus foliaceus \u2014 UV radiation can trigger flares, and the upper trunk/seborrhoeic distribution is characteristic. Seborrhoeic dermatitis also affects the upper trunk (seborrhoeic distribution) and persists chronically. Bullous impetigo would typically be expected to resolve or respond to hygiene measures over four months without spreading progressively. No medications are used, excluding drug-induced pemphigus. Three diagnoses remain."
+      },
+      {
+        "type": "examination",
+        "label": "Physical Examination",
+        "text": "Multiple moist, superficial erosions with overlying thin, leaf-like scales and crusts are distributed over the upper chest, between the shoulder blades, and on the face around the nasolabial folds. No intact blisters are visualised. Nikolsky sign is positive on the upper chest. Oral mucosa, conjunctiva, and genitalia are completely normal.",
+        "image": "derm_0105_p4_clinical.jpg",
+        "accepted": [
+          "Pemphigus Foliaceus",
+          "Impetigo (Bullous)"
+        ],
+        "reasoning": "A positive Nikolsky sign on the upper chest confirms active intraepidermal fragility \u2014 the skin shears with minimal lateral pressure because blistering occurs within the epidermis. The distribution over the upper trunk and face in a seborrhoeic pattern is characteristic of pemphigus foliaceus. The complete absence of mucosal involvement is the key finding: pemphigus foliaceus is caused by anti-desmoglein 1 autoantibodies, and Dsg1 is absent from mucosal epithelium, which is protected by Dsg3. This sparing of all mucosal surfaces is a defining clinical feature of PF. Bullous impetigo does not produce a positive Nikolsky sign on distant normal skin. Two diagnoses remain."
+      },
+      {
+        "type": "investigation",
+        "label": "Serum Autoantibody Testing",
+        "text": "Serum ELISA: anti-desmoglein 1 (Dsg1) antibodies strongly positive (index value 148, reference <20). Anti-desmoglein 3 (Dsg3) antibodies: negative. Anti-BP180 and anti-BP230: both negative.",
+        "image": null,
+        "accepted": [
+          "Pemphigus Foliaceus"
+        ],
+        "reasoning": "Anti-Dsg1 antibodies (strongly positive) with absent anti-Dsg3 antibodies is the serological signature of pemphigus foliaceus. Dsg1 is expressed predominantly in the superficial layers of the epidermis and is absent from mucosal epithelia \u2014 explaining why anti-Dsg1 autoantibodies cause superficial epidermal blistering without mucosal involvement. Pemphigus vulgaris is confirmed to be absent by the negative anti-Dsg3 result. Bullous pemphigoid is excluded by negative anti-BP180/BP230. Bullous impetigo is now excluded by the autoantibody profile. The serological findings confirm pemphigus foliaceus."
+      },
+      {
+        "type": "investigation",
+        "label": "Histopathological and Immunofluorescence Confirmation",
+        "text": "Skin biopsy shows a subcorneal or high intraepidermal cleft \u2014 the blister forms in the upper layers of the epidermis, just beneath the stratum corneum \u2014 with acantholysis of the superficial keratinocytes. Direct immunofluorescence shows IgG deposition in an intercellular (fishnet) pattern confined to the superficial epidermis.",
+        "image": "derm_0105_p6_histology.jpg",
+        "accepted": [
+          "Pemphigus Foliaceus"
+        ],
+        "reasoning": "Subcorneal acantholysis \u2014 cleavage in the most superficial layers of the epidermis \u2014 is the histological hallmark of pemphigus foliaceus, directly reflecting the superficial distribution of Dsg1 expression. This is distinctly more superficial than pemphigus vulgaris, which shows suprabasal acantholysis (cleavage just above the basal layer). The intercellular IgG on DIF, combined with the superficial cleft level and the strongly positive anti-Dsg1 serology, confirms the diagnosis of Pemphigus Foliaceus."
+      }
+    ]
+  },
+  "case_0106": {
+    "title": "Acute Cutaneous Lupus Erythematosus (ACLE)",
+    "finalDiagnosis": "Acute Cutaneous Lupus Erythematosus (ACLE)",
+    "snomedCode": "403487005",
+    "systems": [
+      "Dermatology",
+      "Autoimmune"
+    ],
+    "prompts": [
+      {
+        "type": "history",
+        "label": "Presenting Complaint",
+        "text": "A 26-year-old woman presents with a facial rash that has appeared over the past two weeks, coinciding with increased fatigue.",
+        "image": null,
+        "accepted": [
+          "Acute Cutaneous Lupus Erythematosus (ACLE)",
+          "Rosacea",
+          "Seborrhoeic Dermatitis",
+          "Contact Dermatitis (Airborne)",
+          "Viral Exanthem",
+          "Discoid Lupus Erythematosus (DLE)"
+        ],
+        "reasoning": "A facial rash in a young woman with concurrent fatigue establishes the category of a skin condition with possible systemic involvement. ACLE, rosacea, seborrhoeic dermatitis, airborne contact dermatitis, viral exanthem, and DLE are all plausible. The primary discriminatory axis is the facial distribution of erythema combined with systemic constitutional symptoms."
+      },
+      {
+        "type": "history",
+        "label": "History of Presenting Complaint",
+        "text": "The rash appears most prominently after time in the sun and fades after staying indoors for several days; it is non-pruritic and non-scaly. She has also noticed swollen, aching joints in her fingers and wrists over the same period.",
+        "image": null,
+        "accepted": [
+          "Acute Cutaneous Lupus Erythematosus (ACLE)",
+          "Rosacea",
+          "Viral Exanthem",
+          "Dermatomyositis"
+        ],
+        "reasoning": "Photosensitive, non-scarring, non-pruritic facial erythema with concurrent polyarthritis in a young woman raises strong concern for a systemic autoimmune disease. ACLE associated with SLE produces a photosensitive malar rash accompanied by polyarthritis. Rosacea can be exacerbated by sun but is typically characterised by facial flushing and telangiectasia rather than joint involvement. Dermatomyositis produces a photosensitive facial rash with joint and muscle involvement. A viral exanthem would not be consistently photosensitive or last two weeks. Seborrhoeic dermatitis and contact dermatitis are now less likely given the photosensitivity and arthritis. Four diagnoses remain."
+      },
+      {
+        "type": "history",
+        "label": "Past Medical and Social History",
+        "text": "She has no prior skin diagnosis and takes no medications. She had an episode of pleuritic chest pain six months ago that resolved spontaneously. She has no family history of autoimmune disease, but a maternal aunt was told she had an inflammatory arthritis.",
+        "image": null,
+        "accepted": [
+          "Acute Cutaneous Lupus Erythematosus (ACLE)",
+          "Dermatomyositis"
+        ],
+        "reasoning": "A prior episode of pleurisy in a young woman, now presenting with photosensitive facial rash and polyarthritis, significantly raises the probability of systemic lupus erythematosus \u2014 serositis is one of the ACR/EULAR SLE classification criteria. The family history of inflammatory arthritis is consistent with a heritable autoimmune diathesis. Dermatomyositis remains on the differential \u2014 it can cause pleuritic pain and a photosensitive facial rash. Rosacea and viral exanthem do not cause serositis. Two diagnoses remain."
+      },
+      {
+        "type": "examination",
+        "label": "Physical Examination",
+        "text": "A fixed, erythematous, blanchable rash with well-defined margins covers both cheeks and the nasal bridge symmetrically; the nasolabial folds are conspicuously spared. No scale, no follicular plugging, and no scarring. Mild subjective proximal arm weakness is reported but formal MRC power testing shows 4/5 bilaterally, which the patient attributes to fatigue.",
+        "image": "derm_0106_p4_clinical.jpg",
+        "accepted": [
+          "Acute Cutaneous Lupus Erythematosus (ACLE)",
+          "Dermatomyositis"
+        ],
+        "reasoning": "Bilateral malar erythema sparing the nasolabial folds is characteristic of ACLE \u2014 the nasolabial folds are protected from UV exposure by being skin folds, while ACLE targets sun-exposed flat skin. Rosacea and seborrhoeic dermatitis both involve the nasolabial folds and are now excluded. Absence of follicular plugging and scarring excludes DLE. Mild proximal weakness (4/5) warrants consideration of dermatomyositis, which also produces photosensitive facial erythema \u2014 the heliotrope rash and Gottron's papules of dermatomyositis are absent, but their absence alone is insufficient to exclude early dermatomyositis. Serological testing is required to differentiate ACLE-SLE from dermatomyositis."
+      },
+      {
+        "type": "investigation",
+        "label": "Autoimmune Serology and Muscle Enzymes",
+        "text": "ANA: positive 1:320 homogeneous. Anti-dsDNA: strongly positive. Complement C3 and C4: both low. Creatine kinase (CK): normal at 82 U/L. Anti-Jo-1 and anti-Mi-2: negative. Urinalysis: protein 2+ with red cell casts on microscopy.",
+        "image": null,
+        "accepted": [
+          "Acute Cutaneous Lupus Erythematosus (ACLE)"
+        ],
+        "reasoning": "Strongly positive anti-dsDNA with low complement (reflecting immune complex consumption) and active urinary sediment confirms systemic lupus erythematosus with lupus nephritis. Normal CK and negative anti-Jo-1 and anti-Mi-2 definitively exclude dermatomyositis \u2014 in dermatomyositis, CK is typically elevated and myositis-specific antibodies are positive. Anti-dsDNA is not found in dermatomyositis. The skin rash is confirmed as ACLE \u2014 the photosensitive malar rash is the cutaneous manifestation of acute SLE."
+      },
+      {
+        "type": "investigation",
+        "label": "Skin Biopsy and DIF",
+        "text": "Skin biopsy from the malar rash shows mild interface dermatitis with basal layer vacuolisation and a sparse superficial lymphocytic infiltrate; no follicular plugging and no deep infiltrate. Direct immunofluorescence demonstrates granular IgG and IgM deposits at the dermal-epidermal junction.",
+        "image": null,
+        "accepted": [
+          "Acute Cutaneous Lupus Erythematosus (ACLE)"
+        ],
+        "reasoning": "Mild interface dermatitis with basal vacuolisation and sparse inflammation is the histological hallmark of ACLE \u2014 it reflects mild autoimmune keratinocyte injury at the dermo-epidermal junction driven by UV-triggered immune complex deposition. This is distinctly less severe than DLE (which shows dense perivascular/periappendageal infiltrates and follicular plugging) and SCLE (which shows moderate interface dermatitis with mid-dermal infiltrate). Granular IgG/IgM at the DEJ on DIF is the 'lupus band', confirming immune complex deposition at the basement membrane. Combined with the systemic serological findings, the diagnosis of Acute Cutaneous Lupus Erythematosus in the context of SLE is confirmed."
+      }
+    ]
+  },
+  "case_0107": {
+    "title": "Subacute Cutaneous Lupus Erythematosus (SCLE)",
+    "finalDiagnosis": "Subacute Cutaneous Lupus Erythematosus (SCLE)",
+    "snomedCode": "201307004",
+    "systems": [
+      "Dermatology",
+      "Autoimmune"
+    ],
+    "prompts": [
+      {
+        "type": "history",
+        "label": "Presenting Complaint",
+        "text": "A 38-year-old woman presents with a recurring, non-scarring rash on her upper arms and chest that first appeared several months ago.",
+        "image": null,
+        "accepted": [
+          "Subacute Cutaneous Lupus Erythematosus (SCLE)",
+          "Discoid Lupus Erythematosus (DLE)",
+          "Psoriasis",
+          "Tinea Corporis",
+          "Pityriasis Rosea",
+          "Nummular Eczema"
+        ],
+        "reasoning": "A recurring rash on the upper arms and chest in a woman in her late thirties introduces a broad differential of scaling and inflammatory dermatoses. SCLE, DLE, psoriasis, tinea corporis, pityriasis rosea, and nummular eczema are all plausible at this stage. The primary discriminatory axis is the recurring, non-healing character of the rash on the upper trunk."
+      },
+      {
+        "type": "history",
+        "label": "History of Presenting Complaint",
+        "text": "The lesions are ring-shaped or polycyclic with fine scaling at their edges, are consistently worse after sun exposure, and heal without leaving any scars or permanent dark marks. She has mild joint aches but no mouth sores.",
+        "image": null,
+        "accepted": [
+          "Subacute Cutaneous Lupus Erythematosus (SCLE)",
+          "Discoid Lupus Erythematosus (DLE)",
+          "Psoriasis",
+          "Tinea Corporis"
+        ],
+        "reasoning": "Annular or polycyclic ring-shaped lesions on sun-exposed skin with photosensitive exacerbation and non-scarring healing narrows the differential substantially. SCLE is characteristically photodistributed, annular, and heals without scarring. DLE can be annular but heals with hyperpigmentation, hypopigmentation, and scarring \u2014 the non-scarring course argues against DLE. Tinea corporis produces annular lesions but is not photosensitive and typically has a more prominent peripheral scale with central clearing. Psoriasis is not photosensitive and heals with hypopigmentation, not without any residua. Pityriasis rosea is typically truncal and self-limiting. Four diagnoses remain."
+      },
+      {
+        "type": "history",
+        "label": "Past Medical and Social History",
+        "text": "She takes hydrochlorothiazide for mild hypertension, which was started eight months ago, around the same time the rash first appeared. She has no prior autoimmune diagnosis and no family history of lupus. She has no significant fatigue and her kidney function was normal at her last check.",
+        "image": null,
+        "accepted": [
+          "Subacute Cutaneous Lupus Erythematosus (SCLE)",
+          "Drug-induced SCLE",
+          "Discoid Lupus Erythematosus (DLE)"
+        ],
+        "reasoning": "Hydrochlorothiazide (a thiazide diuretic) is a well-recognised trigger of drug-induced SCLE \u2014 thiazides, calcium channel blockers, and proton pump inhibitors are among the most common culprits. The temporal coincidence of drug initiation and rash onset is a critical clue. Drug-induced SCLE is clinically indistinguishable from idiopathic SCLE; it resolves after drug withdrawal. This elevates SCLE (idiopathic or drug-induced) significantly. DLE remains possible but is less likely given the non-scarring course. Tinea corporis and psoriasis are now less likely given the drug temporal association and photosensitivity. Three diagnoses remain."
+      },
+      {
+        "type": "examination",
+        "label": "Physical Examination",
+        "text": "Erythematous annular plaques with a fine, cigarette-paper-like scale at the expanding outer edge are distributed symmetrically over the upper arms, shoulders, and upper chest and back \u2014 all sun-exposed areas. The centre of each annular lesion shows early resolution without scarring, follicular plugging, or hyperpigmentation. No facial erythema. No oral erosions.",
+        "image": "derm_0107_p4_clinical.jpg",
+        "accepted": [
+          "Subacute Cutaneous Lupus Erythematosus (SCLE)",
+          "Drug-induced SCLE"
+        ],
+        "reasoning": "The symmetric, photodistributed annular plaques with scaling at the active expanding outer edge, central resolution without scarring, and absence of follicular plugging is the characteristic examination pattern of SCLE. SCLE has two morphological subtypes: annular polycyclic (this case) and psoriasiform/papulosquamous. The absence of facial involvement and nasolabial fold sparing distinguishes this from ACLE. The absence of follicular plugging, deep scarring, and hyperpigmented borders distinguishes this from DLE. Whether this is idiopathic or drug-induced SCLE cannot be determined on clinical examination alone."
+      },
+      {
+        "type": "investigation",
+        "label": "Serum Autoantibody Testing",
+        "text": "ANA: positive at 1:160, speckled pattern. Anti-Ro/SSA antibodies: strongly positive. Anti-La/SSB antibodies: positive. Anti-dsDNA: negative. Complement levels: normal. Urinalysis: normal.",
+        "image": null,
+        "accepted": [
+          "Subacute Cutaneous Lupus Erythematosus (SCLE)"
+        ],
+        "reasoning": "Anti-Ro/SSA antibodies are present in 70\u201380% of patients with SCLE and are the serological hallmark of this subtype. Their strong positivity is highly characteristic of SCLE (idiopathic or drug-induced). Negative anti-dsDNA and normal complement exclude active SLE with systemic involvement, consistent with predominantly cutaneous disease. DLE is not associated with anti-Ro/SSA. Drug-induced SCLE shares the same serological profile as idiopathic SCLE \u2014 distinguishing them requires drug cessation and monitoring for resolution."
+      },
+      {
+        "type": "investigation",
+        "label": "Drug Cessation Trial and Histopathological Confirmation",
+        "text": "Hydrochlorothiazide is discontinued. Skin biopsy from an active lesion edge shows interface dermatitis with basal vacuolisation, a moderate superficial and mid-dermal perivascular lymphocytic infiltrate, and absence of follicular plugging and deep periappendageal infiltrate. At three-month follow-up, the rash has cleared substantially without new lesion formation.",
+        "image": null,
+        "accepted": [
+          "Subacute Cutaneous Lupus Erythematosus (SCLE)"
+        ],
+        "reasoning": "Moderate interface dermatitis with a mid-dermal perivascular infiltrate (deeper than ACLE but shallower and without follicular plugging compared to DLE) is the histological characteristic of SCLE. The substantial clearance after hydrochlorothiazide withdrawal confirms a drug-induced trigger, though this does not change the diagnosis of SCLE \u2014 it confirms drug-induced SCLE as the specific subtype. Anti-Ro/SSA antibodies, photosensitive annular eruption, non-scarring healing, and the characteristic histology with drug trigger confirm Subacute Cutaneous Lupus Erythematosus (Drug-induced)."
+      }
+    ]
+  },
+  "case_0108": {
+    "title": "Cutaneous Small Vessel Vasculitis (IgA Vasculitis)",
+    "finalDiagnosis": "Cutaneous Small Vessel Vasculitis (IgA Vasculitis)",
+    "snomedCode": "403447006",
+    "systems": [
+      "Dermatology",
+      "Vasculitis"
+    ],
+    "prompts": [
+      {
+        "type": "history",
+        "label": "Presenting Complaint",
+        "text": "A 9-year-old boy is brought in with a distinctive purple-red spotted rash on his legs that appeared suddenly three days ago.",
+        "image": null,
+        "accepted": [
+          "IgA Vasculitis (Henoch-Sch\u00f6nlein Purpura)",
+          "Meningococcaemia",
+          "Thrombocytopenic Purpura (ITP)",
+          "Drug-induced Purpura",
+          "Viral Purpura"
+        ],
+        "reasoning": "Sudden onset of a purple-red spotted rash on the legs of a child is a presentation that requires urgent consideration of life-threatening causes. Meningococcaemia, IgA vasculitis (HSP), thrombocytopenic purpura, drug-induced purpura, and viral causes are all plausible. The primary discriminatory axis is the acute onset of purpuric lesions in a child. Meningococcaemia must be considered until the rash character is established."
+      },
+      {
+        "type": "history",
+        "label": "History of Presenting Complaint",
+        "text": "The spots do not fade when pressed with a glass and are concentrated on the buttocks and lower legs; he had a sore throat and mild fever two weeks ago that resolved, but he is now well and has no current fever or headache. He also mentions some mild, colicky abdominal pain today.",
+        "image": null,
+        "accepted": [
+          "IgA Vasculitis (Henoch-Sch\u00f6nlein Purpura)",
+          "Meningococcaemia",
+          "Thrombocytopenic Purpura (ITP)"
+        ],
+        "reasoning": "Non-blanching purpura on the lower extremities and buttocks following an upper respiratory tract infection two weeks prior, with concurrent abdominal pain but no fever or meningism, is a characteristic clinical pattern of IgA vasculitis. However, non-blanching rash must be treated as meningococcaemia until proven otherwise \u2014 the absence of current fever reduces but does not eliminate this risk, as the rash can occasionally precede fever. ITP also causes non-blanching purpura but does not produce abdominal pain or follow URTI. Drug-induced purpura has no temporal association with URTI. Three diagnoses remain; clinical assessment is urgent."
+      },
+      {
+        "type": "history",
+        "label": "Past Medical and Social History",
+        "text": "He is otherwise fit and well with no prior medical conditions and no regular medications. He is fully vaccinated including meningococcal vaccine. No recent travel, no insect bites, and no close contacts with serious illness.",
+        "image": null,
+        "accepted": [
+          "IgA Vasculitis (Henoch-Sch\u00f6nlein Purpura)",
+          "Thrombocytopenic Purpura (ITP)"
+        ],
+        "reasoning": "Full meningococcal vaccination significantly reduces meningococcaemia probability, combined with absence of fever, headache, or meningism and a clinical pattern characteristic of IgA vasculitis. Meningococcaemia is now effectively excluded \u2014 the combination of vaccination status, no fever, lower limb and buttock distribution, and preceding URTI is not consistent with meningococcal disease. No medications exclude drug-induced purpura. ITP and IgA vasculitis both remain \u2014 both follow viral infections and both produce non-blanching purpura. ITP does not typically cause abdominal pain. Two diagnoses remain."
+      },
+      {
+        "type": "examination",
+        "label": "Physical Examination",
+        "text": "Temperature 36.9\u00b0C. Multiple non-blanching purpuric lesions are distributed symmetrically over the lower legs, buttocks, and ankles; the lesions are slightly raised to palpation and no lesions are found above the waist. Bilateral ankle joint swelling and mild tenderness are noted on examination. No hepatosplenomegaly.",
+        "image": "derm_0108_p4_clinical.jpg",
+        "accepted": [
+          "IgA Vasculitis (Henoch-Sch\u00f6nlein Purpura)",
+          "Thrombocytopenic Purpura (ITP)"
+        ],
+        "reasoning": "Non-blanching purpura on the lower limbs and buttocks confirms extravasated red blood cells in the dermis \u2014 either from platelet failure (as in ITP) or from vessel wall inflammation (vasculitis). The slight elevation of the purpuric papules on palpation suggests a perivascular inflammatory process, which is more consistent with vasculitis than with ITP (where petechiae are typically flat). However, the palpability is subtle and requires laboratory confirmation to discriminate. Bilateral ankle arthritis alongside purpura favours IgA vasculitis \u2014 ITP does not cause joint inflammation. Meningococcaemia is now excluded by the afebrile state and lower limb-restricted distribution. Two diagnoses remain pending blood tests."
+      },
+      {
+        "type": "investigation",
+        "label": "Blood Tests and Urinalysis",
+        "text": "Platelet count: 298 \u00d7 10\u2079/L (normal). PT, APTT: normal. CRP 42 mg/L. IgA level: elevated at 3.8 g/L (reference <3.0). Urinalysis: protein 1+ and microscopic haematuria on dipstick.",
+        "image": null,
+        "accepted": [
+          "IgA Vasculitis (Henoch-Sch\u00f6nlein Purpura)"
+        ],
+        "reasoning": "A normal platelet count definitively excludes thrombocytopenic purpura as the cause of the non-blanching lesions \u2014 ITP requires a significantly reduced platelet count to produce purpura. The purpura in this case is therefore caused by vessel wall pathology, not platelet insufficiency. Elevated serum IgA is consistent with the pathophysiology of IgA vasculitis, where excess IgA production following mucosal infection leads to IgA immune complex deposition in small vessel walls. Microscopic haematuria with proteinuria indicates early renal involvement. The combination of palpable purpura, normal platelets, elevated IgA, arthritis, abdominal pain, renal involvement, and a preceding URTI confirms IgA vasculitis."
+      },
+      {
+        "type": "investigation",
+        "label": "Skin Biopsy and Immunofluorescence",
+        "text": "Skin biopsy of a purpuric papule shows leukocytoclastic vasculitis \u2014 neutrophilic infiltration of postcapillary venule walls, nuclear dust (karyorrhexis), fibrinoid necrosis of vessel walls, and extravasated red blood cells in the dermis. Direct immunofluorescence demonstrates IgA deposits in the walls of dermal small vessels.",
+        "image": "derm_0108_p6_histology.jpg",
+        "accepted": [
+          "IgA Vasculitis (Henoch-Sch\u00f6nlein Purpura)"
+        ],
+        "reasoning": "Leukocytoclastic vasculitis on histology \u2014 the characteristic pattern of neutrophilic vessel wall destruction with nuclear debris and fibrinoid necrosis \u2014 confirms cutaneous small vessel vasculitis. Perivascular IgA deposition on DIF is pathognomonic of IgA vasculitis (Henoch-Sch\u00f6nlein Purpura) and distinguishes it from other forms of CSVV (which would show IgG or IgM without IgA). The combination of palpable purpura, normal platelets, post-infectious trigger, elevated IgA, multi-system involvement (skin, joints, gut, kidney), leukocytoclastic vasculitis, and IgA vessel wall deposits confirms IgA Vasculitis."
+      }
+    ]
+  },
+  "case_0109": {
+    "title": "Impetigo",
+    "finalDiagnosis": "Impetigo",
+    "snomedCode": "48277006",
+    "systems": [
+      "Dermatology",
+      "Skin Infection"
+    ],
+    "prompts": [
+      {
+        "type": "history",
+        "label": "Presenting Complaint",
+        "text": "A 5-year-old girl is brought in by her mother with small blisters around her nose and mouth that appeared over the past three days.",
+        "image": null,
+        "accepted": [
+          "Impetigo",
+          "Herpes Simplex (Oral / Labialis)",
+          "Varicella",
+          "Eczema Herpeticum",
+          "Contact Dermatitis"
+        ],
+        "reasoning": "Perioral vesicular lesions in a young child over three days introduce a differential of superficial infections and inflammatory conditions. Impetigo, herpes simplex, varicella, eczema herpeticum, and contact dermatitis are all plausible. The primary discriminatory axis is the perioral location of vesicular eruption in a preschool child."
+      },
+      {
+        "type": "history",
+        "label": "History of Presenting Complaint",
+        "text": "The blisters have been rupturing and leaving moist, weeping areas that are now developing a yellowish crust; she has no fever, no systemic upset, and the lesions are mildly itchy but not painful.",
+        "image": null,
+        "accepted": [
+          "Impetigo",
+          "Herpes Simplex (Oral / Labialis)",
+          "Varicella"
+        ],
+        "reasoning": "Vesicles progressing to moist weeping erosions with yellowish crusting is characteristic of impetigo. Herpes simplex produces grouped vesicles that crust but typically produces a burning or tingling sensation rather than mild itch, and tends to recur at the same site. Varicella produces crops of vesicles at different stages simultaneously across the whole body \u2014 localisation only to the perioral area over three days without systemic illness makes varicella much less likely. Contact dermatitis would not produce vesicles that rupture and leave yellowish crust without a known contactant. Eczema herpeticum requires underlying eczematous skin, which has not been mentioned. Three diagnoses remain."
+      },
+      {
+        "type": "history",
+        "label": "Past Medical and Social History",
+        "text": "She attends a daycare centre and her mother was told last week that another child there had a similar facial rash. She has no prior skin conditions, no eczema, and has completed her varicella vaccination. No new products were applied to her face.",
+        "image": null,
+        "accepted": [
+          "Impetigo",
+          "Herpes Simplex (Oral / Labialis)"
+        ],
+        "reasoning": "A classmate with a similar rash at the same daycare is a strong epidemiological clue for a contagious condition \u2014 impetigo spreads readily through direct skin contact and fomites in group childcare settings. Varicella is now effectively excluded by completed vaccination and the absence of systemic illness. Herpes simplex is not typically spread to classmates through casual contact in a daycare setting the way impetigo is; primary HSV in children usually comes from adult caregivers. Two diagnoses remain."
+      },
+      {
+        "type": "examination",
+        "label": "Physical Examination",
+        "text": "Temperature 37.2\u00b0C. Multiple superficial erosions with thick, adherent, yellowish-brown crust are present around the nose and upper lip; no intact vesicles remain and there is no induration. The lesions do not extend to involve the oral mucosa or gingiva. No cervical lymphadenopathy.",
+        "image": "derm_0109_p4_clinical.jpg",
+        "accepted": [
+          "Impetigo",
+          "Herpes Simplex (Oral / Labialis)"
+        ],
+        "reasoning": "Superficial perioral erosions with yellowish-brown crust and no mucosal extension are consistent with both impetigo and herpes simplex labialis, which both produce crusted perioral lesions after vesicle rupture. Impetigo forms a thicker, softer, more adherent crust; herpes simplex forms a drier, tighter crust \u2014 but this distinction can be difficult to make on clinical appearance alone in a child. Absence of oral mucosal involvement excludes primary herpetic gingivostomatitis, but recurrent or primary labialis does not involve the oral mucosa. Varicella is excluded by vaccination and the absence of systemic illness or lesions at other body sites. Two diagnoses remain and require microbiological differentiation."
+      },
+      {
+        "type": "investigation",
+        "label": "Wound Swab and Microbiological Analysis",
+        "text": "A swab from beneath a lifted crust yields Gram-positive cocci in clusters on Gram stain; culture confirms Staphylococcus aureus sensitive to flucloxacillin. No multinucleated giant cells are seen on a Tzanck smear of the crust base, and no herpetic viral particles are identified.",
+        "image": null,
+        "accepted": [
+          "Impetigo"
+        ],
+        "reasoning": "Isolation of S. aureus from beneath the perioral crust confirms a bacterial aetiology. A negative Tzanck smear with absence of multinucleated giant cells (which would indicate HSV infection of keratinocytes) excludes herpes simplex as the cause of the erosions. The microbiological findings, combined with the epidemiological context of a daycare contact with a similar rash, the superficial, non-scarring character of the lesions, and the thick adherent crust confirm impetigo caused by Staphylococcus aureus."
+      },
+      {
+        "type": "investigation",
+        "label": "Treatment Response and Confirmation",
+        "text": "Topical fusidic acid is applied to the lesions three times daily. The crusts soften and detach over five days and the underlying skin heals without scarring. The daycare centre is notified and the child is excluded until the lesions have crusted over. No new lesions develop after one week.",
+        "image": null,
+        "accepted": [
+          "Impetigo"
+        ],
+        "reasoning": "Complete healing without scarring following topical antibiotic therapy confirms impetigo \u2014 a purely superficial epidermal infection that heals without structural damage because the dermis is not involved. Healing without scarring is a fundamental clinical feature distinguishing impetigo from ecthyma (which scars because it ulcerates into the dermis). The response to fusidic acid targeting S. aureus, combined with the clinical picture of honey-coloured crusted perioral lesions in a child with a daycare contact, confirms the diagnosis of impetigo."
+      }
+    ]
+  },
+
+  "case_0110": {
+    "title": "Ecthyma",
+    "finalDiagnosis": "Ecthyma",
+    "snomedCode": "80099009",
+    "systems": ["Dermatology", "Skin Infection"],
+    "prompts": [
+      {
+        "type": "history",
+        "label": "Presenting Complaint",
+        "text": "A 9-year-old boy is brought in by his mother with several painful sores on his lower legs that have been worsening over two weeks.",
+        "image": null,
+        "accepted": [
+          "Ecthyma",
+          "Impetigo",
+          "Infected Insect Bites",
+          "Varicella with Superinfection",
+          "Cellulitis (Focal)"
+        ],
+        "reasoning": "Painful, worsening lower limb sores in a child over two weeks introduces a broad differential across superficial and deeper skin infections. The discriminatory axis is the location (lower legs) and the chronically worsening, painful character. Ecthyma, impetigo, infected insect bites, varicella with secondary infection, and focal cellulitis are all plausible at this stage. No morphological detail is yet available."
+      },
+      {
+        "type": "history",
+        "label": "History of Presenting Complaint",
+        "text": "The lesions began as small blisters that broke open and have since developed thick, adherent crusts that do not fall off; the boy picks at them but the underlying skin does not heal. He plays outside barefoot near a canal.",
+        "image": null,
+        "accepted": [
+          "Ecthyma",
+          "Impetigo",
+          "Infected Insect Bites",
+          "Varicella with Superinfection"
+        ],
+        "reasoning": "Vesicles progressing to thick adherent crusts that fail to heal is consistent with both impetigo and ecthyma — both begin as vesicles — but the persistence and failure to heal suggests the infection has penetrated more deeply than the epidermis. Outdoor barefoot exposure near stagnant water is a recognised risk for skin inoculation with pathogenic organisms. Varicella remains possible given the vesicular onset, though the two-week localised lower limb course without systemic spread is atypical. At least four diagnoses remain plausible."
+      },
+      {
+        "type": "history",
+        "label": "Past Medical and Social History",
+        "text": "He is otherwise healthy with no prior skin conditions. His varicella vaccination history is incomplete. No fever, no itch, and no similar lesions on other family members. He lives in crowded housing and has limited access to regular bathing.",
+        "image": null,
+        "accepted": [
+          "Ecthyma",
+          "Impetigo",
+          "Infected Insect Bites"
+        ],
+        "reasoning": "Incomplete varicella vaccination means varicella cannot be fully excluded, but the absence of pruritus and fever, and the lack of new vesicular lesions at other sites over two weeks, makes varicella with superinfection much less likely — it is effectively excluded. Poor hygiene and crowding are well-recognised risk factors for both impetigo and ecthyma. Absence of systemic illness makes deep tissue infection less likely but does not distinguish between superficial impetigo and deeper ecthyma at this stage. Three diagnoses remain."
+      },
+      {
+        "type": "examination",
+        "label": "Physical Examination",
+        "text": "Temperature 37.4°C. On the lower legs, multiple discrete oval lesions 1–2 cm in diameter are present, each with a thick, adherent, grey-brown crust surrounded by a rim of erythema. When a crust is gently lifted, a punched-out ulcer with a necrotic base is visible beneath. No surrounding induration extending beyond each lesion. No lymphangitis. No lymphadenopathy.",
+        "image": "derm_0110_p4_clinical.jpg",
+        "accepted": [
+          "Ecthyma",
+          "Infected Insect Bites with Secondary Ulceration"
+        ],
+        "reasoning": "The discovery of a punched-out ulcer beneath the adherent crust is the key examination finding that distinguishes ecthyma from impetigo. Impetigo is purely superficial — it does not ulcerate into the dermis. A punched-out morphology suggests organised ulcer formation rather than simple surface erosion, confirming dermal penetration. Infected insect bites can produce secondary ulceration with crusting in the right environmental context and remains possible. The absence of lymphangitis and spreading cellulitis excludes deeper infection at present. The differential has narrowed to two."
+      },
+      {
+        "type": "investigation",
+        "label": "Microbiological Swab",
+        "text": "A swab taken from beneath a lifted crust yields a pure growth of Group A Streptococcus (Streptococcus pyogenes) sensitive to penicillin. No Staphylococcus aureus is isolated. No wound track extending to fascia is identified on probing.",
+        "image": null,
+        "accepted": [
+          "Ecthyma"
+        ],
+        "reasoning": "Isolation of Group A Streptococcus from a punched-out ulceration in a child with environmental risk exposure and the characteristic morphology of adherent crusting over dermal ulcers confirms ecthyma. Ecthyma is essentially the ulcerative, dermis-penetrating form of impetigo, most commonly caused by Group A Streptococcus and occasionally S. aureus. An infected insect bite with secondary ulceration from Group A Strep would be clinically indistinguishable, but the pattern of multiple discrete punched-out ulcers without a clear prior bite history is most consistent with primary ecthyma. No fascial involvement confirms the infection is confined to the dermis."
+      },
+      {
+        "type": "investigation",
+        "label": "Treatment Response and Confirmation",
+        "text": "The boy is started on oral penicillin V with wound care instructions. At two-week review, the crusts have separated, the ulcers are re-epithelialising, and no new lesions have developed. The pattern of multiple lower limb punched-out ulcers healed by scarring on antibiotic therapy confirms the diagnosis.",
+        "image": null,
+        "accepted": [
+          "Ecthyma"
+        ],
+        "reasoning": "Complete healing with appropriate antibiotic therapy and characteristic scar formation confirms ecthyma. The distinguishing clinical lesson is reinforced: ecthyma heals with scarring (unlike impetigo, which heals without scarring) because the ulceration extends into the dermis, destroying skin architecture. The Group A Streptococcal aetiology, the lower limb distribution in a child with poor hygiene and outdoor exposure, and the punched-out ulcerating morphology are all confirmed as consistent with ecthyma."
+      }
+    ]
+  },
+
+  "case_0111": {
+    "title": "Erysipelas",
+    "finalDiagnosis": "Erysipelas",
+    "snomedCode": "43116000",
+    "systems": ["Dermatology", "Skin Infection"],
+    "prompts": [
+      {
+        "type": "history",
+        "label": "Presenting Complaint",
+        "text": "A 67-year-old woman presents to the emergency department with a painful, rapidly spreading red area on her left lower leg that developed over the past 24 hours.",
+        "image": null,
+        "accepted": [
+          "Erysipelas",
+          "Cellulitis",
+          "Deep Vein Thrombosis",
+          "Necrotising Fasciitis",
+          "Contact Dermatitis"
+        ],
+        "reasoning": "Acute-onset unilateral lower limb erythema spreading over 24 hours requires urgent consideration of bacterial skin infection, deep vein thrombosis, and — critically — necrotising fasciitis. The discriminatory axis is the rapid onset and spreading nature of the erythema. No morphological detail is yet available to distinguish between these conditions."
+      },
+      {
+        "type": "history",
+        "label": "History of Presenting Complaint",
+        "text": "The redness has a clearly visible advancing edge and is uniformly red, warm, and tender; she developed a fever and chills approximately six hours before presenting. There is no blistering and no area of particular tenderness disproportionate to the visible skin change.",
+        "image": null,
+        "accepted": [
+          "Erysipelas",
+          "Cellulitis",
+          "Necrotising Fasciitis"
+        ],
+        "reasoning": "Fever and chills preceding the skin presentation confirms a systemic bacterial infection. The absence of pain disproportionate to the visible skin changes reduces the probability of necrotising fasciitis, which classically presents with pain far exceeding the clinical appearance. A clearly advancing edge suggests a superficial spreading infection rather than DVT, which would cause diffuse swelling without an advancing red margin. Contact dermatitis does not cause fever or advancing erythema of this speed. Three diagnoses remain."
+      },
+      {
+        "type": "history",
+        "label": "Past Medical and Social History",
+        "text": "She has a history of two prior similar episodes on the same leg over the past four years, both successfully treated with antibiotics. She has mild chronic lymphoedema of the left leg following treatment for gynaecological cancer a decade ago. No leg ulcers and no recent skin injury.",
+        "image": null,
+        "accepted": [
+          "Erysipelas",
+          "Cellulitis"
+        ],
+        "reasoning": "Recurrent episodes of lower limb infection on a background of lymphoedema is highly characteristic of erysipelas — lymphatic stasis impairs local immune clearance and creates a portal for recurrent streptococcal entry. Cellulitis also recurs in lymphoedematous limbs and remains equally plausible at this stage. Necrotising fasciitis is now effectively excluded — it does not recur in the same anatomical distribution over years in a patient who survived prior episodes without surgical intervention. DVT and contact dermatitis are excluded. Two diagnoses remain, requiring clinical examination to distinguish."
+      },
+      {
+        "type": "examination",
+        "label": "Physical Examination",
+        "text": "Temperature 38.7°C, HR 102 bpm. A sharply demarcated, raised, bright-red, shiny plaque with a clearly palpable advancing edge is present on the medial lower leg extending to the ankle. The border can be traced with a finger as a distinct ridge. No pitting oedema within the plaque. No bullae, no necrosis, no crepitus.",
+        "image": "derm_0111_p4_clinical.jpg",
+        "accepted": [
+          "Erysipelas"
+        ],
+        "reasoning": "The sharply demarcated, raised, palpable border is the key examination feature that distinguishes erysipelas from cellulitis. In erysipelas, the infection is confined to the superficial dermis and lymphatics, producing a clearly visible elevated margin as the infection spreads within a defined tissue plane. Cellulitis involves the deeper dermis and subcutaneous tissue, which produces diffuse, poorly demarcated erythema without a raised edge. The bright-red, shiny, hot plaque with a palpable border is pathognomonic of erysipelas. Absence of crepitus and preserved pain-sensation relationship excludes necrotising fasciitis."
+      },
+      {
+        "type": "investigation",
+        "label": "Blood Tests and Microbiological Workup",
+        "text": "WBC 16.4 × 10⁹/L with neutrophilia. CRP 134 mg/L. Blood cultures drawn before antibiotics: no growth at 48 hours (bacteraemia is uncommon in erysipelas). Wound swab from an entry site (small toe web space maceration): Group A Streptococcus isolated.",
+        "image": null,
+        "accepted": [
+          "Erysipelas"
+        ],
+        "reasoning": "Neutrophilia and elevated CRP confirm a bacterial infection with systemic inflammation. Group A Streptococcus isolated from the entry site (toe web space maceration) identifies the causative organism and entry portal, consistent with erysipelas pathogenesis. The absence of bacteraemia is consistent with erysipelas — unlike cellulitis with deeper tissue involvement, erysipelas rarely seeds the bloodstream. The combination of sharply demarcated raised border, recurrence in a lymphoedematous limb, fever, and streptococcal isolation confirms erysipelas."
+      },
+      {
+        "type": "investigation",
+        "label": "Treatment Response and Confirmation",
+        "text": "Intravenous benzylpenicillin is commenced. The advancing edge is marked and monitored hourly; within 24 hours the border stops advancing and the erythema begins to pale. The patient is stepped down to oral penicillin after 48 hours and discharged with compression bandaging for lymphoedema management and prophylactic low-dose penicillin to reduce recurrence.",
+        "image": null,
+        "accepted": [
+          "Erysipelas"
+        ],
+        "reasoning": "Rapid response to narrow-spectrum penicillin therapy confirms a Group A Streptococcal aetiology. The clinical response pattern — border stabilisation followed by gradual fading of the sharply demarcated plaque — is characteristic of erysipelas. The prescription of long-term prophylactic penicillin to prevent recurrence in a patient with lymphoedema is the standard management of recurrent erysipelas. These clinical, microbiological, and therapeutic findings collectively confirm erysipelas."
+      }
+    ]
+  },
+
+  "case_0112": {
+    "title": "Cellulitis",
+    "finalDiagnosis": "Cellulitis",
+    "snomedCode": "128045006",
+    "systems": ["Dermatology", "Skin Infection"],
+    "prompts": [
+      {
+        "type": "history",
+        "label": "Presenting Complaint",
+        "text": "A 54-year-old man presents with a painful, swollen, red left lower leg that has been worsening over three days.",
+        "image": null,
+        "accepted": [
+          "Cellulitis",
+          "Erysipelas",
+          "Deep Vein Thrombosis",
+          "Necrotising Fasciitis",
+          "Lipodermatosclerosis"
+        ],
+        "reasoning": "Unilateral lower leg pain, swelling, and erythema over three days is a common acute presentation requiring urgent differentiation between bacterial soft tissue infection and DVT. Cellulitis, erysipelas, DVT, necrotising fasciitis, and lipodermatosclerosis (an inflammatory skin condition mimicking cellulitis) are all plausible. The primary discriminatory axis is the subacute three-day course and the combination of pain and erythema."
+      },
+      {
+        "type": "history",
+        "label": "History of Presenting Complaint",
+        "text": "The redness began at the mid-shin and has gradually spread both upward and downward with no distinct edge he can identify; the leg feels hot and tight but he has no chills. He sustained a small abrasion at the site three weeks ago from a minor fall.",
+        "image": null,
+        "accepted": [
+          "Cellulitis",
+          "Erysipelas",
+          "Deep Vein Thrombosis",
+          "Necrotising Fasciitis"
+        ],
+        "reasoning": "Gradual spread without a distinct advancing edge favours cellulitis over erysipelas — which produces a sharply marginated raised border. A prior abrasion three weeks ago is a recognised portal of entry for bacteria in cellulitis. Absence of chills is less typical for erysipelas, which classically begins with rigors. DVT remains important to consider given unilateral leg swelling and tightness. Absence of severe pain disproportionate to appearances slightly reduces necrotising fasciitis probability, but this must not be dismissed without examination. Lipodermatosclerosis typically develops in patients with chronic venous disease over months, not three days."
+      },
+      {
+        "type": "history",
+        "label": "Past Medical and Social History",
+        "text": "He has type 2 diabetes managed with oral agents, with an HbA1c of 9.1% at his last check. He has no prior episodes of leg infection, no varicose veins, and no prior DVT. No recent long-haul travel or period of immobility.",
+        "image": null,
+        "accepted": [
+          "Cellulitis",
+          "Erysipelas",
+          "Deep Vein Thrombosis"
+        ],
+        "reasoning": "Poorly controlled diabetes is a significant risk factor for cellulitis — impaired neutrophil function and compromised skin integrity from diabetic neuropathy both facilitate deep tissue infection. Absence of recent immobility, travel, or prior DVT reduces DVT probability, though it cannot be excluded without imaging. Erysipelas remains plausible but is less likely given the absence of a prior episode, the poor glycaemic control (which favours polymicrobial or S. aureus rather than pure Group A Strep), and the gradual rather than sudden onset. Three diagnoses remain."
+      },
+      {
+        "type": "examination",
+        "label": "Physical Examination",
+        "text": "Temperature 37.9°C, HR 96 bpm. The left lower leg shows diffuse erythema, warmth, and non-pitting oedema extending from the mid-shin to the ankle; the border is poorly defined with no palpable raised edge. Tenderness is present throughout the erythematous area. No crepitus, no bullae, no necrosis. A small healing abrasion is visible on the anterior shin. Homans' sign is unreliable but calf tenderness is present throughout.",
+        "image": "derm_0112_p4_clinical.jpg",
+        "accepted": [
+          "Cellulitis",
+          "Deep Vein Thrombosis"
+        ],
+        "reasoning": "The poorly defined, diffuse border without a raised or palpable advancing edge is the key examination feature distinguishing cellulitis from erysipelas. Cellulitis involves the deeper dermis and subcutaneous tissue, blurring the infection margin; erysipelas is confined to the superficial dermis, creating a sharply defined elevated border. The presence of a healing abrasion as a bacterial entry point, fever, and diffuse warmth confirms a bacterial process. DVT must still be excluded — calf tenderness without clear erythema pattern distinction requires imaging. Absence of crepitus and skin necrosis reduces NF probability significantly. Erysipelas is now excluded based on border morphology."
+      },
+      {
+        "type": "investigation",
+        "label": "Lower Limb Duplex Ultrasound",
+        "text": "Duplex ultrasound of the left lower limb venous system: no intraluminal thrombus identified in the popliteal, tibial, or femoral veins. The subcutaneous tissues appear thickened and echogenic on B-mode imaging, consistent with soft tissue oedema and inflammation.",
+        "image": null,
+        "accepted": [
+          "Cellulitis"
+        ],
+        "reasoning": "Absence of venous thrombus on duplex ultrasound definitively excludes DVT, which was the primary competing diagnosis requiring imaging. The ultrasound finding of subcutaneous tissue thickening and echogenicity is consistent with soft tissue inflammation — an indirect imaging correlate of cellulitis. With DVT excluded and the clinical examination confirming diffuse, poorly marginated erythema with warmth, fever, and a portal of entry (abrasion), the diagnosis is now cellulitis."
+      },
+      {
+        "type": "investigation",
+        "label": "Blood Tests and Clinical Confirmation",
+        "text": "WBC 13.8 × 10⁹/L with neutrophilia. CRP 98 mg/L. Blood glucose 14.2 mmol/L. Blood cultures: no growth. The patient responds to intravenous co-amoxiclav over 48 hours with progressive reduction in erythema and warmth; the outline of the erythema drawn on admission recedes inward by the second day.",
+        "image": null,
+        "accepted": [
+          "Cellulitis"
+        ],
+        "reasoning": "Neutrophilia, elevated CRP, and concurrent hyperglycaemia are consistent with acute bacterial infection in a diabetic patient. Blood culture negativity is expected — bacteraemia is uncommon in uncomplicated cellulitis. The clinical response to broad-spectrum antibiotics covering S. aureus and streptococci, with progressive reduction of erythema from the marked border inward, confirms cellulitis. The combination of poorly marginated erythema, subcutaneous tissue involvement, diabetic host, skin entry portal, negative DVT imaging, and antibiotic response confirms the diagnosis."
+      }
+    ]
+  },
+
+  "case_0113": {
+    "title": "Furunculosis",
+    "finalDiagnosis": "Furunculosis",
+    "snomedCode": "13333000",
+    "systems": ["Dermatology", "Skin Infection"],
+    "prompts": [
+      {
+        "type": "history",
+        "label": "Presenting Complaint",
+        "text": "A 22-year-old man presents with a painful lump in his right axilla that has been growing over the past five days.",
+        "image": null,
+        "accepted": [
+          "Furunculosis",
+          "Hidradenitis Suppurativa",
+          "Infected Epidermoid Cyst",
+          "Reactive Lymphadenopathy",
+          "Cellulitis"
+        ],
+        "reasoning": "A rapidly growing painful axillary lump over five days introduces a differential across infective, follicular, and lymphatic conditions. Furunculosis (deep follicular abscess), hidradenitis suppurativa, infected epidermoid cyst, reactive lymphadenopathy, and cellulitis are all plausible. The primary discriminatory axis is the acute five-day course and the deep, tender nodule quality."
+      },
+      {
+        "type": "history",
+        "label": "History of Presenting Complaint",
+        "text": "The lump started as a small, tender red spot and has progressively enlarged; it now feels as though there is fluid inside and the overlying skin looks yellow at the centre. He has also developed two similar, smaller lesions at the same site over the past month.",
+        "image": null,
+        "accepted": [
+          "Furunculosis",
+          "Hidradenitis Suppurativa",
+          "Infected Epidermoid Cyst"
+        ],
+        "reasoning": "A tender follicular lesion progressing to central fluctuance with yellow discolouration indicates abscess formation. The development of multiple similar lesions at the same anatomical site over one month is important — recurrence at the same site can indicate hidradenitis suppurativa (a chronic follicular occlusion disease) or a carrier state of S. aureus driving furunculosis. Reactive lymphadenopathy does not fluctuate or develop a yellow central zone. Cellulitis does not form a discrete fluctuant nodule. Three diagnoses remain."
+      },
+      {
+        "type": "history",
+        "label": "Past Medical and Social History",
+        "text": "He is otherwise healthy and plays contact rugby regularly; he shares a changing room and uses communal shower facilities. No prior skin conditions, no scarring from past lesions, and no systemic illness. The prior two lesions resolved with warm compresses without antibiotic treatment.",
+        "image": null,
+        "accepted": [
+          "Furunculosis",
+          "Hidradenitis Suppurativa",
+          "Infected Epidermoid Cyst"
+        ],
+        "reasoning": "Communal shower facilities and close contact sport are well-recognised epidemiological risk factors for S. aureus transmission and furunculosis, particularly community-acquired MRSA. Lesions that resolved with warm compresses alone, without scarring, are more consistent with furunculosis than hidradenitis suppurativa — hidradenitis typically produces persistent, recurrent, interconnected sinuses with scarring. An infected epidermoid cyst can recur at the same site if incompletely treated. Three diagnoses remain. Physical examination is required to differentiate."
+      },
+      {
+        "type": "examination",
+        "label": "Physical Examination",
+        "text": "Temperature 37.8°C. A 3 cm, erythematous, dome-shaped, fluctuant nodule is present in the right axillary hair-bearing skin, with a central area of yellow purulent material visible at the follicular opening. Two smaller 1 cm erythematous follicular papules are present adjacent to it. No sinus tracts, no bridged scars, and no cord-like induration between the lesions. No axillary lymphadenopathy.",
+        "image": "derm_0113_p4_clinical.jpg",
+        "accepted": [
+          "Furunculosis",
+          "Infected Epidermoid Cyst"
+        ],
+        "reasoning": "A fluctuant follicular nodule with purulent material at the follicular ostium is the characteristic appearance of a furuncle — a deep follicular abscess extending into the dermis. The critical examination finding distinguishing furunculosis from hidradenitis suppurativa is the absence of sinus tracts, bridged scars, and cord-like induration between lesions. Hidradenitis suppurativa produces interconnected abscesses with characteristic fibrotic bridging and sinus tract formation. An infected epidermoid cyst can produce a similar fluctuant nodule but would not have a visible follicular opening with purulent material — it would have a central punctum with expressed cheesy material. Two diagnoses remain."
+      },
+      {
+        "type": "investigation",
+        "label": "Incision, Drainage and Microbiological Culture",
+        "text": "Incision and drainage is performed under local anaesthesia. Thick purulent material is expressed, and the cavity is irrigated. Pus culture: pure growth of methicillin-sensitive Staphylococcus aureus (MSSA). No epidermoid lining is identified in the cavity on probing.",
+        "image": null,
+        "accepted": [
+          "Furunculosis"
+        ],
+        "reasoning": "Isolation of S. aureus from the expressed pus confirms the bacterial aetiology of a furuncle. The absence of an epithelial lining within the drained cavity distinguishes a furuncle from an infected epidermoid cyst — the latter would have a cyst wall lining from which cheesy keratinous material is expressed, often with a characteristic smell. A furuncle is a bacterial abscess without a pre-formed epithelial cavity. The combination of a follicular-based fluctuant nodule, S. aureus isolation, no sinus tracts, and no cyst lining confirms furunculosis."
+      },
+      {
+        "type": "investigation",
+        "label": "Nasal Swab and Clinical Confirmation",
+        "text": "A nasal swab is taken to assess for S. aureus carriage: the anterior nares yield MSSA with an identical antibiogram to the wound isolate. The patient is given intranasal mupirocin decolonisation and hygiene counselling. No further lesions develop over the following three months.",
+        "image": null,
+        "accepted": [
+          "Furunculosis"
+        ],
+        "reasoning": "Identification of nasal carriage of S. aureus with an identical antibiogram to the wound isolate confirms autoinoculation as the mechanism of recurrent furunculosis — the patient is a chronic nasal carrier seeding his own axillary hair follicles during contact sport. Decolonisation with intranasal mupirocin interrupts this cycle. The absence of new lesions after decolonisation confirms that S. aureus nasal carriage was the source driving recurrent furunculosis, as opposed to hidradenitis suppurativa (an intrinsic follicular occlusion disease unrelated to bacterial carriage)."
+      }
+    ]
+  },
+
+  "case_0114": {
+    "title": "Lymphangitis",
+    "finalDiagnosis": "Lymphangitis",
+    "snomedCode": "23513009",
+    "systems": ["Dermatology", "Skin Infection"],
+    "prompts": [
+      {
+        "type": "history",
+        "label": "Presenting Complaint",
+        "text": "A 31-year-old man presents with a painful red line running up his right forearm that appeared this morning.",
+        "image": null,
+        "accepted": [
+          "Lymphangitis",
+          "Superficial Thrombophlebitis",
+          "Cellulitis",
+          "Contact Dermatitis"
+        ],
+        "reasoning": "A linear red streak on the forearm with an acute onset is a distinctive presentation, but the differential must be approached systematically. Lymphangitis (infection tracking along lymphatic vessels), superficial thrombophlebitis (inflammation of a superficial vein), cellulitis with linear spread, and contact dermatitis are all plausible. The primary discriminatory axis is the linear quality of the erythema on the upper limb."
+      },
+      {
+        "type": "history",
+        "label": "History of Presenting Complaint",
+        "text": "The red line started at his right hand and is tracking up toward his inner elbow; the area is tender to touch along its entire length. He feels feverish and unwell. He noticed a small wound on his finger two days ago.",
+        "image": null,
+        "accepted": [
+          "Lymphangitis",
+          "Superficial Thrombophlebitis",
+          "Cellulitis"
+        ],
+        "reasoning": "A red streak tracking proximally from a distal wound toward regional lymph nodes in a febrile patient is a classic clinical presentation of lymphangitis — bacterial spread along lymphatic channels from a distal portal of entry. The presence of fever distinguishes an infective process from contact dermatitis, which is excluded. Superficial thrombophlebitis typically follows the course of a visible superficial vein and is not associated with fever or a proximal wound. Cellulitis remains plausible but would produce diffuse rather than strictly linear erythema. Three diagnoses remain."
+      },
+      {
+        "type": "history",
+        "label": "Past Medical and Social History",
+        "text": "He has no significant past medical history. The finger wound occurred when he was bitten by his neighbour's cat while trying to help with it yesterday. He is otherwise well with no prior infective episodes.",
+        "image": null,
+        "accepted": [
+          "Lymphangitis",
+          "Superficial Thrombophlebitis"
+        ],
+        "reasoning": "A cat bite is a specific exposure that substantially modifies the likely causative organism. Pasteurella multocida — a normal commensal of the feline oral cavity — causes a characteristically rapid and aggressive soft tissue infection following cat bites and is a well-recognised cause of lymphangitis. This history makes an infective process far more probable than thrombophlebitis. Superficial thrombophlebitis can occur but is not associated with cat bites or fever. Cellulitis from Pasteurella typically involves the bite site itself; the spreading lymphangitic streak from finger to elbow suggests lymphatic tract involvement. Two diagnoses remain."
+      },
+      {
+        "type": "examination",
+        "label": "Physical Examination",
+        "text": "Temperature 38.4°C, HR 104 bpm. A tender, erythematous streak 2–3 cm wide runs in a straight line from a puncture wound on the dorsal right index finger, along the medial forearm, toward the right antecubital fossa. Tender right epitrochlear lymphadenopathy is palpable. The streak does not follow the course of a visible superficial vein.",
+        "image": "derm_0114_p4_clinical.jpg",
+        "accepted": [
+          "Lymphangitis"
+        ],
+        "reasoning": "The combination of a tender linear streak tracking from a distal wound toward regional lymph nodes (epitrochlear lymphadenopathy), not following a visible venous course, with fever, confirms lymphangitis. Lymphangitic streaks follow the anatomical course of lymphatic channels, which run medially on the forearm toward the epitrochlear nodes — not along the superficial veins. Superficial thrombophlebitis would produce tenderness along the exact course of a visible, palpable, indurated vein without associated lymphadenopathy. The epitrochlear lymphadenopathy confirms reactive drainage from a primary infection distally. Lymphangitis is confirmed on examination."
+      },
+      {
+        "type": "investigation",
+        "label": "Wound Swab and Blood Tests",
+        "text": "Swab from the puncture wound on the finger: Gram-negative coccobacilli on Gram stain; culture yields Pasteurella multocida sensitive to amoxicillin-clavulanate. WBC 15.1 × 10⁹/L with neutrophilia. Blood cultures: no growth. CRP 88 mg/L.",
+        "image": null,
+        "accepted": [
+          "Lymphangitis"
+        ],
+        "reasoning": "Isolation of Pasteurella multocida from the cat bite wound confirms the expected causative organism in cat-bite-associated lymphangitis. Pasteurella multocida is characteristic of cat and dog bites and is known for causing aggressive soft tissue infection and lymphangitis with rapid onset. Neutrophilia and elevated CRP confirm a significant bacterial inflammatory response. Absence of bacteraemia is consistent with lymphangitis not yet progressing to septicaemia. The microbiological, clinical, and epidemiological findings collectively confirm Pasteurella multocida lymphangitis following a cat bite."
+      },
+      {
+        "type": "investigation",
+        "label": "Treatment Response and Confirmation",
+        "text": "Amoxicillin-clavulanate is started intravenously; within 24 hours the streak becomes less erythematous and the fever resolves. The patient is stepped down to oral therapy and discharged. The linear streak fades completely over five days without skin necrosis or abscess formation.",
+        "image": null,
+        "accepted": [
+          "Lymphangitis"
+        ],
+        "reasoning": "Complete resolution of the lymphangitic streak and associated fever on amoxicillin-clavulanate — the antibiotic of choice covering Pasteurella multocida — confirms the diagnosis. The absence of necrosis or abscess formation confirms that treatment was initiated before progression to deeper infection. The clinical course — proximal linear streak from a cat bite wound, epitrochlear lymphadenopathy, Pasteurella isolation, and complete antibiotic response — fulfils the clinical diagnosis of lymphangitis secondary to Pasteurella multocida cat bite infection."
+      }
+    ]
+  },
+
+  "case_0115": {
+    "title": "Intertrigo",
+    "finalDiagnosis": "Intertrigo — Candidal",
+    "snomedCode": "56870008",
+    "systems": ["Dermatology", "Skin Infection"],
+    "prompts": [
+      {
+        "type": "history",
+        "label": "Presenting Complaint",
+        "text": "A 58-year-old woman presents with a persistent, uncomfortable rash in the skin folds under her breasts that has not improved with over-the-counter moisturiser over three weeks.",
+        "image": null,
+        "accepted": [
+          "Intertrigo — Candidal",
+          "Intertrigo — Bacterial",
+          "Inverse Psoriasis",
+          "Contact Dermatitis",
+          "Tinea Corporis"
+        ],
+        "reasoning": "A persistent intertriginous rash unresponsive to moisturiser introduces a differential across infective and inflammatory skin conditions of the skin folds. Candidal intertrigo, bacterial intertrigo, inverse psoriasis, contact dermatitis, and tinea corporis are all plausible in this location. The primary discriminatory axis is the intertriginous distribution and the three-week chronic course."
+      },
+      {
+        "type": "history",
+        "label": "History of Presenting Complaint",
+        "text": "The rash is moist, red, and itchy with an unpleasant smell; she has noticed some small red spots beyond the main area of rash extending a short distance onto the adjacent skin. She has been applying an occlusive barrier cream which has made it worse.",
+        "image": null,
+        "accepted": [
+          "Intertrigo — Candidal",
+          "Intertrigo — Bacterial",
+          "Inverse Psoriasis"
+        ],
+        "reasoning": "Moist, malodorous erythema in a skin fold with extension of satellite lesions beyond the main rash margin is a characteristic pattern of Candidal intertrigo — the satellite papules and pustules represent peripheral spread of yeast infection. However, bacterial intertrigo and inverse psoriasis also produce moist, erythematous intertriginous plaques. Worsening with occlusive cream is consistent with a fungal or bacterial infection where moisture exacerbates microbial growth. Contact dermatitis is now less likely — it would not cause satellite lesions and would be expected to improve or remain localised, not worsen progressively. Tinea corporis is less likely in flexural areas without ring-like border formation. Three diagnoses remain."
+      },
+      {
+        "type": "history",
+        "label": "Past Medical and Social History",
+        "text": "She has type 2 diabetes with an HbA1c of 8.8% and a BMI of 38 kg/m². She completed a 10-day course of broad-spectrum antibiotics for a chest infection four weeks ago. No prior psoriasis diagnosis and no family history of psoriasis.",
+        "image": null,
+        "accepted": [
+          "Intertrigo — Candidal",
+          "Intertrigo — Bacterial",
+          "Inverse Psoriasis"
+        ],
+        "reasoning": "Obesity and diabetes are the primary predisposing factors for intertrigo — both increase skin fold moisture, friction, and impair local immunity. Recent broad-spectrum antibiotic use suppresses bacterial competitors of Candida, creating an ecological advantage for fungal overgrowth in warm, moist skin folds — a well-recognised precipitant of Candidal intertrigo. Inverse psoriasis (psoriasis of flexural areas) presents in skin folds and is associated with obesity but is not precipitated by antibiotics and would not be expected to develop within four weeks of antibiotic use in a patient without prior psoriatic history. Three diagnoses remain, with Candidal intertrigo now the most probable."
+      },
+      {
+        "type": "examination",
+        "label": "Physical Examination",
+        "text": "Examination reveals confluent, beefy-red erythematous plaques with a moist, macerated surface involving both inframammary folds symmetrically. Several 2–3 mm erythematous papules and pustules are visible on adjacent normal-appearing skin a few centimetres beyond the main rash margin bilaterally. No well-defined scaling border. Temperature 37.1°C.",
+        "image": "derm_0115_p4_clinical.jpg",
+        "accepted": [
+          "Intertrigo — Candidal",
+          "Intertrigo — Bacterial"
+        ],
+        "reasoning": "The beefy-red, moist erythema with satellite papules and pustules extending beyond the main lesion margin are the characteristic examination findings of Candidal intertrigo. Satellite lesions — individual pustules beyond the main plaque — are a helpful distinguishing feature of Candida from bacterial intertrigo and inverse psoriasis. Inverse psoriasis characteristically produces well-defined plaques with minimal scale (scale is lost in moist skin folds) but does not produce satellite pustules. Bacterial intertrigo (typically S. aureus or coliforms) can produce moist erythema but satellite pustules are more characteristic of Candida. Two diagnoses remain."
+      },
+      {
+        "type": "investigation",
+        "label": "Skin Scraping and KOH Preparation",
+        "text": "A skin scraping from the lesion edge is collected and prepared with 10% potassium hydroxide. Microscopy reveals multiple budding yeast cells and pseudohyphae. Bacterial swab from the macerated skin surface: no significant pathogen isolated.",
+        "image": null,
+        "accepted": [
+          "Intertrigo — Candidal"
+        ],
+        "reasoning": "Identification of budding yeast cells and pseudohyphae on KOH preparation confirms Candidal infection of the skin fold. Pseudohyphae represent the filamentous growth form of Candida, indicating tissue invasion rather than superficial colonisation. Absence of a bacterial pathogen on wound swab excludes primary bacterial intertrigo. The combination of pseudohyphae on KOH, satellite lesions clinically, and the predisposing factors of obesity, diabetes, and recent antibiotic use confirms Candidal intertrigo."
+      },
+      {
+        "type": "investigation",
+        "label": "Treatment Response and Confirmation",
+        "text": "Topical clotrimazole is applied twice daily. Moisture-reducing measures are implemented including absorbent dressings in the skin fold and improved glycaemic control. At three-week review, the erythema has largely resolved and the satellite lesions have disappeared. Repeat KOH preparation is negative for fungal elements.",
+        "image": null,
+        "accepted": [
+          "Intertrigo — Candidal"
+        ],
+        "reasoning": "Complete resolution of the rash and satellite lesions on topical antifungal therapy with a negative follow-up KOH preparation confirms Candidal intertrigo. The response to an antifungal agent targeting Candida — and not to the prior moisturiser — demonstrates that fungal infection rather than barrier disruption alone was the underlying cause. The predisposing triad of obesity, diabetes, and recent antibiotic use, combined with the clinical morphology and microbiological confirmation, establishes the diagnosis of Candidal intertrigo."
+      }
+    ]
+  },
+
+  "case_0116": {
+    "title": "Necrotising Fasciitis",
+    "finalDiagnosis": "Necrotising Fasciitis",
+    "snomedCode": "397793001",
+    "systems": ["Dermatology", "Necrotising Infection"],
+    "prompts": [
+      {
+        "type": "history",
+        "label": "Presenting Complaint",
+        "text": "A 48-year-old man with diabetes mellitus is brought to the emergency department with severe right leg pain and swelling that began yesterday.",
+        "image": null,
+        "accepted": [
+          "Necrotising Fasciitis",
+          "Severe Cellulitis",
+          "Deep Vein Thrombosis",
+          "Compartment Syndrome",
+          "Erysipelas"
+        ],
+        "reasoning": "Severe acute lower limb pain and swelling with systemic illness in a diabetic patient demands immediate risk stratification for a limb- and life-threatening process. Necrotising fasciitis, severe cellulitis, DVT, acute compartment syndrome, and erysipelas all warrant consideration. The primary discriminatory axis is the severe pain and acute onset in a high-risk host. This is a clinical emergency regardless of the final diagnosis."
+      },
+      {
+        "type": "history",
+        "label": "History of Presenting Complaint",
+        "text": "The pain is described as excruciating and out of proportion to what he can see on the skin, which appears only moderately red at this stage. He has had rigors, feels extremely unwell, and has been unable to weight-bear since last night.",
+        "image": null,
+        "accepted": [
+          "Necrotising Fasciitis",
+          "Severe Cellulitis",
+          "Compartment Syndrome"
+        ],
+        "reasoning": "Pain disproportionate to the visible skin changes is the most important early warning feature of necrotising fasciitis — the necrosis occurs in the deep fascial planes, producing exquisite pain before the overlying skin shows obvious changes. Rigors and systemic toxicity accompanying pain that exceeds the clinical appearance must be treated as necrotising fasciitis until proven otherwise. DVT and erysipelas are now less likely — DVT does not cause rigors, and erysipelas produces skin changes proportionate to the discomfort. Compartment syndrome causes severe pain with normal-appearing skin but is not associated with rigors or fever. Three diagnoses remain, but NF must be the working assumption."
+      },
+      {
+        "type": "history",
+        "label": "Past Medical and Social History",
+        "text": "He has type 2 diabetes with poorly controlled glycaemia (HbA1c 10.3%) and a BMI of 35 kg/m². He sustained a minor graze on his right shin four days ago while gardening. He takes metformin only and has no known drug allergies.",
+        "image": null,
+        "accepted": [
+          "Necrotising Fasciitis",
+          "Severe Cellulitis"
+        ],
+        "reasoning": "Poorly controlled diabetes is the dominant risk factor for necrotising fasciitis — impaired neutrophil function and microvascular disease allow rapid bacterial progression along fascial planes with minimal initial skin changes. A preceding minor skin breach four days ago provides a plausible portal of entry. While the same risk factors also predispose to severe cellulitis, the severity of systemic toxicity, the pain disproportionate to skin appearance, and the rapid progression over 24 hours collectively raise NF far above cellulitis in probability. The differential has narrowed to two diagnoses requiring urgent clinical examination."
+      },
+      {
+        "type": "examination",
+        "label": "Physical Examination",
+        "text": "Temperature 39.4°C, HR 124 bpm, BP 96/60 mmHg. The right lower leg shows moderate erythema and swelling, but palpation reveals exquisite tenderness extending significantly beyond the visible margin of erythema. There is no crepitus detectable at this stage. The skin feels tense and woody on deep palpation. HR and BP indicate early septic shock.",
+        "image": null,
+        "accepted": [
+          "Necrotising Fasciitis",
+          "Severe Cellulitis"
+        ],
+        "reasoning": "The extension of exquisite tenderness well beyond the visible erythematous margin is the key clinical sign differentiating necrotising fasciitis from cellulitis at this stage. In cellulitis, tenderness is confined to the area of visible erythema. In NF, the deep fascial necrosis extends beyond the skin involvement, making the apparently normal perilesional skin extremely tender. Tense, woody induration on deep palpation suggests fascial plane involvement. Septic shock (hypotension, tachycardia) indicates a rapidly progressing infection of extreme severity, which is more consistent with NF than isolated cellulitis. Urgent imaging and senior surgical review are required immediately."
+      },
+      {
+        "type": "imaging",
+        "label": "Urgent CT of Right Lower Leg",
+        "text": "CT of the right lower leg with contrast: gas tracking along the fascial planes of the anterior and posterior compartments from the shin to the knee, with fascial thickening and adjacent soft tissue oedema. No gas in the muscle compartments. No discrete abscess collection.",
+        "image": "derm_0116_p5_ct.jpg",
+        "accepted": [
+          "Necrotising Fasciitis"
+        ],
+        "reasoning": "Gas tracking along fascial planes on CT is a pathognomonic finding of necrotising fasciitis — anaerobic bacteria producing gas as a metabolic byproduct within the devitalised fascial tissue. The confinement of gas to the fascial planes (rather than muscle compartments) distinguishes NF from gas gangrene (clostridial myonecrosis), which involves the muscle itself. This CT finding, combined with the clinical signs of pain disproportionate to appearance, systemic septic shock, and a high-risk diabetic host, confirms necrotising fasciitis and mandates immediate surgical debridement. Severe cellulitis is definitively excluded."
+      },
+      {
+        "type": "investigation",
+        "label": "Intraoperative Findings and Microbiological Confirmation",
+        "text": "Emergency surgical exploration confirms grey, necrotic fascia with no resistance to finger dissection along the fascial planes — the 'finger test' is positive. Tissue is sent for culture; results show polymicrobial growth including Escherichia coli, Group A Streptococcus, and Bacteroides fragilis. Broad-spectrum antibiotics covering Gram-positive, Gram-negative, and anaerobic organisms are commenced alongside surgical debridement.",
+        "image": null,
+        "accepted": [
+          "Necrotising Fasciitis"
+        ],
+        "reasoning": "Intraoperative findings are the definitive confirmation of necrotising fasciitis. The finger test — the ability to pass a finger along the fascial plane without resistance due to necrotic dissolution of tissue — is the gold-standard surgical diagnostic criterion. Polymicrobial growth including aerobic Gram-negatives and anaerobes is characteristic of Type 1 NF (polymicrobial), which is the most common type and is strongly associated with diabetes mellitus. The clinical, radiological, and intraoperative findings confirm Type 1 Necrotising Fasciitis."
+      }
+    ]
+  },
+
+  "case_0117": {
+    "title": "Gas Gangrene",
+    "finalDiagnosis": "Gas Gangrene (Clostridial Myonecrosis)",
+    "snomedCode": "50507000",
+    "systems": ["Dermatology", "Necrotising Infection"],
+    "prompts": [
+      {
+        "type": "history",
+        "label": "Presenting Complaint",
+        "text": "A 35-year-old man is brought to the emergency department by ambulance with severe, rapidly worsening pain in his left thigh following a road traffic accident six hours ago.",
+        "image": null,
+        "accepted": [
+          "Gas Gangrene (Clostridial Myonecrosis)",
+          "Necrotising Fasciitis",
+          "Severe Cellulitis",
+          "Acute Compartment Syndrome",
+          "Traumatic Haematoma with Secondary Infection"
+        ],
+        "reasoning": "Severe, rapidly escalating thigh pain following trauma six hours prior requires urgent exclusion of limb-threatening conditions. Gas gangrene, necrotising fasciitis, acute compartment syndrome, severe cellulitis, and infected traumatic haematoma are all plausible. The primary discriminatory axis is the acuity of onset directly following penetrating or crush trauma with rapid deterioration."
+      },
+      {
+        "type": "history",
+        "label": "History of Presenting Complaint",
+        "text": "He sustained a deep penetrating wound to the thigh when thrown from his motorcycle; the wound was contaminated with soil and road debris. The pain has escalated dramatically over the past two hours and is now far more severe than immediately after the accident, accompanied by a feeling of tightness and swelling in the thigh.",
+        "image": null,
+        "accepted": [
+          "Gas Gangrene (Clostridial Myonecrosis)",
+          "Necrotising Fasciitis",
+          "Acute Compartment Syndrome"
+        ],
+        "reasoning": "A deep, contaminated penetrating wound followed by rapidly escalating pain over two hours is a pattern of concern for both gas gangrene and necrotising fasciitis, both of which can follow traumatic inoculation with environmental organisms. Soil contamination specifically introduces Clostridium species — spore-forming anaerobes that cause gas gangrene in devitalised muscle tissue. Acute compartment syndrome must be considered given the penetrating trauma and tightness, as haematoma or swelling within muscle compartments can produce ischaemic pain. Severe cellulitis typically develops more slowly. Three diagnoses remain."
+      },
+      {
+        "type": "history",
+        "label": "Past Medical and Social History",
+        "text": "He is otherwise fit and healthy with no prior medical conditions. He was not wearing protective clothing at the time of the accident. The wound was not adequately cleaned before transfer to hospital, and no tetanus prophylaxis has yet been given.",
+        "image": null,
+        "accepted": [
+          "Gas Gangrene (Clostridial Myonecrosis)",
+          "Necrotising Fasciitis",
+          "Acute Compartment Syndrome"
+        ],
+        "reasoning": "A young, previously healthy individual with a contaminated deep wound and delayed wound care maintains all three diagnoses. No single historical feature distinguishes gas gangrene from necrotising fasciitis at this stage — both require deep penetrating trauma with environmental contamination. Compartment syndrome can develop from haematoma alone without infection. Adequate wound decontamination and debridement are the key preventive measures for both gas gangrene and tetanus. Clinical examination is essential to advance the differential."
+      },
+      {
+        "type": "examination",
+        "label": "Physical Examination",
+        "text": "Temperature 38.8°C, HR 132 bpm, BP 90/58 mmHg — septic shock. The left thigh is massively swollen, tense, and bronze-discoloured overlying the wound. Fine crepitus is detected on palpation of the thigh. The wound edges have a grey, non-viable appearance with watery, dishwater-coloured discharge. The patient is diaphoretic and confused.",
+        "image": "derm_0117_p4_clinical.jpg",
+        "accepted": [
+          "Gas Gangrene (Clostridial Myonecrosis)",
+          "Necrotising Fasciitis"
+        ],
+        "reasoning": "Crepitus on palpation of the thigh — a palpable crackling sensation from gas within the tissues — is a critical finding that confirms a gas-producing infection. Both gas gangrene and necrotising fasciitis can produce gas on imaging, but palpable crepitus in muscle tissue is more characteristic of gas gangrene (myonecrosis), where gas is generated within devitalised muscle fibres. Bronze discolouration of the overlying skin reflects myonecrosis-driven haemolysis extending to the dermis. Watery, dishwater discharge is characteristic of myonecrotic infection. Acute compartment syndrome does not cause crepitus, fever, or dishwater discharge and is now excluded. Two diagnoses remain."
+      },
+      {
+        "type": "imaging",
+        "label": "Plain X-Ray of Left Thigh",
+        "text": "Plain X-ray of the left thigh: extensive linear gas lucencies tracking within the muscle compartments of the anterior and posterior thigh, following the lines of individual muscle groups. Gas extends from mid-thigh proximally toward the hip. No fracture identified.",
+        "image": "derm_0117_p5_xray.jpg",
+        "accepted": [
+          "Gas Gangrene (Clostridial Myonecrosis)"
+        ],
+        "reasoning": "Gas tracking within the muscle compartments on plain X-ray, following the anatomical course of individual muscle groups, is the radiological hallmark of clostridial myonecrosis (gas gangrene). This distribution — intramuscular gas — distinguishes gas gangrene from necrotising fasciitis, where gas tracks along fascial planes rather than within muscle bellies. The extensive proximal spread within 6 hours of injury reflects the explosive growth rate of Clostridium perfringens in hypoxic, devitalised muscle tissue. This finding confirms gas gangrene and mandates immediate emergency surgical exploration and debridement."
+      },
+      {
+        "type": "investigation",
+        "label": "Intraoperative Findings and Microbiological Confirmation",
+        "text": "Emergency surgical exploration reveals extensive necrotic muscle — pale, non-contractile, and failing to bleed on incision — with gas bubbles visible between muscle fibres throughout the anterior compartment. Tissue Gram stain shows large Gram-positive rods with no inflammatory cells in the necrotic muscle. Culture confirms Clostridium perfringens. High-dose intravenous benzylpenicillin with metronidazole is commenced.",
+        "image": null,
+        "accepted": [
+          "Gas Gangrene (Clostridial Myonecrosis)"
+        ],
+        "reasoning": "The intraoperative findings confirm clostridial myonecrosis: non-contractile, pale, odourless muscle that fails to bleed, with visible intramuscular gas bubbles, is the surgical hallmark of gas gangrene. The striking histological finding — large Gram-positive rods (Clostridium perfringens) in devitalised muscle with an absence of inflammatory cells — reflects the exotoxin-mediated mechanism of tissue destruction. Clostridium perfringens alpha-toxin (a phospholipase C) destroys cell membranes directly without requiring an inflammatory infiltrate, explaining the paucity of leucocytes despite massive tissue destruction. These findings confirm Gas Gangrene (Clostridial Myonecrosis)."
+      }
+    ]
+  },
+
+  "case_0118": {
+    "title": "Septic Arthritis",
+    "finalDiagnosis": "Septic Arthritis",
+    "snomedCode": "372938004",
+    "systems": ["Musculoskeletal System", "Musculoskeletal Infection"],
+    "prompts": [
+      {
+        "type": "history",
+        "label": "Presenting Complaint",
+        "text": "A 58-year-old man presents with a single, acutely painful and swollen right knee that developed over the past 24 hours.",
+        "image": null,
+        "accepted": [
+          "Septic Arthritis",
+          "Gout",
+          "Pseudogout (Calcium Pyrophosphate Deposition)",
+          "Reactive Arthritis",
+          "Haemarthrosis",
+          "Acute Exacerbation of Osteoarthritis"
+        ],
+        "reasoning": "Acute monoarticular joint pain and swelling over 24 hours in a middle-aged man is a common but potentially serious presentation. Septic arthritis, gout, pseudogout, reactive arthritis, haemarthrosis, and acute osteoarthritis exacerbation are all plausible. The primary discriminatory axis is the acute monoarticular involvement. Until septic arthritis is excluded, this must be treated as a joint emergency — delay in treatment leads to irreversible cartilage destruction."
+      },
+      {
+        "type": "history",
+        "label": "History of Presenting Complaint",
+        "text": "The pain came on rapidly and is now so severe he cannot bear any weight; the joint feels hot and is visibly swollen. He has developed a low-grade fever over the same 24 hours.",
+        "image": null,
+        "accepted": [
+          "Septic Arthritis",
+          "Gout",
+          "Pseudogout (Calcium Pyrophosphate Deposition)",
+          "Reactive Arthritis"
+        ],
+        "reasoning": "Fever accompanying acute monoarticular joint inflammation significantly elevates the probability of septic arthritis or a crystal arthropathy with systemic inflammation. Gout and pseudogout both can cause fever during a severe attack; they are not excluded at this stage. Reactive arthritis can cause fever and joint inflammation following an infection. Haemarthrosis and osteoarthritis exacerbation do not typically cause fever and are now effectively excluded. Four diagnoses remain."
+      },
+      {
+        "type": "history",
+        "label": "Past Medical and Social History",
+        "text": "He has type 2 diabetes with an HbA1c of 9.4% and receives monthly intra-articular corticosteroid injections into the right knee for osteoarthritis — the last injection was ten days ago. He has no history of gout and no prior joint infections.",
+        "image": null,
+        "accepted": [
+          "Septic Arthritis",
+          "Gout",
+          "Pseudogout (Calcium Pyrophosphate Deposition)"
+        ],
+        "reasoning": "Intra-articular corticosteroid injection is a well-established iatrogenic route of joint inoculation with skin flora — septic arthritis occurring within days to weeks of an intra-articular injection is a recognised complication. Poorly controlled diabetes further impairs immune defence against bacterial invasion. Reactive arthritis is now less likely — it follows mucosal infections (genitourinary or gastrointestinal) and typically develops 2–4 weeks after the triggering infection, without a direct joint procedure history. No prior history of gout modestly reduces gout probability. Three diagnoses remain, all requiring synovial fluid analysis."
+      },
+      {
+        "type": "examination",
+        "label": "Physical Examination",
+        "text": "Temperature 38.1°C, HR 98 bpm. The right knee is markedly erythematous, warm, and tense with a visible effusion; the joint is held in slight flexion and any passive movement produces severe pain throughout the arc of motion. Overlying skin shows no puncture site or wound. Passive and active range of motion is globally restricted. No skin lesions elsewhere.",
+        "image": null,
+        "accepted": [
+          "Septic Arthritis",
+          "Gout",
+          "Pseudogout (Calcium Pyrophosphate Deposition)"
+        ],
+        "reasoning": "Globally restricted and uniformly painful range of motion in all planes is a characteristic feature of true intra-articular pathology. Septic arthritis, gout, and pseudogout all produce a hot, red, swollen joint with restricted movement. Clinically, these three cannot be reliably distinguished without synovial fluid analysis — even experienced clinicians cannot exclude septic arthritis on clinical grounds alone in a hot, swollen joint. The absence of a skin wound or visible puncture site is expected after a remote injection. Joint aspiration is mandatory and must not be delayed."
+      },
+      {
+        "type": "investigation",
+        "label": "Joint Aspiration and Synovial Fluid Analysis",
+        "text": "Arthrocentesis yields 18 mL of turbid, cloudy synovial fluid. Synovial fluid white cell count: 98,000 cells/μL with 94% neutrophils. Gram stain shows Gram-positive cocci in clusters. Glucose: markedly reduced compared to serum. No crystals identified on compensated polarised light microscopy.",
+        "image": null,
+        "accepted": [
+          "Septic Arthritis"
+        ],
+        "reasoning": "A synovial fluid WBC of greater than 50,000 cells/μL with greater than 90% neutrophils is the threshold widely used to indicate septic arthritis, though any markedly elevated cell count in the right clinical context demands treatment. Turbid fluid, Gram-positive cocci on Gram stain, and absence of crystals on polarised light microscopy definitively excludes gout and pseudogout — crystal arthropathies are diagnosed by the identification of urate (negatively birefringent needle-shaped) or calcium pyrophosphate (positively birefringent rhomboid) crystals. Low synovial glucose reflects bacterial consumption. The findings confirm septic arthritis requiring urgent surgical washout."
+      },
+      {
+        "type": "investigation",
+        "label": "Culture and Confirmation",
+        "text": "Synovial fluid culture and blood cultures grow methicillin-sensitive Staphylococcus aureus (MSSA) in both samples. The patient undergoes arthroscopic joint washout and is started on intravenous flucloxacillin. At six-week follow-up, the joint has recovered with preserved range of motion.",
+        "image": null,
+        "accepted": [
+          "Septic Arthritis"
+        ],
+        "reasoning": "Isolation of S. aureus from synovial fluid and blood cultures confirms the diagnosis and identifies the causative organism. S. aureus is the most common cause of septic arthritis in adults, and intra-articular injection is a recognised portal of entry for skin-colonising S. aureus. Bacteraemia confirms haematogenous seeding or direct inoculation with systemic dissemination. The combination of acute monoarticular septic presentation after an intra-articular injection, high synovial fluid neutrophilia with no crystals, Gram-positive cocci, and positive culture confirms Septic Arthritis."
+      }
+    ]
+  },
+
+  "case_0119": {
+    "title": "Osteomyelitis",
+    "finalDiagnosis": "Osteomyelitis",
+    "snomedCode": "60168000",
+    "systems": ["Musculoskeletal System", "Musculoskeletal Infection"],
+    "prompts": [
+      {
+        "type": "history",
+        "label": "Presenting Complaint",
+        "text": "A 62-year-old man with diabetes mellitus presents with a non-healing wound on the sole of his right foot that has been present for six weeks.",
+        "image": null,
+        "accepted": [
+          "Osteomyelitis (Contiguous — Diabetic Foot)",
+          "Diabetic Foot Ulcer (Non-infected)",
+          "Cellulitis",
+          "Deep Tissue Abscess",
+          "Peripheral Arterial Disease with Ischaemic Ulceration"
+        ],
+        "reasoning": "A non-healing foot ulcer in a diabetic patient is one of the most common and serious presentations in clinical medicine. Osteomyelitis complicating a diabetic foot ulcer, an uninfected neuropathic ulcer, cellulitis, deep abscess, and ischaemic ulceration from peripheral arterial disease are all plausible. The discriminatory axis is the chronicity (six weeks) and the diabetic context. Any non-healing diabetic foot wound must be evaluated for underlying bone involvement."
+      },
+      {
+        "type": "history",
+        "label": "History of Presenting Complaint",
+        "text": "The wound developed from a blister caused by ill-fitting footwear; it has been treated with dressings by his community nurse but has shown no sign of healing and appears to be enlarging. He reports no severe pain, which he attributes to always having had reduced foot sensation.",
+        "image": null,
+        "accepted": [
+          "Osteomyelitis (Contiguous — Diabetic Foot)",
+          "Diabetic Foot Ulcer (Non-infected)",
+          "Cellulitis",
+          "Peripheral Arterial Disease with Ischaemic Ulceration"
+        ],
+        "reasoning": "A foot blister progressing to a non-healing wound in a diabetic patient with reduced foot sensation (diabetic peripheral neuropathy) is the classic mechanism for a neuropathic diabetic foot ulcer. The absence of pain despite an enlarging wound reflects sensory neuropathy — a key risk factor that allows wounds to progress unnoticed. An uninfected neuropathic ulcer, infected ulcer with cellulitis, ulcer with underlying osteomyelitis, and ischaemic ulceration all remain plausible. Six weeks without healing and gradual enlargement raises the probability of deep infection or bony involvement. Four diagnoses remain."
+      },
+      {
+        "type": "history",
+        "label": "Past Medical and Social History",
+        "text": "He has had type 2 diabetes for 22 years with an HbA1c of 10.1%, peripheral neuropathy confirmed on nerve conduction studies, and peripheral arterial disease with an ankle-brachial pressure index of 0.7. He has had two prior foot ulcers in the last four years, both of which healed with aggressive wound care.",
+        "image": null,
+        "accepted": [
+          "Osteomyelitis (Contiguous — Diabetic Foot)",
+          "Diabetic Foot Ulcer (Non-infected)",
+          "Peripheral Arterial Disease with Ischaemic Ulceration"
+        ],
+        "reasoning": "Longstanding poorly controlled diabetes with confirmed peripheral neuropathy and peripheral arterial disease (ABPI 0.7 indicating mild-moderate arterial compromise) creates a high-risk substrate for both neuropathic and ischaemic ulceration. The history of recurrent ulcers with full healing argues that the current non-healing is a change from his baseline, increasing concern for a complicating process such as osteomyelitis. Cellulitis is now less likely — the absence of spreading erythema and the chronicity of six weeks argues against primary cellulitis. Three diagnoses remain; clinical examination and probing of the wound are essential."
+      },
+      {
+        "type": "examination",
+        "label": "Physical Examination",
+        "text": "A 2.5 cm deep, punched-out ulcer with sloughy base and surrounding callus is present on the plantar surface of the right first metatarsal head. Surrounding erythema extends approximately 1.5 cm beyond the wound edge. Probing the wound with a sterile metal probe meets hard resistance at 1.8 cm depth. Foot pulses: dorsalis pedis absent, posterior tibial faint. Temperature sensation and monofilament testing: absent bilaterally.",
+        "image": "derm_0119_p4_clinical.jpg",
+        "accepted": [
+          "Osteomyelitis (Contiguous — Diabetic Foot)",
+          "Diabetic Foot Ulcer (Non-infected with Exposed Bone)"
+        ],
+        "reasoning": "Probing to bone with a sterile metal probe through the wound base — the 'probe-to-bone' test — is the key bedside clinical finding raising high suspicion for osteomyelitis. In a diabetic foot ulcer, a positive probe-to-bone test has a positive predictive value of approximately 89% for underlying osteomyelitis. The surrounding erythema within 2 cm of the ulcer edge is consistent with local periulcer infection but does not confirm deep bone involvement without imaging. Absent foot pulses confirm peripheral arterial disease contributing to impaired healing. Cellulitis extending beyond the wound is limited; deep abscess would produce fluctuance. Two diagnoses remain, requiring imaging to confirm bony involvement."
+      },
+      {
+        "type": "imaging",
+        "label": "MRI of the Right Foot",
+        "text": "MRI of the right foot (with gadolinium): T1-hypointense signal replacing the normal bright fatty marrow of the right first metatarsal head with corresponding T2-hyperintensity and post-gadolinium enhancement, extending into the metatarsal shaft. Cortical irregularity at the metatarsal head. A sinus tract connects the wound base to the metatarsal head.",
+        "image": null,
+        "accepted": [
+          "Osteomyelitis (Contiguous — Diabetic Foot)"
+        ],
+        "reasoning": "MRI is the gold-standard imaging investigation for osteomyelitis, with a sensitivity of approximately 90% and specificity of 82%. T1 marrow signal loss with T2 hyperintensity and gadolinium enhancement represents oedema and hyperaemia within infected bone, replacing normal fatty marrow. Cortical irregularity confirms destructive osteitis. The sinus tract connecting the ulcer to the bone surface confirms contiguous spread of infection from the skin wound to the bone. An uninfected neuropathic ulcer with exposed bone would not show marrow signal changes on MRI. The MRI confirms osteomyelitis."
+      },
+      {
+        "type": "investigation",
+        "label": "Bone Biopsy and Microbiological Confirmation",
+        "text": "Percutaneous CT-guided bone biopsy of the right first metatarsal is performed under fluoroscopic guidance. Histology shows necrotic bone trabeculae with an acute and chronic inflammatory infiltrate and surrounding fibrous tissue. Tissue culture grows Staphylococcus aureus and Streptococcus agalactiae. Wound swab from the surface grows a different polymicrobial flora, confirming that surface swab culture does not reliably reflect bone pathogens.",
+        "image": "derm_0119_p6_histology.jpg",
+        "accepted": [
+          "Osteomyelitis"
+        ],
+        "reasoning": "Histology showing necrotic bone with acute and chronic inflammatory infiltrate is the pathological definition of osteomyelitis. Bone tissue culture — not wound swab — is the microbiological gold standard, as surface wound swabs reflect superficial colonisers rather than the true bone pathogen. The discordance between wound swab flora and bone culture organisms confirms the clinical principle that tissue culture must guide antibiotic selection. Staphylococcus aureus as the primary bone isolate is consistent with the most common causative organism in both haematogenous and contiguous osteomyelitis. These findings confirm Osteomyelitis (contiguous, diabetic foot type), requiring prolonged targeted antibiotic therapy and surgical debridement planning."
+      }
+    ]
   }
 }
