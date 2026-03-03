@@ -8088,7 +8088,7 @@
         "type": "examination",
         "label": "Physical Examination",
         "text": "A 1.2 cm firm, hyperkeratotic papule with a rough, irregular surface is present on the plantar surface of the right heel. Careful examination with a scalpel reveals the normal parallel ridges of the skin surface (dermatoglyphics) are interrupted and disrupted by the lesion rather than flowing over it. The lesion is tender on direct vertical compression but not on lateral pinch.",
-        "image": "derm_0097_p4_clinical.jpg",
+        "image": "images\\derm_0097_p4_clinical.jpg",
         "accepted": [
           "Viral Wart (Verruca Vulgaris)",
           "Plantar Corn (Heloma Durum)"
@@ -8109,7 +8109,7 @@
         "type": "investigation",
         "label": "Histopathological Confirmation (Biopsy if Atypical)",
         "text": "In this typical case, clinical and dermoscopic features alone confirm the diagnosis; histology when performed shows hyperkeratosis, parakeratosis, acanthosis, and large vacuolated keratinocytes with a perinuclear halo and wrinkled nuclei (koilocytes) in the upper spinous and granular layers.",
-        "image": "derm_0097_p6_histology.jpg",
+        "image": "images\\derm_0097_p6_histology.jpg",
         "accepted": [
           "Viral Wart (Verruca Vulgaris)"
         ],
@@ -8170,7 +8170,7 @@
         "type": "examination",
         "label": "Physical Examination",
         "text": "A 0.8 cm dome-shaped, soft, smooth-surfaced, skin-coloured to pale-pink papule with a uniform surface is present on the right upper cheek. No pigmentation, no telangiectasia, no surface ulceration. On palpation it is soft and compressible, with no firmness or fixation to underlying skin. A few coarse hairs are visible growing from its surface.",
-        "image": "derm_0098_p4_clinical.jpg",
+        "image": "images\\derm_0098_p4_clinical.jpg",
         "accepted": [
           "Melanocytic Naevus (Acquired) \u2014 Intradermal",
           "Dermatofibroma"
@@ -8191,7 +8191,7 @@
         "type": "investigation",
         "label": "Histopathological Confirmation (Excision for Cosmesis)",
         "text": "Shave excision for cosmetic removal shows nests and cords of bland, uniform naevus cells confined entirely to the dermis, without junctional activity and without cytological atypia, mitoses, or pagetoid spread. Entrapped hair follicles are noted within the lesion.",
-        "image": "derm_0098_p6_histology.jpg",
+        "image": "images\\derm_0098_p6_histology.jpg",
         "accepted": [
           "Melanocytic Naevus (Acquired) \u2014 Intradermal"
         ],
@@ -8250,7 +8250,7 @@
         "type": "examination",
         "label": "Physical Examination",
         "text": "A 2 cm soft, non-tender subcutaneous nodule is present on the upper back. When the examiner applies lateral pressure to the lesion, it invaginates inward through a defect in the dermis \u2014 the 'buttonhole' sign is positive. Six additional similar soft nodules of varying sizes are identified on the trunk and proximal arms. No caf\u00e9-au-lait patches are identified on full skin survey.",
-        "image": "derm_0099_p4_clinical.jpg",
+        "image": "images\\derm_0099_p4_clinical.jpg",
         "accepted": [
           "Neurofibroma",
           "Lipoma"
@@ -8261,7 +8261,7 @@
         "type": "investigation",
         "label": "Excision Biopsy of the Primary Lesion",
         "text": "Excision biopsy is performed. Macroscopically, the specimen is a soft, grey-white, unencapsulated lesion. Histology shows a proliferation of spindle cells with wavy nuclei in a pale, collagenous and myxoid stroma, accompanied by numerous mast cells.",
-        "image": "derm_0099_p6_histology.jpg",
+        "image": "images\\derm_0099_p6_histology.jpg",
         "accepted": [
           "Neurofibroma"
         ],
@@ -8329,7 +8329,7 @@
         "type": "examination",
         "label": "Physical Examination",
         "text": "Eight caf\u00e9-au-lait macules, all greater than 1.5 cm in diameter, are distributed across the trunk. Axillary freckling is confirmed bilaterally. No cutaneous neurofibromas are yet palpable. No plexiform lesions, no focal neurology, no scoliosis. Slit-lamp examination is pending.",
-        "image": "derm_0100_p4_clinical.jpg",
+        "image": "images\\derm_0100_p4_clinical.jpg",
         "accepted": [
           "Neurofibromatosis Type 1 (NF1)",
           "Legius Syndrome"
@@ -8409,7 +8409,7 @@
         "type": "examination",
         "label": "Physical Examination",
         "text": "Multiple erythematous macules and thin plaques with adherent rough, sandpaper-textured scale are present on the vertex scalp, forehead, and dorsal forearms. The lesions are more easily felt than seen \u2014 rubbing the fingertips across the skin surface detects the roughness before the eye. Individual lesions are 0.5\u20131.5 cm, with indistinct borders. No indurated or ulcerated nodule is palpable. No lymphadenopathy.",
-        "image": "derm_0101_p4_clinical.jpg",
+        "image": "images\\derm_0101_p4_clinical.jpg",
         "accepted": [
           "Actinic Keratosis (Solar Keratosis)",
           "Squamous Cell Carcinoma (in situ / Bowen's Disease)"
@@ -8420,7 +8420,7 @@
         "type": "investigation",
         "label": "Skin Biopsy (Thickest Lesion)",
         "text": "Punch biopsy of the thickest lesion shows dysplastic keratinocytes confined to the lower layers of the epidermis, with preservation of the epidermal architecture in the upper layers. Parakeratosis is present and alternates with areas of orthokeratosis. The basement membrane is intact. No full-thickness dysplasia and no dermal invasion.",
-        "image": "derm_0101_p6_histology.jpg",
+        "image": "images\\derm_0101_p6_histology.jpg",
         "accepted": [
           "Actinic Keratosis (Solar Keratosis)"
         ],
@@ -8488,7 +8488,7 @@
         "type": "examination",
         "label": "Physical Examination",
         "text": "Multiple erythematous, raised, irregular wheals of varying sizes are distributed over the trunk and proximal arms; during the examination, one wheal resolves completely while two new ones appear at separate locations. The lesions are blanchable. No lip swelling, no tongue swelling, no stridor, and no hypotension.",
-        "image": "derm_0102_p4_clinical.jpg",
+        "image": "images\\derm_0102_p4_clinical.jpg",
         "accepted": [
           "Drug-induced Urticaria",
           "Food Allergy \u2014 Urticaria"
@@ -8647,7 +8647,7 @@
         "type": "examination",
         "label": "Physical Examination",
         "text": "Temperature 38.9\u00b0C, HR 118 bpm, BP 104/66 mmHg. Large sheets of necrotic, detaching epidermis are present across the trunk, arms, and thighs. Nikolsky sign is positive on all tested perilesional skin. Haemorrhagic crusting of the lips, extensive oral mucosal erosions, bilateral conjunctival erosions, and genital mucosal erosions are confirmed. Formal body surface area assessment is ongoing.",
-        "image": "derm_0104_p4_clinical.jpg",
+        "image": "images\\derm_0104_p4_clinical.jpg",
         "accepted": [
           "Toxic Epidermal Necrolysis (TEN)",
           "Stevens-Johnson Syndrome (SJS)"
@@ -8658,7 +8658,7 @@
         "type": "investigation",
         "label": "Formal BSA Assessment and Urgent Biopsy",
         "text": "Formal body surface area mapping by the burns team estimates greater than 35% of body surface area involved with detached or readily detachable epidermis. Urgent frozen section biopsy shows full-thickness epidermal necrosis with widespread keratinocyte apoptosis at all epidermal levels and early subepidermal cleft formation.",
-        "image": "derm_0104_p6_histology.jpg",
+        "image": "images\\derm_0104_p6_histology.jpg",
         "accepted": [
           "Toxic Epidermal Necrolysis (TEN)"
         ],
@@ -8728,7 +8728,7 @@
         "type": "examination",
         "label": "Physical Examination",
         "text": "Multiple moist, superficial erosions with overlying thin, leaf-like scales and crusts are distributed over the upper chest, between the shoulder blades, and on the face around the nasolabial folds. No intact blisters are visualised. Nikolsky sign is positive on the upper chest. Oral mucosa, conjunctiva, and genitalia are completely normal.",
-        "image": "derm_0105_p4_clinical.jpg",
+        "image": "images\\derm_0105_p4_clinical.jpg",
         "accepted": [
           "Pemphigus Foliaceus",
           "Impetigo (Bullous)"
@@ -8749,7 +8749,7 @@
         "type": "investigation",
         "label": "Histopathological and Immunofluorescence Confirmation",
         "text": "Skin biopsy shows a subcorneal or high intraepidermal cleft \u2014 the blister forms in the upper layers of the epidermis, just beneath the stratum corneum \u2014 with acantholysis of the superficial keratinocytes. Direct immunofluorescence shows IgG deposition in an intercellular (fishnet) pattern confined to the superficial epidermis.",
-        "image": "derm_0105_p6_histology.jpg",
+        "image": "images\\derm_0105_p6_histology.jpg",
         "accepted": [
           "Pemphigus Foliaceus"
         ],
@@ -8809,7 +8809,7 @@
         "type": "examination",
         "label": "Physical Examination",
         "text": "A fixed, erythematous, blanchable rash with well-defined margins covers both cheeks and the nasal bridge symmetrically; the nasolabial folds are conspicuously spared. No scale, no follicular plugging, and no scarring. Mild subjective proximal arm weakness is reported but formal MRC power testing shows 4/5 bilaterally, which the patient attributes to fatigue.",
-        "image": "derm_0106_p4_clinical.jpg",
+        "image": "images\\derm_0106_p4_clinical.jpg",
         "accepted": [
           "Acute Cutaneous Lupus Erythematosus (ACLE)",
           "Dermatomyositis"
@@ -8891,7 +8891,7 @@
         "type": "examination",
         "label": "Physical Examination",
         "text": "Erythematous annular plaques with a fine, cigarette-paper-like scale at the expanding outer edge are distributed symmetrically over the upper arms, shoulders, and upper chest and back \u2014 all sun-exposed areas. The centre of each annular lesion shows early resolution without scarring, follicular plugging, or hyperpigmentation. No facial erythema. No oral erosions.",
-        "image": "derm_0107_p4_clinical.jpg",
+        "image": "images\\derm_0107_p4_clinical.jpg",
         "accepted": [
           "Subacute Cutaneous Lupus Erythematosus (SCLE)",
           "Drug-induced SCLE"
@@ -8970,7 +8970,7 @@
         "type": "examination",
         "label": "Physical Examination",
         "text": "Temperature 36.9\u00b0C. Multiple non-blanching purpuric lesions are distributed symmetrically over the lower legs, buttocks, and ankles; the lesions are slightly raised to palpation and no lesions are found above the waist. Bilateral ankle joint swelling and mild tenderness are noted on examination. No hepatosplenomegaly.",
-        "image": "derm_0108_p4_clinical.jpg",
+        "image": "images\\derm_0108_p4_clinical.jpg",
         "accepted": [
           "IgA Vasculitis (Henoch-Sch\u00f6nlein Purpura)",
           "Thrombocytopenic Purpura (ITP)"
@@ -8991,7 +8991,7 @@
         "type": "investigation",
         "label": "Skin Biopsy and Immunofluorescence",
         "text": "Skin biopsy of a purpuric papule shows leukocytoclastic vasculitis \u2014 neutrophilic infiltration of postcapillary venule walls, nuclear dust (karyorrhexis), fibrinoid necrosis of vessel walls, and extravasated red blood cells in the dermis. Direct immunofluorescence demonstrates IgA deposits in the walls of dermal small vessels.",
-        "image": "derm_0108_p6_histology.jpg",
+        "image": "images\\derm_0108_p6_histology.jpg",
         "accepted": [
           "IgA Vasculitis (Henoch-Sch\u00f6nlein Purpura)"
         ],
@@ -9049,7 +9049,7 @@
         "type": "examination",
         "label": "Physical Examination",
         "text": "Temperature 37.2\u00b0C. Multiple superficial erosions with thick, adherent, yellowish-brown crust are present around the nose and upper lip; no intact vesicles remain and there is no induration. The lesions do not extend to involve the oral mucosa or gingiva. No cervical lymphadenopathy.",
-        "image": "derm_0109_p4_clinical.jpg",
+        "image": "images\\derm_0109_p4_clinical.jpg",
         "accepted": [
           "Impetigo",
           "Herpes Simplex (Oral / Labialis)"
@@ -9128,7 +9128,7 @@
         "type": "examination",
         "label": "Physical Examination",
         "text": "Temperature 37.4°C. On the lower legs, multiple discrete oval lesions 1–2 cm in diameter are present, each with a thick, adherent, grey-brown crust surrounded by a rim of erythema. When a crust is gently lifted, a punched-out ulcer with a necrotic base is visible beneath. No surrounding induration extending beyond each lesion. No lymphangitis. No lymphadenopathy.",
-        "image": "derm_0110_p4_clinical.jpg",
+        "image": "images\\derm_0110_p4_clinical.jpg",
         "accepted": [
           "Ecthyma",
           "Infected Insect Bites with Secondary Ulceration"
@@ -9205,7 +9205,7 @@
         "type": "examination",
         "label": "Physical Examination",
         "text": "Temperature 38.7°C, HR 102 bpm. A sharply demarcated, raised, bright-red, shiny plaque with a clearly palpable advancing edge is present on the medial lower leg extending to the ankle. The border can be traced with a finger as a distinct ridge. No pitting oedema within the plaque. No bullae, no necrosis, no crepitus.",
-        "image": "derm_0111_p4_clinical.jpg",
+        "image": "images\\derm_0111_p4_clinical.jpg",
         "accepted": [
           "Erysipelas"
         ],
@@ -9283,7 +9283,7 @@
         "type": "examination",
         "label": "Physical Examination",
         "text": "Temperature 37.9°C, HR 96 bpm. The left lower leg shows diffuse erythema, warmth, and non-pitting oedema extending from the mid-shin to the ankle; the border is poorly defined with no palpable raised edge. Tenderness is present throughout the erythematous area. No crepitus, no bullae, no necrosis. A small healing abrasion is visible on the anterior shin. Homans' sign is unreliable but calf tenderness is present throughout.",
-        "image": "derm_0112_p4_clinical.jpg",
+        "image": "images\\derm_0112_p4_clinical.jpg",
         "accepted": [
           "Cellulitis",
           "Deep Vein Thrombosis"
@@ -9361,7 +9361,7 @@
         "type": "examination",
         "label": "Physical Examination",
         "text": "Temperature 37.8°C. A 3 cm, erythematous, dome-shaped, fluctuant nodule is present in the right axillary hair-bearing skin, with a central area of yellow purulent material visible at the follicular opening. Two smaller 1 cm erythematous follicular papules are present adjacent to it. No sinus tracts, no bridged scars, and no cord-like induration between the lesions. No axillary lymphadenopathy.",
-        "image": "derm_0113_p4_clinical.jpg",
+        "image": "images\\derm_0113_p4_clinical.jpg",
         "accepted": [
           "Furunculosis",
           "Infected Epidermoid Cyst"
@@ -9437,7 +9437,7 @@
         "type": "examination",
         "label": "Physical Examination",
         "text": "Temperature 38.4°C, HR 104 bpm. A tender, erythematous streak 2–3 cm wide runs in a straight line from a puncture wound on the dorsal right index finger, along the medial forearm, toward the right antecubital fossa. Tender right epitrochlear lymphadenopathy is palpable. The streak does not follow the course of a visible superficial vein.",
-        "image": "derm_0114_p4_clinical.jpg",
+        "image": "images\\derm_0114_p4_clinical.jpg",
         "accepted": [
           "Lymphangitis"
         ],
@@ -9514,7 +9514,7 @@
         "type": "examination",
         "label": "Physical Examination",
         "text": "Examination reveals confluent, beefy-red erythematous plaques with a moist, macerated surface involving both inframammary folds symmetrically. Several 2–3 mm erythematous papules and pustules are visible on adjacent normal-appearing skin a few centimetres beyond the main rash margin bilaterally. No well-defined scaling border. Temperature 37.1°C.",
-        "image": "derm_0115_p4_clinical.jpg",
+        "image": "images\\derm_0115_p4_clinical.jpg",
         "accepted": [
           "Intertrigo — Candidal",
           "Intertrigo — Bacterial"
@@ -9602,7 +9602,7 @@
         "type": "imaging",
         "label": "Urgent CT of Right Lower Leg",
         "text": "CT of the right lower leg with contrast: gas tracking along the fascial planes of the anterior and posterior compartments from the shin to the knee, with fascial thickening and adjacent soft tissue oedema. No gas in the muscle compartments. No discrete abscess collection.",
-        "image": "derm_0116_p5_ct.jpg",
+        "image": "images\\derm_0116_p5_ct.jpg",
         "accepted": [
           "Necrotising Fasciitis"
         ],
@@ -9669,7 +9669,7 @@
         "type": "examination",
         "label": "Physical Examination",
         "text": "Temperature 38.8°C, HR 132 bpm, BP 90/58 mmHg — septic shock. The left thigh is massively swollen, tense, and bronze-discoloured overlying the wound. Fine crepitus is detected on palpation of the thigh. The wound edges have a grey, non-viable appearance with watery, dishwater-coloured discharge. The patient is diaphoretic and confused.",
-        "image": "derm_0117_p4_clinical.jpg",
+        "image": "images\\derm_0117_p4_clinical.jpg",
         "accepted": [
           "Gas Gangrene (Clostridial Myonecrosis)",
           "Necrotising Fasciitis"
@@ -9680,7 +9680,7 @@
         "type": "imaging",
         "label": "Plain X-Ray of Left Thigh",
         "text": "Plain X-ray of the left thigh: extensive linear gas lucencies tracking within the muscle compartments of the anterior and posterior thigh, following the lines of individual muscle groups. Gas extends from mid-thigh proximally toward the hip. No fracture identified.",
-        "image": "derm_0117_p5_xray.jpg",
+        "image": "images\\derm_0117_p5_xray.jpg",
         "accepted": [
           "Gas Gangrene (Clostridial Myonecrosis)"
         ],
@@ -9829,7 +9829,7 @@
         "type": "examination",
         "label": "Physical Examination",
         "text": "A 2.5 cm deep, punched-out ulcer with sloughy base and surrounding callus is present on the plantar surface of the right first metatarsal head. Surrounding erythema extends approximately 1.5 cm beyond the wound edge. Probing the wound with a sterile metal probe meets hard resistance at 1.8 cm depth. Foot pulses: dorsalis pedis absent, posterior tibial faint. Temperature sensation and monofilament testing: absent bilaterally.",
-        "image": "derm_0119_p4_clinical.jpg",
+        "image": "images\\derm_0119_p4_clinical.jpg",
         "accepted": [
           "Osteomyelitis (Contiguous — Diabetic Foot)",
           "Diabetic Foot Ulcer (Non-infected with Exposed Bone)"
@@ -9850,7 +9850,7 @@
         "type": "investigation",
         "label": "Bone Biopsy and Microbiological Confirmation",
         "text": "Percutaneous CT-guided bone biopsy of the right first metatarsal is performed under fluoroscopic guidance. Histology shows necrotic bone trabeculae with an acute and chronic inflammatory infiltrate and surrounding fibrous tissue. Tissue culture grows Staphylococcus aureus and Streptococcus agalactiae. Wound swab from the surface grows a different polymicrobial flora, confirming that surface swab culture does not reliably reflect bone pathogens.",
-        "image": "derm_0119_p6_histology.jpg",
+        "image": "images\\derm_0119_p6_histology.jpg",
         "accepted": [
           "Osteomyelitis"
         ],
